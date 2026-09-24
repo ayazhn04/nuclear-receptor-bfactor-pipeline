@@ -1,0 +1,24 @@
+{
+  "project_name": "Comprehensive B-factor Flexibility Profiling Across Nuclear Receptor Families",
+  "description": "Provenance record for the Stage 1.5 freeze: the professor-supplied nuclear receptor metadata, after independent Stage 1 UniProt identity validation, converted into the project's working receptor master (config/nr_metadata.py) and a parallel validated CSV.",
+  "professor_source_record_count": 48,
+  "validated_record_count": 48,
+  "pass_count": 48,
+  "review_needed_count": 0,
+  "fail_count": 0,
+  "validation_source": "UniProt REST API (https://rest.uniprot.org/)",
+  "stage1_audit_file": "data/manifests/nr_metadata_uniprot_audit.csv",
+  "professor_snapshot_file": "config/nr_metadata_professor.py",
+  "validated_master_csv_file": "data/manifests/nr_metadata_validated.csv",
+  "working_metadata_file": "config/nr_metadata.py",
+  "generated_at_utc": "2026-09-23T15:39:09.470945+00:00",
+  "sha256": {
+    "config/nr_metadata_professor.py": "57a7ee39380c1c126b673bdcb8354bc0f8019ef4a24a2a8d60103d181143d0ad",
+    "config/nr_metadata.py": "a7e61e1e2f24191cdc56652fd822334152c6f917f92535db4c1eb2b4f1b3052b",
+    "data/manifests/nr_metadata_professor.csv": "3ddc713a1022cdcb07cb07325efaa6ffa0289fe65954dd00c08eec9c430cc419",
+    "data/manifests/nr_metadata_uniprot_audit.csv": "f59a409dd15d104e5f0ef89ac5dbbbf6f7e21ab913ba84176e6c9a0803e2f334",
+    "data/manifests/nr_metadata_validated.csv": "290757d9da91ea3a02e0bfd0bbfc5b7ce24ec60a055aafb6a9723b6896b27437"
+  },
+  "python_version": "3.11.16 (main, Sep  2 2026, 23:33:55) [Clang 21.1.8 ]",
+  "generating_script": "scripts/03_freeze_validated_metadata.py"
+}

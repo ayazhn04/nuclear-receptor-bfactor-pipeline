@@ -1,0 +1,406 @@
+{
+  "retrieved_at_utc": "2026-09-23T17:12:34.586124+00:00",
+  "stage": "Stage 2.1 correction/audit",
+  "number_of_validated_receptors_queried": 48,
+  "number_of_successful_receptor_queries": 48,
+  "number_of_failed_receptor_queries": 0,
+  "total_receptor_polymer_entity_relationships": 2072,
+  "unique_polymer_entities": 2072,
+  "unique_pdb_entries": 1996,
+  "receptors_with_zero_candidates": 3,
+  "receptors_with_zero_candidates_list": [
+    "ROR\u03b2",
+    "TR2",
+    "GCNF"
+  ],
+  "receptors_with_1_to_2_candidates": 10,
+  "receptors_with_1_to_2_candidates_list": [
+    "EAR-2",
+    "COUP-TFI",
+    "COUP-TFII",
+    "RXR\u03b3",
+    "DAX-1",
+    "HNF4\u03b3",
+    "CAR",
+    "NOR-1",
+    "TLX",
+    "PNR"
+  ],
+  "receptors_with_3_or_more_candidates": 35,
+  "candidate_counts_by_receptor": [
+    {
+      "uniprot_id": "O00482",
+      "nr_code": "NR5A2",
+      "common_name": "LRH-1",
+      "polymer_entity_count": 28,
+      "unique_pdb_entry_count": 28
+    },
+    {
+      "uniprot_id": "O75469",
+      "nr_code": "NR1I2",
+      "common_name": "PXR",
+      "polymer_entity_count": 80,
+      "unique_pdb_entry_count": 80
+    },
+    {
+      "uniprot_id": "O95718",
+      "nr_code": "NR3B2",
+      "common_name": "ERR\u03b2",
+      "polymer_entity_count": 3,
+      "unique_pdb_entry_count": 3
+    },
+    {
+      "uniprot_id": "P03372",
+      "nr_code": "NR3A1",
+      "common_name": "ER\u03b1",
+      "polymer_entity_count": 517,
+      "unique_pdb_entry_count": 492
+    },
+    {
+      "uniprot_id": "P04150",
+      "nr_code": "NR3C1",
+      "common_name": "GR",
+      "polymer_entity_count": 57,
+      "unique_pdb_entry_count": 57
+    },
+    {
+      "uniprot_id": "P06401",
+      "nr_code": "NR3C3",
+      "common_name": "PR",
+      "polymer_entity_count": 21,
+      "unique_pdb_entry_count": 21
+    },
+    {
+      "uniprot_id": "P08235",
+      "nr_code": "NR3C2",
+      "common_name": "MR",
+      "polymer_entity_count": 30,
+      "unique_pdb_entry_count": 30
+    },
+    {
+      "uniprot_id": "P10275",
+      "nr_code": "NR3C4",
+      "common_name": "AR",
+      "polymer_entity_count": 102,
+      "unique_pdb_entry_count": 95
+    },
+    {
+      "uniprot_id": "P10276",
+      "nr_code": "NR1B1",
+      "common_name": "RAR\u03b1",
+      "polymer_entity_count": 14,
+      "unique_pdb_entry_count": 14
+    },
+    {
+      "uniprot_id": "P10588",
+      "nr_code": "NR2F6",
+      "common_name": "EAR-2",
+      "polymer_entity_count": 1,
+      "unique_pdb_entry_count": 1
+    },
+    {
+      "uniprot_id": "P10589",
+      "nr_code": "NR2F1",
+      "common_name": "COUP-TFI",
+      "polymer_entity_count": 1,
+      "unique_pdb_entry_count": 1
+    },
+    {
+      "uniprot_id": "P10826",
+      "nr_code": "NR1B2",
+      "common_name": "RAR\u03b2",
+      "polymer_entity_count": 9,
+      "unique_pdb_entry_count": 9
+    },
+    {
+      "uniprot_id": "P10827",
+      "nr_code": "NR1A1",
+      "common_name": "TR\u03b1",
+      "polymer_entity_count": 10,
+      "unique_pdb_entry_count": 10
+    },
+    {
+      "uniprot_id": "P10828",
+      "nr_code": "NR1A2",
+      "common_name": "TR\u03b2",
+      "polymer_entity_count": 34,
+      "unique_pdb_entry_count": 34
+    },
+    {
+      "uniprot_id": "P11473",
+      "nr_code": "NR1I1",
+      "common_name": "VDR",
+      "polymer_entity_count": 52,
+      "unique_pdb_entry_count": 52
+    },
+    {
+      "uniprot_id": "P11474",
+      "nr_code": "NR3B1",
+      "common_name": "ERR\u03b1",
+      "polymer_entity_count": 6,
+      "unique_pdb_entry_count": 6
+    },
+    {
+      "uniprot_id": "P13631",
+      "nr_code": "NR1B3",
+      "common_name": "RAR\u03b3",
+      "polymer_entity_count": 11,
+      "unique_pdb_entry_count": 11
+    },
+    {
+      "uniprot_id": "P19793",
+      "nr_code": "NR2B1",
+      "common_name": "RXR\u03b1",
+      "polymer_entity_count": 111,
+      "unique_pdb_entry_count": 110
+    },
+    {
+      "uniprot_id": "P20393",
+      "nr_code": "NR1D1",
+      "common_name": "Rev-erb\u03b1",
+      "polymer_entity_count": 5,
+      "unique_pdb_entry_count": 5
+    },
+    {
+      "uniprot_id": "P22736",
+      "nr_code": "NR4A1",
+      "common_name": "NUR77",
+      "polymer_entity_count": 22,
+      "unique_pdb_entry_count": 22
+    },
+    {
+      "uniprot_id": "P24468",
+      "nr_code": "NR2F2",
+      "common_name": "COUP-TFII",
+      "polymer_entity_count": 1,
+      "unique_pdb_entry_count": 1
+    },
+    {
+      "uniprot_id": "P28702",
+      "nr_code": "NR2B2",
+      "common_name": "RXR\u03b2",
+      "polymer_entity_count": 7,
+      "unique_pdb_entry_count": 7
+    },
+    {
+      "uniprot_id": "P35398",
+      "nr_code": "NR1F1",
+      "common_name": "ROR\u03b1",
+      "polymer_entity_count": 3,
+      "unique_pdb_entry_count": 3
+    },
+    {
+      "uniprot_id": "P37231",
+      "nr_code": "NR1C3",
+      "common_name": "PPAR\u03b3",
+      "polymer_entity_count": 383,
+      "unique_pdb_entry_count": 380
+    },
+    {
+      "uniprot_id": "P41235",
+      "nr_code": "NR2A1",
+      "common_name": "HNF4\u03b1",
+      "polymer_entity_count": 8,
+      "unique_pdb_entry_count": 8
+    },
+    {
+      "uniprot_id": "P43354",
+      "nr_code": "NR4A2",
+      "common_name": "NURR1",
+      "polymer_entity_count": 10,
+      "unique_pdb_entry_count": 8
+    },
+    {
+      "uniprot_id": "P48443",
+      "nr_code": "NR2B3",
+      "common_name": "RXR\u03b3",
+      "polymer_entity_count": 2,
+      "unique_pdb_entry_count": 2
+    },
+    {
+      "uniprot_id": "P49116",
+      "nr_code": "NR2C2",
+      "common_name": "TR4",
+      "polymer_entity_count": 5,
+      "unique_pdb_entry_count": 5
+    },
+    {
+      "uniprot_id": "P51449",
+      "nr_code": "NR1F3",
+      "common_name": "ROR\u03b3",
+      "polymer_entity_count": 165,
+      "unique_pdb_entry_count": 162
+    },
+    {
+      "uniprot_id": "P51843",
+      "nr_code": "NR0B1",
+      "common_name": "DAX-1",
+      "polymer_entity_count": 1,
+      "unique_pdb_entry_count": 1
+    },
+    {
+      "uniprot_id": "P55055",
+      "nr_code": "NR1H2",
+      "common_name": "LXR\u03b2",
+      "polymer_entity_count": 25,
+      "unique_pdb_entry_count": 25
+    },
+    {
+      "uniprot_id": "P62508",
+      "nr_code": "NR3B3",
+      "common_name": "ERR\u03b3",
+      "polymer_entity_count": 43,
+      "unique_pdb_entry_count": 43
+    },
+    {
+      "uniprot_id": "Q03181",
+      "nr_code": "NR1C2",
+      "common_name": "PPAR\u03b4",
+      "polymer_entity_count": 56,
+      "unique_pdb_entry_count": 56
+    },
+    {
+      "uniprot_id": "Q07869",
+      "nr_code": "NR1C1",
+      "common_name": "PPAR\u03b1",
+      "polymer_entity_count": 79,
+      "unique_pdb_entry_count": 79
+    },
+    {
+      "uniprot_id": "Q13133",
+      "nr_code": "NR1H3",
+      "common_name": "LXR\u03b1",
+      "polymer_entity_count": 7,
+      "unique_pdb_entry_count": 7
+    },
+    {
+      "uniprot_id": "Q13285",
+      "nr_code": "NR5A1",
+      "common_name": "SF-1",
+      "polymer_entity_count": 6,
+      "unique_pdb_entry_count": 6
+    },
+    {
+      "uniprot_id": "Q14541",
+      "nr_code": "NR2A2",
+      "common_name": "HNF4\u03b3",
+      "polymer_entity_count": 1,
+      "unique_pdb_entry_count": 1
+    },
+    {
+      "uniprot_id": "Q14994",
+      "nr_code": "NR1I3",
+      "common_name": "CAR",
+      "polymer_entity_count": 2,
+      "unique_pdb_entry_count": 2
+    },
+    {
+      "uniprot_id": "Q14995",
+      "nr_code": "NR1D2",
+      "common_name": "Rev-erb\u03b2",
+      "polymer_entity_count": 6,
+      "unique_pdb_entry_count": 6
+    },
+    {
+      "uniprot_id": "Q15466",
+      "nr_code": "NR0B2",
+      "common_name": "SHP",
+      "polymer_entity_count": 14,
+      "unique_pdb_entry_count": 14
+    },
+    {
+      "uniprot_id": "Q92570",
+      "nr_code": "NR4A3",
+      "common_name": "NOR-1",
+      "polymer_entity_count": 1,
+      "unique_pdb_entry_count": 1
+    },
+    {
+      "uniprot_id": "Q92731",
+      "nr_code": "NR3A2",
+      "common_name": "ER\u03b2",
+      "polymer_entity_count": 39,
+      "unique_pdb_entry_count": 39
+    },
+    {
+      "uniprot_id": "Q96RI1",
+      "nr_code": "NR1H4",
+      "common_name": "FXR",
+      "polymer_entity_count": 92,
+      "unique_pdb_entry_count": 92
+    },
+    {
+      "uniprot_id": "Q9Y466",
+      "nr_code": "NR2E1",
+      "common_name": "TLX",
+      "polymer_entity_count": 1,
+      "unique_pdb_entry_count": 1
+    },
+    {
+      "uniprot_id": "Q9Y5X4",
+      "nr_code": "NR2E3",
+      "common_name": "PNR",
+      "polymer_entity_count": 1,
+      "unique_pdb_entry_count": 1
+    }
+  ],
+  "experimental_method_counts_across_candidate_rows": {
+    "xray": 2055,
+    "cryo_em": 6,
+    "nmr": 11,
+    "other_experimental": 0
+  },
+  "candidates_with_resolution": 2061,
+  "candidates_without_resolution": 11,
+  "candidates_with_r_free": 2046,
+  "candidates_without_r_free": 26,
+  "candidates_source_includes_taxon_9606": 2063,
+  "candidates_uniprot_mapping_confirmed": 2072,
+  "candidates_uniprot_mapping_review_needed": 0,
+  "number_of_cross_mapped_entities": 0,
+  "number_of_pdb_entries_with_multiple_project_receptors": 35,
+  "number_of_anomalies_total": 94,
+  "coverage_correction": {
+    "total_mapping_rows": 2118,
+    "unique_polymer_entities_in_mapping_table": 2072,
+    "entities_with_exactly_one_mapping": 2026,
+    "entities_with_multiple_mappings": 46,
+    "reference_coverage_available": 2072,
+    "reference_coverage_missing": 46,
+    "reference_coverage_min": 0.008403,
+    "reference_coverage_max": 1.0,
+    "entity_coverage_available": 2118,
+    "entity_coverage_missing": 0,
+    "entity_coverage_min": 0.046154,
+    "entity_coverage_max": 1.0
+  },
+  "taxonomy_audit": {
+    "candidates_lacking_taxon_9606": 9,
+    "explained": 4,
+    "review_needed": 5
+  },
+  "multi_uniprot_audit": {
+    "total_multi_mapped_entities": 46,
+    "by_classification": {
+      "FUSION_OR_CHIMERA": 46
+    }
+  },
+  "note": "This is a discovery-stage inventory, corrected/audited at Stage 2.1. No final structural QC filters were applied.",
+  "stage_2_2_sequence_coordinates_validation": {
+    "successful_receptor_queries": 48,
+    "failed_receptor_queries": 0,
+    "total_experimental_target_alignments": 2075,
+    "stage2_candidates_matched": 2072,
+    "stage2_candidates_missing": 0,
+    "targets_outside_stage2_scope_found": 3,
+    "coverage_validation_match": 2072,
+    "coverage_validation_minor_numeric_difference": 0,
+    "coverage_validation_review_needed": 0,
+    "max_reference_abs_difference": 4.980694980893929e-07,
+    "max_entity_abs_difference": 4.999999999588667e-07,
+    "mappings_with_overlapping_reference_intervals": 0,
+    "mappings_with_overlapping_entity_intervals": 0,
+    "short_mappings_reference_coverage_below_0_05": 171,
+    "short_mappings_length_below_30aa": 176
+  }
+}

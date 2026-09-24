@@ -1,0 +1,67 @@
+# ---------------------------------------------------------------------------
+# Biological data (raw / interim / processed) — never committed.
+# Provenance lives in data/manifests/, which IS tracked (see below).
+# ---------------------------------------------------------------------------
+data/raw/mmcif/
+data/raw/api/
+data/raw/external/
+data/interim/
+
+# data/processed/ is ignored by default (working/derived files), EXCEPT the
+# final team-handoff deliverables explicitly tracked below (each small
+# enough for normal Git — see reports/tables/final_data_dictionary.md and
+# TEAM_HANDOFF.md for what they contain and how to regenerate them).
+data/processed/*
+!data/processed/structures.csv
+!data/processed/excluded_structures.csv
+!data/processed/final_lbd_residue_map.parquet
+
+# Logs
+logs/
+
+# ---------------------------------------------------------------------------
+# Python
+# ---------------------------------------------------------------------------
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+build/
+dist/
+
+# ---------------------------------------------------------------------------
+# Jupyter
+# ---------------------------------------------------------------------------
+.ipynb_checkpoints/
+
+# ---------------------------------------------------------------------------
+# Editors / OS
+# ---------------------------------------------------------------------------
+.DS_Store
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ---------------------------------------------------------------------------
+# Environment / secrets
+# ---------------------------------------------------------------------------
+.env
+.venv/
+venv/
+*.local.yml
+
+# ---------------------------------------------------------------------------
+# NOT ignored (kept explicit for reviewers — do not add these below):
+#   data/manifests/   -> provenance, version-controlled
+#   config/            -> professor-supplied metadata + validation config
+#   scripts/           -> pipeline code
+#   tests/             -> test suite
+#   reports/           -> figures & tables intended for the write-up
+#   README.md, environment.yml, environment-lock.yml
+# ---------------------------------------------------------------------------

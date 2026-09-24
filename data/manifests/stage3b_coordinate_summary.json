@@ -1,0 +1,78 @@
+{
+  "generated_at_utc": "2026-09-24T04:07:15.810310+00:00",
+  "stage": "Stage 3B.1 occupancy-corrected coordinate completeness audit",
+  "selection": {
+    "total_stage2_candidates": 2072,
+    "selected_coordinate_audit_candidates": 1840,
+    "selected_unique_entities": 1840,
+    "selected_unique_pdb_entries": 1777
+  },
+  "downloads": {
+    "requested": 1777,
+    "successful": 0,
+    "cached_valid": 1777,
+    "failed": 0
+  },
+  "coordinate_files_downloaded": 1777,
+  "instances_models": {
+    "instance_model_rows": 3159,
+    "multi_model_entries": 0
+  },
+  "coverage_definitions": {
+    "record_present": "at least one C\u03b1 atom-site record exists (includes zero-occupancy placeholders)",
+    "positive_occupancy_observed": "at least one C\u03b1 record has occupancy > 0 \u2014 THIS is 'observed C\u03b1' from Stage 3B.1 onward",
+    "bfactor_usable": "at least one C\u03b1 record has occupancy > 0 AND finite numeric B_iso_or_equiv"
+  },
+  "coverage_distributions": {
+    "record_present_full_lbd_coverage_bins": {
+      "[0.95,0.99)": 1212,
+      "[0.90,0.95)": 907,
+      "1.000": 360,
+      "[0.80,0.90)": 318,
+      "[0.99,1.00)": 292,
+      "<0.80": 70
+    },
+    "observed_full_lbd_ca_coverage_bins": {
+      "[0.95,0.99)": 1233,
+      "[0.90,0.95)": 909,
+      "1.000": 341,
+      "[0.80,0.90)": 318,
+      "[0.99,1.00)": 288,
+      "<0.80": 70
+    },
+    "bfactor_usable_full_lbd_coverage_bins": {
+      "[0.95,0.99)": 1233,
+      "[0.90,0.95)": 909,
+      "1.000": 341,
+      "[0.80,0.90)": 318,
+      "[0.99,1.00)": 288,
+      "<0.80": 70
+    }
+  },
+  "exact_completeness": {
+    "full_lbd_ca_record_complete": 360,
+    "full_lbd_positive_occupancy_complete": 341,
+    "full_lbd_bfactor_complete": 341,
+    "mapped_construct_ca_record_complete": 556,
+    "mapped_construct_positive_occupancy_complete": 534
+  },
+  "occupancy_correction_impact": {
+    "instance_models_with_zero_occupancy_only_residues": 36,
+    "total_zero_occupancy_only_lbd_residues": 281,
+    "instance_models_changed_by_correction": 36
+  },
+  "deposited_unobserved_crosscheck": {
+    "A_DEPOSITED_UNOBSERVED_NO_CA_RECORD": 32756,
+    "B_DEPOSITED_UNOBSERVED_ZERO_OCCUPANCY_CA": 270,
+    "D_NOT_DEPOSITED_UNOBSERVED_NO_CA_RECORD": 13
+  },
+  "crosscheck_review_needed_count": 0,
+  "review": {
+    "mapping_review_needed": 0,
+    "parse_review_needed": 0,
+    "multi_model_review": 0
+  },
+  "final_structure_qc_applied": false,
+  "representative_chain_selected": false,
+  "completeness_threshold_selected": false
+}

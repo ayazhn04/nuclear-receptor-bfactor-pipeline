@@ -1,0 +1,30 @@
+{
+  "policy_name": "Standardized nuclear-receptor LBD analysis interval",
+  "primary_definition": "Current UniProt Domain: NR LBD annotation backed by the PROSITE nuclear receptor LBD profile",
+  "coordinate_system": "Canonical UniProt sequence coordinates, 1-based inclusive",
+  "applies_to_receptors": 48,
+  "primary_interval_source": "UniProt",
+  "primary_domain_profile": "PROSITE PS51843 / NR_LBD",
+  "important_semantics": [
+    "this is the standardized project-wide analysis interval",
+    "it is systematic and available for all 48 receptors",
+    "it must not be described as the only possible biological LBD definition",
+    "sequence-mapping coverage is not coordinate completeness",
+    "functional feature intervals may extend beyond the standardized profile boundary where independently supported"
+  ],
+  "legacy_policy": {
+    "previous_cohort_vdr_interval": "118-427 (retained for historical comparison only)",
+    "used_for_primary_stage3_classification": false,
+    "systematic_historical_range_for_other_47_receptors": false,
+    "vdr_sensitivity_analysis_preserved_in": "data/manifests/rcsb_lbd_boundary_sensitivity.csv"
+  },
+  "generated_at_utc": "2026-09-23T18:36:32.205817+00:00",
+  "nr_lbd_reference_csv_sha256": "59dc96c480aa8bdc8c62dce9410f21aadf9465f4cdcf2258a3a6396b4a44ff6c",
+  "nr_lbd_boundary_audit_csv_sha256": "1f59f40ed9f321676a954344e169d773d9e4c9316302eacb7fdf197dc3846490",
+  "previous_cohort_repository_commit": "69899f60d7ab0eed19d3029687fe31f03b835ac2",
+  "relevant_reports": [
+    "reports/tables/stage3a_lbd_boundary_audit.md",
+    "reports/tables/stage3a_precoordinate_qc_report.md",
+    "reports/tables/stage2_schema_hygiene_note.md"
+  ]
+}

@@ -1,0 +1,26 @@
+{
+  "generated_at_utc": "2026-09-23T18:37:47.311207+00:00",
+  "previous_cohort_repository": "https://github.com/sumeshi3648/BioInformatics-Bfactors.git",
+  "previous_cohort_commit": "69899f60d7ab0eed19d3029687fe31f03b835ac2",
+  "previous_cohort_retrieval_timestamp_utc": "2026-09-23T18:20:00+00:00",
+  "previous_cohort_files_inspected": [
+    "proteins.csv",
+    "data/meta/structures.csv",
+    "data/processed/ca_bfactors.csv",
+    "scripts/*.py (all 14 scripts)"
+  ],
+  "previous_cohort_finding": "No 48-receptor LBD-range metadata sheet exists in the repository. proteins.csv has only subfamily/symbol/uniprot columns (48 rows, cross-matches this project's 48 receptors by UniProt accession). The only explicit LBD window found anywhere is a hard-coded VDR-only script default (118-427), present in 6 VDR-specific analysis scripts, not in any data file, and not defined for any other receptor.",
+  "snapshotted_source_files": {
+    "data/raw/external/previous_cohort_repo/proteins.csv": "32677603068c8994b7f391c30165f32f5a36da7ea07080368240e75e7fd9ea2b",
+    "data/raw/external/previous_cohort_repo/scripts/build_vdr_consensus_sse.py": "e0c94d32a9d0d83b0450d0c195831eb42fa71b1b58de9d269bbeea2933dc784b",
+    "data/raw/external/previous_cohort_repo/scripts/compute_dssp_vdr.py": "e6c5511de4c7a8552c0c607184b76480a9fb2bd1cfc57faf40cb2ebeb7ac7051",
+    "data/raw/external/previous_cohort_repo/scripts/consensus_sse_vdr.py": "eb3d5999f3b33cc8273cf0915d811197e50e102ad0dec3ff1ed1129575fbc2f4",
+    "data/raw/external/previous_cohort_repo/scripts/plot_vdr_final.py": "05d2115f79b27ffc74d4e8868e2653641f923742cf6aafc491ccac84c4b4b083",
+    "data/raw/external/previous_cohort_repo/scripts/plot_vdr_violin_sse.py": "414cdb96c16a597769149161e04a777c485eae5c0c90e41bbe535dcd4ed161ea",
+    "data/raw/external/previous_cohort_repo/scripts/summarize_vdr_flexibility_by_region.py": "0a31e61ef532aa86f9a12bcf9660adbff54bd26658e99472499394df241372c4",
+    "data/raw/external/previous_cohort_repo/structures.csv": "a0e31820687eeb5e0e7e76d526de2020770eaed433bcfbb2ddeb037d618e97d4"
+  },
+  "profile_lbd_reference_unchanged": "59dc96c480aa8bdc8c62dce9410f21aadf9465f4cdcf2258a3a6396b4a44ff6c",
+  "boundary_audit_csv_sha256": "1f59f40ed9f321676a954344e169d773d9e4c9316302eacb7fdf197dc3846490",
+  "generating_script": "scripts/15_build_lbd_boundary_audit.py"
+}

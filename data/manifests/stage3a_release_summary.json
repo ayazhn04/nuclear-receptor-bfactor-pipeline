@@ -1,0 +1,43 @@
+{
+  "stage_name": "Stage 3A standardized LBD mapping and pre-coordinate QC",
+  "lbd_policy": "UniProt/PROSITE standardized NR-LBD interval",
+  "validated_receptors": 48,
+  "stage2_candidate_entities": 2072,
+  "lbd_reference_pass": 48,
+  "lbd_reference_review_needed": 0,
+  "lbd_reference_not_found": 0,
+  "mapping_categories": {
+    "NEAR_COMPLETE_LBD": 1731,
+    "NO_LBD_OVERLAP": 225,
+    "SUBSTANTIAL_LBD": 91,
+    "TRACE_LBD": 23,
+    "PARTIAL_LBD": 2
+  },
+  "polymer_instances": 3486,
+  "instance_mapping_anomalies": 0,
+  "project_metadata_prefilter_pass": 1516,
+  "project_metadata_prefilter_not_pass": 556,
+  "legacy_boundary_definitions_available": 1,
+  "legacy_boundary_receptor": "VDR",
+  "legacy_vdr_interval": "118-427",
+  "primary_vdr_interval": "127-423",
+  "coordinate_files_downloaded": 0,
+  "final_structure_qc_applied": false,
+  "generated_at_utc": "2026-09-23T18:38:19.840888+00:00",
+  "parent_git_commit": "ffd94727ef21f91945a9760209a7475208a3b17b",
+  "manifest_sha256": {
+    "nr_lbd_reference.csv": "59dc96c480aa8bdc8c62dce9410f21aadf9465f4cdcf2258a3a6396b4a44ff6c",
+    "nr_lbd_boundary_audit.csv": "1f59f40ed9f321676a954344e169d773d9e4c9316302eacb7fdf197dc3846490",
+    "rcsb_lbd_boundary_sensitivity.csv": "f88f35feaa46e0021e10ba57b4248287011a98aed25c53ccaba92fd3ac742d16",
+    "nr_functional_features.csv": "1695d50fef135d09bdc6c0952dbc55f466de6eab870faf906af97942ce34e30b",
+    "nr_lbd_analysis_policy.json": "ccf55bf7b3b2ba4d84125d1ec2e0e946443711914117d9ef4bb4de0029fa0f4c",
+    "rcsb_candidate_lbd_mapping.csv": "b7cf0052bb4d5f81082a1e116d852526aebcb8d38333bcebb8a35bbb45029109",
+    "rcsb_short_mapping_lbd_audit.csv": "fd001de8d151bf67823835e91109eea06a2c50091019c89feea6c1acab4d6128",
+    "rcsb_polymer_instances.csv": "5c79f4c24bd8416f15302549d98a82abe9c92c0e4f344152583cef565a37f067",
+    "rcsb_instance_mapping_anomalies.csv": "03eefe0e67cfd0193ae8686096c1a3a0a0b209bd1d425e2416d841312bf53f9b",
+    "rcsb_candidate_instance_inventory.csv": "0a6a6356c0fdfc1c06f71e6bac925686553d7190fe47996e7495726e751b38c7",
+    "rcsb_precoordinate_qc.csv": "6c74c3bafcdbb61417565853ad530f5dac6d6f0107fe6ec9673a36996d509f44",
+    "stage3a_precoordinate_summary.json": "c18b0c1618d540095725a3e8dadd0c187d02a58ddc7554b14dc080c096c80b9b",
+    "stage3a_counts_by_receptor.csv": "c0aae54c4fd0dd8249f171d73057632e035690d1f217541cade33f9130a530ed"
+  }
+}

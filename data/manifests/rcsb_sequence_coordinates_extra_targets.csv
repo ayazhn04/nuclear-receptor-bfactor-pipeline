@@ -1,0 +1,4 @@
+uniprot_id,nr_code,common_name,polymer_entity_id,pdb_id,entity_id,structure_title,deposit_date,release_date,structure_determination_methodology,experimental_methods,stage2_scope_status,scope_exclusion_reason,review_status,review_reason
+P03372,NR3A1,ERα,8ZZR_1,8ZZR,1,A metastable contact and structural disorder in the estrogen receptor transactivation domain,2018-09-26T00:00:00Z,2019-01-02T00:00:00Z,integrative,[],OUTSIDE_STAGE2_SEARCH_SCOPE,INTEGRATIVE_STRUCTURE,PASS,
+O00482,NR5A2,LRH-1,8ZZZ_1,8ZZZ,1,"Rosetta model of human LRH-1 nuclear receptor generated with XL-MS, HDX-MS, and SAXS data",2019-09-13T00:00:00Z,2020-04-29T00:00:00Z,integrative,[],OUTSIDE_STAGE2_SEARCH_SCOPE,INTEGRATIVE_STRUCTURE,PASS,
+O00482,NR5A2,LRH-1,8ZZZ_2,8ZZZ,2,"Rosetta model of human LRH-1 nuclear receptor generated with XL-MS, HDX-MS, and SAXS data",2019-09-13T00:00:00Z,2020-04-29T00:00:00Z,integrative,[],OUTSIDE_STAGE2_SEARCH_SCOPE,INTEGRATIVE_STRUCTURE,PASS,

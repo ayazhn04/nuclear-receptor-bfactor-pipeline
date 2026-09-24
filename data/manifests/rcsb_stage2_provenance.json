@@ -1,0 +1,54 @@
+{
+  "project_name": "Comprehensive B-factor Flexibility Profiling Across Nuclear Receptor Families",
+  "description": "Stage 2 (discovery) + Stage 2.1 (coverage-field correction, source-taxonomy and multi-UniProt-mapping audit) + Stage 2.2 (independent validation of sequence coverage against the official RCSB Sequence Coordinates API, and an interval-union robustness fix). No final structural QC filtering, no coordinate downloads.",
+  "correction_summary": "rcsb_polymer_entities.csv previously stored identical raw alignment-region JSON in both reference_sequence_coverage and entity_sequence_coverage columns. GraphQL introspection confirmed RCSB exposes no precomputed coverage field; both are now computed deterministically from aligned_regions (entity_beg_seq_id/ref_beg_seq_id/length) and already-retrieved sequence lengths. One new field (rcsb_entity_host_organism) was fetched, narrowly, only for entities lacking taxon 9606 source.",
+  "validated_receptor_master_sha256": "a7e61e1e2f24191cdc56652fd822334152c6f917f92535db4c1eb2b4f1b3052b",
+  "rcsb_search_api_endpoint": "https://search.rcsb.org/rcsbsearch/v2/query",
+  "rcsb_data_api_endpoint": "https://data.rcsb.org/graphql",
+  "new_data_api_fields_added_at_stage_2_1": [
+    "rcsb_entity_host_organism (targeted fetch only)"
+  ],
+  "number_of_search_api_queries": 48,
+  "number_of_data_api_batches_reused_from_stage2": 28,
+  "host_organism_supplement_fetched_for_n_entities": 9,
+  "generated_manifests": {
+    "rcsb_search_manifest.csv": "63e9a5bdc3603a99e3bd22151e163b22ad0c94e76753649bec4dcbeb93b04387",
+    "rcsb_discovery_by_receptor.csv": "9c9d8cd511fc6778e15eb151fa1d15d7c576c8e86b0a1ba546926eb7e5a091ca",
+    "rcsb_polymer_entities.csv": "cd7e8890f03c5d94665ff26ebc9e16365b03be53869b806d26e7fc41a054a499",
+    "rcsb_candidate_inventory.csv": "18df012c953a7ac864be9e6fc08bddf00d16361293f314d961cbafe834a4a89b",
+    "rcsb_polymer_entity_uniprot_mappings.csv": "cf0d0261d93a74c09c7de5c1dbe28f27493692ac27787c52ce414b85b4c3afd4",
+    "rcsb_source_taxonomy_audit.csv": "004d1b7b1d807d69af95d156d0de83f40195025645d0c07119ac90862d9eb84d",
+    "rcsb_sequence_coordinates_manifest.csv": "1a16858ede769c8af7d421954f41cd4ebfdfb631f747b4c77438653e3e838b66",
+    "rcsb_sequence_coordinate_alignments.csv": "028a78fe0f9e9b99993be3bbe3a9988fd4f55999a43b0bc3edfabba6d185d1bc",
+    "rcsb_coverage_validation.csv": "9392f75f3d849ceaf7e986b3f4bd272c332349e308f1fe3a50b905009dbc0e3d",
+    "rcsb_short_mapping_audit.csv": "efa0aed86211bccf82aa7b94c515c0c6423468697b1b51bb0b958e7591ebb5ea"
+  },
+  "python_version": "3.11.16 (main, Sep  2 2026, 23:33:55) [Clang 21.1.8 ]",
+  "generating_scripts": [
+    "scripts/04_discover_rcsb_candidates.py",
+    "scripts/05_fetch_rcsb_metadata.py",
+    "scripts/06_build_rcsb_inventory.py",
+    "scripts/07_correct_rcsb_coverage_and_audit.py",
+    "scripts/08_fetch_sequence_coordinates.py",
+    "scripts/09_finalize_stage2_coverage.py"
+  ],
+  "generated_at_utc": "2026-09-23T17:46:12.018628+00:00",
+  "rcsb_sequence_coordinates_api_endpoint": "https://sequence-coordinates.rcsb.org/graphql",
+  "stage_2_2_sequence_coordinates_validation": {
+    "successful_receptor_queries": 48,
+    "failed_receptor_queries": 0,
+    "total_experimental_target_alignments": 2075,
+    "stage2_candidates_matched": 2072,
+    "stage2_candidates_missing": 0,
+    "targets_outside_stage2_scope_found": 3,
+    "coverage_validation_match": 2072,
+    "coverage_validation_minor_numeric_difference": 0,
+    "coverage_validation_review_needed": 0,
+    "max_reference_abs_difference": 4.980694980893929e-07,
+    "max_entity_abs_difference": 4.999999999588667e-07,
+    "mappings_with_overlapping_reference_intervals": 0,
+    "mappings_with_overlapping_entity_intervals": 0,
+    "short_mappings_reference_coverage_below_0_05": 171,
+    "short_mappings_length_below_30aa": 176
+  }
+}

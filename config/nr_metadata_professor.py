@@ -1,0 +1,462 @@
+"""
+Immutable snapshot of the professor-supplied human nuclear receptor metadata.
+
+Provenance
+----------
+Source: supplied verbatim by the BIOL363 course supervisor in the project
+chat, as a Python literal (uniprot_id, nr_code, common_name, search_terms,
+group per record).
+
+This file is a SNAPSHOT, not a validated master list. Stage 1 independently
+audits every `uniprot_id` against current UniProt and records the result
+separately (see data/manifests/nr_metadata_uniprot_audit.csv). Nothing in
+this file should ever be edited to "fix" a discrepancy found during that
+audit — corrections, if any are eventually adopted, belong in a distinct,
+explicitly reviewed downstream file (the future working
+config/nr_metadata.py), never here.
+
+Do not manually infer, silently correct, or overwrite receptor identifiers
+in this file. Any discrepancy discovered during validation must be
+documented explicitly in the audit outputs, not fixed in place.
+"""
+
+NR_METADATA = [
+
+    # =========================================================================
+    # STEROID HORMONE RECEPTORS
+    # =========================================================================
+
+    {
+        "uniprot_id": "P10275",
+        "nr_code": "NR3C4",
+        "common_name": "AR",
+        "search_terms": ["Androgen receptor"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P03372",
+        "nr_code": "NR3A1",
+        "common_name": "ERα",
+        "search_terms": ["Estrogen receptor"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "Q92731",
+        "nr_code": "NR3A2",
+        "common_name": "ERβ",
+        "search_terms": ["Estrogen receptor beta"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P04150",
+        "nr_code": "NR3C1",
+        "common_name": "GR",
+        "search_terms": ["Glucocorticoid receptor"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P08235",
+        "nr_code": "NR3C2",
+        "common_name": "MR",
+        "search_terms": ["Mineralocorticoid receptor"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P06401",
+        "nr_code": "NR3C3",
+        "common_name": "PR",
+        "search_terms": ["Progesterone receptor"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P10276",
+        "nr_code": "NR1B1",
+        "common_name": "RARα",
+        "search_terms": ["Retinoic acid receptor alpha"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P10826",
+        "nr_code": "NR1B2",
+        "common_name": "RARβ",
+        "search_terms": ["Retinoic acid receptor beta"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P13631",
+        "nr_code": "NR1B3",
+        "common_name": "RARγ",
+        "search_terms": ["Retinoic acid receptor gamma"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P10827",
+        "nr_code": "NR1A1",
+        "common_name": "TRα",
+        "search_terms": ["Thyroid hormone receptor alpha"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P10828",
+        "nr_code": "NR1A2",
+        "common_name": "TRβ",
+        "search_terms": ["Thyroid hormone receptor beta"],
+        "group": "Steroid hormone receptors"
+    },
+
+    {
+        "uniprot_id": "P11473",
+        "nr_code": "NR1I1",
+        "common_name": "VDR",
+        "search_terms": [
+            "Vitamin D3 receptor",
+            "Vitamin D3 receptor A",
+            "Vitamin D receptor"
+        ],
+        "group": "Steroid hormone receptors"
+    },
+
+
+    # =========================================================================
+    # NUTRITIONAL SENSORS
+    # =========================================================================
+
+    {
+        "uniprot_id": "Q14994",
+        "nr_code": "NR1I3",
+        "common_name": "CAR",
+        "search_terms": [
+            "Nuclear receptor subfamily 1 group I member 3"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P11474",
+        "nr_code": "NR3B1",
+        "common_name": "ERRα",
+        "search_terms": ["Steroid hormone receptor ERR1"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "O95718",
+        "nr_code": "NR3B2",
+        "common_name": "ERRβ",
+        "search_terms": ["Steroid hormone receptor ERR2"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P62508",
+        "nr_code": "NR3B3",
+        "common_name": "ERRγ",
+        "search_terms": ["Estrogen-related receptor gamma"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "Q96RI1",
+        "nr_code": "NR1H4",
+        "common_name": "FXR",
+        "search_terms": ["Bile acid receptor"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P41235",
+        "nr_code": "NR2A1",
+        "common_name": "HNF4α",
+        "search_terms": ["Hepatocyte nuclear factor 4-alpha"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "Q14541",
+        "nr_code": "NR2A2",
+        "common_name": "HNF4γ",
+        "search_terms": ["Hepatocyte nuclear factor 4-gamma"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "O00482",
+        "nr_code": "NR5A2",
+        "common_name": "LRH-1",
+        "search_terms": [
+            "Nuclear receptor subfamily 5 group A member 2"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "Q13133",
+        "nr_code": "NR1H3",
+        "common_name": "LXRα",
+        "search_terms": ["Oxysterols receptor LXR-alpha"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P55055",
+        "nr_code": "NR1H2",
+        "common_name": "LXRβ",
+        "search_terms": ["OXYSTEROLS RECEPTOR LXR-BETA"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P22736",
+        "nr_code": "NR4A1",
+        "common_name": "NUR77",
+        "search_terms": [
+            "Nuclear receptor subfamily 4 group A member 1"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P43354",
+        "nr_code": "NR4A2",
+        "common_name": "NURR1",
+        "search_terms": [
+            "Nuclear receptor subfamily 4 group A member 2"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "Q07869",
+        "nr_code": "NR1C1",
+        "common_name": "PPARα",
+        "search_terms": [
+            "Peroxisome proliferator-activated receptor alpha"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "Q03181",
+        "nr_code": "NR1C2",
+        "common_name": "PPARδ",
+        "search_terms": [
+            "Peroxisome proliferator-activated receptor delta"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P37231",
+        "nr_code": "NR1C3",
+        "common_name": "PPARγ",
+        "search_terms": [
+            "Peroxisome proliferator-activated receptor gamma"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "O75469",
+        "nr_code": "NR1I2",
+        "common_name": "PXR",
+        "search_terms": [
+            "Nuclear receptor subfamily 1 group I member 2"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P20393",
+        "nr_code": "NR1D1",
+        "common_name": "Rev-erbα",
+        "search_terms": [
+            "Nuclear receptor subfamily 1 group D member 1"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "Q14995",
+        "nr_code": "NR1D2",
+        "common_name": "Rev-erbβ",
+        "search_terms": [
+            "Nuclear receptor subfamily 1 group D member 2"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P35398",
+        "nr_code": "NR1F1",
+        "common_name": "RORα",
+        "search_terms": ["Nuclear receptor ROR-alpha"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "Q92753",
+        "nr_code": "NR1F2",
+        "common_name": "RORβ",
+        "search_terms": ["Nuclear receptor ROR-beta"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P51449",
+        "nr_code": "NR1F3",
+        "common_name": "RORγ",
+        "search_terms": ["Nuclear receptor ROR-gamma"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P19793",
+        "nr_code": "NR2B1",
+        "common_name": "RXRα",
+        "search_terms": ["RETINOIC ACID RECEPTOR RXR-ALPHA"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P28702",
+        "nr_code": "NR2B2",
+        "common_name": "RXRβ",
+        "search_terms": ["Retinoic acid receptor RXR-beta"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P48443",
+        "nr_code": "NR2B3",
+        "common_name": "RXRγ",
+        "search_terms": ["Retinoic acid receptor RXR-gamma"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "Q13285",
+        "nr_code": "NR5A1",
+        "common_name": "SF-1",
+        "search_terms": ["Steroidogenic factor 1"],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P13056",
+        "nr_code": "NR2C1",
+        "common_name": "TR2",
+        "search_terms": [
+            "Nuclear receptor subfamily 2 group C member 1"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+    {
+        "uniprot_id": "P49116",
+        "nr_code": "NR2C2",
+        "common_name": "TR4",
+        "search_terms": [
+            "Nuclear receptor subfamily 2 group C member 2"
+        ],
+        "group": "Nutritional sensors"
+    },
+
+
+    # =========================================================================
+    # ORPHAN RECEPTORS
+    # =========================================================================
+
+    {
+        "uniprot_id": "P10589",
+        "nr_code": "NR2F1",
+        "common_name": "COUP-TFI",
+        "search_terms": ["COUP transcription factor 1"],
+        "group": "Orphan receptors"
+    },
+
+    {
+        "uniprot_id": "P24468",
+        "nr_code": "NR2F2",
+        "common_name": "COUP-TFII",
+        "search_terms": ["COUP transcription factor 2"],
+        "group": "Orphan receptors"
+    },
+
+    {
+        "uniprot_id": "P51843",
+        "nr_code": "NR0B1",
+        "common_name": "DAX-1",
+        "search_terms": [
+            "Nuclear receptor subfamily 0 group B member 1"
+        ],
+        "group": "Orphan receptors"
+    },
+
+    {
+        "uniprot_id": "P10588",
+        "nr_code": "NR2F6",
+        "common_name": "EAR-2",
+        "search_terms": [
+            "Nuclear receptor subfamily 2 group F member 6"
+        ],
+        "group": "Orphan receptors"
+    },
+
+    {
+        "uniprot_id": "Q15406",
+        "nr_code": "NR6A1",
+        "common_name": "GCNF",
+        "search_terms": [
+            "Nuclear receptor subfamily 6 group A member 1"
+        ],
+        "group": "Orphan receptors"
+    },
+
+    {
+        "uniprot_id": "Q92570",
+        "nr_code": "NR4A3",
+        "common_name": "NOR-1",
+        "search_terms": [
+            "Nuclear receptor subfamily 4 group A member 3"
+        ],
+        "group": "Orphan receptors"
+    },
+
+    {
+        "uniprot_id": "Q9Y5X4",
+        "nr_code": "NR2E3",
+        "common_name": "PNR",
+        "search_terms": ["Photoreceptor-specific nuclear receptor"],
+        "group": "Orphan receptors"
+    },
+
+    {
+        "uniprot_id": "Q15466",
+        "nr_code": "NR0B2",
+        "common_name": "SHP",
+        "search_terms": [
+            "Nuclear receptor subfamily 0 group B member 2"
+        ],
+        "group": "Orphan receptors"
+    },
+
+    {
+        "uniprot_id": "Q9Y466",
+        "nr_code": "NR2E1",
+        "common_name": "TLX",
+        "search_terms": [
+            "Nuclear receptor subfamily 2 group E member 1"
+        ],
+        "group": "Orphan receptors"
+    }
+]

@@ -1,0 +1,29 @@
+{
+  "project": "Comprehensive B-factor Flexibility Profiling Across Nuclear Receptor Families",
+  "stage_description": "Stage 3B.1: correct 'observed C\u03b1' to mean positive occupancy (not mere atom-record presence), and recompute all coordinate-completeness summaries accordingly. No mmCIF files were re-downloaded or re-parsed \u2014 all corrections were derived from data already extracted into the Stage 3B observation parquet.",
+  "standardized_lbd_policy_sha256": "ccf55bf7b3b2ba4d84125d1ec2e0e946443711914117d9ef4bb4de0029fa0f4c",
+  "stage3a_release_summary_sha256": "00d9bacc8e627a1ee30d0bb08d8e5f4cf6b4e98a420a9a05a8a59d4f7910ad12",
+  "coordinate_pool_sha256": "0913a6c2a6c1c68e6e0a9131ccc6a7690d35114b00419b65145f920202d45d3f",
+  "mmcif_download_manifest_sha256": "b03011ae3a22f371df902a4d8a5fd96c869a7bfdefdd1eb4aaea4debd7ef0fbe",
+  "coordinate_qc_table_sha256": "2115056e186fa7d83925e786887cb0e9ee7f0c918a196b71784d833ecf625fdd",
+  "candidate_summary_sha256": "88e0e42c639325ed425b682716fd059b9b1ac21c8cb804681fdaed5309937680",
+  "per_receptor_summary_sha256": "c6c588968bb545a43c32b90423e7354b33f231238bab6e7096123cd192047a8e",
+  "correction_audit_sha256": "20efc279697b93adf049581de37c8148c2377e785d349306ac4c6cb40647c8b7",
+  "threshold_sensitivity_sha256": "5652a78757ff65102f3e34cec88fb9cb616be9d6f22526f1d2b1f27ea73740b3",
+  "report_sha256": "ce7d5622b454aaf229ba756019e79688eaadadaa9323e0bd240a57bfabf20284",
+  "official_rcsb_file_endpoint": "https://files.rcsb.org/download/<PDB_ID>.cif.gz",
+  "number_of_files": 1777,
+  "python_version": "3.11.16 (main, Sep  2 2026, 23:33:55) [Clang 21.1.8 ]",
+  "generating_scripts": [
+    "scripts/18_download_mmcif.py",
+    "scripts/19_process_lbd_coordinates.py",
+    "scripts/20_build_stage3b_summaries.py",
+    "scripts/21_apply_occupancy_correction.py",
+    "scripts/22_recompute_stage3b_metrics.py"
+  ],
+  "coordinate_convention": "1-based inclusive UniProt canonical positions; mmCIF label_seq_id for entity mapping",
+  "ca_record_present_definition": "at least one _atom_site record with label_atom_id=='CA' for the mapped label_seq_id (any altloc, any occupancy)",
+  "ca_positive_occupancy_definition": "at least one CA record with occupancy > 0 \u2014 this defines 'observed C\u03b1' from Stage 3B.1 onward",
+  "ca_bfactor_usable_definition": "at least one CA record with occupancy > 0 AND finite numeric B_iso_or_equiv",
+  "generated_at_utc": "2026-09-24T04:07:15.814301+00:00"
+}

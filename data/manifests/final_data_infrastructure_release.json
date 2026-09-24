@@ -1,0 +1,89 @@
+{
+  "project": "Comprehensive B-factor Flexibility Profiling Across Nuclear Receptor Families",
+  "release_name": "final-data-infrastructure-v1",
+  "validated_receptors": 48,
+  "primary_structure_count": 1382,
+  "primary_pdb_count": 1344,
+  "receptors_represented_in_primary": 33,
+  "receptors_with_zero_primary_structures": 15,
+  "ligand_state_counts": {
+    "APO": 131,
+    "HOLO": 1251,
+    "AMBIGUOUS": 0
+  },
+  "excluded_candidate_count": 690,
+  "exclusion_reason_counts": {
+    "RESOLUTION_LT_1_8": 236,
+    "RFREE_GT_0_30": 78,
+    "NO_LBD_OVERLAP": 225,
+    "RFREE_MISSING": 5,
+    "NON_HUMAN_CONSTRUCT": 1,
+    "RESOLUTION_GT_3_5": 9,
+    "NON_XRAY": 17,
+    "LBD_COVERAGE_LT_0_90": 160,
+    "NON_HUMAN_ORTHOLOG": 1
+  },
+  "sensitivity_set_counts": {
+    "passes_95pct_completeness": 1027,
+    "passes_99pct_completeness": 347,
+    "passes_no_fusion_sensitivity": 1346,
+    "ultrahigh_resolution_preserved_records": 215
+  },
+  "representative_instances_selected": 1840,
+  "residue_map_rows": 338012,
+  "residue_map_usable_ca_rows": 326392,
+  "mmcif_files_locally_available": 1777,
+  "ligand_annotation_complete_count": 1382,
+  "ligand_annotation_review_needed_count": 0,
+  "final_selection_policy": {
+    "version": "final-structure-selection-v1",
+    "method": "X-RAY DIFFRACTION only",
+    "completeness_threshold": "positive-occupancy full standardized-LBD Ca coverage >= 0.90",
+    "resolution_range_angstrom": [
+      1.8,
+      3.5
+    ],
+    "r_free_max": 0.3,
+    "identity": "HUMAN_OR_HUMAN_DERIVED only (individually audited taxonomy)",
+    "representative_instance_granularity": "project receptor x PDB entry x receptor polymer entity"
+  },
+  "checksums": {
+    "structures_csv": {
+      "path": "data/processed/structures.csv",
+      "sha256": "5222cfd462cb558c421f2a6780952612e8b7d4bedd6a7930de287afeb90ed58b",
+      "size_bytes": 640950
+    },
+    "excluded_structures_csv": {
+      "path": "data/processed/excluded_structures.csv",
+      "sha256": "0436488d7fcc2b6beb822932c166d33e4ca792cb30cdc989ac7694eb7deb36c3",
+      "size_bytes": 179618
+    },
+    "final_lbd_residue_map_parquet": {
+      "path": "data/processed/final_lbd_residue_map.parquet",
+      "sha256": "ce118a4d049d5b4123daf460bffaca965493cb1154071a25bfe15afccadfacbc",
+      "size_bytes": 2766304
+    },
+    "final_ligand_annotations_csv": {
+      "path": "data/manifests/final_ligand_annotations.csv",
+      "sha256": "0de2a40dcd434ae9c7e8ffc1b2261424053b22daf6c1d0dccd178077983fed41",
+      "size_bytes": 380104
+    },
+    "final_polymer_partner_annotations_csv": {
+      "path": "data/manifests/final_polymer_partner_annotations.csv",
+      "sha256": "c3c34d777b90971ee87d4cad3b880ee3152ee1b9e66841df477a570ee2738066",
+      "size_bytes": 225101
+    },
+    "team_handoff_md": {
+      "path": "TEAM_HANDOFF.md",
+      "sha256": "2e759713bf7fce922de393a1b00c60e8917feec578c2e5ff2797188b7ebbcde1",
+      "size_bytes": 10435
+    },
+    "final_data_dictionary_md": {
+      "path": "reports/tables/final_data_dictionary.md",
+      "sha256": "f0f883236c316b80b3b8930870f47df2df3f2ad5c9aa4e75b44b42d84770e9f0",
+      "size_bytes": 12874
+    }
+  },
+  "parent_git_commit": "bfa056bc265213df76a0d1651a16a310d882fa93",
+  "generated_at_utc": "2026-09-24T05:07:43.022652+00:00"
+}

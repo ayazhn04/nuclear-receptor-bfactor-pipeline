@@ -1,0 +1,20 @@
+{
+  "generated_at_utc": "2026-09-23T14:44:48.227135+00:00",
+  "uniprot_api_base_url": "https://rest.uniprot.org/uniprotkb",
+  "professor_record_count": 48,
+  "successful_responses": 48,
+  "failed_responses": 0,
+  "pass_count": 48,
+  "review_needed_count": 0,
+  "fail_count": 0,
+  "human_taxon_9606_count": 48,
+  "reviewed_count": 48,
+  "primary_accession_differs_count": 0,
+  "review_needed_records": [],
+  "fail_records": [],
+  "group_counts": {
+    "Steroid hormone receptors": 12,
+    "Nutritional sensors": 27,
+    "Orphan receptors": 9
+  }
+}

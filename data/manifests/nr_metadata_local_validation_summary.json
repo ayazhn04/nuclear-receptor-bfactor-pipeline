@@ -1,0 +1,22 @@
+{
+  "total_records": 48,
+  "expected_record_count": 48,
+  "record_count_matches_expected": true,
+  "unique_uniprot_id_count": 48,
+  "unique_nr_code_count": 48,
+  "duplicate_uniprot_ids": [],
+  "duplicate_nr_codes": [],
+  "duplicate_common_names": [],
+  "exact_duplicate_record_indexes": [],
+  "records_missing_required_fields": [],
+  "records_with_blank_required_string_field": [],
+  "records_with_invalid_search_terms": [],
+  "records_with_implausible_uniprot_format": [],
+  "records_with_implausible_nr_code_format": [],
+  "group_counts": {
+    "Steroid hormone receptors": 12,
+    "Nutritional sensors": 27,
+    "Orphan receptors": 9
+  },
+  "all_records_locally_valid": true
+}

@@ -1,0 +1,192 @@
+# Comprehensive B-factor Flexibility Profiling Across Nuclear Receptor Families
+
+**Course:** BIOL363, Nazarbayev University
+
+## Current repository purpose
+
+**The Data & Infrastructure pipeline is COMPLETE.** This repository
+provides a fully reproducible, auditable, version-controlled scaffold,
+receptor identity table, structure discovery/selection pipeline, and final
+team-handoff dataset for downstream B-factor/flexibility analysis.
+**Downstream B-factor normalization, clustering, and statistical analysis
+have NOT been performed anywhere in this repository** — see
+[`TEAM_HANDOFF.md`](TEAM_HANDOFF.md) to start that work.
+
+Stages completed:
+
+- **Stage 0** — repository/environment bootstrap
+- **Stage 1 / 1.5** — professor metadata ingestion, UniProt identity validation, frozen receptor master
+- **Stage 2 / 2.1 / 2.2 / 2.3 / 2.4** — RCSB Search API candidate discovery, taxonomy/fusion audits, Sequence Coordinates cross-validation, frozen candidate inventory
+- **Stage 3A / 3A.1 / 3A.2** — standardized LBD definition (UniProt/PROSITE PS51843), canonical residue mapping, frozen LBD reference
+- **Stage 3B / 3B.1 / 3B.2** — mmCIF acquisition (1777 files), observed-coordinate completeness audit (positive-occupancy Ca model), threshold-attrition and residual-missingness audit
+- **Final Data Release** — structure selection, deterministic representative-instance selection, ligand-state annotation, coregulator/partner annotation, canonical residue handoff
+
+Current release snapshot (see
+[`data/manifests/final_data_infrastructure_release.json`](data/manifests/final_data_infrastructure_release.json)
+for the authoritative, checksummed machine-readable version):
+
+- 48 validated human nuclear receptor identities (`config/nr_metadata.py`).
+- 2072 Stage 2 candidate receptor→polymer-entity relationships fully
+  triaged, with lineage preserved for every one (selected or not).
+- 1777 cached mmCIF structure files, SHA256-verified.
+- **1382 primary-selected structures** (X-ray, >=90% positive-occupancy
+  standardized-LBD Ca coverage, 1.8-3.5 A resolution, R-free <= 0.30,
+  human/human-derived identity), across 1344 unique PDB entries and 33 of
+  the 48 receptors — see `data/processed/structures.csv`.
+- 690 excluded candidates with full, multi-reason exclusion lineage in
+  `data/processed/excluded_structures.csv`.
+- Ligand state (APO/HOLO/AMBIGUOUS), nonpolymer inventory, and
+  coregulator/partner annotations for every primary structure.
+- 338,012-row canonical residue map (`data/processed/final_lbd_residue_map.parquet`)
+  covering every standardized LBD position — observed or not — for every
+  primary structure, with a deterministic (never B-factor-based) raw Ca
+  handoff record.
+
+## Pipeline (as implemented)
+
+```
+Professor-supplied NR metadata
+        ↓
+current database/nomenclature validation
+        ↓
+validated receptor master table
+        ↓
+RCSB structure discovery
+        ↓
+structure metadata retrieval
+        ↓
+standardized LBD definition + canonical residue mapping
+        ↓
+mmCIF download
+        ↓
+observed-coordinate completeness QC (positive-occupancy Ca model)
+        ↓
+final structure selection + deterministic representative-instance selection
+        ↓
+ligand-state + coregulator/partner annotation
+        ↓
+canonical residue handoff (data/processed/)
+        ↓
+>>> handoff to downstream B-factor normalization/analysis (not yet performed) <<<
+```
+
+Each arrow above corresponds to a distinct, auditable stage with its own
+scripts, tests, and manifests under `scripts/` and `data/manifests/`.
+
+## Repository structure
+
+```
+biol363_nr_bfactor/
+├── README.md                  This file
+├── environment.yml            Human-readable conda environment spec
+├── environment-lock.yml       Exact resolved-version reproducibility snapshot
+├── .gitignore
+│
+├── config/
+│   ├── README.md              Provenance rules for receptor metadata
+│   └── nr_metadata.py         NR_METADATA placeholder (populated in Stage 1)
+│
+├── data/
+│   ├── raw/
+│   │   ├── mmcif/             Downloaded structure files (gitignored)
+│   │   └── api/                Raw API responses (gitignored)
+│   ├── interim/
+│   │   ├── mappings/           Intermediate ID/chain/residue mappings (gitignored)
+│   │   ├── qc/                 Quality-control intermediates (gitignored)
+│   │   └── ligand_annotations/ Intermediate ligand-state annotations (gitignored)
+│   ├── processed/               Analysis-ready datasets (gitignored)
+│   └── manifests/               Provenance manifests (VERSION-CONTROLLED)
+│
+├── scripts/
+│   ├── 00_validate_environment.py
+│   └── utils/
+│
+├── notebooks/
+├── logs/                        Run logs (gitignored)
+├── reports/
+│   ├── figures/
+│   └── tables/
+└── tests/
+```
+
+### Data directory semantics
+
+| Directory              | Contents                                  | In Git? |
+|-------------------------|--------------------------------------------|---------|
+| `data/raw/`             | Unmodified downloads (mmCIF, API responses) | No |
+| `data/interim/`         | Intermediate, regenerable working data      | No |
+| `data/processed/`       | Final, analysis-ready team-handoff tables   | **`structures.csv`, `excluded_structures.csv`, `final_lbd_residue_map.parquet` only** — everything else in this directory stays ignored |
+| `data/manifests/`       | Provenance records (what was fetched, when, from where, with what parameters/hashes) | **Yes** |
+
+Raw and most derived biological datasets are never committed to Git — they
+are large, regenerable, and third-party-licensed. Manifest files are
+committed because they document *provenance* (what was retrieved, from
+where, when, and how) and are small, human-readable, and essential for
+reproducibility and auditing. The three final team-handoff tables under
+`data/processed/` are the one exception — small enough for normal Git and
+needed as the actual deliverable (see [`TEAM_HANDOFF.md`](TEAM_HANDOFF.md)).
+
+**Biological identifiers (UniProt accessions, PDB IDs, NR nomenclature
+codes, etc.) must never be silently modified, inferred from filenames, or
+"corrected" without an explicit, logged justification.** See
+[`config/README.md`](config/README.md) for the full provenance policy.
+
+## Environment setup
+
+### Create the environment
+
+```bash
+conda env create -f environment.yml
+```
+
+### Activate the environment
+
+```bash
+conda activate biol363_nr
+```
+
+### Validate the environment
+
+```bash
+python scripts/00_validate_environment.py
+```
+
+This script checks Python version, required package availability and
+versions, Parquet round-trip I/O, required directory structure, and that
+`config/nr_metadata.py` imports successfully with the expected 48
+UniProt-validated records (unique `uniprot_id` and `nr_code` values). It
+performs **no network access**.
+
+### Reproducing the exact environment
+
+`environment.yml` is the human-readable specification used to create the
+environment. `environment-lock.yml` is a full export of the *exact*
+resolved package versions from a successful build, generated with:
+
+```bash
+conda env export -n biol363_nr --no-builds > environment-lock.yml
+```
+
+Use `environment.yml` to (re)create the environment; use
+`environment-lock.yml` as the reproducibility record of exactly what was
+installed.
+
+## Testing
+
+```bash
+pytest -q
+```
+
+## Status
+
+**Data & Infrastructure pipeline COMPLETE.** All stages listed above,
+through the final structure selection, representative-instance selection,
+ligand-state annotation, and canonical-residue handoff, are done, tested,
+and frozen at annotated Git tags (`stage2-candidate-inventory-v1`,
+`stage3a-lbd-prefilter-v1`, `stage3b-coordinate-audit-v1`,
+`data-infrastructure-v1`).
+
+**Downstream B-factor normalization, clustering, PCA/t-SNE/UMAP,
+statistical testing, functional-site correlation analysis, and any
+biological conclusions have NOT been performed anywhere in this
+repository.** Start that work from [`TEAM_HANDOFF.md`](TEAM_HANDOFF.md).

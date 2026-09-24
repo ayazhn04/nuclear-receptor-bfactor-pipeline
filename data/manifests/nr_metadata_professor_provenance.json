@@ -1,0 +1,11 @@
+{
+  "project_name": "Comprehensive B-factor Flexibility Profiling Across Nuclear Receptor Families",
+  "description": "Tabular export of the professor-supplied human nuclear receptor metadata snapshot (config/nr_metadata_professor.py), produced for downstream Stage 1 validation. This is a transcription of the supplied data, not an independently verified master list.",
+  "source": "Professor-supplied NR_METADATA",
+  "number_of_records": 48,
+  "generated_at_utc": "2026-09-23T14:41:51.752079+00:00",
+  "sha256_nr_metadata_professor_py": "57a7ee39380c1c126b673bdcb8354bc0f8019ef4a24a2a8d60103d181143d0ad",
+  "sha256_nr_metadata_professor_csv": "3ddc713a1022cdcb07cb07325efaa6ffa0289fe65954dd00c08eec9c430cc419",
+  "python_version": "3.11.16 (main, Sep  2 2026, 23:33:55) [Clang 21.1.8 ]",
+  "generating_script": "scripts/01_ingest_professor_metadata.py"
+}

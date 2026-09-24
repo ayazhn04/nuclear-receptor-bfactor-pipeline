@@ -1,0 +1,8 @@
+# data/manifests/*.csv holds verbatim, machine-generated provenance data
+# (e.g. RCSB citation titles with embedded newlines / trailing spaces as
+# returned by the API). Trailing whitespace inside these fields is real
+# retrieved content, not a code-style issue — it must never be silently
+# stripped or "cleaned up" to satisfy `git diff --check`, since that would
+# be an undocumented modification of source data. This attribute tells Git
+# not to flag it as a whitespace error.
+data/manifests/*.csv -whitespace
