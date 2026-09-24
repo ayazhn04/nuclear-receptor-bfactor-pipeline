@@ -1,9 +1,5 @@
 # Team Handoff — Nuclear Receptor Structural Dataset
 
-This document is for teammates who did **not** build this pipeline and
-need to start the downstream B-factor/flexibility analysis. It tells you
-exactly which file to open, what the numbers mean, and what has and has
-NOT already been done.
 
 **Data & Infrastructure responsibility is complete as of this document.
 No B-factor normalization, clustering, PCA/t-SNE/UMAP, statistical
