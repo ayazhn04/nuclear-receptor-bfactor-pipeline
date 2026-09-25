@@ -1,0 +1,45 @@
+uniprot_id,nr_code,common_name,site_id,site_name,uniprot_position,expected_residue_name,source,notes
+P11473,NR1I1,VDR,ligand_pocket,Ligand pocket,143,TYR,Rochel et al. 2000 DOI:10.1016/S1097-2765(00)80413-X,Calcitriol-contact residue
+P11473,NR1I1,VDR,ligand_pocket,Ligand pocket,237,SER,Rochel et al. 2000 DOI:10.1016/S1097-2765(00)80413-X,Calcitriol-contact residue
+P11473,NR1I1,VDR,ligand_pocket,Ligand pocket,274,ARG,Rochel et al. 2000 DOI:10.1016/S1097-2765(00)80413-X,Calcitriol-contact residue
+P11473,NR1I1,VDR,ligand_pocket,Ligand pocket,278,SER,Rochel et al. 2000 DOI:10.1016/S1097-2765(00)80413-X,Calcitriol-contact residue
+P11473,NR1I1,VDR,ligand_pocket,Ligand pocket,305,HIS,Rochel et al. 2000 DOI:10.1016/S1097-2765(00)80413-X,Calcitriol-contact residue
+P11473,NR1I1,VDR,ligand_pocket,Ligand pocket,397,HIS,Rochel et al. 2000 DOI:10.1016/S1097-2765(00)80413-X,Calcitriol-contact residue
+P11473,NR1I1,VDR,af2_coactivator_groove,AF-2 coactivator groove,246,LYS,UniProt:P11473,Charge-clamp residue
+P11473,NR1I1,VDR,af2_coactivator_groove,AF-2 coactivator groove,420,GLU,UniProt:P11473,Charge-clamp residue
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,317,SER,Nolte et al. 1998 DOI:10.1038/25931,PPARgamma1 Ser289 converted to canonical PPARgamma2 numbering
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,351,HIS,Nolte et al. 1998 DOI:10.1038/25931,PPARgamma1 His323 converted to canonical PPARgamma2 numbering
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,477,HIS,Nolte et al. 1998 DOI:10.1038/25931,PPARgamma1 His449 converted to canonical PPARgamma2 numbering
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,501,TYR,Nolte et al. 1998 DOI:10.1038/25931,PPARgamma1 Tyr473 converted to canonical PPARgamma2 numbering
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,329,LYS,Nolte et al. 1998 DOI:10.1038/25931,PPARgamma1 Lys301 converted to canonical PPARgamma2 numbering
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,499,GLU,Nolte et al. 1998 DOI:10.1038/25931,PPARgamma1 Glu471 converted to canonical PPARgamma2 numbering
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,353,GLU,Brzozowski et al. 1997 DOI:10.1038/39645,Estradiol hydrogen-bond residue
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,394,ARG,Brzozowski et al. 1997 DOI:10.1038/39645,Estradiol hydrogen-bond residue
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,524,HIS,Brzozowski et al. 1997 DOI:10.1038/39645,Estradiol hydrogen-bond residue
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,362,LYS,Shiau et al. 1998 DOI:10.1016/S0092-8674(00)81717-1,Charge-clamp residue
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,542,GLU,Shiau et al. 1998 DOI:10.1016/S0092-8674(00)81717-1,Charge-clamp residue
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,504,LEU,Brzozowski et al. 1997 DOI:10.1038/39645,H10/H11 hydrophobic interface residue
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,508,LEU,Brzozowski et al. 1997 DOI:10.1038/39645,H10/H11 hydrophobic interface residue
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,511,LEU,Brzozowski et al. 1997 DOI:10.1038/39645,H10/H11 hydrophobic interface residue
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,564,ASN,Bledsoe et al. 2002 DOI:10.1016/S0092-8674(02)00817-6,Steroid recognition residue
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,570,GLN,Bledsoe et al. 2002 DOI:10.1016/S0092-8674(02)00817-6,Steroid recognition residue
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,611,ARG,Bledsoe et al. 2002 DOI:10.1016/S0092-8674(02)00817-6,Steroid recognition residue
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,642,GLN,Bledsoe et al. 2002 DOI:10.1016/S0092-8674(02)00817-6,Steroid recognition residue
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,739,THR,Bledsoe et al. 2002 DOI:10.1016/S0092-8674(02)00817-6,Steroid recognition residue
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,579,LYS,Bledsoe et al. 2002 DOI:10.1016/S0092-8674(02)00817-6,Charge-clamp residue
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,755,GLU,Bledsoe et al. 2002 DOI:10.1016/S0092-8674(02)00817-6,Charge-clamp residue
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,625,PRO,Bledsoe et al. 2002 DOI:10.1016/S0092-8674(02)00817-6,D-loop residue
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,628,ILE,Bledsoe et al. 2002 DOI:10.1016/S0092-8674(02)00817-6,D-loop residue
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,453,TYR,Zhan et al. 2008 DOI:10.1038/nchembio.106,Analyze separately because NR4A1 lacks a conventional deep ligand pocket
+P22736,NR4A1,NUR77,h12_segment,H12 segment,584,PRO,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,585,PRO,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,586,PRO,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,587,ILE,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,588,ILE,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,589,ASP,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,590,LYS,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,591,ILE,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,592,PHE,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,593,MET,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,594,ASP,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts
+P22736,NR4A1,NUR77,h12_segment,H12 segment,595,THR,UniProt:P22736,Analyze as a segment rather than inferred coactivator contacts

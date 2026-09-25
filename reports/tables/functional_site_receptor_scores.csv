@@ -1,0 +1,13 @@
+uniprot_id,nr_code,common_name,site_id,site_name,receptor_median_site_z,n_pdb_entries,n_entries_with_site_data,median_site_coverage
+P11473,NR1I1,VDR,ligand_pocket,Ligand pocket,,0,0,
+P11473,NR1I1,VDR,af2_coactivator_groove,AF-2 coactivator groove,,0,0,
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,-0.018693954606336605,322,315,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,-0.01723225990553734,322,319,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,-0.45515186419481823,279,279,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,0.10410890172889149,279,277,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,-0.9613778277015254,279,279,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,-0.3751962236166637,28,28,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,-0.1909053193684688,28,27,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,-0.1146472196030191,28,28,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,-0.5862025571420917,19,19,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,0.04682392635710122,19,19,1.0

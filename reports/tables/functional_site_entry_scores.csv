@@ -1,0 +1,1604 @@
+uniprot_id,nr_code,common_name,site_id,site_name,pdb_id,site_mean_z,n_site_residues,n_available_residues,site_coverage
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1A52,0.8368792431279991,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1ERE,-0.31932245367328427,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1ERR,-0.12044957123714616,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1GWQ,0.16417447729129447,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1GWR,0.10105842211908074,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1L2I,0.2146171269464781,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1PCG,0.2394420057439819,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1QKT,-0.12774514310586052,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1QKU,-0.35851229885550334,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1R5K,0.7590107592096167,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1SJ0,0.23543807226296812,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1UOM,0.5734225317051265,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1X7E,-0.14782915008067818,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1X7R,-0.10121696015148168,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1XP1,0.22446478581292287,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1XP9,0.10806226540215672,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1XQC,0.4050783648643222,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1YIM,0.14991664662702975,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1YIN,0.23804788176199312,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,1ZKY,-0.3920994203100645,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2AYR,0.020151597191124082,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2B1V,-0.016838922158551622,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2B23,-0.07002808772569541,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2BJ4,,2,1,0.5
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2FAI,0.10729228675152802,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2G44,0.30727155242435344,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2G5O,0.2072081701009355,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2I0J,0.13223441642022976,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2JFA,,2,1,0.5
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2OCF,-0.399116727467715,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2OUZ,-0.10542065385873825,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2P15,0.37931914869425515,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2POG,-0.013550261327379312,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2Q6J,0.7377749489825917,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2QA6,-0.36994281885502733,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2QA8,0.030024032296129044,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2QAB,-0.05815162698312726,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2QGT,-0.03977464449226006,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2QGW,0.11853118141311161,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2QH6,0.27357607200203204,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2QR9,-0.11707014943191696,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2QSE,-0.04473596773047992,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2QXM,-0.3517715979088699,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2R6W,0.3560196218289144,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2R6Y,0.5404177300474943,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2YAT,-0.13898708512713395,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,2YJA,-0.26405145335912783,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3DT3,0.04259191199964424,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3ERD,0.09507842330715494,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3ERT,-0.04953209902982847,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3HLV,-0.12616482519039873,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3HM1,0.0666801167930764,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3L03,0.09171428705608493,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3OS8,-0.05050799428014896,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3OS9,-0.11767127562189891,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3OSA,-0.15117625707848573,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3Q95,0.09206625266207653,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3UU7,-0.13167683130320618,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3UUA,-0.07713606219133974,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,3UUC,0.6380344243231608,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4DMA,-0.19678010945622343,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4IU7,0.07096876014090342,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4IV2,0.2249165918583702,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4IV4,0.23453668403399816,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4IVW,-0.054771874316751706,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4IVY,-0.2393824804900398,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4IW6,0.04943486447449261,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4IW8,-0.3123299586458783,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4IWC,-0.2899987831825477,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4IWF,-0.010856180734943321,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4MG5,-0.27238070008250775,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4MG6,-0.13111977987071627,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4MG7,-0.0018721929953938246,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4MG8,0.03648563056455606,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4MG9,-0.05187543778683984,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4MGA,-0.10926063442117624,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4MGB,-0.19445356450723633,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4MGC,0.08936389870178468,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4MGD,-0.09175168896825983,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4PP6,0.5412241517252808,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4PPP,0.42029643408217254,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4PPS,-0.16695585400855154,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4PXM,0.3351806923501017,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4Q13,0.39527138593499683,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4Q50,-0.00777077866134307,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4TUZ,0.2606304727433535,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4TV1,0.0035091828443322703,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4XI3,-0.2522442051530239,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4ZN7,0.019261965172753304,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4ZN9,0.4164907404325645,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4ZNH,0.13863736450239755,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4ZNS,0.23404150875224403,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4ZNT,0.2436544001125992,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4ZNU,0.39423588845373203,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,4ZNW,-0.12094265010783893,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5AAU,0.002290057155291486,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5AAV,-0.34259910519262754,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5ACC,0.8417381205179562,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5AK2,0.04730738649418098,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DI7,-0.058695917542169684,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DID,-0.024950574676533582,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DIE,0.07137601805882733,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DIG,-0.19771473667023948,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DK9,0.24710603902259237,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DKB,0.10330905429636023,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DKE,0.28741533673672454,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DKG,-0.03990772589689495,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DKS,0.5654094154772262,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DL4,0.17642335573387413,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DLR,0.13475981140348267,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DMC,0.45973056751794705,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DMF,0.09428271763244199,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DP0,0.16819636883552125,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DRJ,0.12653034552019726,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DRM,0.013269720252987977,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DTV,0.24369234223731712,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DU5,0.3454651927240357,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DUE,-0.04674831574803225,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DUG,0.29779573927336567,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DUH,0.31856816197635973,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DVS,-0.17306126553203172,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DWE,-0.1216911718689565,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DWG,0.17515378965244427,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DWI,-0.11757823808541146,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DWJ,-0.12913882690194828,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DX3,0.2205675484148833,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DXB,0.32838281778105605,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DXG,-0.2798074136968369,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DXK,0.45656479383441007,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DXM,0.36717556337328555,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DXP,0.31816715887174263,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DXQ,0.24175361645413712,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DXR,-0.026519650573961592,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DY8,0.06368613209362177,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DYB,0.11809970091568348,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DYD,0.22629463060346403,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DZ0,-0.5018337408647024,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DZ1,-0.0775218785241747,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DZ3,0.4009056930126223,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DZH,-0.3191423701036658,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5DZI,0.12393514854076546,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5E0W,0.129505243990346,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5E0X,0.26840875683617615,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5E14,-0.02224756510717643,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5E15,0.13320852049142948,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5E19,0.25152133641370217,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5E1C,0.23874583657032203,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5EGV,-0.34319458415972526,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5EHJ,0.011778912303229055,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5EI1,0.1667677358461111,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5EIT,0.7412233037323063,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5FQP,0.45767854538053,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5FQR,0.5489311067839743,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5FQS,0.28290073916867853,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5FQT,0.4432286420815075,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5GS4,-0.4501721038940444,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5HYR,-0.02391640453419107,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5JMM,-0.08505092549779396,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KCC,0.008843650609054787,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KCD,0.07604773644176516,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KCE,0.39007665940349284,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KCF,-0.39004774712252366,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KCU,0.4766455183007454,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KCW,-0.18351012457374305,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KR9,0.12585745936142317,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRA,0.5277572345889154,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRC,-0.12904099116232615,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRF,-0.3039144856583149,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRH,-0.06144407944586791,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRI,0.045220629501015824,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRJ,-0.07167557008037156,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRK,-0.003956564921357264,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRL,0.1649168765957402,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRM,-0.06550899735482282,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5KRO,0.15612343507179088,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5T1Z,-0.09304191806828017,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLD,0.395362747915896,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLF,-0.4235884332510542,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLG,0.5178702951211154,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLL,0.23881766344030747,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLM,-0.38164731344153036,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLO,0.011517776039410496,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLP,0.09304402714560302,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLT,-0.1903810648950129,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLU,0.21747260733978885,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLV,0.09774820453994987,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLX,0.19535259425260657,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TLY,0.2784342273519197,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TM1,0.47867456345172166,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TM2,0.46982793061945266,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TM3,-0.029790150870217566,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TM4,0.9935821782331768,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TM5,0.24726136997347836,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TM6,-0.04257686247069628,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TM7,-0.12142124588395208,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TM8,0.3038794638043474,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TML,0.11629595385301264,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMM,0.5791655995525498,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMO,-0.14513356856813067,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMQ,-0.05279195391251446,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMR,0.08546036927856762,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMS,-0.07081508541545402,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMT,-0.2197084950568283,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMU,0.4868395949418104,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMV,0.14982117079945417,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMW,0.4682998227041254,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TMZ,0.02352363253404005,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TN1,0.012632237849850556,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TN3,0.02507201569590277,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TN4,-0.0025004865833918033,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TN5,0.2941773495155553,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TN6,0.013206158954347569,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TN7,-0.35666243195460035,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TN8,0.10763369177565404,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TN9,0.048716963019169474,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5TNB,-0.2878426540059531,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5U2B,0.04046890285711713,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5U2D,-0.17471695425226666,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5W9C,0.3915339492701381,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5WGD,-0.23658530722671364,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,5WGQ,1.4761328577480217,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6C42,0.5556406590951524,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6CHW,-0.12587082903081087,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6CZN,-0.11143346995400283,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6DF6,0.7887508806174319,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6DFN,0.5310028172435375,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6IAR,0.3120850385579723,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6OWC,0.16196179259969076,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6PET,0.3716768989614864,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6PFM,1.3031210971011133,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6PIT,0.6043109507886026,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6PSJ,0.3861232099523966,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6VGH,0.253226204478596,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6VJD,0.8210269812559043,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6WOK,0.27759322917593215,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6ZOQ,-0.14301144249293501,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6ZOR,-0.0647726246387201,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,6ZOS,-0.20428619083626381,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7JHD,-0.13011790695682168,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7KBS,0.6922153368078082,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7MSA,0.8459105754014649,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7N9O,0.17151490241195616,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7QVL,0.12668180796917086,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7RNM,0.3506598015088307,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7RRY,0.22142551470625416,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7RRZ,0.21155012874123083,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7RS3,-0.0262976971411632,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7SFO,0.10410890172889149,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7T2X,0.41908880799062326,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7TE7,0.6168200711268108,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7UJM,0.03841391993466012,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7WNV,1.1775175689105777,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7Y8F,-0.10180293652788386,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7Y8G,0.390078558690967,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,7YMK,0.15763138862934023,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8DU6,0.48834847167153844,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8DU9,0.8625698245580788,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8DUB,0.7755179885925976,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8DUD,0.0160715370503674,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8DUG,0.9242635732103204,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8DUH,0.7697227648257805,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8DUI,0.9276225541593452,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8DV5,0.8215316902726234,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8DVB,0.19552559809690773,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8EV1,0.06720637023966837,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8EV2,0.1948620025415593,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8VV1,0.7287584575425649,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8VZ0,0.20320561047183966,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8VZ1,-0.16498329530305128,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,8W07,-0.013984872667330284,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,9BPX,0.4641100531545171,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,9BQE,0.4763993530144945,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,9EBG,-0.15485199364896757,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,9ECK,1.0534491108946502,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,9VT5,-0.2912036072473693,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,9VTU,0.24394999354267471,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,9W11,0.3038905159105456,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,9W13,0.39865147930676026,2,2,1.0
+P03372,NR3A1,ERalpha,af2_coactivator_groove,AF-2 coactivator groove,9WB2,0.1821487971379135,2,2,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1A52,-1.4901280513854156,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1ERE,-0.847218827630854,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1ERR,-1.0371372418764546,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1GWQ,-0.8378855712864226,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1GWR,-0.8206580025313069,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1L2I,-0.8794367499130402,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1PCG,-0.8117564947405179,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1QKT,-0.9263244251644435,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1QKU,-0.7236189167953256,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1R5K,-0.9094330118081011,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1SJ0,-0.5801395738559142,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1UOM,-1.052701686872642,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1X7E,-0.7567062923647087,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1X7R,-0.6869206285286168,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1XP1,-0.9035914535558183,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1XP9,-0.8230738991290046,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1XQC,-1.0257275612271275,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1YIM,-0.9166855045459633,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1YIN,-1.06313160330047,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,1ZKY,-0.7891866651797911,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2AYR,-0.9069966372853591,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2B1V,-0.7062750843403528,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2B23,-0.8376292508814774,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2BJ4,-0.4783494518597935,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2FAI,-0.30212217546970904,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2G44,-0.9996727600255509,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2G5O,-0.832309327553087,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2I0J,-1.1006063237156956,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2JFA,-0.40910260430078105,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2OCF,-0.26096422921966733,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2OUZ,-0.6123390914824457,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2P15,-0.9035383843265435,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2POG,-0.8142187402278888,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2Q6J,-0.8252006267877533,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2QA6,-0.5404411784797717,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2QA8,-0.5064962791435306,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2QAB,-0.308459755788476,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2QGT,-0.7463658829222971,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2QGW,-0.697470368166107,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2QH6,-0.9680577032204316,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2QR9,-0.9565361217412277,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2QSE,-0.7333004158091004,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2QXM,-0.7413415429034979,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2R6W,-0.9691493543681045,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2R6Y,-0.9991401055869181,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2YAT,-0.6494428561298756,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,2YJA,-0.7159278574073452,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3DT3,-0.9102807716085514,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3ERD,-0.9075752849226033,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3ERT,-0.9459137176545053,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3HLV,-1.2069004776559964,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3HM1,-1.2800093455419852,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3L03,-0.7473517216522519,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3OS8,-0.850575876820623,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3OS9,-0.9008930875990426,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3OSA,-0.9131356073119443,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3Q95,-0.7788269528735786,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3UU7,-1.1497551615834058,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3UUA,-0.9862340114856423,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,3UUC,-0.7925608540512706,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4DMA,-0.7849550543640523,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4IU7,-0.9438059510007792,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4IV2,-1.0051924704312878,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4IV4,-1.0362094994282514,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4IVW,-1.0215266195773187,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4IVY,-0.9650108079744447,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4IW6,-1.0117311175510924,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4IW8,-0.8287234656998991,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4IWC,-1.0265123211420375,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4IWF,-0.8610731921666658,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4MG5,-1.1245508939760278,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4MG6,-0.9425760252059016,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4MG7,-0.8674952775156953,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4MG8,-0.9092526897107939,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4MG9,-0.7833625456132585,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4MGA,-0.953422468989575,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4MGB,-1.0312277225320676,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4MGC,-1.2626704099893058,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4MGD,-0.8941658392845119,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4PP6,-1.4766763324379948,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4PPP,-1.3314455813827786,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4PPS,-0.8712964468463881,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4PXM,-0.8311349264596567,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4Q13,-1.1139548583000085,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4Q50,-1.071916472575192,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4TUZ,-0.9874014939481536,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4TV1,-0.8554720484403262,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4XI3,-1.0688929261927127,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4ZN7,-1.0503509669378415,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4ZN9,-1.1234927136083352,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4ZNH,-0.910325257328723,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4ZNS,-0.9348747879085483,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4ZNT,-0.961682382803915,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4ZNU,-1.0735215225478603,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,4ZNW,-0.9555594412679094,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5AAU,-0.86256015364354,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5AAV,-0.8074738019804117,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5ACC,-1.1354914380902839,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5AK2,-0.8823963021961768,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DI7,-1.1235875716525834,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DID,-1.221299633843449,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DIE,-0.8634547857267117,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DIG,-0.9874540302837337,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DK9,-0.9347410109023219,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DKB,-1.1626077652371538,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DKE,-1.206069487352323,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DKG,-1.0481278356130026,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DKS,-1.231458748475968,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DL4,-1.048828937374716,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DLR,-1.0699305655952525,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DMC,-1.161714129148529,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DMF,-0.9978047333161459,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DP0,-1.0352409399689104,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DRJ,-0.9362959408647975,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DRM,-0.7877585639865329,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DTV,-1.2711653933643612,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DU5,-1.1459724272483405,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DUE,-1.0381950164885418,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DUG,-0.9322656433991078,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DUH,-0.895845934760276,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DVS,-0.8515584179208074,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DWE,-0.8419852062790646,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DWG,-1.0045008289275457,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DWI,-0.9957995257730353,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DWJ,-0.9517402219098736,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DX3,-0.8272551554317363,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DXB,-1.010391754962748,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DXG,-0.930540693334435,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DXK,-1.1455216234034795,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DXM,-1.117685198979159,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DXP,-1.1374594852765176,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DXQ,-1.0562631227516166,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DXR,-1.0653633064778587,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DY8,-0.9019526929635533,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DYB,-1.0077687260619006,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DYD,-1.1627070196576212,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DZ0,-0.9217902315690751,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DZ1,-1.0467805091303053,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DZ3,-1.0183159156085217,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DZH,-0.9033182112086635,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5DZI,-1.0178123125467924,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5E0W,-1.1560191555503974,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5E0X,-1.0376725586755875,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5E14,-1.1154472955368118,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5E15,-0.8742182162171229,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5E19,-1.038571809801714,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5E1C,-0.9796737201455693,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5EGV,-1.1885909681706277,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5EHJ,-0.9276245326244393,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5EI1,-1.0581551378116385,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5EIT,-1.2408865483665545,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5FQP,-1.034213907436462,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5FQR,-1.0909882675696503,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5FQS,-0.882527033471784,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5FQT,-1.0197956628548825,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5GS4,-0.4265202733293146,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5HYR,-1.1041733764068475,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5JMM,-0.9359981667604976,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KCC,-1.108814601297799,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KCD,-1.106255705893847,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KCE,-0.6868224221688846,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KCF,-0.6423700200348007,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KCU,-1.0453540770289218,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KCW,-0.7024880837466826,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KR9,-0.8743670222494444,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRA,-1.4467352134704845,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRC,-1.12546539186243,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRF,-1.080209584893651,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRH,-1.0087621652806138,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRI,-0.9840758221177429,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRJ,-0.8638762877346396,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRK,-1.05435701416037,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRL,-0.9605474178244212,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRM,-0.9796862663847111,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5KRO,-0.9159979455462609,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5T1Z,-0.7908265244490068,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLD,-1.2045251742368859,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLF,-0.9458998892882763,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLG,-1.1785725656780566,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLL,-1.289360945291957,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLM,-0.8080918428581488,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLO,-0.9482794712454709,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLP,-0.8911711634022949,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLT,-0.8722676457754316,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLU,-1.0778809511192942,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLV,-1.0195859769793698,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLX,-1.1174729011767643,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TLY,-1.1419118180622256,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TM1,-1.1629593999553636,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TM2,-1.1829642605751678,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TM3,-1.1097460086688729,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TM4,-1.0110382414855117,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TM5,-1.0496596273911483,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TM6,-1.0008447482960832,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TM7,-0.8903998147665683,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TM8,-0.9870681015196828,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TML,-0.947162267006532,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMM,-1.1488345128402528,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMO,-1.1137658944192312,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMQ,-0.999668052317983,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMR,-1.147645699839156,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMS,-1.0427154267443162,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMT,-0.9396960949830938,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMU,-1.0543723415977275,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMV,-1.0188202743841714,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMW,-0.9105617485776256,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TMZ,-1.074365800247009,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TN1,-0.7394743894275696,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TN3,-1.1852106388424846,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TN4,-1.1063829393245461,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TN5,-1.1164438129670373,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TN6,-1.1325796368041725,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TN7,-1.0193114550674736,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TN8,-1.2810927708801163,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TN9,-1.1566186730238408,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5TNB,-0.9911586997892866,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5U2B,-1.167768633175508,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5U2D,-0.9355659657802837,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5W9C,-0.9198209377356886,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5WGD,-0.8739478626753493,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,5WGQ,-1.2792262088330595,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6C42,-0.7905854219162615,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6CHW,-0.7182857826287489,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6CZN,-1.2297545031165669,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6DF6,-1.046308875993535,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6DFN,-1.2090061678455675,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6IAR,-0.9719884076836127,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6OWC,-0.9906764797222581,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6PET,-0.9812021416183178,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6PFM,-0.6886758380554799,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6PIT,-1.0539133227846895,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6PSJ,-0.40891794462027997,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6VGH,-1.0175016035947293,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6VJD,-0.9613778277015254,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6WOK,-1.2991755463965147,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6ZOQ,-1.1679560547883667,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6ZOR,-1.0157480235850487,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,6ZOS,-0.9617664355395359,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7JHD,-1.1216952968885974,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7KBS,-0.774324291739472,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7MSA,-1.4214735392367543,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7N9O,-1.128115548513998,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7QVL,-0.8868405353637009,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7RNM,-1.0144675260250524,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7RRY,-1.0319307478171826,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7RRZ,-0.5501857140315815,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7RS3,-0.8665632361088802,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7SFO,-0.8973800487138733,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7T2X,-1.236139381249895,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7TE7,-1.2010457691582352,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7UJM,-0.9405787839969676,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7WNV,-0.6987746800794233,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7Y8F,-0.7936437482384359,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7Y8G,-0.9135810394513739,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,7YMK,-0.7163216004773911,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8DU6,-0.7759986107014464,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8DU9,-0.8625432608288909,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8DUB,-0.6579783839459208,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8DUD,-1.309548521671469,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8DUG,-0.6082861416518625,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8DUH,-0.7540904261140864,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8DUI,-0.7459434554822817,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8DV5,-0.8704333139874268,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8DVB,-0.7975710136214911,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8EV1,-0.9521950601781514,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8EV2,-1.1667275556084262,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8VV1,-0.8899383166547427,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8VZ0,-0.9345104400398724,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8VZ1,-0.9967716089493092,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,8W07,-1.3121750730808877,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,9BPX,-0.7658713334614538,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,9BQE,-0.5555382553835505,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,9EBG,-0.9149550734470125,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,9ECK,-0.671055354605313,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,9VT5,-0.8077506055608149,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,9VTU,-0.6568320027097696,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,9W11,-0.9516603634266843,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,9W13,-0.8981695932585582,3,3,1.0
+P03372,NR3A1,ERalpha,lbd_homodimerization,LBD homodimerization,9WB2,-0.8863800920708114,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1A52,-0.18821482852893434,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1ERE,-0.7241940503523301,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1ERR,-0.32720228955884195,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1GWQ,-0.23073880504745736,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1GWR,-0.55513274105494,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1L2I,-0.5150109494355853,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1PCG,-0.39995344804625127,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1QKT,-0.10872340508774969,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1QKU,-0.29103211623540987,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1R5K,-0.06092157335399687,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1SJ0,-0.20671620716809525,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1UOM,0.012278799548992062,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1X7E,-0.4820580581256338,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1X7R,-0.7010392856947698,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1XP1,-0.5209551115246649,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1XP9,-0.42003445162078873,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1XQC,-0.5422087896798636,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1YIM,-0.47427095029181326,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1YIN,-0.28134362341806374,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,1ZKY,-0.5274327577523752,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2AYR,-0.2683653218994959,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2B1V,-0.5079973910813008,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2B23,-0.18034104583029545,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2BJ4,-0.3395588594821886,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2FAI,-0.5366270272035294,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2G44,-0.5129119724892959,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2G5O,-0.20941896110872413,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2I0J,-0.17255466666080102,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2JFA,-0.0797371989158004,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2OCF,-0.4455161001054224,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2OUZ,0.03566797564174059,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2P15,-0.6758952540616731,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2POG,-0.2699921228969375,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2Q6J,-0.5174933983120301,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2QA6,-0.35269741647379677,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2QA8,-0.5880131901911347,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2QAB,-0.5898690443106572,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2QGT,-0.44883636378946185,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2QGW,-0.5300269414422751,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2QH6,-0.5459243982772778,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2QR9,-0.22144705414696217,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2QSE,-0.5428183307476359,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2QXM,-0.31739777923287327,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2R6W,-0.2054588269955968,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2R6Y,-0.32815040721561156,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2YAT,-0.588246445904999,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,2YJA,-0.4334269796344625,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3DT3,-0.13971060810302596,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3ERD,-0.7362577711629811,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3ERT,-0.3482410148751857,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3HLV,-0.8322235020258821,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3HM1,-0.4222950483519254,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3L03,-0.5928462872530019,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3OS8,-0.2408606842386004,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3OS9,0.2103332627169762,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3OSA,-0.20909200141237416,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3Q95,-0.6636820261852637,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3UU7,-0.5334248077991189,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3UUA,-0.4527617020619405,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,3UUC,-0.006161604767239259,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4DMA,-0.4322460368735163,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4IU7,-0.5662716019595866,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4IV2,-0.4450647494741904,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4IV4,-0.14026835418252534,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4IVW,-0.38218480922674997,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4IVY,-0.3575558172541396,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4IW6,-0.3264717842105288,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4IW8,-0.40884795264305523,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4IWC,-0.2275975450742278,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4IWF,-0.1181776024349417,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4MG5,-0.24919779338021,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4MG6,-0.17778912064584737,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4MG7,-0.49416597986929633,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4MG8,-0.5512613498888016,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4MG9,-0.19132220706491984,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4MGA,-0.49049435297342164,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4MGB,-0.4011663136484562,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4MGC,-0.19901040880338527,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4MGD,-0.3367386617872876,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4PP6,-0.5137150485338424,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4PPP,-0.7522021057719382,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4PPS,-0.4407781518983172,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4PXM,-0.8158346840839664,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4Q13,-0.6459840263617203,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4Q50,0.3730320667206397,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4TUZ,-0.4977814512925495,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4TV1,-0.18670237959519498,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4XI3,-0.6559116268365585,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4ZN7,-0.8122313162849579,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4ZN9,-0.5956514949114111,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4ZNH,-0.28024648368704724,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4ZNS,-0.5420318028288934,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4ZNT,-0.3799944297570678,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4ZNU,-0.6299227021813204,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,4ZNW,-0.6228821359377691,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5AAU,0.07149184551937003,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5AAV,-0.03476461307787582,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5ACC,0.13410912495442645,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5AK2,0.23953036729942223,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DI7,-0.5341029514206271,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DID,-0.44739586707185874,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DIE,-0.597990884006346,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DIG,-0.41123486164179585,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DK9,-0.171904612385145,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DKB,-0.5420674873594488,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DKE,-0.3909262798413902,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DKG,-0.5959397428084486,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DKS,-0.700181618559567,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DL4,-0.4005412421024405,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DLR,-0.6442947870128662,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DMC,-0.4767942038229223,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DMF,-0.27664788401315127,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DP0,-0.47255197918147424,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DRJ,-0.5315514537850375,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DRM,-0.4519002852617338,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DTV,-0.604569589566624,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DU5,-0.5487248753135117,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DUE,-0.5238833242046728,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DUG,0.09824632402776896,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DUH,-0.5720714322085924,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DVS,-0.5895971533036185,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DWE,-0.7131750849264731,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DWG,-0.486608506024705,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DWI,-0.4978067700345124,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DWJ,-0.45948296653976817,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DX3,-0.6468876691289663,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DXB,-0.7095420909099106,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DXG,-0.6273004359336367,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DXK,-0.6267670471343506,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DXM,-0.7104706251378743,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DXP,-0.26291183484740116,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DXQ,-0.7985056087701795,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DXR,-0.6549880153595776,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DY8,-0.45515186419481823,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DYB,-0.5074690096526596,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DYD,-0.6986616585291326,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DZ0,-0.44605724894222415,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DZ1,-0.455158374281804,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DZ3,-0.3110680834275491,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DZH,-0.38359609688057456,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5DZI,-0.6730675566882485,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5E0W,-0.37149359314292396,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5E0X,-0.518675123409335,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5E14,-0.6269151466764861,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5E15,-0.4825317040232813,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5E19,-0.40760709645294724,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5E1C,-0.5539437043804282,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5EGV,-0.7346471700525966,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5EHJ,-0.5215380910993547,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5EI1,-0.8285423332097825,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5EIT,-0.7675541131693442,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5FQP,-0.43085596044833235,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5FQR,-0.08255419455565087,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5FQS,-0.3360071311946362,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5FQT,-0.08860403421024003,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5GS4,-0.5469967852684071,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5HYR,-0.7866456135020755,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5JMM,-0.29709539756907916,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KCC,-0.22287733583957672,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KCD,-0.46361121850505516,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KCE,-0.47687124987326784,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KCF,0.004231117532534985,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KCU,-0.16697985349747638,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KCW,-0.04538700889481798,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KR9,-0.47754879424253854,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRA,-0.20371528390881424,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRC,-0.7252750633228354,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRF,-0.2868797969603611,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRH,-0.525191485860589,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRI,-0.44328857806748073,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRJ,-0.5395785524727945,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRK,-0.6832860048574624,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRL,-0.5434520681183016,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRM,-0.36404912594625927,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5KRO,-0.3638603063306632,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5T1Z,-0.4177535665820837,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLD,-0.5019756952068408,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLF,-0.19417000440683238,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLG,-0.7821295243080532,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLL,-0.6492626996893974,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLM,-0.42357050713682165,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLO,-0.4501131823018231,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLP,-0.5678078520729534,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLT,-0.5149980595649161,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLU,-0.739507085155707,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLV,-0.580778371146328,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLX,-0.5578693600230359,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TLY,-0.6137971405717403,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TM1,-0.583872676753699,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TM2,-0.4289996013423578,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TM3,-0.6791763985029265,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TM4,0.004523918682570886,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TM5,-0.46969203362911954,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TM6,-0.5937010185799427,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TM7,-0.5193710277364844,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TM8,-0.47750250990127546,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TML,-0.4592213068876972,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMM,-0.5523895561245541,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMO,-0.6157402815161782,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMQ,-0.7681705232073247,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMR,-0.5290945767423718,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMS,-0.6497476041583132,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMT,-0.5167300239233079,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMU,-0.7776711625780705,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMV,-0.6365458024958172,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMW,-0.4930774787201441,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TMZ,-0.4887871962123529,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TN1,-0.46212085330151736,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TN3,-0.7270815533600171,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TN4,-0.6442638970329708,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TN5,-0.5856089442249844,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TN6,-0.4454912941126432,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TN7,-0.36937202043052214,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TN8,-0.4927425881478611,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TN9,0.04413393778706687,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5TNB,0.28265747423720944,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5U2B,0.20357801320356725,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5U2D,-0.6179804455197776,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5W9C,-0.33119729580714735,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5WGD,0.2031577692673573,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,5WGQ,-0.7400883002513646,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6C42,-0.532850333547651,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6CHW,0.007259725508138248,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6CZN,-0.28238981446003125,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6DF6,-0.23251889203901085,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6DFN,-0.33222818786703673,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6IAR,0.5758012368247606,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6OWC,0.0906366259069651,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6PET,-0.31353678321962364,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6PFM,-0.6118201132233244,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6PIT,-0.6890980186598724,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6PSJ,-0.27287785829883066,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6VGH,-0.23828929694447554,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6VJD,-0.439138518902404,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6WOK,0.010562960463811999,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6ZOQ,-0.2911283454728036,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6ZOR,-0.35192652663982327,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,6ZOS,-0.5158132773902856,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7JHD,-0.6612081580059843,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7KBS,-0.7489673996073564,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7MSA,-0.2330389476807231,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7N9O,-0.24915573975543856,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7QVL,-0.3066737693333277,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7RNM,-0.7079705016208798,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7RRY,-0.22466648390876184,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7RRZ,0.8817672167117164,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7RS3,-0.36388538201369297,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7SFO,-0.5616099797674732,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7T2X,-1.0845546499108332,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7TE7,-0.6804095992142702,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7UJM,-0.2151961558157709,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7WNV,-0.19204484405370867,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7Y8F,-0.0508924347148243,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7Y8G,-0.10286546481538177,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,7YMK,-0.03702658064932973,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8DU6,-0.6716836923744506,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8DU9,-0.39093966740030267,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8DUB,-0.6157330106513382,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8DUD,0.13760145787666836,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8DUG,-0.48620536777948375,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8DUH,-0.5305978247762394,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8DUI,-0.6518130078983478,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8DV5,-0.551036508009883,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8DVB,-0.4511540232152819,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8EV1,-0.36035073949776014,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8EV2,-0.4575415532139305,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8VV1,0.010961761964440283,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8VZ0,-0.14914404720413552,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8VZ1,0.045081370465046344,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,8W07,0.3374059298590571,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,9BPX,-0.15186914413811933,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,9BQE,-0.01902353108082296,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,9EBG,-0.8202873312822327,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,9ECK,-0.4779151149157807,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,9VT5,-0.027144781709535975,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,9VTU,-0.11888383099733042,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,9W11,-0.36687433574314343,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,9W13,-0.23055115748314448,3,3,1.0
+P03372,NR3A1,ERalpha,ligand_pocket,Ligand pocket,9WB2,-0.3374940321708854,3,3,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,1M2Z,-0.035436350143725925,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,1NHZ,0.17067857235119163,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,3BQD,-0.08335118332310477,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,3CLD,0.8507444004943723,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,3E7C,-0.0030861264489799034,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,3H52,0.8699214953748893,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,3K22,0.2794830622286663,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,3K23,0.40986485573582265,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,4CSJ,-0.8629845141102103,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,4LSJ,-0.4040386826691917,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,4MDD,0.008345444477087294,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,4P6W,-0.2813946267811413,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,4P6X,0.011235336528092173,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,4UDC,-0.8216433098424969,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,4UDD,-0.21736090148071846,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,5G3J,-0.8964722214632757,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,5G5W,-0.9166632430671269,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,5NFP,-0.8708786500520194,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,5NFT,-0.8252719189824869,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,5UC3,,2,1,0.5
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,6DXK,0.5006401071249662,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,6EL6,-0.7871096371502546,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,6EL7,-0.8969228596090002,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,6EL9,-0.7303415174410226,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,7PRV,0.7643056417888204,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,7PRW,0.9788417178270633,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,7PRX,-0.1909053193684688,2,2,1.0
+P04150,NR3C1,GR,af2_coactivator_groove,AF-2 coactivator groove,8VKZ,-0.38650408480144344,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,1M2Z,0.39801158702253026,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,1NHZ,-0.6143389809415573,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,3BQD,-0.2446290963843807,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,3CLD,-0.02053440982426266,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,3E7C,0.6336250039534379,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,3H52,0.08928993424437692,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,3K22,-0.2544191347230283,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,3K23,-0.8341924969251168,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,4CSJ,-0.08465471169126138,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,4LSJ,-0.1363278048704062,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,4MDD,0.03401469204313931,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,4P6W,-0.1167363910049613,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,4P6X,0.07567019432060912,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,4UDC,0.14735342152808154,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,4UDD,-0.08807357273637983,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,5G3J,0.10104162947373227,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,5G5W,-0.12305692168405441,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,5NFP,-0.020703284814363093,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,5NFT,-0.11255804820107691,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,5UC3,-0.7003108725098339,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,6DXK,-0.36013752732603094,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,6EL6,-0.17791119777440306,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,6EL7,0.21229418364014396,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,6EL9,-0.4144688616736622,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,7PRV,-0.14369095439804833,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,7PRW,-0.870903148189083,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,7PRX,-0.1944250166393904,2,2,1.0
+P04150,NR3C1,GR,lbd_dimerization,LBD dimerization,8VKZ,0.10105528568004021,2,2,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,1M2Z,-0.1419257696699034,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,1NHZ,-0.4953969274123528,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,3BQD,-0.5570732775199029,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,3CLD,-0.361217472095276,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,3E7C,-0.15255745957105332,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,3H52,0.2866105241026963,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,3K22,-0.10199420699225929,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,3K23,0.029968816393608134,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,4CSJ,-0.5433026948791324,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,4LSJ,-0.3670690852588832,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,4MDD,-0.3426971679688968,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,4P6W,-0.1118843928347542,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,4P6X,-0.19823514199977038,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,4UDC,-0.7632638889341458,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,4UDD,-0.5936671176224261,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,5G3J,-0.5617472063742296,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,5G5W,-0.5184579510657266,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,5NFP,-0.5649839396045622,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,5NFT,-0.6045052553562527,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,5UC3,-0.21673896469954673,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,6DXK,-0.44536356274693667,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,6EL6,-0.7288626296703299,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,6EL7,-0.5026054087936754,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,6EL9,-0.504023966275837,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,7PRV,0.1992359747544503,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,7PRW,-0.33169767077525564,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,7PRX,-0.02644746438465395,5,5,1.0
+P04150,NR3C1,GR,ligand_pocket,Ligand pocket,8VKZ,-0.3833233619744442,5,5,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,2QW4,-0.7599210615116246,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,3V3E,-0.4480931795688973,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,3V3Q,-0.5473698399901141,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4JGV,-0.8970541672916746,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4KZI,-0.6066928404937408,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4KZJ,-0.3796284135611134,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4KZM,-0.6525763070476024,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4RE8,-0.7855385219539349,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4REE,-0.5521483299264273,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4REF,-0.5862025571420917,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4RZF,-0.41986805553848183,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4RZG,-0.4390113990771436,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4WHF,-0.7136363822926468,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,4WHG,-0.7821977886016195,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,8WUY,-0.6271513029362585,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,8Y7L,-0.4211069399541936,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,8Z5A,-0.714440929760623,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,9M2E,-0.532798981665626,1,1,1.0
+P22736,NR4A1,NUR77,cytosporone_b_response,Cytosporone B response residue,9V5K,-0.4407860086862658,1,1,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,2QW4,1.9856122461359689,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,3V3E,-0.06618359581140866,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,3V3Q,0.062435861561226984,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4JGV,0.2004217092249639,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4KZI,0.04682392635710122,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4KZJ,-0.061805918149835125,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4KZM,0.18987677459729482,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4RE8,0.08228289956077667,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4REE,0.10407326474930782,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4REF,-0.2086099060557156,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4RZF,-0.13130342723470004,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4RZG,0.1599356751658069,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4WHF,0.3137992885725944,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,4WHG,0.004620318537413635,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,8WUY,0.003945507576805877,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,8Y7L,-0.12819904609604973,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,8Z5A,-0.12552779590553184,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,9M2E,-0.31173911545522315,12,12,1.0
+P22736,NR4A1,NUR77,h12_segment,H12 segment,9V5K,0.07631219592686893,12,12,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,1FM6,-0.08459761300877387,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,1FM9,-0.4060580227315127,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,1I7I,0.9880043974754384,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,1K74,-0.2481716691840703,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,1KNU,-0.3505515047009674,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,1RDT,-0.0790037577398579,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,1WM0,-0.604756260676558,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,1ZEO,-0.015026444922875692,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,1ZGY,-0.45466487433049846,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2ATH,-0.2185194214876415,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2F4B,-0.2188486276293394,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2FVJ,-0.14954213498415075,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2G0G,-0.024625833171676992,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2G0H,-0.2285122187264157,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2GTK,-0.38795582234143217,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2HFP,0.06487328745421383,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2HWQ,0.25290036074586625,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2I4J,-0.1023983107774088,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2I4P,0.2308807901247717,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2I4Z,0.20027490261339714,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2OM9,-0.19276706326273596,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2POB,0.47147790738573003,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2PRG,-0.14014441163126262,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2Q59,0.02051059350645912,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2Q5P,0.9583525503837935,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2Q5S,-0.21051554012676899,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2Q61,-0.04614930590597319,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2Q6R,-0.12103994888873981,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2Q6S,0.3596342234514903,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2Q8S,0.4205876187419986,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2VSR,-0.017754377744583216,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2VST,0.26723326471668296,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2VV0,-0.2149083065321009,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2VV1,0.17361206518480232,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2VV2,0.7488430455589218,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2VV3,0.24630924901574636,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2VV4,0.7017762339813796,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2XKW,0.38156495049951167,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2YFE,0.11034626675773773,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2ZK2,0.012472569869179051,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2ZK3,0.17209091758712403,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2ZK6,0.11312458116761237,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2ZNO,0.030797965876045497,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,2ZVT,-0.24360449415351584,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3ADS,-0.019309173156789927,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3ADT,0.12028990710800713,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3ADU,0.03343832679613612,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3ADV,0.13266981380329076,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3ADW,-0.24154516074106383,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3ADX,-0.2039914401816899,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3AN3,0.21370442972459663,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3AN4,0.13333136503581788,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3B0Q,-0.00589561567038327,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3B0R,0.038961487012346474,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3BC5,0.3266919197135594,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3CDP,0.5242601635547133,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3CS8,0.006553532727814337,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3CWD,-0.31547122614534573,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3DZU,0.3977990905464912,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3DZY,-0.161027246812506,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3E00,0.25391149473097313,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3ET0,-0.009007371968974553,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3ET3,-0.10738243125133308,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3FEJ,-0.30452027533775716,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3FUR,0.06354428902211146,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3G9E,0.014778370453161799,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3GBK,-0.0790973208641447,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3HOD,0.28267703975468395,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3IA6,0.41576903721583536,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3K8S,0.1286774124850853,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3KMG,0.3855875210973165,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3LMP,-0.29797780249492134,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3NOA,-0.21726837221571405,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3OSI,0.372901122521974,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3OSW,0.4259181737989799,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3PBA,-0.09758649216653248,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3PO9,0.4142728442231185,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3PRG,-0.17733706413752964,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3QT0,-0.2172598803546084,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3R5N,0.5250394349625644,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3R8A,,2,1,0.5
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3R8I,0.19452233080496467,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3S9S,0.5384585483722587,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3SZ1,0.2672397373100738,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3T03,-0.12061571604745078,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3TY0,-0.27460418310654566,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3V9Y,-0.17569059837086537,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3VJH,0.036314520765134806,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3VJI,0.0399826151563864,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3VSO,-0.10778051139099473,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3VSP,0.12375107655468237,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3WJ4,0.2438101096527968,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3WJ5,0.26129167339389053,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3WMH,0.12341943482371864,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3X1H,0.09221218790202612,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,3X1I,0.4278118069602618,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4A4V,0.17353809807898546,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4A4W,0.2667872272859072,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4E4Q,0.1497823422087508,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4EM9,0.34116134785628294,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4EMA,-0.44253265576388773,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4F9M,-0.39599065770528696,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4FGY,-0.28041556492313285,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4HEE,-0.7574200473811097,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4JAZ,-0.020593437458760577,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4JL4,-0.2311809108824002,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4L96,-0.46051331769905923,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4L98,-0.6603271448087431,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4O8F,0.38068540583813404,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4OJ4,0.08668026803298684,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4PRG,-0.19699101243008507,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4PVU,0.7615948845533402,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4R06,-0.07644596221378858,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4R2U,-0.5808457659646241,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4R6S,0.10225505712425798,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4XLD,0.1318590401532555,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4XTA,0.6715066402189815,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4XUH,-0.3290742689149567,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4XUM,-0.15017657015463687,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4Y29,-0.5050617687747366,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,4YT1,-0.01723225990553734,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5DSH,-0.0301385371558196,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5DV3,-0.12701918732798453,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5DV6,-0.446321720159254,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5DV8,-0.1396265018476257,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5DVC,-0.0407312215170082,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5DWL,-0.14996359147492852,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5F9B,0.25796619244957014,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5GTN,-0.35320206231075885,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5GTO,-0.26053452303233504,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5GTP,-0.18480853410393835,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5HZC,0.1064284573135919,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5JI0,-0.42272849337159746,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5LSG,-0.0008084986357054513,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5TTO,-0.12227329482449778,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5TWO,-0.12973643472509894,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5U5L,-0.07269653608506221,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5UGM,-0.33223530211141417,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5WQX,0.29125384054121706,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5WR0,0.14879221427738198,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5WR1,0.1826790644121094,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5Y2O,0.036169819861352384,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5YCN,-0.30629594816582373,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5YCP,-0.24501801223005146,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5Z5S,-0.36864283751115995,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,5Z6S,-0.38416240115554434,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6AD9,-0.26416542457380987,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6AN1,0.6948589355285966,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6AUG,-0.20494467858572396,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6C1I,0.05357583516644404,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6C5Q,-0.31926058114588657,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6C5T,0.10817466235026378,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6D3E,-0.12000315250358656,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6D8X,0.4425578649885014,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6D94,0.6470368845058738,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6DBH,0.02533385930487131,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6DGL,-0.1891508042131536,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6DGO,-0.04484252632186869,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6DGP,0.2767985975626186,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6DGQ,-0.0031245857315376213,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6DGR,0.09345872231500255,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6DH9,-0.17071117374775965,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6DHA,-0.1420327330860367,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6E5A,0.2967949124685914,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6ENQ,0.7970812496554647,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6FZF,0.10422321204875579,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6FZG,0.35435956015787584,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6FZJ,-0.028414691430095312,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6FZP,0.04311800631590107,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6FZY,1.0537487582909215,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6ICJ,0.652141617868774,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6IJR,1.1206049602620094,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6IJS,-0.2578765772108984,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6IZM,-0.3717819477333104,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6JF0,0.6350922527963965,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6JQ7,-0.16234961336233544,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6K0T,-0.5679942622759704,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6KTM,-0.19515528672981153,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6KTN,-0.3023876371611902,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6L89,0.1487476630875167,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6L8B,0.11104522025202207,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6MCZ,-0.2724604050746432,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6MD0,-0.3558263897305994,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6MD1,-0.02016507267470624,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6MD2,-0.24333667160415923,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6MD4,0.11091499895103452,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6O67,0.03862433264342591,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6O68,0.23500410322907306,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6ONI,0.021034142634506193,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6ONJ,-0.31941538663207425,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6PDZ,0.2608806847127819,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6QJ5,0.1077672424012106,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6T1V,-0.06039448400481204,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6T6B,1.4033955412976737,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6T9C,0.12486418116769088,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6TDC,-0.1154227904663141,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6TSG,1.1547234566117932,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6VZL,-0.10438266283163905,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6VZM,0.5221155541162745,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6VZN,-0.06871663026079389,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6VZO,-0.14651151482434505,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,6Y3U,1.4320922855276945,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7A7H,1.1336669364590954,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7AHJ,-0.21662650438327294,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7AWD,0.029052862192957496,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7CXE,0.3032970631340445,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7CXF,-0.37391256885081464,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7CXG,-0.22466908912279163,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7CXH,-0.48616660695805025,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7CXI,-0.3223784561330744,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7CXJ,-0.2389090299735076,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7CXK,-0.3657817693250741,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7CXL,-0.07358883494239812,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7EFQ,-0.1341200258508014,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7JQG,0.07081160434941924,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7LOT,0.3233028484158696,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7P4E,1.0501452721465314,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7QB1,0.18702891845744615,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7RLE,-0.5872864505743898,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7SQA,,2,1,0.5
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7SQB,-0.3524089929176122,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7WGO,-0.19413550746685804,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7WGP,-0.47302774622713334,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7WGQ,-0.4738029213675111,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,7WOX,-0.18316982324275882,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8ADF,0.9121564097715051,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8AQM,0.18008114026364386,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8AQN,-0.38190661903646483,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8ATY,0.00509530600714013,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8ATZ,0.3573133960965098,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8B8W,1.5398511269950421,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8B8Y,1.9892047150287153,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8B8Z,1.594379746942423,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8B90,1.443482111122122,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8B91,1.4487029305099537,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8BF2,-0.010095909878521714,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8BFF,0.37188955671351304,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8C0C,0.5329966845727261,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8CPH,0.6714216410465438,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8CPI,0.5489953528903598,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8CPJ,0.7039227432241549,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8DK4,-0.04037635568042535,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8DKN,-0.3434121199348063,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8DSY,0.5209038110640625,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8DSZ,0.09509490705497617,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8FHE,-0.09356384483942506,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8FHF,0.33253634372900903,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8FHG,-0.21381391923593857,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8FKD,-0.30096655360285585,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8FKE,-0.2929076035068924,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8FKF,-0.08385265703751645,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8FKG,0.009130925669656287,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8HHP,0.34208846119706754,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8HHQ,0.5914472076286446,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8HUM,-0.4127835243985494,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8HUP,-0.23552849077982524,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8PBO,-0.3084850091566836,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8SC9,0.2208116820653528,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8U57,0.41208237250284946,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8WFE,-0.17372565576378352,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8ZFO,-0.23257385997706315,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8ZFS,0.0339226791808106,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,8ZFT,0.1748138529352295,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9CK0,0.45505753991232945,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9CWN,-0.1289476545233233,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GFU,0.015043479544425975,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GVP,-0.17714523270313787,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GVS,-0.09237616439250687,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GVT,0.08307333197530392,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GW3,-0.04294130823048106,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GW4,-0.04550397135030762,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GW7,0.01447337066393136,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GW8,-0.2790177315675445,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWB,-0.17389311648403374,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWC,0.4583230488461919,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWE,0.07957302720191944,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWF,0.17932163826595832,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWG,0.003943173502473196,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWH,-0.4337613911994806,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWI,-0.16086522125794311,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWK,-0.26689257748211814,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWL,-0.4351594131353998,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWM,-0.07861602709978532,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWN,-0.4934543163455419,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWP,-0.12171285982993352,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWQ,-0.330726084049938,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWR,-0.3216521722564574,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWS,-0.3772951982283324,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWX,-0.30410881949040236,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GWY,-0.3716758894295459,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GX0,0.04412669188266649,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GX1,-0.07289144688792104,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GX2,0.12756770412637766,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GX3,-0.17163960518532648,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GX4,-0.30711607211086955,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GX5,-0.36036780064947765,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GX6,-0.09204427329449663,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GX7,-0.3504594128418529,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GXD,-0.35598360634148474,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GZ7,0.14905645568090675,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GZ8,-0.2482481866120438,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GZ9,0.12451276636789876,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GZA,-0.19188543125214566,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GZB,0.05007995393651654,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GZC,-0.02042731631463529,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GZE,-0.11866403910004647,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GZF,0.10863677832649923,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9GZI,0.24237898736378988,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9HX2,0.47040983432739314,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9IWK,,2,1,0.5
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9L3T,0.11905282970164616,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9MAH,0.13329487816764707,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9O9N,-0.29043355273420746,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9QFZ,-0.08366182399380162,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9QG0,-0.23071376004590163,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9QG2,-0.3270737135353551,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9QG3,0.1343379673616097,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9QG4,0.067822393704975,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9QG5,-0.04934572351436281,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9QG6,0.22810062728896435,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9QGJ,0.08248550700454416,2,2,1.0
+P37231,NR1C3,PPARG,af2_coactivator_groove,AF-2 coactivator groove,9R6K,0.763456385635643,2,2,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,1FM6,-0.5765355961581091,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,1FM9,-0.44639946010268966,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,1I7I,0.09164486835190877,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,1K74,-0.5079793249292931,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,1KNU,0.05485859303217666,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,1RDT,-0.3897116443658972,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,1WM0,-0.1078252628793215,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,1ZEO,0.0916308456619566,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,1ZGY,-0.30619625903818315,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2ATH,-0.39421072429184434,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2F4B,-0.07773391441523596,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2FVJ,0.08738672784765433,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2G0G,-0.0987179666704133,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2G0H,-0.2786593091713306,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2GTK,-0.30275524786209485,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2HFP,-0.15813324460053346,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2HWQ,0.20826500056540037,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2I4J,0.13210395934946906,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2I4P,0.9061974877344958,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2I4Z,0.30531617221536556,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2OM9,-0.0017673529707682434,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2POB,0.9443650367017686,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2PRG,-0.09277985624286261,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2Q59,0.22170465984126303,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2Q5P,0.9034109183282883,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2Q5S,0.050909085754494654,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2Q61,0.08707319716077896,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2Q6R,-0.2692323373307559,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2Q6S,1.0389219733207145,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2Q8S,0.3449060600057373,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2VSR,0.012097422434967142,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2VST,0.33676049820879717,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2VV0,0.21265472754184198,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2VV1,0.49393314933350685,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2VV2,0.3175360321195685,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2VV3,0.5380464641433591,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2VV4,0.5381299655552358,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2XKW,0.18739774438663848,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2YFE,-0.02591685621466644,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2ZK2,0.21402605035004954,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2ZK3,0.49256626122196945,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2ZK6,0.39345847559480635,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2ZNO,0.5453925290818887,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,2ZVT,-0.060650279635235504,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3ADS,-0.04559119830297187,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3ADT,-0.0758338831466095,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3ADU,-0.26858360816685317,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3ADV,-0.00029322747502513735,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3ADW,-0.11939400997664215,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3ADX,-0.2625872560604124,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3AN3,0.37026848272516166,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3AN4,0.30512580466466743,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3B0Q,-0.13422463124549655,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3B0R,0.3118366910312844,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3BC5,0.22571670357422594,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3CDP,0.1408750179152231,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3CS8,0.7947595125990321,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3CWD,0.1934728512869797,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3DZU,-0.12829354566745682,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3DZY,0.11317816273640542,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3E00,-0.011223552496966965,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3ET0,0.01967144192193372,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3ET3,-0.5092042420536702,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3FEJ,-0.2590337480290277,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3FUR,0.17673528528570717,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3G9E,-0.2957753613850964,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3GBK,-0.2487689053082629,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3HOD,0.01346824076571873,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3IA6,-0.005949556929856381,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3K8S,0.08199041274368774,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3KMG,-0.05782021698346129,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3LMP,-0.025952332508158704,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3NOA,-0.4238116590515834,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3OSI,0.2706848793900371,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3OSW,0.7756109840523828,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3PBA,0.667369880509421,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3PO9,0.6586462972937992,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3PRG,-0.23921621672479598,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3QT0,-0.4835523606722568,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3R5N,0.5253674849527956,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3R8A,,4,3,0.75
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3R8I,0.30186844034820937,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3S9S,-0.48951359310526465,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3SZ1,0.6246801123584731,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3T03,-0.31221110865618945,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3TY0,-0.24520085566849578,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3V9Y,0.11888336594347057,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3VJH,0.07193076617438085,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3VJI,0.31285724916383073,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3VSO,-0.18658408205707772,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3VSP,0.11183700906575578,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3WJ4,0.22039412124027566,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3WJ5,0.441428775256813,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3WMH,0.041671936215836536,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3X1H,0.08040503891568976,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,3X1I,0.4001169170532647,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4A4V,-0.09479120096134108,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4A4W,-0.015485278123568591,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4E4Q,0.18050247317663254,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4EM9,0.30058057088494416,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4EMA,-0.26879996998936495,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4F9M,0.18932680331863352,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4FGY,-0.2935463890467838,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4HEE,-0.5539354393228594,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4JAZ,0.136183015918536,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4JL4,-0.010131638676161403,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4L96,-0.6975326238473707,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4L98,-0.7900646961751013,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4O8F,-0.16005701959457758,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4OJ4,-0.5944074902924377,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4PRG,0.009969304133783718,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4PVU,0.23136921959398854,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4R06,-0.09897642297741441,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4R2U,-0.2230305354167607,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4R6S,0.33464847279422694,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4XLD,0.2176778527558462,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4XTA,0.6248411846463463,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4XUH,-0.40825135276531027,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4XUM,0.05679105057010608,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4Y29,-0.06261497585763011,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,4YT1,0.09654309678052986,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5DSH,0.01937299180587132,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5DV3,0.17464519009360957,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5DV6,-0.16279987958051972,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5DV8,0.5461520846764785,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5DVC,0.36247580172640065,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5DWL,-0.174003749387218,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5F9B,0.36390642373257825,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5GTN,-0.8106939669689568,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5GTO,-0.06077320868785169,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5GTP,-0.06455872084297876,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5HZC,0.2812743750887458,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5JI0,-0.4755415054993022,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5LSG,-0.30360385335777085,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5TTO,0.20945536490599423,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5TWO,-0.5240130253031361,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5U5L,0.1396899896056213,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5UGM,-0.49737264855997504,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5WQX,0.01253899280380727,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5WR0,-0.04933822354901943,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5WR1,0.09459430454212947,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5Y2O,-0.2593008828593468,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5YCN,-0.6805249446898634,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5YCP,-0.5482626130817241,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5Z5S,-0.04146482835329335,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,5Z6S,-0.07056272266615879,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6AD9,-0.10292154588660199,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6AN1,0.6203470481661683,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6AUG,-0.04104993596642821,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6C1I,0.5374429193268866,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6C5Q,-0.11210541240297622,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6C5T,-0.13970437320772866,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6D3E,-0.1652178926852632,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6D8X,0.00020839197289052036,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6D94,-0.5573378583844113,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6DBH,0.27708762015770283,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6DGL,0.22589690264106455,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6DGO,0.4109333521477031,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6DGP,0.0827550999111597,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6DGQ,-0.1638680179233099,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6DGR,0.026499581965755747,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6DH9,0.06960750841235067,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6DHA,-0.014597434569269874,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6E5A,0.41497658550132094,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6ENQ,0.598460121733531,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6FZF,-0.5261430077642332,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6FZG,-0.47130689645942614,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6FZJ,-0.4445649994403903,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6FZP,-0.3905432054352307,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6FZY,0.3240102379848648,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6ICJ,-0.6799185218641433,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6IJR,0.3728702328906722,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6IJS,-0.2508260853821061,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6IZM,-0.022598724772323275,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6JF0,0.5769403305864886,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6JQ7,-0.16449316162396221,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6K0T,-0.3558768501795864,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6KTM,-0.09035231672829658,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6KTN,-0.08557235966410115,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6L89,0.2686199194856198,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6L8B,0.020796363117013494,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6MCZ,0.09257297690851918,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6MD0,-0.020021019704194176,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6MD1,0.42252455394068894,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6MD2,0.01579031311877263,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6MD4,0.4342893850909251,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6O67,0.012715379684988232,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6O68,0.4622200579460138,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6ONI,-0.2714213405337263,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6ONJ,-0.4054063618041151,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6PDZ,0.2593427004760279,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6QJ5,0.46975305149952606,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6T1V,-0.5885825928131803,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6T6B,0.3783010317419717,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6T9C,0.1622258131891681,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6TDC,-0.12323092746866976,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6TSG,0.6542535381578695,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6VZL,0.35266434119164275,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6VZM,0.2217553178563712,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6VZN,0.19278578689693504,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6VZO,0.20051078867516078,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,6Y3U,0.4277670499520096,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7A7H,0.3238786341732238,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7AHJ,-0.09322723773220357,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7AWD,-0.09703741529888102,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7CXE,0.3304886623764902,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7CXF,-0.4791552331285421,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7CXG,-0.38718058908173764,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7CXH,-0.7433844638401355,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7CXI,-0.46102243307540103,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7CXJ,-0.04197071712327899,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7CXK,-0.3671387779991287,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7CXL,0.1087886592123525,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7EFQ,-0.15790103968114577,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7JQG,0.527039946397514,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7LOT,0.5421390698895722,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7P4E,0.4308529981475159,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7QB1,-0.020264554532134382,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7RLE,-0.13937230258780892,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7SQA,,4,3,0.75
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7SQB,-0.25799129035019264,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7WGO,-0.46337267316376457,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7WGP,-0.6057678876553885,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7WGQ,-0.3871906257555367,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,7WOX,-0.11888205057243861,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8ADF,1.0926424877394199,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8AQM,-0.2559377667597391,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8AQN,-0.5134011846386755,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8ATY,-0.36563648515083197,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8ATZ,-0.08592517099192756,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8B8W,0.9911558807290936,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8B8Y,,4,3,0.75
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8B8Z,,4,3,0.75
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8B90,,4,3,0.75
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8B91,,4,3,0.75
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8BF2,-0.0656103787574937,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8BFF,0.1623472201055028,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8C0C,0.75479547123063,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8CPH,0.3493566380622508,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8CPI,-0.062299313505683795,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8CPJ,0.395811292897583,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8DK4,-0.7317467071557487,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8DKN,-0.30836742452358823,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8DSY,-0.051915538438128184,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8DSZ,-0.15600038309869133,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8FHE,-0.2662854669956771,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8FHF,0.8543289527960249,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8FHG,-0.21283898036557553,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8FKD,-0.16841728501119552,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8FKE,-0.24431272953231792,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8FKF,-0.19209956145728407,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8FKG,-0.19162208299153827,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8HHP,-0.10244198903870949,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8HHQ,0.13624077598047069,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8HUM,-0.6619837659948005,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8HUP,-0.12919640821365264,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8PBO,-0.3067404815299176,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8SC9,0.18721601287995418,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8U57,0.12306302721452483,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8WFE,-0.07161242807988437,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8ZFO,0.23349355516123158,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8ZFS,0.2959303002496857,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,8ZFT,0.5694213448858625,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9CK0,-0.5920630924014358,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9CWN,-0.6019809277484127,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GFU,0.23916163957807898,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GVP,0.20875915458599054,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GVS,-0.04855046022230086,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GVT,0.10836825305667147,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GW3,-0.1043062376269143,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GW4,-0.06597391294803284,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GW7,-0.08693722120201644,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GW8,-0.1774387354535942,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWB,0.14936452732173527,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWC,0.020544012841074433,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWE,-0.29319343234747286,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWF,-0.12110535026791114,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWG,-0.10823761851236552,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWH,-0.21153609080914143,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWI,-0.17002523819168547,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWK,-0.07342763273297004,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWL,-0.3413111097420861,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWM,0.17650706348615536,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWN,-0.3514743603071646,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWP,0.6127326969315304,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWQ,0.01573818151842732,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWR,-0.45270123286759645,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWS,-0.030794754296548932,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWX,-0.2557236862412763,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GWY,-0.021904704938009223,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GX0,0.37454443640228197,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GX1,0.4304553083970555,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GX2,-0.1522894983522643,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GX3,-0.27643631642031813,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GX4,0.06687404550255954,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GX5,-0.1987528935089679,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GX6,-0.2992100477851928,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GX7,0.27006222803716856,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GXD,-0.1806214954640003,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GZ7,0.15835747814134155,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GZ8,-0.018693954606336605,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GZ9,0.3065316012671093,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GZA,-0.15836728457754604,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GZB,0.5357173362464132,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GZC,0.3030854770169742,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GZE,-0.07847909051112423,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GZF,-0.25448514353303897,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9GZI,0.028284581158632194,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9HX2,0.4994092709952369,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9IWK,,4,3,0.75
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9L3T,0.3170296433208123,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9MAH,-0.27133595016576295,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9O9N,-0.33173498380289757,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9QFZ,0.11809870883070181,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9QG0,-0.10906007671628537,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9QG2,-0.19318038031650858,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9QG3,-0.14924694988997872,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9QG4,0.16120784150793607,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9QG5,-0.16436709650375783,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9QG6,-0.1842716254202654,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9QGJ,0.35415959730215163,4,4,1.0
+P37231,NR1C3,PPARG,ligand_pocket,Ligand pocket,9R6K,0.5062273055129405,4,4,1.0

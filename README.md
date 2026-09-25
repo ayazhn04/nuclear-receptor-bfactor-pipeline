@@ -177,6 +177,27 @@ installed.
 pytest -q
 ```
 
+## Functional-site analysis
+
+Role D's descriptive functional-site analysis uses the primary handoff
+tables and the literature-curated definitions in
+[`reports/tables/functional_site_definitions.csv`](reports/tables/functional_site_definitions.csv).
+It normalizes usable C-alpha B-factors to Z-scores within each selected
+receptor instance, reduces multiple selected entities to a median profile per
+PDB entry, then reports a median complete-site score per receptor. PDB entries
+with any missing predefined site residue retain their coverage QC but are not
+included in the receptor-level site median.
+
+```bash
+python scripts/31_analyze_functional_site_bfactors.py
+```
+
+The command writes normalization QC, PDB-entry site scores, and
+receptor-level site summaries to `reports/tables/`. These are descriptive
+results only. APO/HOLO inference, pharmacology labels, and cross-receptor
+statistical tests require separately specified comparison cohorts and are not
+performed by this script.
+
 ## Status
 
 **Data & Infrastructure pipeline COMPLETE.** All stages listed above,
