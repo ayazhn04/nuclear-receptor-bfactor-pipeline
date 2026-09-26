@@ -9,7 +9,7 @@ TABLES_DIR = PROJECT_ROOT / "reports" / "tables"
 
 def test_functional_site_residues_match_canonical_sequence():
     sites = pd.read_csv(TABLES_DIR / "functional_site_definitions.csv")
-    residue_map = pd.read_parquet(PROJECT_ROOT / "data" / "processed" / "final_lbd_residue_map.parquet")
+    residue_map = pd.read_parquet(PROJECT_ROOT / "data" / "processed" / "final_lbd_residue_map_primary_qc_subset.parquet")
     canonical = residue_map[
         ["uniprot_id", "canonical_uniprot_position", "canonical_residue_name"]
     ].drop_duplicates()

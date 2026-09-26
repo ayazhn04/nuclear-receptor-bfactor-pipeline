@@ -28,7 +28,7 @@ OBS_PARQUET = PROJECT_ROOT / "data" / "interim" / "qc" / "stage3b_lbd_ca_observa
 POOL_CSV = MANIFESTS_DIR / "stage3b_coordinate_pool.csv"
 INSTANCE_QC_CSV = MANIFESTS_DIR / "rcsb_lbd_coordinate_instance_qc.csv"
 
-# SHA256 of the strict subset files exactly as committed in f760962.
+# SHA256 of the strict subset files exactly as committed in a42e875.
 SUBSET_CSV_SHA256 = "5222cfd462cb558c421f2a6780952612e8b7d4bedd6a7930de287afeb90ed58b"
 SUBSET_PARQUET_SHA256 = "ce118a4d049d5b4123daf460bffaca965493cb1154071a25bfe15afccadfacbc"
 
@@ -117,7 +117,7 @@ def test_old_subset_preserved_exactly():
     assert _sha(SUBSET_CSV) == SUBSET_CSV_SHA256
     assert _sha(SUBSET_PARQUET) == SUBSET_PARQUET_SHA256
     old = subprocess.run(
-        ["git", "show", "f760962:data/processed/structures.csv"], cwd=PROJECT_ROOT, capture_output=True
+        ["git", "show", "a42e875:data/processed/structures.csv"], cwd=PROJECT_ROOT, capture_output=True
     ).stdout
     assert hashlib.sha256(old).hexdigest() == SUBSET_CSV_SHA256
 
@@ -131,6 +131,8 @@ def test_previous_membership_matches_preserved_subset(master):
 
 
 def test_all_stage3b_residue_observations_represented(residues):
+    if not OBS_PARQUET.exists():
+        pytest.skip("development-only Stage 3B interim parquet is not tracked in the clean release repository")
     obs = pd.read_parquet(OBS_PARQUET)
     assert len(residues) == len(obs) == 771542
     assert residues["instance_id"].nunique() == pd.read_csv(INSTANCE_QC_CSV)["instance_id"].nunique() == 3159
@@ -146,6 +148,8 @@ def test_residues_not_filtered_by_coverage(residues, master):
 
 
 def test_positive_occupancy_semantics_unchanged(residues):
+    if not OBS_PARQUET.exists():
+        pytest.skip("development-only Stage 3B interim parquet is not tracked in the clean release repository")
     obs = pd.read_parquet(OBS_PARQUET)
     for c in ["ca_record_present", "ca_positive_occupancy", "ca_bfactor_usable", "zero_occupancy_only_ca"]:
         assert (residues[c].values == obs[c].values).all()
@@ -171,15 +175,20 @@ def test_no_normalization_columns_in_residue_table(residues):
 
 def test_frozen_stage_summaries_unchanged():
     r = subprocess.run(
-        ["git", "diff", "--quiet", "f760962", "--",
+        ["git", "diff", "--quiet", "a42e875", "--",
          "data/manifests/stage2_release_summary.json", "data/manifests/stage3a_release_summary.json",
          "data/manifests/stage3b_release_summary.json", "data/manifests/nr_lbd_reference.csv",
          "data/manifests/rcsb_lbd_coordinate_instance_qc.csv", "config/nr_metadata.py"],
         cwd=PROJECT_ROOT,
     )
     assert r.returncode == 0
-    for tag in ("stage2-candidate-inventory-v1", "stage3a-lbd-prefilter-v1", "stage3b-coordinate-audit-v1", "data-infrastructure-v1"):
-        assert subprocess.run(["git", "rev-parse", tag], cwd=PROJECT_ROOT, capture_output=True).returncode == 0
+    # The clean GitHub release intentionally omits development-history tags.
+    # Frozen-artifact immutability is anchored to the clean baseline commit.
+    assert subprocess.run(
+        ["git", "cat-file", "-e", "a42e875^{commit}"],
+        cwd=PROJECT_ROOT,
+        capture_output=True,
+    ).returncode == 0
 
 
 # ---------------------------------------------------------------------------

@@ -8,9 +8,11 @@
 provides a fully reproducible, auditable, version-controlled scaffold,
 receptor identity table, structure discovery/selection pipeline, and final
 team-handoff dataset for downstream B-factor/flexibility analysis.
-**Downstream B-factor normalization, clustering, and statistical analysis
-have NOT been performed anywhere in this repository** — see
-[`TEAM_HANDOFF.md`](TEAM_HANDOFF.md) to start that work.
+**General full-dataset B-factor normalization, clustering, and formal
+statistical analysis are not yet complete.** A descriptive Role D
+functional-site analysis exists for the preserved historical strict-QC subset.
+See [`TEAM_HANDOFF.md`](TEAM_HANDOFF.md) for the current master dataset and
+recommended starting point for new analyses.
 
 Stages completed:
 
@@ -198,14 +200,22 @@ pytest -q
 
 ## Functional-site analysis
 
-Role D's descriptive functional-site analysis uses the primary handoff
-tables and the literature-curated definitions in
+Role D's existing descriptive functional-site analysis reproduces the
+historical strict-QC analysis using
+`data/processed/structures_primary_qc_subset.csv` and
+`data/processed/final_lbd_residue_map_primary_qc_subset.parquet`, together
+with the literature-curated definitions in
 [`reports/tables/functional_site_definitions.csv`](reports/tables/functional_site_definitions.csv).
 It normalizes usable C-alpha B-factors to Z-scores within each selected
 receptor instance, reduces multiple selected entities to a median profile per
-PDB entry, then reports a median complete-site score per receptor. PDB entries
-with any missing predefined site residue retain their coverage QC but are not
-included in the receptor-level site median.
+PDB entry, then reports a median complete-site score per receptor.
+
+Following the professor's clarification, these strict-QC files are preserved
+for reproducibility but are not the master dataset. New analyses should start
+from `data/processed/structures.csv` and
+`data/processed/lbd_residue_bfactors_all.parquet`, applying coverage and other
+QC criteria as analysis-specific metadata filters rather than deleting
+structures upstream.
 
 ```bash
 python scripts/31_analyze_functional_site_bfactors.py
@@ -226,7 +236,9 @@ and frozen at annotated Git tags (`stage2-candidate-inventory-v1`,
 `stage3a-lbd-prefilter-v1`, `stage3b-coordinate-audit-v1`,
 `data-infrastructure-v1`; the master-inventory revision is a later commit).
 
-**Downstream B-factor normalization, clustering, PCA/t-SNE/UMAP,
-statistical testing, functional-site correlation analysis, and any
-biological conclusions have NOT been performed anywhere in this
-repository.** Start that work from [`TEAM_HANDOFF.md`](TEAM_HANDOFF.md).
+**General full-dataset B-factor normalization, clustering, PCA/t-SNE/UMAP
+and formal statistical testing have not yet been completed.** A descriptive
+Role D functional-site analysis is present for the preserved historical
+1,382-structure strict-QC subset. New analyses should start from the current
+master `structures.csv` and `lbd_residue_bfactors_all.parquet`, using QC
+criteria as analysis-specific metadata filters.

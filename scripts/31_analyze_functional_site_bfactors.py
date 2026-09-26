@@ -17,8 +17,8 @@ PROJECT_ROOT = Path(__file__).resolve().parent.parent
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 TABLES_DIR = PROJECT_ROOT / "reports" / "tables"
 
-STRUCTURES_CSV = PROCESSED_DIR / "structures.csv"
-RESIDUE_MAP_PARQUET = PROCESSED_DIR / "final_lbd_residue_map.parquet"
+STRUCTURES_CSV = PROCESSED_DIR / "structures_primary_qc_subset.csv"
+RESIDUE_MAP_PARQUET = PROCESSED_DIR / "final_lbd_residue_map_primary_qc_subset.parquet"
 LBD_REFERENCE_CSV = PROJECT_ROOT / "data" / "manifests" / "nr_lbd_reference.csv"
 SITE_DEFINITIONS_CSV = TABLES_DIR / "functional_site_definitions.csv"
 
@@ -41,7 +41,7 @@ def main() -> None:
     require_columns(
         residue_map,
         STRUCTURE_KEYS + ["canonical_uniprot_position", "ca_bfactor_usable", "selected_ca_b_iso_or_equiv"],
-        "final_lbd_residue_map.parquet",
+        "final_lbd_residue_map_primary_qc_subset.parquet",
     )
     require_columns(
         sites,

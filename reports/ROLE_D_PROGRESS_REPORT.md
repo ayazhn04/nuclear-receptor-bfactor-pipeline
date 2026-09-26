@@ -21,7 +21,7 @@
 
 ## Метод анализа
 
-Скрипт использует только primary-selected структуры из `data/processed/structures.csv` и C-alpha значения из `data/processed/final_lbd_residue_map.parquet`.
+Этот отчёт воспроизводит исторический strict-QC анализ, выполненный до уточнения профессора о сохранении всех структур. Скрипт использует `data/processed/structures_primary_qc_subset.csv` и `data/processed/final_lbd_residue_map_primary_qc_subset.parquet`. Эти 1,382 структуры являются аналитическим QC-подмножеством, а не полным текущим master dataset.
 
 1. Берутся только остатки с `ca_bfactor_usable=True` и конечным `selected_ca_b_iso_or_equiv`.
 2. Raw B-факторы нормализуются в Z-score отдельно внутри каждой выбранной receptor instance. Это исключает прямое сопоставление абсолютных B-факторов между кристаллическими структурами.
@@ -66,7 +66,7 @@
 
 Эти значения описывают относительное положение функционального сайта внутри распределения C-alpha B-факторов каждой структуры. Например, отрицательный site Z-score ESR1 LBD homodimerization указывает на более низкий относительный B-фактор этого сайта в анализируемых структурах ESR1; он не доказывает повышенную устойчивость димера в растворе.
 
-VDR отсутствует в `final_lbd_residue_map.parquet` и `structures.csv`: число residue-level строк и selected structures для P11473 равно нулю. Это не позволяет рассчитать VDR-site scores, несмотря на наличие 52 успешно обнаруженных VDR-кандидатов на стадии RCSB discovery. Причину исключения VDR следует отдельно установить в upstream selection/filtering pipeline.
+В этом историческом strict-QC анализе VDR не имеет site scores, потому что все VDR структуры не прошли прежний порог >=90% LBD coverage. После уточнения профессора upstream handoff был исправлен: VDR сохранён в текущем master `structures.csv` (52 candidates; 48 с coordinate data) и присутствует в `lbd_residue_bfactors_all.parquet`. Поэтому отсутствие VDR scores в таблицах данного отчёта отражает только старое strict-QC аналитическое подмножество и не означает отсутствие VDR из проекта. Функциональный анализ VDR следует повторить на новом all-structure handoff с явно заданными критериями анализа.
 
 Позиции PPARG из Nolte et al. приведены в нумерации PPARgamma1. Для согласования с канонической последовательностью UniProt P37231 (PPARgamma2) применён документированный сдвиг +28: ligand pocket 317/351/477/501 и AF-2 329/499. После исправления полное покрытие имеется у 315 из 322 PDB для ligand pocket и у 319 из 322 PDB для AF-2.
 
