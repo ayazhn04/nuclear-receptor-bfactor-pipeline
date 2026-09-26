@@ -21,6 +21,21 @@ Stages completed:
 - **Stage 3B / 3B.1 / 3B.2** — mmCIF acquisition (1777 files), observed-coordinate completeness audit (positive-occupancy Ca model), threshold-attrition and residual-missingness audit
 - **Final Data Release** — structure selection, deterministic representative-instance selection, ligand-state annotation, coregulator/partner annotation, canonical residue handoff
 
+> **QC criteria are metadata/analysis flags. Structures are retained in the
+> master inventory rather than deleted based on coverage thresholds.**
+
+Nested analysis views (counts are views, **not** deletions):
+
+```
+2072 Stage 2 discovery candidates  = data/processed/structures.csv (MASTER)
+ -> 1840 X-ray + LBD-overlap coordinate-audit candidates (has_stage3b_coordinate_data)
+     -> 1382 previous strict primary-QC subset (structures_primary_qc_subset.csv)
+```
+
+**1382 is not the master dataset.** Residue-level data for all 3159 measured
+instance/models (771,542 residue rows, no coverage/resolution/R-free
+filtering, e.g. VDR) is in `data/processed/lbd_residue_bfactors_all.parquet`.
+
 Current release snapshot (see
 [`data/manifests/final_data_infrastructure_release.json`](data/manifests/final_data_infrastructure_release.json)
 for the authoritative, checksummed machine-readable version):
@@ -29,18 +44,22 @@ for the authoritative, checksummed machine-readable version):
 - 2072 Stage 2 candidate receptor→polymer-entity relationships fully
   triaged, with lineage preserved for every one (selected or not).
 - 1777 cached mmCIF structure files, SHA256-verified.
-- **1382 primary-selected structures** (X-ray, >=90% positive-occupancy
-  standardized-LBD Ca coverage, 1.8-3.5 A resolution, R-free <= 0.30,
-  human/human-derived identity), across 1344 unique PDB entries and 33 of
-  the 48 receptors — see `data/processed/structures.csv`.
-- 690 excluded candidates with full, multi-reason exclusion lineage in
-  `data/processed/excluded_structures.csv`.
-- Ligand state (APO/HOLO/AMBIGUOUS), nonpolymer inventory, and
-  coregulator/partner annotations for every primary structure.
-- 338,012-row canonical residue map (`data/processed/final_lbd_residue_map.parquet`)
-  covering every standardized LBD position — observed or not — for every
-  primary structure, with a deterministic (never B-factor-based) raw Ca
-  handoff record.
+- **`structures.csv`: master inventory of all 2072 candidates** with
+  coverage, resolution, R-free, method, identity, fusion and taxonomy as
+  metadata/status flags (1840 with coordinate data).
+- **1382-structure historical strict QC subset** (X-ray, >=90%
+  positive-occupancy LBD coverage, 1.8-3.5 A, R-free <= 0.30,
+  human/human-derived) preserved in `structures_primary_qc_subset.csv`;
+  690 non-members with multi-reason lineage in `excluded_structures.csv`.
+- Ligand state (APO/HOLO/AMBIGUOUS) and nonpolymer inventory for all 1840
+  coordinate-assessable candidates (QC is metadata only); the 232 candidates
+  without coordinate data are retained as `NOT_ASSESSABLE_NO_COORDINATE_DATA`.
+  Coregulator/partner annotations cover the strict subset.
+- `data/processed/lbd_residue_bfactors_all.parquet`: all 771,542 corrected
+  residue observations — every standardized LBD position, observed or not —
+  with a deterministic (never B-factor-based) raw Ca handoff record.
+  `final_lbd_residue_map_primary_qc_subset.parquet` is the historical
+  338,012-row strict-subset map.
 
 ## Pipeline (as implemented)
 
@@ -61,11 +80,11 @@ mmCIF download
         ↓
 observed-coordinate completeness QC (positive-occupancy Ca model)
         ↓
-final structure selection + deterministic representative-instance selection
+master structure inventory (QC as flags) + deterministic representative-instance selection
         ↓
 ligand-state + coregulator/partner annotation
         ↓
-canonical residue handoff (data/processed/)
+canonical residue-level handoff (data/processed/lbd_residue_bfactors_all.parquet)
         ↓
 >>> handoff to downstream B-factor normalization/analysis (not yet performed) <<<
 ```
@@ -115,7 +134,7 @@ biol363_nr_bfactor/
 |-------------------------|--------------------------------------------|---------|
 | `data/raw/`             | Unmodified downloads (mmCIF, API responses) | No |
 | `data/interim/`         | Intermediate, regenerable working data      | No |
-| `data/processed/`       | Final, analysis-ready team-handoff tables   | **`structures.csv`, `excluded_structures.csv`, `final_lbd_residue_map.parquet` only** — everything else in this directory stays ignored |
+| `data/processed/`       | Final, analysis-ready team-handoff tables   | **The five handoff tables only** (`structures.csv`, `lbd_residue_bfactors_all.parquet`, `structures_primary_qc_subset.csv`, `final_lbd_residue_map_primary_qc_subset.parquet`, `excluded_structures.csv`) — everything else in this directory stays ignored |
 | `data/manifests/`       | Provenance records (what was fetched, when, from where, with what parameters/hashes) | **Yes** |
 
 Raw and most derived biological datasets are never committed to Git — they
@@ -205,7 +224,7 @@ through the final structure selection, representative-instance selection,
 ligand-state annotation, and canonical-residue handoff, are done, tested,
 and frozen at annotated Git tags (`stage2-candidate-inventory-v1`,
 `stage3a-lbd-prefilter-v1`, `stage3b-coordinate-audit-v1`,
-`data-infrastructure-v1`).
+`data-infrastructure-v1`; the master-inventory revision is a later commit).
 
 **Downstream B-factor normalization, clustering, PCA/t-SNE/UMAP,
 statistical testing, functional-site correlation analysis, and any

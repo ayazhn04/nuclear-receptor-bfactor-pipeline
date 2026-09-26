@@ -16,7 +16,7 @@ Reads:
     data/raw/mmcif/{PDB_ID}.cif.gz   (anisotropic-category flag only)
 
 Writes:
-    data/processed/structures.csv
+    data/processed/structures_primary_qc_subset.csv   (historical strict subset; master structures.csv is built by script 31)
     data/processed/excluded_structures.csv
     data/manifests/final_counts_by_receptor.csv
 """
@@ -51,7 +51,7 @@ PRECOORDINATE_QC_CSV = MANIFESTS_DIR / "rcsb_precoordinate_qc.csv"
 INSTANCE_QC_CSV = MANIFESTS_DIR / "rcsb_lbd_coordinate_instance_qc.csv"
 LBD_REFERENCE_CSV = MANIFESTS_DIR / "nr_lbd_reference.csv"
 
-STRUCTURES_CSV = PROCESSED_DIR / "structures.csv"
+STRUCTURES_CSV = PROCESSED_DIR / "structures_primary_qc_subset.csv"
 EXCLUDED_STRUCTURES_CSV = PROCESSED_DIR / "excluded_structures.csv"
 FINAL_COUNTS_BY_RECEPTOR_CSV = MANIFESTS_DIR / "final_counts_by_receptor.csv"
 

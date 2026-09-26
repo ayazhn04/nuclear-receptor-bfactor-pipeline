@@ -14,7 +14,9 @@ data/interim/
 data/processed/*
 !data/processed/structures.csv
 !data/processed/excluded_structures.csv
-!data/processed/final_lbd_residue_map.parquet
+!data/processed/final_lbd_residue_map_primary_qc_subset.parquet
+!data/processed/structures_primary_qc_subset.csv
+!data/processed/lbd_residue_bfactors_all.parquet
 
 # Logs
 logs/

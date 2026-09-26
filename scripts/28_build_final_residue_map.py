@@ -15,7 +15,7 @@ Reads:
     data/raw/api/uniprot/{UNIPROT_ID}.json   (already-cached canonical sequence)
 
 Writes:
-    data/processed/final_lbd_residue_map.parquet
+    data/processed/final_lbd_residue_map_primary_qc_subset.parquet
 """
 
 from __future__ import annotations
@@ -37,7 +37,7 @@ OBSERVATIONS_PARQUET = PROJECT_ROOT / "data" / "interim" / "qc" / "stage3b_lbd_c
 UNIPROT_RAW_DIR = PROJECT_ROOT / "data" / "raw" / "api" / "uniprot"
 
 SELECTION_AUDIT_CSV = MANIFESTS_DIR / "final_structure_selection_audit.csv"
-RESIDUE_MAP_PARQUET = PROCESSED_DIR / "final_lbd_residue_map.parquet"
+RESIDUE_MAP_PARQUET = PROCESSED_DIR / "final_lbd_residue_map_primary_qc_subset.parquet"
 
 ONE_TO_THREE = {
     "A": "ALA", "R": "ARG", "N": "ASN", "D": "ASP", "C": "CYS", "Q": "GLN", "E": "GLU",

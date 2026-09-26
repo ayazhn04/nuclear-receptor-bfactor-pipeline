@@ -1,7 +1,7 @@
 """
 Final Data Release, Step 5-6 (fetch phase): pull official RCSB Data API
 metadata for every non-polymer (ligand/ion/solvent/additive) entity
-belonging to a PRIMARY-selected PDB entry — chemical identity (formula,
+belonging to a PDB entry with Stage 3B coordinate data (all 1840 coordinate candidates) — chemical identity (formula,
 name, type), atom counts, and any RCSB-computed nonpolymer-entity
 annotations. Introspected against the live GraphQL schema before writing
 (CoreNonpolymerEntity / CoreChemComp / RcsbNonpolymerEntityContainerIdentifiers)
@@ -137,8 +137,9 @@ def main() -> None:
     args = parser.parse_args()
 
     audit = pd.read_csv(SELECTION_AUDIT_CSV, dtype={"pdb_id": str})
-    primary_pdb_ids = sorted(audit.loc[audit["in_primary_set"], "pdb_id"].unique().tolist())
-    print(f"Primary-set PDB entries: {len(primary_pdb_ids)}")
+    # Target population: ALL coordinate-assessable candidates (QC is metadata, not a filter).
+    primary_pdb_ids = sorted(audit.loc[audit["stage3b_coordinate_selected"], "pdb_id"].unique().tolist())
+    print(f"Coordinate-candidate PDB entries: {len(primary_pdb_ids)}")
 
     print("\nFetching entry container identifiers (to enumerate non-polymer entity IDs)...")
     id_manifest_rows = run_batches_for("entry_container_identifiers", "entry_container_identifiers", primary_pdb_ids, args.refresh)

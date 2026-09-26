@@ -25,9 +25,9 @@ MANIFESTS_DIR = PROJECT_ROOT / "data" / "manifests"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 RAW_MMCIF_DIR = PROJECT_ROOT / "data" / "raw" / "mmcif"
 
-STRUCTURES_CSV = PROCESSED_DIR / "structures.csv"
+STRUCTURES_CSV = PROCESSED_DIR / "structures_primary_qc_subset.csv"  # historical strict subset (was structures.csv)
 EXCLUDED_STRUCTURES_CSV = PROCESSED_DIR / "excluded_structures.csv"
-RESIDUE_MAP_PARQUET = PROCESSED_DIR / "final_lbd_residue_map.parquet"
+RESIDUE_MAP_PARQUET = PROCESSED_DIR / "final_lbd_residue_map_primary_qc_subset.parquet"
 SELECTION_AUDIT_CSV = MANIFESTS_DIR / "final_structure_selection_audit.csv"
 REP_SELECTION_CSV = MANIFESTS_DIR / "final_representative_instance_selection.csv"
 LIGAND_ANNOTATIONS_CSV = MANIFESTS_DIR / "final_ligand_annotations.csv"

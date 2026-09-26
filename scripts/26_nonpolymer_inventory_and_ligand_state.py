@@ -104,8 +104,10 @@ def build_lbd_atom_arrays(obs_rep: pd.DataFrame) -> tuple[np.ndarray, np.ndarray
 
 def main() -> None:
     audit = pd.read_csv(SELECTION_AUDIT_CSV, dtype={"pdb_id": str})
-    primary = audit[audit["in_primary_set"]].copy()
-    print(f"Primary structures: {len(primary)} across {primary['pdb_id'].nunique()} unique PDB entries")
+    # Target population: ALL 1840 coordinate-assessable candidates; QC (coverage,
+    # resolution, R-free, ...) is metadata only. Same classification rules as before.
+    primary = audit[audit["stage3b_coordinate_selected"]].copy()
+    print(f"Coordinate candidates: {len(primary)} across {primary['pdb_id'].nunique()} unique PDB entries")
 
     obs = pd.read_parquet(OBSERVATIONS_PARQUET)
     obs_by_instance = {iid: g for iid, g in obs.groupby("instance_id", sort=False)}
@@ -180,6 +182,7 @@ def main() -> None:
                 lbd_coords = np.zeros((0, 3))
                 lbd_pos = np.array([])
 
+            no_lbd_atoms_note = ""
             this_structure_instances: list[dict] = []
             for asym in nonpolymer_asyms:
                 atoms = atoms_by_asym[asym]
@@ -251,7 +254,12 @@ def main() -> None:
             ]
             all_lbd_contacting = [r for r in this_structure_instances if r["contact_within_4_5A"]]
 
-            if functional:
+            if not len(lbd_coords):
+                # No observed LBD atoms to measure contact against: cannot safely say APO.
+                ligand_state = "AMBIGUOUS"
+                status = "REVIEW_NEEDED"
+                no_lbd_atoms_note = "No positive-occupancy LBD heavy atoms available for contact geometry."
+            elif functional:
                 ligand_state = "HOLO"
                 status = "RESOLVED"
             elif possible_or_review:
@@ -276,6 +284,7 @@ def main() -> None:
                         f"LBD-contacting, {len(all_lbd_contacting)} total LBD-contacting nonpolymer instance(s)."
                     ),
                     "ligand_annotation_notes": (
+                        no_lbd_atoms_note if not len(lbd_coords) else
                         "" if status == "RESOLVED" else
                         "One or more LBD-contacting nonpolymer components could not be confidently classified as "
                         "functional vs. incidental; see final_nonpolymer_inventory.csv for the specific instance(s) "

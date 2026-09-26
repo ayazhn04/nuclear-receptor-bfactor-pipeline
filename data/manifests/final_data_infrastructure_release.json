@@ -1,7 +1,16 @@
 {
   "project": "Comprehensive B-factor Flexibility Profiling Across Nuclear Receptor Families",
-  "release_name": "final-data-infrastructure-v1",
+  "release_name": "final-data-infrastructure-v2-master-inventory",
   "validated_receptors": 48,
+  "dataset_model": "structures.csv is the MASTER inventory (QC criteria are metadata/analysis flags, never deletion criteria); primary_qc_subset files are a historical strict analysis view",
+  "nested_views": {
+    "stage2_discovery_candidates_master_structures_csv": 2072,
+    "xray_lbd_overlap_coordinate_audit_candidates": 1840,
+    "previous_strict_primary_qc_subset": 1382
+  },
+  "master_receptors_represented": 45,
+  "lbd_residue_bfactors_all_rows": 771542,
+  "lbd_residue_bfactors_all_instance_models": 3159,
   "primary_structure_count": 1382,
   "primary_pdb_count": 1344,
   "receptors_represented_in_primary": 33,
@@ -11,6 +20,13 @@
     "HOLO": 1251,
     "AMBIGUOUS": 0
   },
+  "ligand_state_counts_all_coordinate_candidates": {
+    "APO": 199,
+    "HOLO": 1640,
+    "AMBIGUOUS": 1,
+    "NOT_ASSESSABLE_NO_COORDINATE_DATA": 232
+  },
+  "ligand_annotation_review_needed_count_all_coordinate_candidates": 1,
   "excluded_candidate_count": 690,
   "exclusion_reason_counts": {
     "RESOLUTION_LT_1_8": 236,
@@ -50,23 +66,33 @@
   "checksums": {
     "structures_csv": {
       "path": "data/processed/structures.csv",
+      "sha256": "5994334681f92430b52ce42d85baa0310e3a2e7ea64a6d5bad618cb42a643a00",
+      "size_bytes": 865716
+    },
+    "lbd_residue_bfactors_all_parquet": {
+      "path": "data/processed/lbd_residue_bfactors_all.parquet",
+      "sha256": "28cc0f7feff59d27cf6b724becad23391068c6ed74181db3a6b9923750f81a27",
+      "size_bytes": 6156686
+    },
+    "structures_primary_qc_subset_csv": {
+      "path": "data/processed/structures_primary_qc_subset.csv",
       "sha256": "5222cfd462cb558c421f2a6780952612e8b7d4bedd6a7930de287afeb90ed58b",
       "size_bytes": 640950
+    },
+    "final_lbd_residue_map_primary_qc_subset_parquet": {
+      "path": "data/processed/final_lbd_residue_map_primary_qc_subset.parquet",
+      "sha256": "ce118a4d049d5b4123daf460bffaca965493cb1154071a25bfe15afccadfacbc",
+      "size_bytes": 2766304
     },
     "excluded_structures_csv": {
       "path": "data/processed/excluded_structures.csv",
       "sha256": "0436488d7fcc2b6beb822932c166d33e4ca792cb30cdc989ac7694eb7deb36c3",
       "size_bytes": 179618
     },
-    "final_lbd_residue_map_parquet": {
-      "path": "data/processed/final_lbd_residue_map.parquet",
-      "sha256": "ce118a4d049d5b4123daf460bffaca965493cb1154071a25bfe15afccadfacbc",
-      "size_bytes": 2766304
-    },
     "final_ligand_annotations_csv": {
       "path": "data/manifests/final_ligand_annotations.csv",
-      "sha256": "0de2a40dcd434ae9c7e8ffc1b2261424053b22daf6c1d0dccd178077983fed41",
-      "size_bytes": 380104
+      "sha256": "7498e28642ee6422f22ace47d2f6ffbb0d44d64467ba35bc17de5c58d4ac98ac",
+      "size_bytes": 504679
     },
     "final_polymer_partner_annotations_csv": {
       "path": "data/manifests/final_polymer_partner_annotations.csv",
@@ -75,15 +101,15 @@
     },
     "team_handoff_md": {
       "path": "TEAM_HANDOFF.md",
-      "sha256": "2e759713bf7fce922de393a1b00c60e8917feec578c2e5ff2797188b7ebbcde1",
-      "size_bytes": 10435
+      "sha256": "1643d3d45d2db73a06c0f68dc2148943f4db37b5b2178e952de50c307372c8a5",
+      "size_bytes": 13959
     },
     "final_data_dictionary_md": {
       "path": "reports/tables/final_data_dictionary.md",
-      "sha256": "f0f883236c316b80b3b8930870f47df2df3f2ad5c9aa4e75b44b42d84770e9f0",
-      "size_bytes": 12874
+      "sha256": "665b464280db9ddfff3a6619c177644f07452548180eb66189af4fbe977b0f64",
+      "size_bytes": 19229
     }
   },
-  "parent_git_commit": "bfa056bc265213df76a0d1651a16a310d882fa93",
-  "generated_at_utc": "2026-09-24T05:07:43.022652+00:00"
+  "parent_git_commit": "fa0977023256f419c3db0660f227871a1576c930",
+  "generated_at_utc": "2026-09-26T12:54:00.341478+00:00"
 }

@@ -1,9 +1,19 @@
 # Final Data Release — Data Dictionary
 
-Covers the four team-handoff tables: `data/processed/structures.csv`,
-`data/processed/excluded_structures.csv`,
-`data/manifests/final_ligand_annotations.csv`, and
-`data/processed/final_lbd_residue_map.parquet`. See
+> **QC criteria are metadata/analysis flags. Structures are retained in the
+> master inventory rather than deleted based on coverage thresholds.**
+
+Nested views (not deletions): 2072 discovery candidates (master
+`structures.csv`) -> 1840 with Stage 3B coordinate data -> 1382 previous
+strict primary-QC subset. **1382 is not the master dataset.**
+
+Tables: master `structures.csv` and `lbd_residue_bfactors_all.parquet`
+(documented first), then the historical strict-subset tables
+(`structures_primary_qc_subset.csv` — same columns as the section titled
+"structures.csv — ONE ROW PER PRIMARY SELECTED STRUCTURE" below, which now
+describes that file; `final_lbd_residue_map_primary_qc_subset.parquet` —
+same columns as the section titled "final_lbd_residue_map.parquet" below),
+`excluded_structures.csv`, and `final_ligand_annotations.csv`. See
 [`TEAM_HANDOFF.md`](../../TEAM_HANDOFF.md) for which file to use for what.
 
 Missing-value convention throughout: an empty string / `NaN` means the
@@ -11,7 +21,71 @@ value was not available or not applicable for that row — never a silently
 substituted default. A JSON-array column with `[]` means "computed, and
 the list is genuinely empty" (not missing).
 
-## `data/processed/structures.csv` — ONE ROW PER PRIMARY SELECTED STRUCTURE
+## MASTER `data/processed/structures.csv` — ONE ROW PER STAGE 2 CANDIDATE (2072)
+
+One row per (project receptor x PDB entry x polymer entity). Nothing is
+removed for coverage, resolution, R-free, method, taxonomy or fusion status.
+Where a value cannot be computed (no Stage 3B coordinate data) it is left
+blank/NA and `coordinate_data_status` says why.
+
+| Column | Type | Meaning / missing semantics |
+|---|---|---|
+| `uniprot_id`, `nr_code`, `common_name`, `group` | str | Receptor identity |
+| `pdb_id`, `polymer_entity_id`, `entity_id` | str | Candidate identity (unique key: uniprot_id + pdb_id + polymer_entity_id) |
+| `experimental_method` | str | Deposited method(s) |
+| `has_stage3b_coordinate_data` | bool | True for the 1840 X-ray + LBD-overlap candidates whose coordinates were audited |
+| `coordinate_data_status` | str | `COORDINATE_DATA_AVAILABLE` / `NO_STAGE3B_COORDINATE_DATA` |
+| `method_is_xray`, `mapping_overlaps_lbd` | bool | The two conditions for entering Stage 3B |
+| `lbd_mapping_category` | str | Stage 3A construct-vs-LBD mapping category |
+| `standardized_lbd_start/_end/_length` | int | Standardized LBD (UniProt canonical, 1-based inclusive) |
+| `construct_lbd_mapping_coverage` | float | Sequence-mapping coverage of the LBD (not observed coordinates) |
+| `positive_occupancy_lbd_coverage` | float | Observed (occupancy > 0) Ca fraction of the standardized LBD, at the representative instance; **blank if no coordinate data** |
+| `bfactor_usable_lbd_coverage` | float | Same with finite B-factor; blank if no coordinate data |
+| `coverage_ge_080/090/095/099`, `coverage_eq_100` | nullable bool | Threshold flags on `positive_occupancy_lbd_coverage`; **blank (NA), not False,** when no coordinate data |
+| `candidate_instance_count` | int | Measured instances for this candidate; blank if none |
+| `resolution` / `resolution_project_range_status` | float / str | Angstrom; status `PASS_PROJECT_RANGE`, `ULTRAHIGH_LT_1_8`, `TOO_LOW_RESOLUTION_GT_3_5`, `MISSING` |
+| `r_free` / `r_free_status` | float / str | Status `PASS_ALL_LE_0_30`, `FAIL_ALL_GT_0_30`, `MISSING` |
+| `identity_class` | str | `HUMAN_OR_HUMAN_DERIVED`, `NON_HUMAN_ORTHOLOG`, `ANCESTRAL_RECONSTRUCTION`, `NON_HUMAN_CONSTRUCT`, `AMBIGUOUS_IDENTITY` |
+| `fusion_or_chimera` | bool | Multi-UniProt fusion/chimera entity |
+| `taxonomy_audit_status` | str | Stage 2.1 audit status for unusual-taxonomy entities; blank otherwise |
+| `previous_primary_qc_member` | bool | Member of the historical strict 1382-row subset |
+| `previous_primary_exclusion_reasons_json` | JSON list | All reasons it was outside that subset (`[]` for members) — informational, NOT a deletion reason |
+| `representative_instance_id`, `label_asym_id`, `auth_asym_id` | str | Deterministic representative instance (coverage-first rule); blank if no coordinate data |
+| `ligand_state` | str | `APO`/`HOLO`/`AMBIGUOUS` for all 1840 coordinate-assessable candidates (independent of coverage/resolution/R-free); `NOT_ASSESSABLE_NO_COORDINATE_DATA` for the 232 others (never APO) |
+| `functional_ligand_component_ids` | JSON list | CCD IDs classified `FUNCTIONAL_LBD_LIGAND`; blank when not assessable |
+| `ligand_annotation_status` | str | `RESOLVED`/`REVIEW_NEEDED`, or `NOT_ASSESSABLE_NO_COORDINATE_DATA` |
+| `mmcif_sha256` | str | SHA256 of the cached mmCIF; blank if no coordinate data |
+| `in_completeness_95/99/80_sensitivity`, `in_ultrahigh_resolution_sensitivity`, `in_no_fusion_sensitivity` | bool | Sensitivity-view membership from the earlier selection audit |
+
+## `data/processed/lbd_residue_bfactors_all.parquet` — ALL corrected Stage 3B residue observations
+
+771,542 rows = 3159 measured instance/models x every standardized-LBD
+position. No filtering by coverage, resolution, R-free, or subset
+membership; unmapped and unobserved positions are explicit rows. Raw
+values, **no normalization**.
+
+Columns: everything in the Stage 3B observation table (`uniprot_id, nr_code,
+common_name, pdb_id, polymer_entity_id, entity_id, instance_id,
+label_asym_id, auth_asym_id, model_num, canonical_uniprot_position,
+lbd_relative_position, entity_label_seq_id, is_construct_mapped,
+ca_atom_record_count, *_json altloc/occupancy/B/auth-numbering arrays,
+mapping_status, observation_status, ca_record_present, ca_positive_occupancy,
+ca_bfactor_usable, zero_occupancy_only_ca, positive_occupancy_ca_altloc_count`;
+Stage 3B.1 positive-occupancy semantics unchanged — `ca_positive_occupancy`
+is "observed"; zero-occupancy placeholders are not) plus:
+
+| Column | Meaning |
+|---|---|
+| `canonical_residue_name` | 3-letter code from the UniProt canonical sequence |
+| `is_representative_instance` | True for the deterministic representative instance of a candidate (use to get one instance per receptor x PDB x entity) |
+| `selected_ca_altloc` / `selected_ca_occupancy` / `selected_ca_b_iso_or_equiv` | One recommended raw Ca record (highest occupancy; ties: blank altloc, then A, then lexicographic; B magnitude never used); null if no occupancy>0 finite-B record |
+
+The legacy alias column `ca_modeled` (== `ca_record_present`) is dropped to
+avoid confusion with the "observed" definition. Join to the master on
+`instance_id` = `representative_instance_id` or on (uniprot_id, pdb_id,
+polymer_entity_id).
+
+## `data/processed/structures_primary_qc_subset.csv` (historical strict subset) — "structures.csv — ONE ROW PER PRIMARY SELECTED STRUCTURE"
 
 One row per (project receptor x PDB entry x receptor polymer entity) that
 passed every primary-selection rule, at its single deterministically
@@ -29,7 +103,7 @@ selected representative instance. 1382 rows.
 | `instance_id` | str | Selected representative instance ID | `{pdb_id}.{label_asym_id}` |
 | `label_asym_id` | str | mmCIF chain identifier (canonical, use this for programmatic joins) | |
 | `auth_asym_id` | str | Author/PDB-deposited chain identifier (provenance/display only — never join on this) | |
-| `experimental_method` | str | Deposited experimental method | always `X-RAY DIFFRACTION` in this table by primary policy |
+| `experimental_method` | str | Deposited experimental method | always `X-RAY DIFFRACTION` in the strict subset by primary policy |
 | `resolution` | float | Reported crystallographic resolution | Angstrom; always in [1.8, 3.5] in this table |
 | `r_free` | float | Reported R-free | fraction; always <= 0.30 in this table |
 | `standardized_lbd_start` / `_end` / `_length` | int | Standardized LBD interval (UniProt canonical, 1-based inclusive; PROSITE PS51843-backed, "Option A") | residue positions / residue count |
@@ -79,10 +153,13 @@ Shares most QC columns with `structures.csv` (same meaning). Distinct columns:
 `RFREE_MISSING`, `NON_HUMAN_ORTHOLOG`, `ANCESTRAL_RECONSTRUCTION`,
 `AMBIGUOUS_IDENTITY`, `NON_HUMAN_CONSTRUCT`.
 
-## `data/manifests/final_ligand_annotations.csv` — ONE ROW PER PRIMARY STRUCTURE
+## `data/manifests/final_ligand_annotations.csv` — ONE ROW PER COORDINATE CANDIDATE
 
-1382 rows, one per `structures.csv` row (joins on `pdb_id` + `uniprot_id` +
-`polymer_entity_id`).
+1840 rows, one per master `structures.csv` row with `has_stage3b_coordinate_data`
+(joins on `pdb_id` + `uniprot_id` + `polymer_entity_id`); the 1382 strict-subset
+rows are unchanged from the earlier release. Contact geometry uses observed
+(occupancy > 0) LBD atoms of the representative instance; if none exist the row is
+`AMBIGUOUS`/`REVIEW_NEEDED` rather than APO.
 
 | Column | Type | Meaning |
 |---|---|---|
@@ -95,11 +172,11 @@ Shares most QC columns with `structures.csv` (same meaning). Distinct columns:
 
 ## `data/manifests/final_nonpolymer_inventory.csv` — EVERY NONPOLYMER COMPONENT/INSTANCE
 
-180,049 rows (176,347 of them water, enumerated once per PDB entry —
+262,783 rows for all 1777 coordinate-candidate PDB entries (257,731 of them water, enumerated once per PDB entry —
 water's classification never depends on geometry or receptor context, see
 `scripts/utils/nonpolymer_classification.py`). All other nonpolymer
 instances are evaluated once per primary representative-receptor context
-in that PDB (relevant for the 38 primary-set PDB entries with two primary
+in that PDB (relevant for PDB entries with two primary
 representative receptors, e.g. RXR heterodimer partners, where the same
 physical molecule can be functionally relevant to one receptor's LBD and
 irrelevant to the other's).
@@ -129,7 +206,7 @@ only; never alters primary selection).
 | `minimum_distance_to_receptor_lbd` | float | Angstrom |
 | `contacting_receptor_canonical_positions_json` | JSON list | Canonical LBD positions contacted |
 
-## `data/processed/final_lbd_residue_map.parquet` — CANONICAL RESIDUE HANDOFF
+## `data/processed/final_lbd_residue_map_primary_qc_subset.parquet` (historical strict subset) — "final_lbd_residue_map.parquet — CANONICAL RESIDUE HANDOFF"
 
 338,012 rows: one row per (primary representative structure x standardized
 LBD position), including every position with no observed coordinate — the

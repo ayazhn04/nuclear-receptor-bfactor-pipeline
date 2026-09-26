@@ -29,8 +29,10 @@ RELEASE_JSON = MANIFESTS_DIR / "final_data_infrastructure_release.json"
 
 CHECKSUM_FILES = {
     "structures_csv": PROCESSED_DIR / "structures.csv",
+    "lbd_residue_bfactors_all_parquet": PROCESSED_DIR / "lbd_residue_bfactors_all.parquet",
+    "structures_primary_qc_subset_csv": PROCESSED_DIR / "structures_primary_qc_subset.csv",
+    "final_lbd_residue_map_primary_qc_subset_parquet": PROCESSED_DIR / "final_lbd_residue_map_primary_qc_subset.parquet",
     "excluded_structures_csv": PROCESSED_DIR / "excluded_structures.csv",
-    "final_lbd_residue_map_parquet": PROCESSED_DIR / "final_lbd_residue_map.parquet",
     "final_ligand_annotations_csv": MANIFESTS_DIR / "final_ligand_annotations.csv",
     "final_polymer_partner_annotations_csv": MANIFESTS_DIR / "final_polymer_partner_annotations.csv",
     "team_handoff_md": PROJECT_ROOT / "TEAM_HANDOFF.md",
@@ -56,11 +58,15 @@ def git_head_commit() -> str:
 
 
 def main() -> None:
-    structures = pd.read_csv(PROCESSED_DIR / "structures.csv", dtype={"pdb_id": str})
+    structures = pd.read_csv(PROCESSED_DIR / "structures_primary_qc_subset.csv", dtype={"pdb_id": str})
+    master = pd.read_csv(PROCESSED_DIR / "structures.csv", dtype={"pdb_id": str})
     excluded = pd.read_csv(PROCESSED_DIR / "excluded_structures.csv", dtype={"pdb_id": str})
     rep_selection = pd.read_csv(MANIFESTS_DIR / "final_representative_instance_selection.csv", dtype={"pdb_id": str})
-    residue_map = pd.read_parquet(PROCESSED_DIR / "final_lbd_residue_map.parquet")
-    ligand = pd.read_csv(MANIFESTS_DIR / "final_ligand_annotations.csv", dtype={"pdb_id": str})
+    residue_map = pd.read_parquet(PROCESSED_DIR / "final_lbd_residue_map_primary_qc_subset.parquet")
+    residue_all = pd.read_parquet(PROCESSED_DIR / "lbd_residue_bfactors_all.parquet")
+    ligand_all = pd.read_csv(MANIFESTS_DIR / "final_ligand_annotations.csv", dtype={"pdb_id": str})
+    strict_keys = set(zip(structures["pdb_id"], structures["uniprot_id"], structures["polymer_entity_id"]))
+    ligand = ligand_all[[k in strict_keys for k in zip(ligand_all["pdb_id"], ligand_all["uniprot_id"], ligand_all["polymer_entity_id"])]]
     download_manifest = pd.read_csv(MANIFESTS_DIR / "mmcif_download_manifest.csv", dtype={"pdb_id": str})
     counts_by_receptor = pd.read_csv(MANIFESTS_DIR / "final_counts_by_receptor.csv")
 
@@ -79,8 +85,17 @@ def main() -> None:
 
     release = {
         "project": "Comprehensive B-factor Flexibility Profiling Across Nuclear Receptor Families",
-        "release_name": "final-data-infrastructure-v1",
+        "release_name": "final-data-infrastructure-v2-master-inventory",
         "validated_receptors": 48,
+        "dataset_model": "structures.csv is the MASTER inventory (QC criteria are metadata/analysis flags, never deletion criteria); primary_qc_subset files are a historical strict analysis view",
+        "nested_views": {
+            "stage2_discovery_candidates_master_structures_csv": len(master),
+            "xray_lbd_overlap_coordinate_audit_candidates": int(master["has_stage3b_coordinate_data"].sum()),
+            "previous_strict_primary_qc_subset": int(master["previous_primary_qc_member"].sum()),
+        },
+        "master_receptors_represented": int(master["uniprot_id"].nunique()),
+        "lbd_residue_bfactors_all_rows": len(residue_all),
+        "lbd_residue_bfactors_all_instance_models": int(residue_all["instance_id"].nunique()),
         "primary_structure_count": len(structures),
         "primary_pdb_count": int(structures["pdb_id"].nunique()),
         "receptors_represented_in_primary": int(structures["uniprot_id"].nunique()),
@@ -90,6 +105,13 @@ def main() -> None:
             "HOLO": int((ligand["ligand_state"] == "HOLO").sum()),
             "AMBIGUOUS": int((ligand["ligand_state"] == "AMBIGUOUS").sum()),
         },
+        "ligand_state_counts_all_coordinate_candidates": {
+            "APO": int((ligand_all["ligand_state"] == "APO").sum()),
+            "HOLO": int((ligand_all["ligand_state"] == "HOLO").sum()),
+            "AMBIGUOUS": int((ligand_all["ligand_state"] == "AMBIGUOUS").sum()),
+            "NOT_ASSESSABLE_NO_COORDINATE_DATA": int((~master["has_stage3b_coordinate_data"]).sum()),
+        },
+        "ligand_annotation_review_needed_count_all_coordinate_candidates": int((ligand_all["ligand_annotation_status"] == "REVIEW_NEEDED").sum()),
         "excluded_candidate_count": len(excluded),
         "exclusion_reason_counts": exclusion_reason_counts,
         "sensitivity_set_counts": {
