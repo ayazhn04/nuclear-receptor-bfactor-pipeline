@@ -21,6 +21,43 @@ value was not available or not applicable for that row — never a silently
 substituted default. A JSON-array column with `[]` means "computed, and
 the list is genuinely empty" (not missing).
 
+## Analysis Foundation tables (`data/analysis/`) — normalized, descriptive
+
+> Raw B-factor averages are descriptive QC only; cross-structure biological
+> comparisons use within-instance normalized B-factors. QC thresholds remain
+> metadata: nothing here removes a candidate from the master. Common
+> cross-receptor alignment is pending professor confirmation.
+
+Normalization: `z = (B - instance mean) / instance population SD (ddof=0)` over
+rows with a usable, finite `selected_ca_b_iso_or_equiv`, independently per
+coordinate instance (all 3159). Quartiles use linear interpolation.
+
+### `normalized_lbd_bfactors_all.parquet` (771,542 rows)
+All columns of `lbd_residue_bfactors_all.parquet` unchanged, plus:
+
+| Column | Meaning |
+|---|---|
+| `instance_n_usable_b` | usable B rows in this instance |
+| `instance_raw_b_mean/_median/_sd/_q25/_q75/_iqr` | raw B summaries of the instance (QC only; SD population; SD/IQR blank if < 2 usable) |
+| `b_factor_z` | within-instance z; blank if B missing or instance not normalizable |
+| `normalization_status` | instance level: `NORMALIZED`, `NOT_NORMALIZABLE_FEWER_THAN_2_USABLE_B`, `NOT_NORMALIZABLE_ZERO_SD` |
+| `row_normalization_status` | row level: `Z_COMPUTED`, `B_MISSING`, `INSTANCE_NOT_NORMALIZABLE` |
+
+### `instance_bfactor_summary.csv` (3159 rows, one per instance/model)
+Identifiers (`uniprot_id, nr_code, common_name, group, pdb_id, polymer_entity_id, entity_id, instance_id, label_asym_id, auth_asym_id, model_num, is_representative_instance`); `standardized_lbd_length, n_lbd_rows, n_ca_usable, n_ca_missing, usable_fraction`; raw B `raw_b_mean/median/sd/q25/q75/iqr` (**QC only**); z `z_mean/sd/median/q25/q75/iqr` (`z_mean` ~ 0, `z_sd` ~ 1 by construction); `fraction_z_gt_1_5`, `fraction_z_lt_minus_1_5` (of usable rows); `normalization_status`; joined candidate metadata `resolution, r_free, positive_occupancy_lbd_coverage, ligand_state, ligand_annotation_status, previous_primary_qc_member, identity_class, fusion_or_chimera`. Blank = not computable.
+
+### Added to master `structures.csv` (eight descriptive columns; blank for the 232 non-coordinate candidates)
+`representative_n_ca_usable`, `representative_raw_b_mean_qc`, `representative_raw_b_median_qc`, `representative_raw_b_sd_qc`, `representative_raw_b_iqr_qc` (QC only), `representative_fraction_z_gt_1_5`, `representative_fraction_z_lt_minus_1_5`, `representative_normalization_status` — taken from the candidate's representative instance.
+
+### `pdb_position_bfactor_profiles.parquet`
+One row per receptor x PDB x canonical UniProt position with an observed z, from representative instances only. `b_factor_z` (median across contributing candidates), `n_contributing_representative_candidates`, `canonical_residue_name`, `ligand_state` (`APO`/`HOLO`/`AMBIGUOUS`), `ligand_state_conflict`, `contributing_ligand_states_json`, `resolution`, `any_previous_primary_qc_member`, `max_positive_occupancy_lbd_coverage` (metadata for downstream filtering).
+
+### `receptor_position_flexibility_profiles.parquet`
+One row per receptor x standardized-LBD position (receptors with >= 1 normalizable PDB). `n_pdb_entries_total_for_receptor`, `n_pdb_entries_observed_at_position`, `observation_fraction`; `mean_z, median_z, sd_z (ddof=1, blank if n<2), q25_z, q75_z, iqr_z, min_z, max_z` over PDB-level observations; `apo_*`/`holo_*` (`n, mean_z, median_z, sd_z`); `apo_holo_mean_delta` / `apo_holo_median_delta` = HOLO - APO, only when both n > 0. AMBIGUOUS is in neither group. No significance tests.
+
+### `receptor_flexibility_summary.csv` (48 rows)
+`n_master_candidates, n_coordinate_candidates, n_unique_pdbs, n_unique_coordinate_pdbs, n_normalizable_pdbs, median_lbd_observation_fraction` (median `usable_fraction` of representative instances), `n_positions_with_observation, median_position_median_z, iqr_of_position_median_z, fraction_positions_median_z_gt_1_0, fraction_positions_median_z_lt_minus_1_0` (over positions with >= 1 observation; descriptive, not the clustering feature matrix), `n_positions_ge3/ge5/ge10_pdbs`, `apo_pdb_count, holo_pdb_count, ambiguous_pdb_count` (PDB level), `profile_status` (`PROFILE_AVAILABLE`, `PROFILE_AVAILABLE_LOW_N` (<3 PDBs), `NO_NORMALIZABLE_INSTANCE`, `NO_COORDINATE_DATA`, `NO_STRUCTURES_IN_MASTER`). Numeric fields are blank, never invented, for receptors without structures.
+
 ## MASTER `data/processed/structures.csv` — ONE ROW PER STAGE 2 CANDIDATE (2072)
 
 One row per (project receptor x PDB entry x polymer entity). Nothing is

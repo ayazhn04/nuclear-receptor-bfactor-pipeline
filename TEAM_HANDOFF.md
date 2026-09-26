@@ -65,6 +65,35 @@ Supporting files:
 (get residue-level data; join on `instance_id`, use `is_representative_instance`
 to get one instance per receptor x PDB x entity).**
 
+## Analysis Foundation (normalized data, descriptive only)
+
+> **Raw B-factor averages are descriptive QC only. Cross-structure biological
+> comparisons must use within-instance normalized B-factors. QC thresholds
+> remain metadata filters: no structure is removed from the master by this
+> stage. The common cross-receptor alignment is still pending professor
+> confirmation — do not pivot UniProt positions across receptors.**
+
+Three layers — keep them distinct:
+
+| Layer | Files |
+|---|---|
+| **RAW / MASTER DATA** | `data/processed/structures.csv` (2072 candidates), `data/processed/lbd_residue_bfactors_all.parquet` (771,542 residue rows) |
+| **NORMALIZED ANALYSIS FOUNDATION** (`data/analysis/`) | `normalized_lbd_bfactors_all.parquet`, `instance_bfactor_summary.csv`, `pdb_position_bfactor_profiles.parquet`, `receptor_position_flexibility_profiles.parquet`, `receptor_flexibility_summary.csv` |
+| **HISTORICAL STRICT-QC VIEW** (untouched) | `data/processed/structures_primary_qc_subset.csv`, `data/processed/final_lbd_residue_map_primary_qc_subset.parquet` |
+
+How it is built (`scripts/32_build_normalization_foundation.py`, reports by `scripts/33_build_analysis_foundation_reports.py`):
+
+1. **Normalization unit = one coordinate instance.** `z = (B - mean) / SD` with population SD (`ddof=0`), using the already-selected raw Ca B-factor (`selected_ca_b_iso_or_equiv`) on rows where `ca_bfactor_usable` is True. Applied to **all 3159 instances** — no filtering by coverage, resolution, R-free, ligand state or strict-subset membership. Missing LBD residues stay as explicit rows with missing B and missing z (`row_normalization_status`). An instance with <2 usable B or zero SD is kept and marked `NOT_NORMALIZABLE_*` (currently one: `1YNW.D`, RXR-alpha DBD-only entity, 0 usable B).
+2. **`instance_bfactor_summary.csv`** — one row per instance with usable counts, raw-B summaries (**QC only, not a flexibility measure**), z summaries and structure metadata.
+3. **`structures.csv`** gained eight descriptive `representative_*` columns (usable count, raw B mean/median/SD/IQR for QC, fraction z > 1.5 / < -1.5, normalization status) taken from each candidate's deterministic representative instance. Blank for the 232 candidates without coordinate data. Mean z is deliberately not added (0 by construction). Master membership is unchanged (2072 rows).
+4. **`pdb_position_bfactor_profiles.parquet`** — representative instances only; one observation per receptor x PDB x canonical UniProt position. If several representative candidates of one PDB contribute (e.g. two entities of the same receptor) their z-values are reduced by **median** (`n_contributing_representative_candidates`), so a PDB never counts twice. PDB-level `ligand_state` is the shared state; disagreeing candidates give `AMBIGUOUS` with `ligand_state_conflict=True` and the states in `contributing_ligand_states_json`.
+5. **`receptor_position_flexibility_profiles.parquet`** — one row per receptor x canonical position over the standardized LBD (all positions kept, unobserved ones with n = 0): distribution of PDB-level z (SD across PDB entries uses `ddof=1`, blank when n < 2) plus separate APO and HOLO descriptive fields and `apo_holo_*_delta` (only when both states are observed). AMBIGUOUS/not-assessable states are never assigned to APO or HOLO. **No significance tests were run.**
+6. **`receptor_flexibility_summary.csv`** — all 48 receptors; receptors with no structures remain explicit rows (`profile_status` = `NO_STRUCTURES_IN_MASTER` / `NO_COORDINATE_DATA`) with blank numeric fields. Low-N receptors are flagged (`PROFILE_AVAILABLE_LOW_N`), never dropped.
+
+Reports: `reports/tables/analysis_foundation_missingness_report.md` (coverage/missingness/APO-HOLO balance), `reports/tables/raw_bfactor_resolution_diagnostic.csv` (raw B vs resolution; descriptive only, never used to alter z), `reports/tables/common_lbd_alignment_readiness.md` (why identical UniProt integers across receptors are not homologous, what exists, and the decision requested from the professor).
+
+**Not done yet (by design):** PCA/UMAP/t-SNE, clustering, subfamily tests, any cross-receptor common-position model. Role D's functional-site files were not touched.
+
 ## How residues are numbered — read this before joining anything
 
 ```
