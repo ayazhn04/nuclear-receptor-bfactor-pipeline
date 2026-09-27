@@ -1,0 +1,287 @@
+uniprot_id,structural_segment,source_pdb,source_method
+O00482,H1,4ONI,structural_alignment_transfer <- P04150
+O00482,H11,4ONI,structural_alignment_transfer <- P04150
+O00482,H12,4ONI,structural_alignment_transfer <- P04150
+O00482,H3,4ONI,structural_alignment_transfer <- P04150
+O00482,H5,4ONI,structural_alignment_transfer <- P04150
+O00482,H7,4ONI,structural_alignment_transfer <- P04150
+O00482,beta_sheet,4ONI,structural_alignment_transfer <- P04150
+O75469,H10,4S0T,structural_alignment_transfer <- P37231
+O75469,H12,4S0T,structural_alignment_transfer <- P03372
+O75469,H3,4S0T,structural_alignment_transfer <- P03372
+O75469,H5,4S0T,structural_alignment_transfer <- P03372
+O75469,H6,4S0T,structural_alignment_transfer <- P03372
+O75469,H7,4S0T,structural_alignment_transfer <- P37231
+O75469,beta_sheet,4S0T,structural_alignment_transfer <- P03372
+O95718,H1,6LN4,structural_alignment_transfer <- P22736
+O95718,H11,6LN4,structural_alignment_transfer <- P22736
+O95718,H12,6LN4,structural_alignment_transfer <- P22736
+O95718,H5,6LN4,structural_alignment_transfer <- P11473
+O95718,H6,6LN4,structural_alignment_transfer <- P37231
+O95718,H7,6LN4,structural_alignment_transfer <- P37231
+O95718,beta_sheet,6LN4,structural_alignment_transfer <- P22736
+P03372,H1,6CHW,own_canonical_template
+P03372,H11,6CHW,own_canonical_template
+P03372,H12,6CHW,own_canonical_template
+P03372,H3,6CHW,own_canonical_template
+P03372,H4,7QPP (via P11473),own_canonical_template
+P03372,H5,1FM6 (via P37231) (via P11473),own_canonical_template
+P03372,H6,1FM6 (via P37231),own_canonical_template
+P03372,beta_sheet,6CHW,own_canonical_template
+P04150,H1,1M2Z,own_canonical_template
+P04150,H11,6CHW (via P03372) (via P11473),own_canonical_template
+P04150,H12,1M2Z,own_canonical_template
+P04150,H3,1M2Z,own_canonical_template
+P04150,H5,1M2Z,own_canonical_template
+P04150,H6,1FM6 (via P37231),own_canonical_template
+P04150,H7,1M2Z,own_canonical_template
+P04150,beta_sheet,6CHW (via P03372) (via P37231),own_canonical_template
+P06401,H1,1A28,structural_alignment_transfer <- P11473
+P06401,H11,1A28,structural_alignment_transfer <- P11473
+P06401,H4,1A28,structural_alignment_transfer <- P11473
+P06401,H5,1A28,structural_alignment_transfer <- P11473
+P06401,H6,1A28,structural_alignment_transfer <- P37231
+P06401,H9,1A28,structural_alignment_transfer <- P11473
+P08235,H1,2AAX,structural_alignment_transfer <- P11473
+P08235,H11,2AAX,structural_alignment_transfer <- P11473
+P08235,H4,2AAX,structural_alignment_transfer <- P11473
+P08235,H5,2AAX,structural_alignment_transfer <- P11473
+P08235,H6,2AAX,structural_alignment_transfer <- P37231
+P08235,H9,2AAX,structural_alignment_transfer <- P11473
+P10275,H1,5JJM,structural_alignment_transfer <- P37231
+P10275,H11,5JJM,structural_alignment_transfer <- P11473
+P10275,H12,5JJM,structural_alignment_transfer <- P37231
+P10275,H3,5JJM,structural_alignment_transfer <- P37231
+P10275,H5,5JJM,structural_alignment_transfer <- P37231
+P10275,H6,5JJM,structural_alignment_transfer <- P37231
+P10275,H7,5JJM,structural_alignment_transfer <- P37231
+P10275,beta_sheet,5JJM,structural_alignment_transfer <- P37231
+P10276,H1,9GFE,structural_alignment_transfer <- P03372
+P10276,H11,9GFE,structural_alignment_transfer <- P03372
+P10276,H12,9GFE,structural_alignment_transfer <- P03372
+P10276,H2,9GFE,structural_alignment_transfer <- P37231
+P10276,H3,9GFE,structural_alignment_transfer <- P03372
+P10276,H5,9GFE,structural_alignment_transfer <- P03372
+P10276,H7,9GFE,structural_alignment_transfer <- P04150
+P10276,beta_sheet,9GFE,structural_alignment_transfer <- P03372
+P10588,H11,8C5L,structural_alignment_transfer <- P03372
+P10588,H12,8C5L,structural_alignment_transfer <- P03372
+P10588,H3,8C5L,structural_alignment_transfer <- P03372
+P10588,H5,8C5L,structural_alignment_transfer <- P03372
+P10588,H7,8C5L,structural_alignment_transfer <- P04150
+P10826,H1,4DM6,structural_alignment_transfer <- P04150
+P10826,H10,4DM6,structural_alignment_transfer <- P37231
+P10826,H11,4DM6,structural_alignment_transfer <- P04150
+P10826,H12,4DM6,structural_alignment_transfer <- P04150
+P10826,H2,4DM6,structural_alignment_transfer <- P37231
+P10826,H3,4DM6,structural_alignment_transfer <- P04150
+P10826,H5,4DM6,structural_alignment_transfer <- P04150
+P10826,H7,4DM6,structural_alignment_transfer <- P04150
+P10826,beta_sheet,4DM6,structural_alignment_transfer <- P04150
+P10827,H1,2H79,structural_alignment_transfer <- P11473
+P10827,H11,2H79,structural_alignment_transfer <- P11473
+P10827,H2,2H79,structural_alignment_transfer <- P37231
+P10827,H3,2H79,structural_alignment_transfer <- P11473
+P10827,H4,2H79,structural_alignment_transfer <- P11473
+P10827,H5,2H79,structural_alignment_transfer <- P11473
+P10828,H1,2J4A,structural_alignment_transfer <- P37231
+P10828,H12,2J4A,structural_alignment_transfer <- P37231
+P10828,H2,2J4A,structural_alignment_transfer <- P37231
+P10828,H3,2J4A,structural_alignment_transfer <- P37231
+P10828,H5,2J4A,structural_alignment_transfer <- P37231
+P10828,H6,2J4A,structural_alignment_transfer <- P37231
+P10828,H7,2J4A,structural_alignment_transfer <- P37231
+P10828,beta_sheet,2J4A,structural_alignment_transfer <- P37231
+P11473,H1,7QPP,own_canonical_template
+P11473,H10,8IQN,own_canonical_template
+P11473,H11,6CHW (via P03372),own_canonical_template
+P11473,H12,8IQN,own_canonical_template
+P11473,H3,8IQN,own_canonical_template
+P11473,H4,7QPP,own_canonical_template
+P11473,H5,1FM6 (via P37231),own_canonical_template
+P11473,H9,7QPP,own_canonical_template
+P11473,beta_sheet,8IQN,own_canonical_template
+P11474,H1,3K6P,structural_alignment_transfer <- P37231
+P11474,H11,3K6P,structural_alignment_transfer <- P22736
+P11474,H12,3K6P,structural_alignment_transfer <- P37231
+P11474,H3,3K6P,structural_alignment_transfer <- P37231
+P11474,H5,3K6P,structural_alignment_transfer <- P37231
+P11474,H6,3K6P,structural_alignment_transfer <- P37231
+P11474,H7,3K6P,structural_alignment_transfer <- P37231
+P11474,beta_sheet,3K6P,structural_alignment_transfer <- P37231
+P13631,H1,2LBD,structural_alignment_transfer <- P04150
+P13631,H11,2LBD,structural_alignment_transfer <- P04150
+P13631,H12,2LBD,structural_alignment_transfer <- P04150
+P13631,H3,2LBD,structural_alignment_transfer <- P04150
+P13631,H5,2LBD,structural_alignment_transfer <- P04150
+P13631,H6,2LBD,structural_alignment_transfer <- P04150
+P13631,H7,2LBD,structural_alignment_transfer <- P04150
+P13631,beta_sheet,2LBD,structural_alignment_transfer <- P04150
+P19793,H1,1FM9,structural_alignment_transfer <- P37231
+P19793,H11,1FM9,structural_alignment_transfer <- P04150
+P19793,H12,1FM9,structural_alignment_transfer <- P37231
+P19793,H3,1FM9,structural_alignment_transfer <- P37231
+P19793,H5,1FM9,structural_alignment_transfer <- P37231
+P19793,H6,1FM9,structural_alignment_transfer <- P37231
+P19793,H7,1FM9,structural_alignment_transfer <- P37231
+P19793,beta_sheet,1FM9,structural_alignment_transfer <- P37231
+P20393,H1,8D8I,structural_alignment_transfer <- P03372
+P20393,H11,8D8I,structural_alignment_transfer <- P03372
+P20393,H3,8D8I,structural_alignment_transfer <- P03372
+P20393,H5,8D8I,structural_alignment_transfer <- P03372
+P20393,H6,8D8I,structural_alignment_transfer <- P03372
+P20393,H7,8D8I,structural_alignment_transfer <- P04150
+P20393,beta_sheet,8D8I,structural_alignment_transfer <- P03372
+P22736,H1,3V3Q,own_canonical_template
+P22736,H11,6CHW (via P03372) (via P11473),own_canonical_template
+P22736,H12,3V3Q,own_canonical_template
+P22736,H3,8IQN (via P11473),own_canonical_template
+P22736,H4,7QPP (via P11473),own_canonical_template
+P22736,beta_sheet,3V3Q,own_canonical_template
+P24468,H1,3CJW,structural_alignment_transfer <- P03372
+P24468,H11,3CJW,structural_alignment_transfer <- P03372
+P24468,H12,3CJW,structural_alignment_transfer <- P03372
+P24468,H3,3CJW,structural_alignment_transfer <- P03372
+P24468,H5,3CJW,structural_alignment_transfer <- P03372
+P24468,H7,3CJW,structural_alignment_transfer <- P04150
+P28702,H1,1UHL,structural_alignment_transfer <- P11473
+P28702,H11,1UHL,structural_alignment_transfer <- P11473
+P28702,H4,1UHL,structural_alignment_transfer <- P11473
+P28702,H5,1UHL,structural_alignment_transfer <- P11473
+P28702,H9,1UHL,structural_alignment_transfer <- P11473
+P35398,H1,1N83,structural_alignment_transfer <- P03372
+P35398,H11,1N83,structural_alignment_transfer <- P03372
+P35398,H12,1N83,structural_alignment_transfer <- P03372
+P35398,H2,1N83,structural_alignment_transfer <- P37231
+P35398,H3,1N83,structural_alignment_transfer <- P03372
+P35398,H5,1N83,structural_alignment_transfer <- P03372
+P35398,H7,1N83,structural_alignment_transfer <- P04150
+P35398,beta_sheet,1N83,structural_alignment_transfer <- P03372
+P37231,H1,1FM6,own_canonical_template
+P37231,H10,1FM6,own_canonical_template
+P37231,H12,1FM6,own_canonical_template
+P37231,H2,1FM6,own_canonical_template
+P37231,H3,1FM6,own_canonical_template
+P37231,H5,1FM6,own_canonical_template
+P37231,H6,1FM6,own_canonical_template
+P37231,H7,1FM6,own_canonical_template
+P37231,beta_sheet,6CHW (via P03372),own_canonical_template
+P41235,H1,3FS1,structural_alignment_transfer <- P11473
+P41235,H11,3FS1,structural_alignment_transfer <- P11473
+P41235,H4,3FS1,structural_alignment_transfer <- P11473
+P41235,H5,3FS1,structural_alignment_transfer <- P11473
+P41235,H9,3FS1,structural_alignment_transfer <- P11473
+P43354,H1,1OVL,structural_alignment_transfer <- P11473
+P43354,H11,1OVL,structural_alignment_transfer <- P11473
+P43354,H4,1OVL,structural_alignment_transfer <- P11473
+P43354,H5,1OVL,structural_alignment_transfer <- P11473
+P43354,H9,1OVL,structural_alignment_transfer <- P11473
+P48443,H1,7A79,structural_alignment_transfer <- P11473
+P48443,H11,7A79,structural_alignment_transfer <- P11473
+P48443,H3,7A79,structural_alignment_transfer <- P11473
+P48443,H4,7A79,structural_alignment_transfer <- P11473
+P48443,H5,7A79,structural_alignment_transfer <- P11473
+P48443,H6,7A79,structural_alignment_transfer <- P37231
+P48443,H9,7A79,structural_alignment_transfer <- P11473
+P49116,H11,3P0U,structural_alignment_transfer <- P11473
+P49116,H4,3P0U,structural_alignment_transfer <- P11473
+P49116,H5,3P0U,structural_alignment_transfer <- P11473
+P49116,H9,3P0U,structural_alignment_transfer <- P11473
+P51449,H1,5NTW,structural_alignment_transfer <- P03372
+P51449,H12,5NTW,structural_alignment_transfer <- P03372
+P51449,H2,5NTW,structural_alignment_transfer <- P37231
+P51449,H3,5NTW,structural_alignment_transfer <- P03372
+P51449,H5,5NTW,structural_alignment_transfer <- P03372
+P51449,H7,5NTW,structural_alignment_transfer <- P04150
+P51449,beta_sheet,5NTW,structural_alignment_transfer <- P03372
+P55055,H1,3L0E,structural_alignment_transfer <- P03372
+P55055,H10,3L0E,structural_alignment_transfer <- P37231
+P55055,H12,3L0E,structural_alignment_transfer <- P03372
+P55055,H3,3L0E,structural_alignment_transfer <- P03372
+P55055,H5,3L0E,structural_alignment_transfer <- P03372
+P55055,H6,3L0E,structural_alignment_transfer <- P03372
+P55055,H7,3L0E,structural_alignment_transfer <- P37231
+P55055,beta_sheet,3L0E,structural_alignment_transfer <- P03372
+P62508,H1,9KND,structural_alignment_transfer <- P37231
+P62508,H10,9KND,structural_alignment_transfer <- P37231
+P62508,H11,9KND,structural_alignment_transfer <- P11473
+P62508,H12,9KND,structural_alignment_transfer <- P37231
+P62508,H3,9KND,structural_alignment_transfer <- P37231
+P62508,H5,9KND,structural_alignment_transfer <- P37231
+P62508,H6,9KND,structural_alignment_transfer <- P37231
+P62508,beta_sheet,9KND,structural_alignment_transfer <- P37231
+Q03181,H11,5U3Q,structural_alignment_transfer <- P04150
+Q03181,H12,5U3Q,structural_alignment_transfer <- P04150
+Q03181,H3,5U3Q,structural_alignment_transfer <- P04150
+Q03181,H5,5U3Q,structural_alignment_transfer <- P04150
+Q03181,H6,5U3Q,structural_alignment_transfer <- P04150
+Q03181,H7,5U3Q,structural_alignment_transfer <- P04150
+Q03181,beta_sheet,5U3Q,structural_alignment_transfer <- P04150
+Q07869,H11,6LXA,structural_alignment_transfer <- P11473
+Q07869,H3,6LXA,structural_alignment_transfer <- P11473
+Q07869,H4,6LXA,structural_alignment_transfer <- P11473
+Q07869,H5,6LXA,structural_alignment_transfer <- P11473
+Q07869,H9,6LXA,structural_alignment_transfer <- P11473
+Q13133,H1,3IPU,structural_alignment_transfer <- P37231
+Q13133,H11,3IPU,structural_alignment_transfer <- P04150
+Q13133,H12,3IPU,structural_alignment_transfer <- P37231
+Q13133,H3,3IPU,structural_alignment_transfer <- P37231
+Q13133,H5,3IPU,structural_alignment_transfer <- P37231
+Q13133,H6,3IPU,structural_alignment_transfer <- P37231
+Q13133,H7,3IPU,structural_alignment_transfer <- P37231
+Q13133,beta_sheet,3IPU,structural_alignment_transfer <- P37231
+Q13285,H1,1ZDT,structural_alignment_transfer <- P04150
+Q13285,H11,1ZDT,structural_alignment_transfer <- P04150
+Q13285,H12,1ZDT,structural_alignment_transfer <- P04150
+Q13285,H3,1ZDT,structural_alignment_transfer <- P04150
+Q13285,H5,1ZDT,structural_alignment_transfer <- P04150
+Q13285,H7,1ZDT,structural_alignment_transfer <- P04150
+Q13285,beta_sheet,1ZDT,structural_alignment_transfer <- P04150
+Q14541,H1,1LV2,structural_alignment_transfer <- P37231
+Q14541,H10,1LV2,structural_alignment_transfer <- P37231
+Q14541,H12,1LV2,structural_alignment_transfer <- P37231
+Q14541,H3,1LV2,structural_alignment_transfer <- P37231
+Q14541,H5,1LV2,structural_alignment_transfer <- P37231
+Q14541,H6,1LV2,structural_alignment_transfer <- P37231
+Q14541,beta_sheet,1LV2,structural_alignment_transfer <- P37231
+Q14994,H1,1XVP,structural_alignment_transfer <- P37231
+Q14994,H11,1XVP,structural_alignment_transfer <- P03372
+Q14994,H12,1XVP,structural_alignment_transfer <- P37231
+Q14994,H2,1XVP,structural_alignment_transfer <- P37231
+Q14994,H3,1XVP,structural_alignment_transfer <- P37231
+Q14994,H5,1XVP,structural_alignment_transfer <- P37231
+Q14994,H6,1XVP,structural_alignment_transfer <- P37231
+Q14994,H7,1XVP,structural_alignment_transfer <- P37231
+Q14994,beta_sheet,1XVP,structural_alignment_transfer <- P37231
+Q14995,H11,4N73,structural_alignment_transfer <- P04150
+Q14995,H3,4N73,structural_alignment_transfer <- P04150
+Q14995,H5,4N73,structural_alignment_transfer <- P04150
+Q14995,H6,4N73,structural_alignment_transfer <- P04150
+Q14995,H7,4N73,structural_alignment_transfer <- P04150
+Q14995,beta_sheet,4N73,structural_alignment_transfer <- P04150
+Q92731,H1,3OLL,structural_alignment_transfer <- P11473
+Q92731,H11,3OLL,structural_alignment_transfer <- P11473
+Q92731,H3,3OLL,structural_alignment_transfer <- P11473
+Q92731,H4,3OLL,structural_alignment_transfer <- P11473
+Q92731,H5,3OLL,structural_alignment_transfer <- P11473
+Q92731,H6,3OLL,structural_alignment_transfer <- P37231
+Q92731,H9,3OLL,structural_alignment_transfer <- P11473
+Q92731,beta_sheet,3OLL,structural_alignment_transfer <- P11473
+Q96RI1,H1,5Q0P,structural_alignment_transfer <- P37231
+Q96RI1,H11,5Q0P,structural_alignment_transfer <- P04150
+Q96RI1,H12,5Q0P,structural_alignment_transfer <- P37231
+Q96RI1,H2,5Q0P,structural_alignment_transfer <- P37231
+Q96RI1,H3,5Q0P,structural_alignment_transfer <- P37231
+Q96RI1,H5,5Q0P,structural_alignment_transfer <- P37231
+Q96RI1,H6,5Q0P,structural_alignment_transfer <- P37231
+Q96RI1,H7,5Q0P,structural_alignment_transfer <- P37231
+Q9Y466,H10,4XAJ,structural_alignment_transfer <- P37231
+Q9Y466,H12,4XAJ,structural_alignment_transfer <- P04150
+Q9Y466,H3,4XAJ,structural_alignment_transfer <- P04150
+Q9Y466,H5,4XAJ,structural_alignment_transfer <- P04150
+Q9Y466,H6,4XAJ,structural_alignment_transfer <- P04150
+Q9Y466,H7,4XAJ,structural_alignment_transfer <- P04150
+Q9Y5X4,H11,4LOG,structural_alignment_transfer <- P11473
+Q9Y5X4,H3,4LOG,structural_alignment_transfer <- P11473
+Q9Y5X4,H4,4LOG,structural_alignment_transfer <- P11473
+Q9Y5X4,H9,4LOG,structural_alignment_transfer <- P11473

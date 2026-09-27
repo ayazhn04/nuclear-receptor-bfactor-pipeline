@@ -1,0 +1,7 @@
+uniprot_id,nr_code,pdb_id,chain,role,resolution,coverage,segments_supported,source_publication
+P11473,NR1I1,7QPP,A,PRIMARY,1.52,0.83165,"H4,H9",PMC5081507; Rochel et al. 2000
+P11473,NR1I1,8IQN,A,COMPLEMENTARY,1.639,0.824916,"H10,H12,H3,H4,H9,beta_sheet",PMC5081507; PMC5081507 (VDR LBD dynamics); Rochel et al. 2000; Rochel et al. 2000 (Mol Cell 5:173)
+P37231,NR1C3,1FM6,B,PRIMARY,2.1,1.0,"H10,H12,H2,H3,H5,H6,H7",PPARgamma antagonist/MD literature; functional_site_definitions.csv af2_coactivator_groove (Nolte et al. 1998); functional_site_definitions.csv ligand_pocket (Nolte et al. 1998)
+P03372,NR3A1,6CHW,A,PRIMARY,1.89,1.0,"H11,H12,H3",External literature; External literature (hERalpha dimer-interface studies); functional_site_definitions.csv af2_coactivator_groove (Shiau et al. 1998)
+P04150,NR3C1,1M2Z,A,PRIMARY,2.5,1.0,"H12,H3,H5,H7",functional_site_definitions.csv af2_coactivator_groove (Bledsoe et al. 2002); functional_site_definitions.csv ligand_pocket (Bledsoe et al. 2002)
+P22736,NR4A1,3V3Q,B,PRIMARY,2.22,0.995763,H12,nr_functional_features.csv h12_segment (UniProt:P22736)

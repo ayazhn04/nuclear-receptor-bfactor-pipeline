@@ -271,15 +271,20 @@ def test_receptor_matrix_uses_median_primary():
 
 # ---------------------------------------------------------------- determinism
 
-def test_v2_pipeline_deterministic_and_idempotent():
-    files = [SEGMENT_MAP, TEMPLATE_CSV, SCORES_CSV, TRANSFER_CSV, REF_CSV, VALIDATION_V2_CSV, RECEPTOR_MATRIX_MEDIAN]
-    for f in files:
-        _require(f)
-    before = {f: _sha(f) for f in files}
-    for script in ["39_select_structural_references.py", "40_build_canonical_templates.py",
-                   "41_structural_align_and_transfer.py", "42_rebuild_segment_map_v2.py",
-                   "43_validate_and_rebuild_features_v2.py"]:
-        r = subprocess.run([sys.executable, f"scripts/{script}"], cwd=PROJECT_ROOT, capture_output=True, text=True)
-        assert r.returncode == 0, r.stderr[-3000:]
-    after = {f: _sha(f) for f in files}
+def test_v2_reference_structures_deterministic_and_idempotent():
+    """Only script 39 (reference-structure selection, Part 2 -- unchanged
+    input/logic between v2 and v3) is re-run here. Scripts 40-43 (v2's
+    single-landmark templates/transfer/segment-map/feature builders) are
+    NOT re-run: they write to the same output filenames v3's scripts 44-47
+    now own (nr_lbd_structural_segment_map.csv, lbd_structural_alignment_scores.csv,
+    lbd_structural_label_transfer.csv, and the downstream feature/matrix
+    tables), and re-running the superseded v2 builders would silently
+    overwrite the live v3 pipeline's output with v2 content. v3's own
+    idempotency (scripts 44-47) is covered by
+    test_structural_alignment_v3.py::test_v3_pipeline_deterministic_and_idempotent."""
+    _require(REF_CSV)
+    before = _sha(REF_CSV)
+    r = subprocess.run([sys.executable, "scripts/39_select_structural_references.py"], cwd=PROJECT_ROOT, capture_output=True, text=True)
+    assert r.returncode == 0, r.stderr[-3000:]
+    after = _sha(REF_CSV)
     assert before == after
