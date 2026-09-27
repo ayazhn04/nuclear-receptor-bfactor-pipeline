@@ -1,0 +1,21 @@
+{
+  "primary_features": [
+    "H1",
+    "H11",
+    "H12",
+    "H3",
+    "H5",
+    "H7",
+    "beta_sheet",
+    "loop_H3_H5"
+  ],
+  "n_primary_features": 8,
+  "n_cohort_total": 42,
+  "n_cohort_included": 29,
+  "cohort_observed_fraction_rule": 0.6,
+  "primary_support_threshold": 0.5,
+  "missingness_before_imputation": 0.125,
+  "n_complete_case_receptors": 11,
+  "complete_case_status": "ADEQUATE",
+  "knn_k": 5
+}

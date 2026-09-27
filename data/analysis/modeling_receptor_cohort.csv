@@ -1,0 +1,43 @@
+uniprot_id,nr_code,group,n_selected_features,n_observed_features,observed_fraction,included_primary,exclusion_reason
+O00482,NR5A2,Nutritional sensors,8,8,1.0,True,
+O75469,NR1I2,Nutritional sensors,8,6,0.75,True,
+O95718,NR3B2,Nutritional sensors,8,6,0.75,True,
+P03372,NR3A1,Steroid hormone receptors,8,7,0.875,True,
+P04150,NR3C1,Steroid hormone receptors,8,8,1.0,True,
+P06401,NR3C3,Steroid hormone receptors,8,1,0.125,False,"Observed only 1/8 (12%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+P08235,NR3C2,Steroid hormone receptors,8,1,0.125,False,"Observed only 1/8 (12%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+P10275,NR3C4,Steroid hormone receptors,8,8,1.0,True,
+P10276,NR1B1,Steroid hormone receptors,8,8,1.0,True,
+P10588,NR2F6,Orphan receptors,8,6,0.75,True,
+P10826,NR1B2,Steroid hormone receptors,8,7,0.875,True,
+P10827,NR1A1,Steroid hormone receptors,8,3,0.375,False,"Observed only 3/8 (38%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+P10828,NR1A2,Steroid hormone receptors,8,7,0.875,True,
+P11473,NR1I1,Steroid hormone receptors,8,4,0.5,False,"Observed only 4/8 (50%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+P11474,NR3B1,Nutritional sensors,8,8,1.0,True,
+P13631,NR1B3,Steroid hormone receptors,8,8,1.0,True,
+P19793,NR2B1,Nutritional sensors,8,8,1.0,True,
+P20393,NR1D1,Nutritional sensors,8,7,0.875,True,
+P22736,NR4A1,Nutritional sensors,8,5,0.625,True,
+P24468,NR2F2,Orphan receptors,8,7,0.875,True,
+P28702,NR2B2,Nutritional sensors,8,1,0.125,False,"Observed only 1/8 (12%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+P35398,NR1F1,Nutritional sensors,8,8,1.0,True,
+P37231,NR1C3,Nutritional sensors,8,7,0.875,True,
+P41235,NR2A1,Nutritional sensors,8,1,0.125,False,"Observed only 1/8 (12%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+P43354,NR4A2,Nutritional sensors,8,1,0.125,False,"Observed only 1/8 (12%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+P48443,NR2B3,Nutritional sensors,8,2,0.25,False,"Observed only 2/8 (25%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+P49116,NR2C2,Nutritional sensors,8,0,0.0,False,"No observed value for any of the primary selected segments (e.g. no usable structural alignment to any anchor template) -- analysis-cohort exclusion only, not removed from structures.csv."
+P51449,NR1F3,Nutritional sensors,8,7,0.875,True,
+P55055,NR1H2,Nutritional sensors,8,7,0.875,True,
+P62508,NR3B3,Nutritional sensors,8,6,0.75,True,
+Q03181,NR1C2,Nutritional sensors,8,7,0.875,True,
+Q07869,NR1C1,Nutritional sensors,8,1,0.125,False,"Observed only 1/8 (12%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+Q13133,NR1H3,Nutritional sensors,8,8,1.0,True,
+Q13285,NR5A1,Nutritional sensors,8,8,1.0,True,
+Q14541,NR2A2,Nutritional sensors,8,6,0.75,True,
+Q14994,NR1I3,Nutritional sensors,8,8,1.0,True,
+Q14995,NR1D2,Nutritional sensors,8,5,0.625,True,
+Q15466,NR0B2,Orphan receptors,8,0,0.0,False,"No observed value for any of the primary selected segments (e.g. no usable structural alignment to any anchor template) -- analysis-cohort exclusion only, not removed from structures.csv."
+Q92731,NR3A2,Steroid hormone receptors,8,3,0.375,False,"Observed only 3/8 (38%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."
+Q96RI1,NR1H4,Nutritional sensors,8,7,0.875,True,
+Q9Y466,NR2E1,Orphan receptors,8,5,0.625,True,
+Q9Y5X4,NR2E3,Orphan receptors,8,1,0.125,False,"Observed only 1/8 (12%) of the primary selected segments, below the 60% inclusion rule -- analysis-cohort exclusion only, not removed from structures.csv."

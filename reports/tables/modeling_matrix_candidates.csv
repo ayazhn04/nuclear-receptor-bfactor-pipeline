@@ -1,0 +1,5 @@
+candidate_set,support_threshold,n_features,feature_names_json,n_receptors_total,n_receptors_with_complete_data,total_matrix_missingness_fraction,mean_per_receptor_missingness_fraction,median_per_receptor_missingness_fraction,n_receptors_ge50pct_features_observed,n_receptors_ge70pct_features_observed,n_receptors_ge80pct_features_observed,n_receptors_eq100pct_features_observed
+A,0.7,2,"[""H1"", ""H3""]",42,27,0.20238095238095233,0.20238095238095238,0.0,40,27,27,27
+B,0.6,6,"[""H1"", ""H12"", ""H3"", ""H5"", ""beta_sheet"", ""loop_H3_H5""]",42,19,0.3015873015873016,0.3015873015873016,0.16666666666666663,31,24,24,19
+C,0.5,8,"[""H1"", ""H11"", ""H12"", ""H3"", ""H5"", ""H7"", ""beta_sheet"", ""loop_H3_H5""]",42,11,0.3392857142857143,0.3392857142857143,0.1875,30,26,21,11
+D,0.4,14,"[""H1"", ""H11"", ""H12"", ""H3"", ""H5"", ""H6"", ""H7"", ""beta_sheet"", ""loop_H11_H12"", ""loop_H1_H3"", ""loop_H3_H5"", ""loop_H5_beta_sheet"", ""loop_H6_H7"", ""loop_H7_H11""]",42,5,0.435374149659864,0.43537414965986393,0.3571428571428571,29,20,11,5

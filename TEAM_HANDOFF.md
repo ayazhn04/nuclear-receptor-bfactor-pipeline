@@ -245,11 +245,14 @@ touching normalization, aggregation, or the alignment algorithm itself:
 | beta_sheet | 23 | 11 (26%) | 27 (64%) |
 
 H3, H5, H7, H10/H11, H12 all have broad coverage where coordinates exist, and
-none of H5/H7/H10 are near zero -- **acceptance criteria PASSED**. H8 remains
-genuinely `0%`: no anchor structure, reference structure, or complementary
-structure anywhere in the 42-receptor cohort was found with curatable
-secondary-structure evidence for it; this is reported honestly rather than
-forced. Some v3 numbers (H1, H3, H4, H12) moved slightly *down* from a pre-fix
+none of H5/H7/H10 are near zero -- **acceptance criteria PASSED**. H8 is at
+`0%`: no anchor structure, reference structure, or complementary structure
+anywhere in the 42-receptor cohort was found with curatable secondary-
+structure evidence for it. **This is a mapping-support statement, not a
+biological claim** -- H8 was not confidently resolved by the current
+structural-template mapping and is therefore retained as unresolved/not
+available for the primary feature matrix, never fabricated to fill the gap.
+Some v3 numbers (H1, H3, H4, H12) moved slightly *down* from a pre-fix
 in-session draft of the v3 numbers, even though template curation only grew
 -- this is the boundary-fabrication fix (item 3 above) correctly rejecting
 assignments that a raw min/max fallback had over-reached on (most visibly for
@@ -288,6 +291,40 @@ commits `9f15062` and `abd2257` respectively and are never rewritten.
 | `reports/tables/structural_segment_validation_v2.csv` / `_v3.csv` | Anchor-receptor segment-by-segment validation: alignment support, secondary-structure support, functional-site consistency |
 | `reports/tables/segment_feature_missingness.md` | Missingness policy audit (candidate imputation strategies reported, none chosen); v3: 0 segments >=90%, 0 >=80%, 1 >=70%, 7 >=50% of the 48-receptor cohort |
 | `reports/figures/alignment_qc/*.png` | Coverage heatmap, PDB-support heatmap, missingness summary, 5 anchor-receptor schematics (v1 `04_example_...`, v2 `v2_schematic_...`, v3 `v3_schematic_...` -- all visually inspected for correct N->C order and functional-site-marker placement), segment-Z distributions |
+
+## Segment-Level Modeling (PCA / UMAP / clustering, scripts `48`-`54`)
+
+> Continues from commit `7d280bc` (v3 structural-segment mapping) with
+> supervisor approval to proceed to unsupervised modeling. **This stage
+> never modifies** `structures.csv`, normalization, or the structural-
+> segment mapping -- the five upstream files it reads are hash-frozen in
+> `data/analysis/modeling_frozen_input_hashes.json` and checked unchanged
+> by `tests/test_modeling_pipeline.py`. Receptor group/subfamily labels are
+> **never** used to fit PCA, UMAP, imputation, or any clustering algorithm
+> -- only joined back in afterward for visualization.
+
+An objective, non-hard-coded feature-support audit
+(`reports/tables/modeling_feature_support.csv`) selected an 8-feature
+primary set (7 core segments + `loop_H3_H5`, all with >=50% support among
+the 42 coordinate receptors); a 60%-observed cohort rule
+(`data/analysis/modeling_receptor_cohort.csv`) then included 29 of those
+42 receptors (13 excluded with explicit reasons, including VDR itself --
+its own template lacks H5/H7/H11). PCA (8 features -> 5 PCs for 80%
+variance) and a full clustering battery (K-means, Ward, GMM, Spectral,
+DBSCAN; validated with Silhouette/Davies-Bouldin/Calinski-Harabasz/Gap
+Statistic/AIC-BIC/ARI) were run on the resulting matrix, with sensitivity
+checks across imputation method, feature matrix, and PCA- vs feature-space
+clustering. **Result: the evidence does not support a robust discrete
+cluster structure** -- silhouette scores are modest, the single
+best-silhouette solution is a degenerate 1-vs-28 outlier split, DBSCAN
+never finds more than one density group, and cross-method agreement is
+only moderate -- consistent with (not proof of) a continuum. Full details,
+every number, and all limitations are in
+`reports/tables/modeling_summary.md`; per-stage tables/figures are under
+`reports/tables/modeling_*.csv`, `reports/tables/clustering_*.csv`,
+`reports/tables/pca_variance.csv`, `reports/tables/umap_stability.csv`, and
+`reports/figures/modeling/`. No hypothesis test (apo/holo, subfamily,
+functional-site, disease) was run in this stage -- explicitly deferred.
 
 ## Historical strict QC subset — how `structures_primary_qc_subset.csv` was defined
 

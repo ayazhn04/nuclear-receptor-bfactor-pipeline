@@ -14,3 +14,5 @@ dependencies:
   - matplotlib
   - jupyterlab
   - pytest
+  - scikit-learn
+  - umap-learn

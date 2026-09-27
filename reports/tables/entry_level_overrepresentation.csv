@@ -1,0 +1,43 @@
+uniprot_id,nr_code,group,included_primary,n_pdb_entries
+P37231,NR1C3,Nutritional sensors,True,379
+P03372,NR3A1,Steroid hormone receptors,True,351
+P51449,NR1F3,Nutritional sensors,True,162
+P19793,NR2B1,Nutritional sensors,True,94
+P10275,NR3C4,Steroid hormone receptors,True,92
+Q96RI1,NR1H4,Nutritional sensors,True,91
+O75469,NR1I2,Nutritional sensors,True,80
+Q07869,NR1C1,Nutritional sensors,False,79
+Q03181,NR1C2,Nutritional sensors,True,55
+P11473,NR1I1,Steroid hormone receptors,False,48
+Q92731,NR3A2,Steroid hormone receptors,False,39
+P62508,NR3B3,Nutritional sensors,True,33
+P10828,NR1A2,Steroid hormone receptors,True,33
+P04150,NR3C1,Steroid hormone receptors,True,31
+P08235,NR3C2,Steroid hormone receptors,False,29
+P55055,NR1H2,Nutritional sensors,True,25
+O00482,NR5A2,Nutritional sensors,True,25
+P22736,NR4A1,Nutritional sensors,True,21
+P06401,NR3C3,Steroid hormone receptors,False,19
+P10276,NR1B1,Steroid hormone receptors,True,12
+P13631,NR1B3,Steroid hormone receptors,True,11
+P10827,NR1A1,Steroid hormone receptors,False,10
+P10826,NR1B2,Steroid hormone receptors,True,8
+P28702,NR2B2,Nutritional sensors,False,7
+P41235,NR2A1,Nutritional sensors,False,7
+Q13133,NR1H3,Nutritional sensors,True,7
+Q14995,NR1D2,Nutritional sensors,True,6
+Q13285,NR5A1,Nutritional sensors,True,6
+P43354,NR4A2,Nutritional sensors,False,6
+P11474,NR3B1,Nutritional sensors,True,5
+P35398,NR1F1,Nutritional sensors,True,3
+P49116,NR2C2,Nutritional sensors,False,2
+P48443,NR2B3,Nutritional sensors,False,2
+Q14994,NR1I3,Nutritional sensors,True,2
+P20393,NR1D1,Nutritional sensors,True,2
+O95718,NR3B2,Nutritional sensors,True,2
+P24468,NR2F2,Orphan receptors,True,1
+Q14541,NR2A2,Nutritional sensors,True,1
+P10588,NR2F6,Orphan receptors,True,1
+Q9Y466,NR2E1,Orphan receptors,True,1
+Q9Y5X4,NR2E3,Orphan receptors,False,1
+Q15466,NR0B2,Orphan receptors,False,0
