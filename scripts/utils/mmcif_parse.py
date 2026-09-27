@@ -155,6 +155,63 @@ def get_unobserved_residues(mmcif_dict: dict[str, Any]) -> list[dict]:
     return rows
 
 
+def get_secondary_structure_ranges(mmcif_dict: dict[str, Any]) -> list[dict]:
+    """Deposited secondary-structure ranges from `_struct_conf` (helices,
+    conf_type_id starting with 'HELX') and `_struct_sheet_range` (beta
+    strands). No DSSP binary is installed in this environment; these are
+    the depositor-supplied secondary-structure annotations already present
+    in every mmCIF file (typically DSSP- or PROMOTIF-derived at deposition
+    time by the depositing software/PDB pipeline) — the mmCIF secondary-
+    structure evidence this project's DSSP-equivalent evidence source.
+
+    Returns rows keyed by label_asym_id / beg_label_seq_id / end_label_seq_id
+    (label numbering, matching this project's canonical residue mapping),
+    with a normalized `sse_type` of 'HELIX' or 'SHEET'.
+    """
+    rows: list[dict] = []
+    if "_struct_conf.id" in mmcif_dict:
+        conf_type = as_list(mmcif_dict.get("_struct_conf.conf_type_id", []))
+        n = len(conf_type)
+        asym = as_list(mmcif_dict.get("_struct_conf.beg_label_asym_id", [""] * n))
+        beg = as_list(mmcif_dict.get("_struct_conf.beg_label_seq_id", [""] * n))
+        end = as_list(mmcif_dict.get("_struct_conf.end_label_seq_id", [""] * n))
+        helix_id = as_list(mmcif_dict.get("_struct_conf.pdbx_PDB_helix_id", [""] * n))
+        helix_class = as_list(mmcif_dict.get("_struct_conf.pdbx_PDB_helix_class", [""] * n))
+        for i in range(n):
+            if not conf_type[i].upper().startswith("HELX"):
+                continue
+            b, e = to_int_or_none(beg[i]), to_int_or_none(end[i])
+            if b is None or e is None:
+                continue
+            rows.append(
+                {
+                    "sse_type": "HELIX", "label_asym_id": asym[i], "beg_label_seq_id": min(b, e),
+                    "end_label_seq_id": max(b, e), "sse_id": helix_id[i], "helix_class": helix_class[i],
+                }
+            )
+    if "_struct_sheet_range.id" in mmcif_dict:
+        asym = as_list(mmcif_dict.get("_struct_sheet_range.beg_label_asym_id", []))
+        n = len(asym)
+        end_asym = as_list(mmcif_dict.get("_struct_sheet_range.end_label_asym_id", [""] * n))
+        beg = as_list(mmcif_dict.get("_struct_sheet_range.beg_label_seq_id", [""] * n))
+        end = as_list(mmcif_dict.get("_struct_sheet_range.end_label_seq_id", [""] * n))
+        sheet_id = as_list(mmcif_dict.get("_struct_sheet_range.sheet_id", [""] * n))
+        range_id = as_list(mmcif_dict.get("_struct_sheet_range.id", [""] * n))
+        for i in range(n):
+            if asym[i] != end_asym[i]:
+                continue  # malformed/cross-chain range; skip rather than guess
+            b, e = to_int_or_none(beg[i]), to_int_or_none(end[i])
+            if b is None or e is None:
+                continue
+            rows.append(
+                {
+                    "sse_type": "SHEET", "label_asym_id": asym[i], "beg_label_seq_id": min(b, e),
+                    "end_label_seq_id": max(b, e), "sse_id": f"{sheet_id[i]}.{range_id[i]}", "helix_class": "",
+                }
+            )
+    return rows
+
+
 def get_entity_types(mmcif_dict: dict[str, Any]) -> dict[str, str]:
     """{entity_id: type} from `_entity`, e.g. {'1': 'polymer', '2':
     'non-polymer', '3': 'water'}."""

@@ -110,6 +110,54 @@ in `lbd_residue_bfactors_all.parquet` purely for cross-referencing against the
 original PDB file — never for joining across structures. Every table in
 this handoff is keyed, or can be joined, on `canonical_uniprot_position`.
 
+## Structural-Segment Alignment (canonical H1-H12/beta-sheet/loop segments)
+
+> **Supervisor-approved hierarchy: raw B -> per-instance Z-score -> chain/instance
+> -> PDB entry (MEDIAN) -> canonical structural segment -> receptor (MEDIAN,
+> primary; MEAN, sensitivity) -> feature matrix. UniProt residue numbers are
+> receptor-specific and are never pivoted directly across receptors for
+> comparison -- canonical structural segments (H1-H12, beta-sheet, loops) are
+> the cross-receptor coordinate. Segment-level features are PRIMARY;
+> residue-level aligned profiles are SECONDARY. Coverage is metadata, not a
+> flexibility feature. Missing structural segments are `NaN`, never `0`
+> (`0` is a real, meaningful mean-flexibility value). PCA/UMAP/t-SNE/clustering
+> have NOT been run.**
+
+### STOP-CONDITION finding (reported per the supervisor's explicit instruction)
+
+The conservative topology algorithm (`scripts/utils/segment_topology.py`) could
+confidently anchor only **H1** (37/48 receptors), **H12** (39/48) and a single
+unambiguous **beta_sheet** (23/48) region. It could NOT confidently resolve
+individual interior helices H2-H11 in any of the 5 anchor receptors (VDR,
+PPARgamma, ESR1, GR, NR4A1) -- real, receptor-specific helix insertions/splits
+make the interior helix count deviate from the idealized 12-helix topology in
+most receptors, so the algorithm correctly refuses to force a label rather than
+assume "the nth detected helix is Hn." Only GR/MR/PR (closely related steroid
+receptors) happened to match the canonical interior count exactly and got a
+full moderate-confidence H2-H11 labelling. **This was verified to be genuine
+loop-length variation, not a merge-tolerance artefact** (gap-length histogram
+checked before accepting the finding). See `reports/tables/structural_segment_validation.csv`
+and `reports/tables/segment_feature_missingness.md` for the full picture, and
+`data/analysis/nr_lbd_structural_segment_map.csv`'s `evidence_notes` for every
+receptor's specific reasoning.
+
+### Files (`data/analysis/`, plus two `reports/tables/` reports and QC figures)
+
+| File | Contents |
+|---|---|
+| `receptor_dssp_consensus.parquet` | Per-receptor consensus secondary structure (HELIX/SHEET/COIL) at every observed canonical LBD position, from mmCIF `_struct_conf`/`_struct_sheet_range` (no DSSP binary is installed; this is the depositor-supplied secondary-structure evidence already in every cached mmCIF file) |
+| `nr_lbd_structural_segment_map.csv` | Canonical UniProt position -> structural segment, with `assignment_confidence`/`assignment_status`/`evidence_notes` per position |
+| `pdb_segment_coverage.parquet` | receptor x PDB x segment: expected/observed residues, coverage (metadata) |
+| `pdb_segment_flexibility_features.parquet` | receptor x PDB x segment: z-score summaries (from the already-approved PDB-median position profiles) + coverage + ligand state |
+| `receptor_segment_flexibility_profiles.parquet` | receptor x segment: median/mean-of-entry-median z, APO/HOLO descriptive splits (no significance tests) |
+| `receptor_segment_feature_matrix_median.parquet` / `_mean.parquet` | receptor x segment PRIMARY / sensitivity feature matrices (missing = NaN) |
+| `pdb_segment_feature_matrix_median.parquet` / `_mean.parquet` | entry-level equivalents |
+| `receptor_segment_coverage_matrix.parquet` | receptor x segment coverage (kept separate from flexibility matrices) |
+| `nr_lbd_common_alignment_map.parquet` | SECONDARY per-residue common-position map, built only from the same conservative segment assignments (gaps explicit, never forced) |
+| `reports/tables/structural_segment_validation.csv` | Anchor-receptor segment-by-segment validation |
+| `reports/tables/segment_feature_missingness.md` | Missingness policy audit (candidate imputation strategies reported, none chosen) |
+| `reports/figures/alignment_qc/*.png` | Coverage heatmap, PDB-support heatmap, missingness summary, 5 anchor-receptor schematics, segment-Z distributions |
+
 ## Historical strict QC subset — how `structures_primary_qc_subset.csv` was defined
 
 A structure was in the strict subset (`previous_primary_qc_member == True`) only if **all** of:

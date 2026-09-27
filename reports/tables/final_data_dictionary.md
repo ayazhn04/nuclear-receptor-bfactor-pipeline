@@ -58,6 +58,33 @@ One row per receptor x standardized-LBD position (receptors with >= 1 normalizab
 ### `receptor_flexibility_summary.csv` (48 rows)
 `n_master_candidates, n_coordinate_candidates, n_unique_pdbs, n_unique_coordinate_pdbs, n_normalizable_pdbs, median_lbd_observation_fraction` (median `usable_fraction` of representative instances), `n_positions_with_observation, median_position_median_z, iqr_of_position_median_z, fraction_positions_median_z_gt_1_0, fraction_positions_median_z_lt_minus_1_0` (over positions with >= 1 observation; descriptive, not the clustering feature matrix), `n_positions_ge3/ge5/ge10_pdbs`, `apo_pdb_count, holo_pdb_count, ambiguous_pdb_count` (PDB level), `profile_status` (`PROFILE_AVAILABLE`, `PROFILE_AVAILABLE_LOW_N` (<3 PDBs), `NO_NORMALIZABLE_INSTANCE`, `NO_COORDINATE_DATA`, `NO_STRUCTURES_IN_MASTER`). Numeric fields are blank, never invented, for receptors without structures.
 
+## Structural-Segment Alignment tables (`data/analysis/`) -- canonical H1-H12/beta-sheet/loop segments
+
+> UniProt residue numbers are receptor-specific and are never pivoted across
+> receptors directly. Canonical structural segments are the cross-receptor
+> coordinate; segment-level features are PRIMARY, the per-residue
+> `nr_lbd_common_alignment_map.parquet` is SECONDARY. Coverage columns are
+> metadata, never a flexibility feature. Missing segment cells in the feature
+> matrices are `NaN`, never `0`.
+
+### `receptor_dssp_consensus.parquet`
+`uniprot_id, nr_code, canonical_uniprot_position, canonical_residue_name, n_pdb_observed, n_dssp_observed` (instances), `n_helix_votes/n_sheet_votes/n_coil_votes, consensus_dssp (HELIX/SHEET/COIL), consensus_fraction, helix_fraction, sheet_fraction, coil_fraction`. Evidence source: mmCIF `_struct_conf`/`_struct_sheet_range` (no DSSP binary installed).
+
+### `nr_lbd_structural_segment_map.csv`
+One row per (receptor, standardized-LBD position). `structural_segment` (e.g. `H1`, `beta_sheet`, `loop_H1_H2`, or `""` if not resolved), `structural_class` (`HELIX`/`SHEET`/`LOOP`/`LOOP_UNCERTAIN`/`NO_EVIDENCE`), `segment_order` (fixed canonical N->C ordering, blank if unresolved), `assignment_method`, `assignment_confidence` (`HIGH`/`MODERATE`/`NONE`), `assignment_status` (`ASSIGNED_HIGH_CONFIDENCE`/`ASSIGNED_MODERATE_CONFIDENCE`/`AMBIGUOUS`/`UNASSIGNED`/`SEGMENT_NOT_PRESENT`), `evidence_notes` (always populated, explains the call). Read with `keep_default_na=False` -- an empty `structural_segment` string round-trips to `NaN` otherwise.
+
+### `pdb_segment_coverage.parquet` / `pdb_segment_flexibility_features.parquet`
+Keyed by `uniprot_id, pdb_id, structural_segment`. Coverage: `n_expected_residues` (segment length for that receptor), `n_observed_residues`, `segment_coverage`, `coverage_ge_050/080/090` (metadata flags). Features additionally: `mean_z/median_z/sd_z/q25_z/q75_z/iqr_z` (from the approved PDB-median position profiles, grouped by segment), `ligand_state` (`AMBIGUOUS` if contributing positions disagree), `n_contributing_instances`.
+
+### `receptor_segment_flexibility_profiles.parquet`
+Keyed by `uniprot_id, structural_segment`. `n_pdb_entries_total` (all coordinate PDBs for the receptor) vs `n_pdb_entries_with_segment`; `pdb_support_fraction`; `median_segment_coverage`; `median_of_entry_median_z` (**primary**), `mean_of_entry_median_z`, `sd_of_entry_median_z`, `q25/q75/iqr`; `median_of_entry_mean_z`/`mean_of_entry_mean_z` (sensitivity); `apo_n_pdb/apo_median_of_entry_median_z/apo_mean_of_entry_median_z` and the `holo_*` equivalents (no significance testing).
+
+### Feature matrices
+`receptor_segment_feature_matrix_median.parquet` (**primary**) / `_mean.parquet` (sensitivity): rows = 42 receptors with any structural data, columns = the 22 structural segments actually realized by the data (of the 25-slot canonical vocabulary; see the STOP-CONDITION finding above for why H2-H11 are mostly absent), values = receptor-level z summary, `NaN` where unavailable. `pdb_segment_feature_matrix_median.parquet`/`_mean.parquet`: same at PDB-entry granularity. `receptor_segment_coverage_matrix.parquet`: same shape, values are `median_segment_coverage` (coverage, kept separate from the flexibility matrices).
+
+### `nr_lbd_common_alignment_map.parquet` (SECONDARY)
+`uniprot_id, canonical_uniprot_position, common_alignment_position` (segment-block-encoded: `100 x segment_rank + fractional position within the segment`; never a bare UniProt integer), `structural_segment, assignment_status`. Only positions with a named segment are included; gaps are simply absent rows, never interpolated across ambiguous regions.
+
 ## MASTER `data/processed/structures.csv` — ONE ROW PER STAGE 2 CANDIDATE (2072)
 
 One row per (project receptor x PDB entry x polymer entity). Nothing is

@@ -1,0 +1,119 @@
+uniprot_id,nr_code,structural_segment,structural_class,start_uniprot,end_uniprot,n_residues,supporting_pdbs,median_consensus_fraction,assignment_confidence,validation_notes
+O00482,NR5A2,H1,HELIX,302,310,9,25,1.0,HIGH,First detected helix starts 2 residue(s) after lbd_start (300).
+O00482,NR5A2,beta_sheet,SHEET,402,412,11,25,0.96,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 5 after."
+O00482,NR5A2,H12,HELIX,530,538,9,25,1.0,HIGH,Last detected helix ends 1 residue(s) before lbd_end (539).
+O75469,NR1I2,H1,HELIX,146,162,17,80,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (146).
+O75469,NR1I2,H12,HELIX,422,430,9,80,1.0,HIGH,Last detected helix ends 3 residue(s) before lbd_end (433).
+O95718,NR3B2,H1,HELIX,211,219,9,1,1.0,HIGH,First detected helix starts 3 residue(s) after lbd_start (208).
+O95718,NR3B2,beta_sheet,SHEET,299,307,9,2,1.0,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 6 after."
+O95718,NR3B2,H12,HELIX,422,432,11,2,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (432).
+P03372,NR3A1,H1,HELIX,311,322,12,351,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (311).
+P03372,NR3A1,beta_sheet,SHEET,401,411,11,351,0.9920212765957447,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 6 after."
+P03372,NR3A1,H12,HELIX,537,546,10,344,0.9959128065395095,HIGH,Last detected helix ends 1 residue(s) before lbd_end (547).
+P04150,NR3C1,H1,HELIX,531,539,9,29,1.0,MODERATE,First detected helix starts 7 residues after lbd_start (524).
+P04150,NR3C1,H12,HELIX,750,758,9,28,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (758).
+P06401,NR3C3,H1,HELIX,685,694,10,19,1.0,MODERATE,First detected helix starts 6 residues after lbd_start (679).
+P06401,NR3C3,H12,HELIX,906,913,8,19,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (913).
+P08235,NR3C2,H1,HELIX,728,735,8,12,0.95,HIGH,First detected helix starts 2 residue(s) after lbd_start (726).
+P08235,NR3C2,loop_H1_H2,LOOP,736,736,1,12,1.0,MODERATE,Consensus coil residue between confidently named H1 and H2.
+P08235,NR3C2,H2,HELIX,737,746,10,27,1.0,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,loop_H2_H3,LOOP,747,760,14,28,1.0,MODERATE,Consensus coil residue between confidently named H2 and H3.
+P08235,NR3C2,H3,HELIX,761,786,26,29,1.0,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,loop_H3_H4,LOOP,787,788,2,29,1.0,MODERATE,Consensus coil residue between confidently named H3 and H4.
+P08235,NR3C2,H4,HELIX,789,823,35,29,1.0,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,H5,HELIX,836,843,8,28,0.9642857142857143,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,loop_H5_H6,LOOP,844,844,1,28,0.8571428571428571,MODERATE,Consensus coil residue between confidently named H5 and H6.
+P08235,NR3C2,H6,HELIX,845,863,19,29,1.0,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,loop_H6_H7,LOOP,864,864,1,29,1.0,MODERATE,Consensus coil residue between confidently named H6 and H7.
+P08235,NR3C2,H7,HELIX,865,878,14,29,1.0,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,H8,HELIX,888,908,21,29,1.0,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,loop_H8_H9,LOOP,909,910,2,20,0.55625,MODERATE,Consensus coil residue between confidently named H8 and H9.
+P08235,NR3C2,H9,HELIX,911,911,1,11,0.5454545454545454,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,loop_H9_H10,LOOP,912,912,1,15,0.6,MODERATE,Consensus coil residue between confidently named H9 and H10.
+P08235,NR3C2,H10,HELIX,913,914,2,19,0.7349624060150376,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,loop_H10_H11,LOOP,915,915,1,23,0.5217391304347826,MODERATE,Consensus coil residue between confidently named H10 and H11.
+P08235,NR3C2,H11,HELIX,916,953,38,29,1.0,MODERATE,"Helices between H1 and H12 (no confidently placed beta-sheet): 10 interior helices detected, matching the canonical count -> assigned by order."
+P08235,NR3C2,loop_H11_H12,LOOP,954,956,3,28,1.0,MODERATE,Consensus coil residue between confidently named H11 and H12.
+P08235,NR3C2,H12,HELIX,957,964,8,29,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (964).
+P10275,NR3C4,H1,HELIX,672,682,11,92,1.0,HIGH,First detected helix starts 3 residue(s) after lbd_start (669).
+P10275,NR3C4,H12,HELIX,893,900,8,92,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (900).
+P10276,NR1B1,H1,HELIX,183,199,17,12,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (183).
+P10276,NR1B1,beta_sheet,SHEET,277,293,17,12,1.0,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 5 after."
+P10276,NR1B1,H12,HELIX,407,416,10,11,1.0,HIGH,Last detected helix ends 1 residue(s) before lbd_end (417).
+P10588,NR2F6,H12,HELIX,381,393,13,1,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (393).
+P10826,NR1B2,H1,HELIX,183,197,15,8,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (183).
+P10826,NR1B2,beta_sheet,SHEET,277,293,17,8,1.0,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 5 after."
+P10826,NR1B2,H12,HELIX,407,415,9,8,1.0,HIGH,Last detected helix ends 2 residue(s) before lbd_end (417).
+P10827,NR1A1,H1,HELIX,163,177,15,10,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (163).
+P10828,NR1A2,H1,HELIX,217,232,16,33,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (217).
+P10828,NR1A2,H12,HELIX,447,460,14,33,0.8787878787878788,HIGH,Last detected helix ends 1 residue(s) before lbd_end (461).
+P11473,NR1I1,H1,HELIX,127,143,17,48,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (127).
+P11473,NR1I1,H12,HELIX,409,423,15,3,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (423).
+P11474,NR3B1,H1,HELIX,194,204,11,5,1.0,HIGH,First detected helix starts 1 residue(s) after lbd_start (193).
+P11474,NR3B1,beta_sheet,SHEET,283,293,11,5,1.0,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 6 after."
+P11474,NR3B1,H12,HELIX,411,421,11,5,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (421).
+P13631,NR1B3,H1,HELIX,185,201,17,11,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (185).
+P13631,NR1B3,beta_sheet,SHEET,279,295,17,11,1.0,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 5 after."
+P13631,NR1B3,H12,HELIX,409,417,9,11,1.0,HIGH,Last detected helix ends 2 residue(s) before lbd_end (419).
+P19793,NR2B1,H1,HELIX,231,242,12,90,0.9720973782771536,HIGH,First detected helix starts 4 residue(s) after lbd_start (227).
+P19793,NR2B1,beta_sheet,SHEET,323,333,11,94,0.9468085106382979,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 6 after."
+P19793,NR2B1,H12,HELIX,448,455,8,93,0.946236559139785,HIGH,Last detected helix ends 3 residue(s) before lbd_end (458).
+P20393,NR1D1,H1,HELIX,284,300,17,2,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (284).
+P22736,NR4A1,H1,HELIX,362,375,14,21,1.0,HIGH,First detected helix starts 2 residue(s) after lbd_start (360).
+P22736,NR4A1,beta_sheet,SHEET,461,471,11,21,1.0,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 5 after."
+P22736,NR4A1,H12,HELIX,585,595,11,21,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (595).
+P24468,NR2F2,H1,HELIX,177,188,12,1,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (177).
+P24468,NR2F2,H12,HELIX,391,401,11,1,1.0,HIGH,Last detected helix ends 2 residue(s) before lbd_end (403).
+P28702,NR2B2,H1,HELIX,300,311,12,7,1.0,HIGH,First detected helix starts 4 residue(s) after lbd_start (296).
+P28702,NR2B2,beta_sheet,SHEET,394,404,11,7,1.0,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 6 after."
+P28702,NR2B2,H12,HELIX,519,527,9,7,1.0,HIGH,Last detected helix ends 2 residue(s) before lbd_end (529).
+P35398,NR1F1,H1,HELIX,272,288,17,3,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (272).
+P35398,NR1F1,beta_sheet,SHEET,372,386,15,3,1.0,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 4 after."
+P35398,NR1F1,H12,HELIX,465,510,46,3,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (510). Overlaps a repository-documented terminal-helix/AF-2 functional feature.
+P37231,NR1C3,H1,HELIX,238,254,17,379,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (238).
+P37231,NR1C3,H12,HELIX,494,502,9,375,0.9837837837837838,HIGH,Last detected helix ends 1 residue(s) before lbd_end (503).
+P41235,NR2A1,H1,HELIX,151,164,14,6,0.9166666666666667,HIGH,First detected helix starts 4 residue(s) after lbd_start (147).
+P41235,NR2A1,beta_sheet,SHEET,242,252,11,7,0.8571428571428571,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 5 after."
+P41235,NR2A1,H12,HELIX,367,374,8,7,1.0,HIGH,Last detected helix ends 3 residue(s) before lbd_end (377).
+P43354,NR4A2,H1,HELIX,363,375,13,6,1.0,HIGH,First detected helix starts 3 residue(s) after lbd_start (360).
+P43354,NR4A2,beta_sheet,SHEET,461,471,11,6,1.0,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 5 after."
+P43354,NR4A2,H12,HELIX,585,595,11,6,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (595).
+P48443,NR2B3,H1,HELIX,235,246,12,2,1.0,HIGH,First detected helix starts 4 residue(s) after lbd_start (231).
+P48443,NR2B3,beta_sheet,SHEET,324,333,10,2,1.0,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 6 after."
+P48443,NR2B3,H12,HELIX,449,457,9,2,1.0,HIGH,Last detected helix ends 2 residue(s) before lbd_end (459).
+P49116,NR2C2,H12,HELIX,566,583,18,2,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (583).
+P51449,NR1F3,H1,HELIX,269,284,16,162,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (269).
+P51449,NR1F3,beta_sheet,SHEET,369,383,15,162,1.0,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 5 after."
+P51449,NR1F3,H12,HELIX,468,507,40,162,0.9440993788819876,HIGH,Last detected helix ends 1 residue(s) before lbd_end (508).
+P55055,NR1H2,H1,HELIX,222,244,23,25,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (222).
+P55055,NR1H2,beta_sheet,SHEET,319,334,16,25,0.9791666666666667,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 6 after."
+P55055,NR1H2,H12,HELIX,449,457,9,25,1.0,HIGH,Last detected helix ends 3 residue(s) before lbd_end (460).
+P62508,NR3B3,H1,HELIX,235,244,10,32,1.0,HIGH,First detected helix starts 2 residue(s) after lbd_start (233).
+P62508,NR3B3,beta_sheet,SHEET,324,332,9,32,1.0,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 5 after."
+P62508,NR3B3,H12,HELIX,447,456,10,30,1.0,HIGH,Last detected helix ends 1 residue(s) before lbd_end (457).
+Q03181,NR1C2,H1,HELIX,215,225,11,55,1.0,HIGH,First detected helix starts 4 residue(s) after lbd_start (211).
+Q03181,NR1C2,H12,HELIX,430,438,9,55,0.9818181818181818,HIGH,Last detected helix ends 1 residue(s) before lbd_end (439).
+Q07869,NR1C1,H1,HELIX,243,264,22,79,0.9102564102564104,HIGH,First detected helix starts 4 residue(s) after lbd_start (239).
+Q07869,NR1C1,H12,HELIX,457,465,9,78,0.9871794871794872,HIGH,Last detected helix ends 1 residue(s) before lbd_end (466).
+Q13133,NR1H3,H1,HELIX,209,232,24,7,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (209).
+Q13133,NR1H3,beta_sheet,SHEET,306,321,16,7,0.9285714285714286,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 6 after."
+Q13133,NR1H3,H12,HELIX,436,444,9,7,1.0,HIGH,Last detected helix ends 3 residue(s) before lbd_end (447).
+Q13285,NR5A1,H1,HELIX,224,233,10,6,1.0,HIGH,First detected helix starts 2 residue(s) after lbd_start (222).
+Q13285,NR5A1,beta_sheet,SHEET,322,332,11,6,1.0,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 6 after."
+Q13285,NR5A1,H12,HELIX,450,457,8,6,1.0,HIGH,Last detected helix ends 2 residue(s) before lbd_end (459).
+Q14541,NR2A2,H1,HELIX,103,117,15,1,1.0,HIGH,First detected helix starts 4 residue(s) after lbd_start (99).
+Q14541,NR2A2,beta_sheet,SHEET,194,204,11,1,1.0,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 5 after."
+Q14541,NR2A2,H12,HELIX,318,325,8,1,1.0,HIGH,Last detected helix ends 3 residue(s) before lbd_end (328).
+Q14994,NR1I3,H1,HELIX,109,125,17,2,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (109).
+Q14994,NR1I3,beta_sheet,SHEET,210,224,15,2,1.0,HIGH,"Single consensus beta-sheet region, 4 helix run(s) before it and 6 after."
+Q14994,NR1I3,H12,HELIX,335,347,13,2,1.0,HIGH,Last detected helix ends 5 residue(s) before lbd_end (352).
+Q14995,NR1D2,beta_sheet,SHEET,454,470,17,6,1.0,HIGH,"Single consensus beta-sheet region, 1 helix run(s) before it and 6 after."
+Q14995,NR1D2,H12,HELIX,577,577,1,2,0.5,HIGH,Last detected helix ends 2 residue(s) before lbd_end (579).
+Q15466,NR0B2,H1,HELIX,18,27,10,13,1.0,HIGH,First detected helix starts 2 residue(s) after lbd_start (16).
+Q92731,NR3A2,H1,HELIX,264,276,13,39,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (264).
+Q92731,NR3A2,beta_sheet,SHEET,353,363,11,39,0.9743589743589743,HIGH,"Single consensus beta-sheet region, 3 helix run(s) before it and 6 after."
+Q92731,NR3A2,H12,HELIX,488,498,11,39,1.0,HIGH,Last detected helix ends 0 residue(s) before lbd_end (498).
+Q96RI1,NR1H4,H1,HELIX,262,275,14,91,1.0,HIGH,First detected helix starts 0 residue(s) after lbd_start (262).
+Q96RI1,NR1H4,H12,HELIX,476,483,8,90,0.9833333333333334,HIGH,Last detected helix ends 3 residue(s) before lbd_end (486).
+Q9Y466,NR2E1,H12,HELIX,369,380,12,1,1.0,HIGH,Last detected helix ends 3 residue(s) before lbd_end (383).
+Q9Y5X4,NR2E3,H12,HELIX,398,406,9,1,1.0,HIGH,Last detected helix ends 4 residue(s) before lbd_end (410).
