@@ -1,0 +1,6 @@
+uniprot_id,nr_code,pdb_id,instance_id,label_asym_id,positive_occupancy_lbd_coverage,selection_note
+P11473,NR1I1,8IQN,8IQN.A,A,0.824916,"Selected by landmark-completeness search over 48 coordinate candidates (coverage-ranked): all ['H12', 'H3', 'H4'] landmarks resolved here."
+P37231,NR1C3,1FM6,1FM6.B,B,1.0,"Selected by landmark-completeness search over 382 coordinate candidates (coverage-ranked): all ['H12', 'H3'] landmarks resolved here."
+P03372,NR3A1,6CHW,6CHW.A,A,1.0,"Selected by landmark-completeness search over 376 coordinate candidates (coverage-ranked): all ['H11', 'H12', 'H3'] landmarks resolved here."
+P04150,NR3C1,1M2Z,1M2Z.A,A,1.0,"Selected by landmark-completeness search over 33 coordinate candidates (coverage-ranked): all ['H12', 'H3'] landmarks resolved here."
+P22736,NR4A1,3V3Q,3V3Q.B,B,0.995763,Selected by landmark-completeness search over 21 coordinate candidates (coverage-ranked): all ['H12'] landmarks resolved here.
