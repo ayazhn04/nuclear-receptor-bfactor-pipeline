@@ -3,6 +3,7 @@ Part 17 of the APO vs HOLO flexibility stage: assembles
 reports/tables/apo_holo_summary.md from the outputs of scripts 63-70.
 Writes no new analysis -- pure reporting/aggregation.
 """
+import sys
 from pathlib import Path
 
 import pandas as pd
@@ -10,9 +11,20 @@ import pandas as pd
 PROJECT_ROOT = Path(__file__).resolve().parents[1]
 ANALYSIS = PROJECT_ROOT / "data" / "analysis"
 TABLES = PROJECT_ROOT / "reports" / "tables"
+sys.path.insert(0, str(PROJECT_ROOT))
+
+
+def common_name_lookup() -> dict:
+    """Authoritative nr_code -> common_name, straight from the professor-supplied
+    metadata -- never hand-typed in prose, to avoid exactly the kind of receptor-
+    identity mislabeling (e.g. confusing PPARalpha/NR1C1 with PPARdelta/NR1C2, or
+    RXRalpha/NR2B1 with RXRbeta/NR2B2) that a manually written sentence risks."""
+    from config.nr_metadata import NR_METADATA
+    return {r["nr_code"]: r["common_name"] for r in NR_METADATA}
 
 
 def main():
+    names = common_name_lookup()
     eligibility = pd.read_csv(TABLES / "apo_holo_receptor_eligibility.csv")
     segment_tests = pd.read_csv(TABLES / "apo_holo_segment_tests.csv")
     receptor_summary = pd.read_csv(TABLES / "apo_holo_receptor_summary.csv")
@@ -136,15 +148,21 @@ def main():
 
     lines.append("## QC balance (Part 11)\n")
     n_flagged = qc["qc_imbalance_flagged"].sum()
+    flagged_codes = qc.loc[qc["qc_imbalance_flagged"], "nr_code"].tolist()
+    flagged_labels = [f"{names.get(c, c)}/{c}" for c in flagged_codes]
+    esr1_flagged = qc.loc[qc["nr_code"] == "NR3A1", "qc_imbalance_flagged"]
+    ppar_gamma_flagged = qc.loc[qc["nr_code"] == "NR1C3", "qc_imbalance_flagged"]
     lines.append(f"**{n_flagged}/{len(qc)}** eligible receptors flagged for APO-vs-HOLO resolution/"
-                 "R-free/coverage imbalance (Mann-Whitney p<0.05 on at least one metric): "
-                 f"{qc.loc[qc['qc_imbalance_flagged'], 'nr_code'].tolist()}. ESR1 (source of the "
-                 "strongest significant segment-level results) is **not** flagged. PPARgamma "
-                 "(source of the H10/pocket residue-level cluster) **is** flagged for coverage "
-                 "imbalance, but its `loop_H7_H10` effect survives a resolution-overlap-restricted "
-                 "sensitivity re-run (p=0.0095 in-band vs p=0.0027 unrestricted) -- see "
-                 "`reports/tables/apo_holo_qc_resolution_sensitivity.csv`. No structures were "
-                 "deleted from master data for this check.\n"
+                 f"R-free/coverage imbalance (Mann-Whitney p<0.05 on at least one metric): "
+                 f"{flagged_labels}. {names.get('NR3A1')}/NR3A1 (source of the strongest "
+                 f"significant segment-level results) is "
+                 f"{'**not** flagged' if len(esr1_flagged) and not esr1_flagged.iloc[0] else 'flagged'}. "
+                 f"{names.get('NR1C3')}/NR1C3 (source of the H10/pocket residue-level cluster) "
+                 f"{'**is** flagged' if len(ppar_gamma_flagged) and ppar_gamma_flagged.iloc[0] else 'is not flagged'} "
+                 "for coverage imbalance, but its `loop_H7_H10` effect survives a resolution-"
+                 "overlap-restricted sensitivity re-run (p=0.0095 in-band vs p=0.0027 unrestricted) "
+                 "-- see `reports/tables/apo_holo_qc_resolution_sensitivity.csv`. No structures "
+                 "were deleted from master data for this check.\n"
     )
 
     lines.append("## Redundancy (Part 12)\n")
@@ -157,11 +175,14 @@ def main():
 
     lines.append("## Leave-one-PDB-out robustness (Part 13)\n")
     robust_sig = loo[loo["significant_within_receptor"]]
+    least_robust = loo.loc[loo["fraction_loo_p_lt_05"].idxmin()]
+    least_robust_name = f"{names.get(least_robust['nr_code'], least_robust['nr_code'])}/{least_robust['nr_code']}"
     lines.append(
         f"All **{len(robust_sig)}** within-receptor-FDR-significant results retain their effect "
         "direction and raw p<0.05 in **100%** of leave-one-PDB-out folds -- none are driven by "
         "a single deposition. Several nominal (non-FDR-significant) results are less robust "
-        "(e.g. PPARgamma H12 retains p<0.05 in only 41% of folds); see "
+        f"(least robust: {least_robust_name} {least_robust['structural_segment']}, retaining "
+        f"p<0.05 in only {least_robust['fraction_loo_p_lt_05']:.0%} of folds); see "
         "`reports/tables/apo_holo_loo_robustness.csv` for every tested result.\n"
     )
 
@@ -175,10 +196,10 @@ def main():
         "superfamily-wide.\n"
         "- Observational PDB comparisons cannot separate a true ligand-binding effect from "
         "the confounders listed in Part 10; no causal claim is made.\n"
-        "- Two receptors (PPARgamma, PPARdelta, plus NR2B1/RXRbeta) show APO/HOLO QC "
-        "imbalance; PPARgamma's headline residue-level finding was checked and survives a "
-        "resolution-restricted sensitivity re-run, but this was not done exhaustively for "
-        "every nominal result.\n"
+        f"- {len(flagged_codes)} receptors ({', '.join(flagged_labels)}) show APO/HOLO QC "
+        f"imbalance; {names.get('NR1C3')}/NR1C3's headline residue-level finding was checked "
+        "and survives a resolution-restricted sensitivity re-run, but this was not done "
+        "exhaustively for every nominal result.\n"
         "- Residue-level tests (Part 9) have higher missingness than segment-level tests and "
         "are explicitly secondary.\n"
     )
@@ -190,9 +211,11 @@ def main():
         "FDR testing, and here too, **0 apo/holo effects survive a global correction**. "
         "However, unlike the subfamily stage (which found literally zero FDR-significant "
         "segment differences in either grouping scheme), the apo/holo comparison **does** "
-        "surface 3 robust, LOO-stable, receptor-specific within-receptor-significant effects "
-        "(ESR1 H1/H3, PPARgamma-adjacent NR3B3 loop_H6_H10) plus a well-supported, "
-        "structurally sensible residue-level cluster in PPARgamma near its own ligand pocket. "
+        f"surface 3 robust, LOO-stable, receptor-specific within-receptor-significant effects "
+        f"({names.get('NR3A1')}/NR3A1 H1/H3, {names.get('NR3B3')}/NR3B3 loop_H6_H10 -- two "
+        f"unrelated receptors, not adjacent regions of one receptor) plus a well-supported, "
+        f"structurally sensible residue-level cluster in {names.get('NR1C3')}/NR1C3 near its "
+        "own ligand pocket. "
         "This is most consistent with **Outcome D (receptor-specific effects)** combined with "
         "elements of **Outcome B (localized, not global, effects)** -- ligand-state flexibility "
         "responses appear to differ by receptor and by specific region, rather than being "

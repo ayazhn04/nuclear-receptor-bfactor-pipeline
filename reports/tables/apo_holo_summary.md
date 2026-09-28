@@ -67,7 +67,7 @@ Notably, 3 of PPARgamma's 9 significant H10 positions fall within 3 residues of 
 
 ## QC balance (Part 11)
 
-**3/9** eligible receptors flagged for APO-vs-HOLO resolution/R-free/coverage imbalance (Mann-Whitney p<0.05 on at least one metric): ['NR2B1', 'NR1C3', 'NR1C1']. ESR1 (source of the strongest significant segment-level results) is **not** flagged. PPARgamma (source of the H10/pocket residue-level cluster) **is** flagged for coverage imbalance, but its `loop_H7_H10` effect survives a resolution-overlap-restricted sensitivity re-run (p=0.0095 in-band vs p=0.0027 unrestricted) -- see `reports/tables/apo_holo_qc_resolution_sensitivity.csv`. No structures were deleted from master data for this check.
+**3/9** eligible receptors flagged for APO-vs-HOLO resolution/R-free/coverage imbalance (Mann-Whitney p<0.05 on at least one metric): ['RXRα/NR2B1', 'PPARγ/NR1C3', 'PPARα/NR1C1']. ERα/NR3A1 (source of the strongest significant segment-level results) is **not** flagged. PPARγ/NR1C3 (source of the H10/pocket residue-level cluster) **is** flagged for coverage imbalance, but its `loop_H7_H10` effect survives a resolution-overlap-restricted sensitivity re-run (p=0.0095 in-band vs p=0.0027 unrestricted) -- see `reports/tables/apo_holo_qc_resolution_sensitivity.csv`. No structures were deleted from master data for this check.
 
 ## Redundancy (Part 12)
 
@@ -75,17 +75,17 @@ No eligible receptor's HOLO group is dominated by a single ligand (>50% threshol
 
 ## Leave-one-PDB-out robustness (Part 13)
 
-All **3** within-receptor-FDR-significant results retain their effect direction and raw p<0.05 in **100%** of leave-one-PDB-out folds -- none are driven by a single deposition. Several nominal (non-FDR-significant) results are less robust (e.g. PPARgamma H12 retains p<0.05 in only 41% of folds); see `reports/tables/apo_holo_loo_robustness.csv` for every tested result.
+All **3** within-receptor-FDR-significant results retain their effect direction and raw p<0.05 in **100%** of leave-one-PDB-out folds -- none are driven by a single deposition. Several nominal (non-FDR-significant) results are less robust (least robust: RORγ/NR1F3 H12, retaining p<0.05 in only 41% of folds); see `reports/tables/apo_holo_loo_robustness.csv` for every tested result.
 
 ## Limitations
 
 - Only 9 receptors (7 PRIMARY, 2 EXPLORATORY-only) have enough APO+HOLO coverage to test at all -- the great majority of the 42-receptor coordinate cohort (including VDR) cannot be assessed for an apo/holo effect with current PDB coverage.
 - 0 results survive the secondary global FDR correction -- the 3 within-receptor-significant findings are best described as receptor-specific/localized, not superfamily-wide.
 - Observational PDB comparisons cannot separate a true ligand-binding effect from the confounders listed in Part 10; no causal claim is made.
-- Two receptors (PPARgamma, PPARdelta, plus NR2B1/RXRbeta) show APO/HOLO QC imbalance; PPARgamma's headline residue-level finding was checked and survives a resolution-restricted sensitivity re-run, but this was not done exhaustively for every nominal result.
+- 3 receptors (RXRα/NR2B1, PPARγ/NR1C3, PPARα/NR1C1) show APO/HOLO QC imbalance; PPARγ/NR1C3's headline residue-level finding was checked and survives a resolution-restricted sensitivity re-run, but this was not done exhaustively for every nominal result.
 - Residue-level tests (Part 9) have higher missingness than segment-level tests and are explicitly secondary.
 
 ## Relationship to prior results
 
-This is consistent with, and adds nuance to, the prior stages: no global/superfamily-wide discrete structure was found in unsupervised clustering or in subfamily-level FDR testing, and here too, **0 apo/holo effects survive a global correction**. However, unlike the subfamily stage (which found literally zero FDR-significant segment differences in either grouping scheme), the apo/holo comparison **does** surface 3 robust, LOO-stable, receptor-specific within-receptor-significant effects (ESR1 H1/H3, PPARgamma-adjacent NR3B3 loop_H6_H10) plus a well-supported, structurally sensible residue-level cluster in PPARgamma near its own ligand pocket. This is most consistent with **Outcome D (receptor-specific effects)** combined with elements of **Outcome B (localized, not global, effects)** -- ligand-state flexibility responses appear to differ by receptor and by specific region, rather than being either a uniform superfamily-wide rigidification (Outcome A) or entirely absent (Outcome C). This outcome was not decided in advance of running the statistics.
+This is consistent with, and adds nuance to, the prior stages: no global/superfamily-wide discrete structure was found in unsupervised clustering or in subfamily-level FDR testing, and here too, **0 apo/holo effects survive a global correction**. However, unlike the subfamily stage (which found literally zero FDR-significant segment differences in either grouping scheme), the apo/holo comparison **does** surface 3 robust, LOO-stable, receptor-specific within-receptor-significant effects (ERα/NR3A1 H1/H3, ERRγ/NR3B3 loop_H6_H10 -- two unrelated receptors, not adjacent regions of one receptor) plus a well-supported, structurally sensible residue-level cluster in PPARγ/NR1C3 near its own ligand pocket. This is most consistent with **Outcome D (receptor-specific effects)** combined with elements of **Outcome B (localized, not global, effects)** -- ligand-state flexibility responses appear to differ by receptor and by specific region, rather than being either a uniform superfamily-wide rigidification (Outcome A) or entirely absent (Outcome C). This outcome was not decided in advance of running the statistics.
 
