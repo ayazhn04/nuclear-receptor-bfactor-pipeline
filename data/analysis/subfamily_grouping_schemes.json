@@ -1,0 +1,40 @@
+{
+  "nr_subfamily_letter_counts": {
+    "NR0B": 1,
+    "NR1A": 2,
+    "NR1B": 3,
+    "NR1C": 3,
+    "NR1D": 2,
+    "NR1F": 2,
+    "NR1H": 3,
+    "NR1I": 3,
+    "NR2A": 2,
+    "NR2B": 3,
+    "NR2C": 1,
+    "NR2E": 2,
+    "NR2F": 2,
+    "NR3A": 2,
+    "NR3B": 3,
+    "NR3C": 4,
+    "NR4A": 2,
+    "NR5A": 2
+  },
+  "nr_family_number_counts": {
+    "NR0": 1,
+    "NR1": 18,
+    "NR2": 10,
+    "NR3": 9,
+    "NR4": 2,
+    "NR5": 2
+  },
+  "project_group_counts": {
+    "Nutritional sensors": 25,
+    "Steroid hormone receptors": 12,
+    "Orphan receptors": 5
+  },
+  "primary_scheme": "group",
+  "secondary_scheme": "nr_family_number",
+  "subfamily_letter_scheme_usable": false,
+  "min_n_per_group": 3,
+  "min_eligible_groups": 2
+}

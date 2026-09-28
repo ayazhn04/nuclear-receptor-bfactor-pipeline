@@ -1,0 +1,3 @@
+grouping_scheme,structural_segment,full_raw_p,n_receptors_dropped_one_at_a_time,loo_p_min,loo_p_max,fraction_loo_still_p_lt_05,conclusion_depends_on_single_receptor
+primary_project_group,loop_H1_H3,0.0348084788118672,17,0.01702186842010642,0.07909392895276673,0.47058823529411764,True
+secondary_nr_family_number,loop_H5_beta_sheet,0.0092367354868066,16,0.0021830447373622475,0.01996445330521588,1.0,False

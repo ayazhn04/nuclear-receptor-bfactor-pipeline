@@ -1,0 +1,79 @@
+grouping_scheme,structural_segment,n_receptors,n_groups,eligible_groups,H_statistic,raw_p,epsilon_squared,epsilon_squared_ci_low,epsilon_squared_ci_high,test_status,fdr_q,significant_fdr_05
+primary_project_group,loop_H1_H3,17,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",4.454545454545453,0.03480847881186722,0.27840909090909083,0.022951585949694847,0.6528652865286526,TESTED,0.429964647458249,False
+primary_project_group,H7,25,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",5.945769230769244,0.05115553325613792,0.24774038461538517,0.13990718836484886,0.45762851988164654,TESTED,0.429964647458249,False
+primary_project_group,H4,11,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",3.3333333333333357,0.0678891548618288,0.3333333333333336,0.013705571252626923,0.7857142857142857,TESTED,0.429964647458249,False
+primary_project_group,loop_H11_H12,15,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",2.5349999999999966,0.11134688653314104,0.18107142857142833,0.0010889292196007672,0.6830601092896175,TESTED,0.43473469516111285,False
+primary_project_group,H11,19,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",2.4923076923076906,0.11440386714766128,0.13846153846153836,0.0017259803352516969,0.5334384001186013,TESTED,0.43473469516111285,False
+primary_project_group,H1,32,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",1.6500000000000057,0.19895893109239787,0.05322580645161309,0.00019633106325523588,0.2909821927444996,TESTED,0.555740554527441,False
+primary_project_group,H2,9,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",1.5,0.22067136191984327,0.1875,0.0,0.8108108108108107,TESTED,0.555740554527441,False
+primary_project_group,H9,10,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",1.1363636363636331,0.28642202277785644,0.1262626262626259,0.0,0.764331210191083,TESTED,0.555740554527441,False
+primary_project_group,H5,28,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",2.3662913441238516,0.30631365916540765,0.08764042015273524,0.0063089790193571315,0.5665540444714671,TESTED,0.555740554527441,False
+primary_project_group,loop_H2_H3,9,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",0.9599999999999973,0.3271868777903035,0.11999999999999966,0.0,0.7894736842105263,TESTED,0.555740554527441,False
+primary_project_group,loop_H6_H7,16,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",0.9411764705882462,0.33197546708273135,0.06274509803921641,0.0,0.4469101770957692,TESTED,0.555740554527441,False
+primary_project_group,beta_sheet,27,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",0.764550264550266,0.38190826963907076,0.029405779405779462,0.00010212340104511054,0.299141440112715,TESTED,0.555740554527441,False
+primary_project_group,loop_H7_H11,16,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",0.7205882352941302,0.3959510250893382,0.048039215686275345,0.0,0.3968253968253973,TESTED,0.555740554527441,False
+primary_project_group,loop_H5_beta_sheet,20,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",0.6802721088435391,0.4094930401781144,0.03580379520229153,0.0,0.32346848481635676,TESTED,0.555740554527441,False
+primary_project_group,H12,28,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",1.4733048391770325,0.4787137690438006,0.054566845895445644,0.009031494663013446,0.36544163475872277,TESTED,0.6063707741221475,False
+primary_project_group,loop_H3_H5,26,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",1.129426129426136,0.5685232527386428,0.04517704517704544,0.004840915045523478,0.377083475953076,TESTED,0.6418528458549116,False
+primary_project_group,H3,34,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",1.1092436974790019,0.5742893883964999,0.03361344537815157,0.002683113056619783,0.2896308969729347,TESTED,0.6418528458549116,False
+primary_project_group,H6,19,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",0.2142857142857153,0.6434288435636197,0.011904761904761961,0.0,0.43237367013086736,TESTED,0.6791748904282653,False
+primary_project_group,loop_H1_H2,9,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",0.05999999999999872,0.8064959405073421,0.00749999999999984,0.0,0.7964601769911505,TESTED,0.8064959405073421,False
+primary_project_group,H10,8,1,"[""Nutritional sensors""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H10_H12,8,1,"[""Nutritional sensors""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H1_H4,5,1,"[""Nutritional sensors""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H1_H5,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H3_H3,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H3_H4,6,1,"[""Steroid hormone receptors""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H3_beta_sheet,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H4_H11,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H4_H9,9,1,"[""Nutritional sensors""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H4_beta_sheet,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H5_H6,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H5_H7,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H6_H10,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H6_H11,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H7_H10,5,1,"[""Nutritional sensors""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H7_H12,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_H9_H10,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_beta_sheet_H11,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_beta_sheet_H6,3,1,"[""Nutritional sensors""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+primary_project_group,loop_beta_sheet_H9,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H5_beta_sheet,16,2,"[""NR1"", ""NR3""]",6.776470588235291,0.009236735486806615,0.4517647058823528,0.11514242878560776,0.7228915662650606,TESTED,0.14778776778890584,False
+secondary_nr_family_number,H12,25,3,"[""NR1"", ""NR2"", ""NR3""]",5.056087912087918,0.07981498932248857,0.21067032967032992,0.05092078113390273,0.5858200756369445,TESTED,0.45404619729505047,False
+secondary_nr_family_number,H5,26,3,"[""NR1"", ""NR2"", ""NR3""]",4.927065527065537,0.08513366199282196,0.19708262108262148,0.01723995169547535,0.5651272083723322,TESTED,0.45404619729505047,False
+secondary_nr_family_number,H4,11,3,"[""NR1"", ""NR2"", ""NR3""]",4.3030303030303045,0.11630780026326805,0.43030303030303046,0.12959501557632444,0.909952606635071,TESTED,0.4652312010530722,False
+secondary_nr_family_number,loop_H1_H3,15,3,"[""NR1"", ""NR2"", ""NR3""]",3.5475000000000065,0.16969543627547642,0.2533928571428576,0.048168168168168914,0.7697899151720582,TESTED,0.5430253960815246,False
+secondary_nr_family_number,H9,8,2,"[""NR2"", ""NR3""]",1.0888888888888886,0.29671752632205745,0.1555555555555555,0.0032520325203246716,0.7894736842105263,TESTED,0.6681127006683918,False
+secondary_nr_family_number,loop_H3_H5,24,3,"[""NR1"", ""NR2"", ""NR3""]",2.078857142857146,0.35365671378063623,0.09038509316770199,0.007071070841741568,0.45823315153965605,TESTED,0.6681127006683918,False
+secondary_nr_family_number,H11,18,3,"[""NR1"", ""NR2"", ""NR3""]",1.9695906432748487,0.3735156696889736,0.11585827313381462,0.007492000925924042,0.5626260155808899,TESTED,0.6681127006683918,False
+secondary_nr_family_number,H7,23,3,"[""NR1"", ""NR2"", ""NR3""]",1.8826086956521664,0.3901186529383453,0.08557312252964393,0.003293611386958098,0.4968433049450531,TESTED,0.6681127006683918,False
+secondary_nr_family_number,beta_sheet,22,2,"[""NR1"", ""NR3""]",0.6571428571428442,0.41757043791774484,0.0312925170068021,5.959068021614707e-05,0.29989339204591575,TESTED,0.6681127006683918,False
+secondary_nr_family_number,H6,20,3,"[""NR1"", ""NR2"", ""NR3""]",1.0246753246753144,0.5990934623896318,0.05393028024606918,0.005867218037456934,0.4410934900654042,TESTED,0.7905717667476403,False
+secondary_nr_family_number,H3,31,3,"[""NR1"", ""NR2"", ""NR3""]",0.8946812596006026,0.6393260976595405,0.02982270865335342,0.002706935238755613,0.29866257512908545,TESTED,0.7905717667476403,False
+secondary_nr_family_number,H1,29,3,"[""NR1"", ""NR2"", ""NR3""]",0.8852764094143453,0.6423395604824578,0.0316170146219409,0.002512987639354054,0.4464025657571476,TESTED,0.7905717667476403,False
+secondary_nr_family_number,loop_H11_H12,14,3,"[""NR1"", ""NR2"", ""NR3""]",0.4952380952381006,0.7806572798883726,0.03809523809523851,0.006461661816237816,0.52170124843945,TESTED,0.8921797484438544,False
+secondary_nr_family_number,loop_H6_H7,15,2,"[""NR1"", ""NR3""]",0.01704545454546036,0.8961247779728277,0.0012175324675328828,0.0,0.24521560552911753,TESTED,0.9558664298376829,False
+secondary_nr_family_number,loop_H7_H11,16,3,"[""NR1"", ""NR2"", ""NR3""]",0.04534313725491046,0.9775835001451975,0.0030228758169940305,0.0029982766464303184,0.4041428552891102,TESTED,0.9775835001451975,False
+secondary_nr_family_number,H10,8,1,"[""NR1""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,H2,9,1,"[""NR1""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H10_H12,8,1,"[""NR1""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H1_H2,9,1,"[""NR1""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H1_H4,5,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H1_H5,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H2_H3,9,1,"[""NR1""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H3_H3,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H3_H4,6,1,"[""NR1""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H3_beta_sheet,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H4_H11,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H4_H9,9,1,"[""NR2""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H4_beta_sheet,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H5_H6,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H5_H7,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H6_H10,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H6_H11,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H7_H10,5,1,"[""NR1""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H7_H12,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_H9_H10,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_beta_sheet_H11,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_beta_sheet_H6,3,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
+secondary_nr_family_number,loop_beta_sheet_H9,2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False
