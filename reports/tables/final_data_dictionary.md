@@ -1,7 +1,16 @@
 # Final Data Release — Data Dictionary
 
-> **QC criteria are metadata/analysis flags. Structures are retained in the
-> master inventory rather than deleted based on coverage thresholds.**
+> **CORE SCIENTIFIC ANALYSIS COMPLETE.** This dictionary now covers every
+> current data table, from the master inventory through the final
+> specificity-validation layer. **QC criteria are metadata/analysis flags.
+> Structures are retained in the master inventory rather than deleted
+> based on coverage thresholds.** See
+> [`reports/FINAL_ANALYSIS_RESULTS.md`](../FINAL_ANALYSIS_RESULTS.md) for
+> the evidence-based results record and
+> [`reports/TABLE_INVENTORY.md`](../TABLE_INVENTORY.md) /
+> [`reports/FIGURE_INVENTORY.md`](../FIGURE_INVENTORY.md) for a full
+> MAIN/SUPPLEMENTARY/QC/HISTORICAL_ONLY categorization of every table and
+> figure this dictionary and the project as a whole produced.
 
 Nested views (not deletions): 2072 discovery candidates (master
 `structures.csv`) -> 1840 with Stage 3B coordinate data -> 1382 previous
@@ -105,6 +114,69 @@ Keyed by `uniprot_id, structural_segment`. `n_pdb_entries_total` (all coordinate
 
 ### `nr_lbd_common_alignment_map.parquet` (SECONDARY, v1-era, not regenerated for v2)
 `uniprot_id, canonical_uniprot_position, common_alignment_position` (segment-block-encoded: `100 x segment_rank + fractional position within the segment`; never a bare UniProt integer), `structural_segment, assignment_status`. Only positions with a named segment are included; gaps are simply absent rows, never interpolated across ambiguous regions. Built from the v1 segment map and not part of the v2 rebuild (Parts 2-12 did not include it) -- treat it as a v1-era secondary resource; regenerate from the current `nr_lbd_structural_segment_map.csv` before relying on it downstream.
+
+## Segment-Level Modeling tables (`data/analysis/`, scripts `48`-`54`)
+
+> PCA/clustering feature matrices derived from the v3 segment feature matrices above. Never modifies structural mapping or normalization inputs (hash-frozen and re-verified by every later stage's tests).
+
+### `modeling_receptor_cohort.csv` / `modeling_frozen_input_hashes.json`
+Analysis-cohort membership (29/42 receptors, `included_primary`, `exclusion_reason` for the other 13 -- an analysis-specific rule, not a master-data exclusion) and the SHA256 hashes of the 5 upstream files this stage never modifies.
+
+### `receptor_segment_matrix_primary_{unscaled,scaled}.parquet`, `_imputation_mask.parquet`
+The 29 x 8 primary feature matrix: `_unscaled` is median-imputed (feature medians from the included cohort's own observed values only, never 0, never supervised info); `_scaled` is standardized (mean=0/SD=1) after imputation; `_imputation_mask` flags exactly which cells were imputed. Sensitivity variants (`_sensitivity_knn_*`, `_sensitivity_meanmatrix_*`, `_sensitivity_complete_case*`) mirror the same structure.
+
+### `pca_receptor_scores.csv` / `pca_loadings.csv` / `reports/tables/pca_variance.csv`
+PCA fit on the scaled 8-feature matrix only (group labels never used for fitting, joined back in only for visualization). `pca_variance.csv`: `pc, eigenvalue, explained_variance_ratio, cumulative_explained_variance` (PC1=28.4%, 5 PCs for 80%).
+
+### `reports/tables/clustering_validation.csv` / `_dbscan_grid.csv` / `_method_agreement.csv` / `_sensitivity.csv` / `_gap_statistic.csv`
+Full clustering battery (K-means/Ward/GMM/Spectral/DBSCAN) x k=2..10 x 5 input matrices, with Silhouette/Davies-Bouldin/Calinski-Harabasz/AIC-BIC/Gap-Statistic/ARI. Best single silhouette (0.410, GMM k=2) is a degenerate 1-vs-28 split; DBSCAN never finds >1 cluster; mean cross-method ARI=0.35 (moderate).
+
+## Subfamily/Group Testing & Flexibility Atlas tables (scripts `55`-`62`)
+
+### `data/analysis/subfamily_grouping_schemes.json` / `subfamily_receptor_metadata.csv`
+Exact grouping fields actually in the data (never invented): project `group` (PRIMARY), NR family-number (SECONDARY), NR subfamily-letter (reported, unusable -- every subfamily n<=4).
+
+### `reports/tables/subfamily_segment_sample_sizes.csv`
+Per (structural_segment, group): `n_total_group_receptors, n_observed, n_missing, eligible_for_test` (>=3 receptors/group required).
+
+### `reports/tables/subfamily_segment_kruskal.csv`
+Per (grouping_scheme, structural_segment): `n_receptors, n_groups, H_statistic, raw_p, epsilon_squared` (+ bootstrap CI), `fdr_q, significant_fdr_05`. 0/35 significant after BH-FDR.
+
+### `data/analysis/superfamily_segment_flexibility_atlas.csv`
+Per structural_segment: `n_receptors, median_receptor_z, mean_receptor_z, q25/q75/iqr, bootstrap_95ci_median_{low,high}, fraction_receptors_{above,below}_0, mapping_support_fraction, well_supported` (n_receptors>=10), `top_10pct_most_flexible[_well_supported]`, `bottom_10pct_most_rigid[_well_supported]`. Z=0 = the average residue within that receptor's own instance(s); never an absolute cross-protein scale.
+
+## Apo vs Holo Flexibility tables (scripts `63`-`71`)
+
+### `reports/tables/apo_holo_receptor_eligibility.csv`
+Per receptor: `n_total_coordinate_pdbs, n_APO, n_HOLO, n_AMBIGUOUS, n_NOT_ASSESSABLE, eligible_primary_5_5, eligible_exploratory_3_3`. VDR (P11473): 0 APO, 48 HOLO -> both False.
+
+### `data/analysis/apo_holo_segment_effects.parquet` (= `reports/tables/apo_holo_segment_tests.csv`)
+Per (receptor, segment) test: `apo_n, holo_n, apo_median_z, holo_median_z, delta_median_z` (=HOLO-APO), `apo_mean_z, holo_mean_z, delta_mean_z, bootstrap_ci_{low,high}, cliffs_delta, mw_u, raw_p, eligibility_tier` (PRIMARY/EXPLORATORY, segment-specific), `q_within_receptor, q_global, significant_within_receptor, significant_global`. 3/97 significant within-receptor, 0/97 global.
+
+### `data/analysis/apo_holo_residue_effects.parquet` (secondary)
+Same statistics at the canonical-UniProt-position level, BH-FDR strictly within receptor; positions never pooled across receptors by UniProt integer.
+
+### `reports/tables/apo_holo_qc_balance.csv` / `_redundancy_audit.md` / `_loo_robustness.csv`
+APO-vs-HOLO resolution/R-free/coverage imbalance per receptor (3/9 flagged); single-ligand HOLO-group dominance check (none found); leave-one-PDB-out robustness (100% for all 3 significant results).
+
+## Current Functional-Site Flexibility tables (scripts `72`-`92`)
+
+> A NEW analysis layer, entirely separate from the historical Role D tables further below -- never merged, never overwrites them.
+
+### `data/analysis/current_functional_site_definitions.parquet`
+Per (receptor, functional_site, position): `structural_segment, definition_level` (`RESIDUE`/`SEGMENT`), `assignment_status, assignment_confidence, evidence_type, source_or_method, notes`. `functional_site` in `{AF2_H12, LIGAND_BINDING_POCKET, COACTIVATOR_GROOVE, DIMERIZATION_INTERFACE}`. `reports/tables/current_functional_site_availability.csv`: per receptor x site, `status` in `{AVAILABLE, PARTIAL, UNRESOLVED}` (never zero-filled when unresolved).
+
+### `data/analysis/ligand_pocket_consensus_residues.parquet`
+Per (receptor, position): `n_holo_pdbs_observed, n_holo_pdbs_contacting, contact_fraction` (5.0 A heavy-atom contact to the classified functional ligand only -- crystallization additives/ions/water already excluded upstream), `in_pocket_ge_{10,25,50}pct`.
+
+### `data/analysis/pdb_functional_site_flexibility.parquet` / `receptor_functional_site_flexibility.parquet`
+PDB-entry-level and receptor-level site vs. whole-LBD-background summaries (`median_site_z, comparison_non_site_median_z, delta_site_vs_background`, + bootstrap CIs at receptor level). A site is never scored with 0 observed site residues.
+
+### `reports/tables/current_functional_site_within_receptor_tests.csv` / `_superfamily_tests.csv`
+Paired Wilcoxon (PDB entry as the paired unit) per receptor x site (73/107 significant within-receptor FDR) and one-sample Wilcoxon per site class across receptors (AF2/H12, coactivator groove, LBP significant; dimerization interface not).
+
+### Specificity-validation tables (`functional_site_fdr_audit.csv`, `_matched_tests.csv`, `_superfamily_matched_reanalysis.csv`, `_interpretation_classification.csv`, `_background_sensitivity.csv`)
+Independent FDR re-derivation (confirms no bug); structural-context-matched-background re-tests (43/55 significant); confirmatory superfamily reanalysis restricted to HIGH/MODERATE-confidence RESIDUE-level definitions; final per-site-class `interpretation_category` in `{SITE_SPECIFIC_SUPPORTED, STRUCTURAL_CONTEXT_EXPLAINED, INSUFFICIENT_RESIDUE_LEVEL_MAPPING, MIXED}`.
 
 ## MASTER `data/processed/structures.csv` — ONE ROW PER STAGE 2 CANDIDATE (2072)
 

@@ -4,15 +4,47 @@
 
 ## Current repository purpose
 
-**The Data & Infrastructure pipeline is COMPLETE.** This repository
-provides a fully reproducible, auditable, version-controlled scaffold,
-receptor identity table, structure discovery/selection pipeline, and final
-team-handoff dataset for downstream B-factor/flexibility analysis.
-**General full-dataset B-factor normalization, clustering, and formal
-statistical analysis are not yet complete.** A descriptive Role D
-functional-site analysis exists for the preserved historical strict-QC subset.
-See [`TEAM_HANDOFF.md`](TEAM_HANDOFF.md) for the current master dataset and
-recommended starting point for new analyses.
+**CORE ANALYSIS COMPLETE.** The Data & Infrastructure pipeline, full-dataset
+B-factor normalization, structure-based canonical LBD segment mapping,
+segment-level PCA/UMAP/clustering, subfamily/group statistical testing, a
+superfamily flexibility atlas, an apo-vs-holo flexibility comparison, a
+current full-dataset functional-site flexibility map, and a specificity/
+confounding validation layer for that map are all complete, tested, and
+frozen. See [`reports/FINAL_ANALYSIS_RESULTS.md`](reports/FINAL_ANALYSIS_RESULTS.md)
+for the master evidence-based record of every final scientific result,
+[`reports/FINAL_METHODS_AUDIT.md`](reports/FINAL_METHODS_AUDIT.md) for the
+exact method behind each result, and
+[`reports/FINAL_LIMITATIONS.md`](reports/FINAL_LIMITATIONS.md) for what those
+results do and do not support. **Not yet performed**: ClinVar/disease
+mutation analysis. See [`TEAM_HANDOFF.md`](TEAM_HANDOFF.md) for the current
+master dataset and a guided tour of every analysis layer.
+
+This repository distinguishes five layers, from most to least current —
+never delete or silently overwrite an earlier one:
+
+1. **MASTER DATA** — `data/processed/structures.csv` (2072 rows) and
+   `lbd_residue_bfactors_all.parquet` (771,542 rows). QC criteria are
+   metadata/analysis flags here, never deletion criteria.
+2. **CURRENT FINAL ANALYSES** — everything built on the master data with the
+   approved per-instance normalization, chain→PDB-median aggregation, and
+   the v3 structural-segment mapping: normalization foundation, v3 segment
+   mapping, segment-level PCA/UMAP/clustering, subfamily testing +
+   flexibility atlas, apo/holo comparison, and the current full-dataset
+   functional-site flexibility map + its specificity validation. This is
+   what `reports/FINAL_ANALYSIS_RESULTS.md` reports.
+3. **HISTORICAL STRICT-QC VIEW** — the 1,382-structure
+   `structures_primary_qc_subset.csv` / `final_lbd_residue_map_primary_qc_subset.parquet`,
+   preserved for reproducibility, not the master dataset for new analyses.
+4. **HISTORICAL ROLE D ANALYSIS** — `reports/tables/functional_site_definitions.csv`
+   and its downstream scores/QC files: a hand-curated, 5-receptor descriptive
+   analysis on the strict-QC subset, byte-identical since commit `e714bbd`,
+   superseded (not replaced or deleted) by the current full-dataset
+   functional-site analysis.
+5. **DEPRECATED DIAGNOSTIC v1/v2 STRUCTURAL MAPPING** — the ordinal-
+   helix-counting v1 mapping (commit `9f15062`) and the incomplete-template
+   v2 structural-alignment mapping (commit `abd2257`), both preserved in git
+   history and in `structural_segment_validation.csv`/`_v2.csv`, superseded
+   by the current v3 mapping.
 
 Stages completed:
 
@@ -88,7 +120,27 @@ ligand-state + coregulator/partner annotation
         ↓
 canonical residue-level handoff (data/processed/lbd_residue_bfactors_all.parquet)
         ↓
->>> handoff to downstream B-factor normalization/analysis (not yet performed) <<<
+per-instance B-factor Z-normalization + chain→PDB-median aggregation
+        ↓
+structure-based canonical LBD segment mapping (v3: curated anchor templates
++ CE structural alignment + secondary-structure-refined transfer)
+        ↓
+segment-level feature construction (coverage/missingness policy)
+        ↓
+   ┌────────────────────┬─────────────────────┬───────────────────────┐
+   ↓                    ↓                     ↓                       ↓
+PCA/UMAP/clustering   subfamily/group      apo vs holo            functional-site
+(no robust discrete   Kruskal-Wallis       flexibility            flexibility map
+ clusters found)       + BH-FDR             comparison             + specificity
+                       (0 significant)      (3 significant,        validation
+                                             localized)             (matched-
+                                                                     background
+                                                                     confirmed)
+   └────────────────────┴─────────────────────┴───────────────────────┘
+        ↓
+>>> CORE ANALYSIS COMPLETE -- see reports/FINAL_ANALYSIS_RESULTS.md <<<
+        ↓
+>>> ClinVar/disease mutation analysis (not yet performed) <<<
 ```
 
 Each arrow above corresponds to a distinct, auditable stage with its own
@@ -200,45 +252,50 @@ pytest -q
 
 ## Functional-site analysis
 
-Role D's existing descriptive functional-site analysis reproduces the
-historical strict-QC analysis using
-`data/processed/structures_primary_qc_subset.csv` and
-`data/processed/final_lbd_residue_map_primary_qc_subset.parquet`, together
-with the literature-curated definitions in
-[`reports/tables/functional_site_definitions.csv`](reports/tables/functional_site_definitions.csv).
-It normalizes usable C-alpha B-factors to Z-scores within each selected
-receptor instance, reduces multiple selected entities to a median profile per
-PDB entry, then reports a median complete-site score per receptor.
+Two functional-site analyses exist. **They are separate layers and are
+never merged**:
 
-Following the professor's clarification, these strict-QC files are preserved
-for reproducibility but are not the master dataset. New analyses should start
-from `data/processed/structures.csv` and
-`data/processed/lbd_residue_bfactors_all.parquet`, applying coverage and other
-QC criteria as analysis-specific metadata filters rather than deleting
-structures upstream.
+- **HISTORICAL ROLE D** (`scripts/31_analyze_functional_site_bfactors.py`):
+  a hand-curated, 5-receptor descriptive analysis on the historical
+  strict-QC subset (`structures_primary_qc_subset.csv`,
+  `final_lbd_residue_map_primary_qc_subset.parquet`,
+  [`functional_site_definitions.csv`](reports/tables/functional_site_definitions.csv)).
+  Byte-identical since commit `e714bbd`; preserved for reproducibility, not
+  re-run or modified by any later stage.
+- **CURRENT (full-dataset)**, `scripts/72_ligand_pocket_geometry.py` through
+  `scripts/92_specificity_summary.py`: a new analysis layer across the full
+  42-receptor coordinate cohort, using the approved normalization/
+  aggregation hierarchy and the current v3 structural-segment mapping, with
+  a geometry-derived ligand-binding pocket (5.0 Å heavy-atom contact),
+  literature/segment-correspondence coactivator-groove and dimerization-
+  interface definitions, and a subsequent structural-context-matched-
+  background specificity validation. See
+  [`reports/tables/current_functional_site_summary.md`](reports/tables/current_functional_site_summary.md)
+  and [`reports/tables/functional_site_specificity_summary.md`](reports/tables/functional_site_specificity_summary.md).
 
-```bash
-python scripts/31_analyze_functional_site_bfactors.py
-```
-
-The command writes normalization QC, PDB-entry site scores, and
-receptor-level site summaries to `reports/tables/`. These are descriptive
-results only. APO/HOLO inference, pharmacology labels, and cross-receptor
-statistical tests require separately specified comparison cohorts and are not
-performed by this script.
+New functional-site work should build on the CURRENT layer, not the
+historical Role D one.
 
 ## Status
 
-**Data & Infrastructure pipeline COMPLETE.** All stages listed above,
-through the final structure selection, representative-instance selection,
-ligand-state annotation, and canonical-residue handoff, are done, tested,
-and frozen at annotated Git tags (`stage2-candidate-inventory-v1`,
-`stage3a-lbd-prefilter-v1`, `stage3b-coordinate-audit-v1`,
-`data-infrastructure-v1`; the master-inventory revision is a later commit).
+**CORE SCIENTIFIC ANALYSIS COMPLETE**, through: Data & Infrastructure,
+full-dataset normalization, v3 structural-segment mapping, segment-level
+PCA/UMAP/clustering, subfamily/group statistical testing + flexibility
+atlas, apo-vs-holo flexibility comparison, current full-dataset
+functional-site flexibility map, and its specificity/confounding
+validation. Every stage is tested (`pytest -q`) and deterministic.
 
-**General full-dataset B-factor normalization, clustering, PCA/t-SNE/UMAP
-and formal statistical testing have not yet been completed.** A descriptive
-Role D functional-site analysis is present for the preserved historical
-1,382-structure strict-QC subset. New analyses should start from the current
-master `structures.csv` and `lbd_residue_bfactors_all.parquet`, using QC
-criteria as analysis-specific metadata filters.
+Milestone git tags (`stage2-candidate-inventory-v1`,
+`stage3a-lbd-prefilter-v1`, `stage3b-coordinate-audit-v1`) were cut in the
+original development repository's history; a clean checkout of this
+release repository does not carry them (a fresh clone's commit history is
+separate from a different repository's tags). The frozen milestones those
+tags represent are instead verified by content, directly against each
+stage's release-summary JSON, in `tests/test_final_data_handoff.py`.
+
+**Not yet performed**: ClinVar/disease mutation analysis. See
+[`reports/FINAL_ANALYSIS_RESULTS.md`](reports/FINAL_ANALYSIS_RESULTS.md) for
+the complete final numbers, [`reports/FINAL_REPRODUCIBILITY_CHECK.md`](reports/FINAL_REPRODUCIBILITY_CHECK.md)
+for the authoritative script sequence, and
+[`reports/FINAL_LIMITATIONS.md`](reports/FINAL_LIMITATIONS.md) before citing
+any result.

@@ -7,10 +7,35 @@
 > columns you filter on yourself — nothing was removed from the master
 > dataset because of them (revised per professor's requirement).
 
-**Data & Infrastructure responsibility is complete as of this document.
-No B-factor normalization, clustering, PCA/t-SNE/UMAP, statistical
-testing, or biological-conclusion analysis has been performed anywhere in
-this repository.** That work starts from the files below.
+> **CORE SCIENTIFIC ANALYSIS COMPLETE** (as of commit `f76f352`). Data &
+> Infrastructure, full-dataset B-factor normalization, structure-based
+> canonical LBD segment mapping (v3), segment-level PCA/UMAP/clustering,
+> subfamily/group statistical testing + a superfamily flexibility atlas,
+> an apo-vs-holo flexibility comparison, a current full-dataset
+> functional-site flexibility map, and a specificity/confounding
+> validation layer for that map are all complete, tested, and frozen.
+> **Not yet performed**: ClinVar/disease mutation analysis. Start from
+> [`reports/FINAL_ANALYSIS_RESULTS.md`](reports/FINAL_ANALYSIS_RESULTS.md)
+> for the master evidence-based record of every final result,
+> [`reports/FINAL_METHODS_AUDIT.md`](reports/FINAL_METHODS_AUDIT.md) for
+> exact methods, and [`reports/FINAL_LIMITATIONS.md`](reports/FINAL_LIMITATIONS.md)
+> before citing anything. This document (`TEAM_HANDOFF.md`) remains the
+> guided tour of every data file and analysis layer, oldest to newest.
+
+This document distinguishes five layers, from most to least current —
+**never delete or silently overwrite an earlier one**:
+
+1. **MASTER DATA** — `structures.csv` / `lbd_residue_bfactors_all.parquet` (below).
+2. **CURRENT FINAL ANALYSES** — normalization foundation, v3 segment mapping,
+   PCA/UMAP/clustering, subfamily testing + atlas, apo/holo comparison,
+   current functional-site map + specificity validation (each documented in
+   its own section further down this file).
+3. **HISTORICAL STRICT-QC VIEW** — the 1,382-structure subset (below).
+4. **HISTORICAL ROLE D ANALYSIS** — `functional_site_definitions.csv` and its
+   downstream scores/QC files; byte-identical since `e714bbd`, superseded
+   (never overwritten) by the current functional-site analysis.
+5. **DEPRECATED DIAGNOSTIC v1/v2 STRUCTURAL MAPPING** — preserved at commits
+   `9f15062` (v1) and `abd2257` (v2); superseded by the current v3 mapping.
 
 ## Conceptual model — which file is which
 
@@ -92,7 +117,13 @@ How it is built (`scripts/32_build_normalization_foundation.py`, reports by `scr
 
 Reports: `reports/tables/analysis_foundation_missingness_report.md` (coverage/missingness/APO-HOLO balance), `reports/tables/raw_bfactor_resolution_diagnostic.csv` (raw B vs resolution; descriptive only, never used to alter z), `reports/tables/common_lbd_alignment_readiness.md` (why identical UniProt integers across receptors are not homologous, what exists, and the decision requested from the professor).
 
-**Not done yet (by design):** PCA/UMAP/t-SNE, clustering, subfamily tests, any cross-receptor common-position model. Role D's functional-site files were not touched.
+**Not done by this normalization-foundation stage itself (by design)** --
+PCA/UMAP/t-SNE, clustering, subfamily tests, and any cross-receptor
+common-position model were all completed in later stages, documented in
+their own sections further down this file (Structural-Segment Alignment,
+Segment-Level Modeling, Subfamily/Group Testing, Apo vs Holo, Current
+Functional-Site Flexibility Map). Role D's functional-site files were not
+touched by this or any later stage.
 
 ## How residues are numbered — read this before joining anything
 
@@ -325,6 +356,77 @@ every number, and all limitations are in
 `reports/tables/pca_variance.csv`, `reports/tables/umap_stability.csv`, and
 `reports/figures/modeling/`. No hypothesis test (apo/holo, subfamily,
 functional-site, disease) was run in this stage -- explicitly deferred.
+
+## Subfamily/Group Testing & Flexibility Atlas (scripts `55`-`62`)
+
+RECEPTOR is the inferential unit (`median_of_entry_median_z` from
+`receptor_segment_flexibility_profiles.parquet`); every one of the 39
+realized structural segments is tested independently on its own
+available-case receptor set (a receptor missing one segment still
+contributes to every other segment's test -- never restricted to the
+29-receptor primary clustering cohort). PRIMARY grouping = the
+professor-supplied project `group` field (largest, most balanced: 25/12/5);
+SECONDARY = formal NR family-number; formal NR subfamily-letter reported
+but unusable (every subfamily n<=4). Kruskal-Wallis omnibus per eligible
+segment (>=3 receptors/group, >=2 eligible groups), epsilon-squared effect
+size with bootstrap CI, BH-FDR within each grouping scheme.
+
+**Result: 0/35 segment tests significant after FDR**, in either grouping
+scheme, under either the median or mean receptor summary -- strengthens
+the PCA/clustering continuum conclusion rather than contradicting it
+(Outcome A). `data/analysis/superfamily_segment_flexibility_atlas.csv`
+separately ranks every segment by median receptor Z (positive =
+relatively flexible, negative = relatively rigid, **within that
+receptor's own structures**, never an absolute cross-protein scale) --
+descriptive, not a group-difference claim. Full detail:
+`reports/tables/subfamily_flexibility_summary.md`.
+
+## Apo vs Holo Flexibility (scripts `63`-`71`)
+
+PDB entry is the analysis unit (`pdb_segment_flexibility_features.parquet`,
+itself already chain -> per-instance Z -> entry-median). Eligibility is
+receptor **and** segment specific (>=5 APO and >=5 HOLO PDB entries
+PRIMARY, >=3/>=3 EXPLORATORY, both fixed before testing) --
+`reports/tables/apo_holo_receptor_eligibility.csv`. **VDR is explicitly
+INELIGIBLE: 0 APO, 48 HOLO PDB entries** -- never removed from any master
+file, never plotted as though it had an APO comparison. Only 9/42
+receptors are eligible at all.
+
+Two-sided Mann-Whitney U + Cliff's delta per receptor x segment, BH-FDR
+within receptor (PRIMARY) and globally (SECONDARY, never substituted).
+**Result: 3/97 tests significant within-receptor FDR (ESR1 H1/H3, ERRgamma
+loop_H6_H10), 0/97 significant globally** -- receptor-specific, localized
+findings, not superfamily-wide, and all 3 are 100% leave-one-PDB-out
+robust. Full detail: `reports/tables/apo_holo_summary.md`.
+
+## Current Functional-Site Flexibility Map + Specificity Validation (scripts `72`-`92`)
+
+A NEW analysis layer, entirely separate from the historical Role D
+analysis below (never merged, never overwrites it). Four site classes:
+AF2/H12 (from the current v3 H12 mapping), the ligand-binding pocket
+(receptor-level consensus from real 5.0 Angstrom heavy-atom ligand-contact
+geometry, reusing the already-validated FUNCTIONAL_LBD_LIGAND
+classification), the coactivator groove, and the dimerization interface
+(both via an evidence hierarchy: curated residues where available,
+H3/H4/H5 or H9/H10/H11 segment correspondence otherwise, explicitly
+labeled SEGMENT-level when so). Every receptor x site is explicitly
+AVAILABLE/PARTIAL/UNRESOLVED -- never zero-filled.
+
+Within-receptor paired Wilcoxon (site vs. whole-LBD background, PDB entry
+as the paired unit) found 73/107 significant within-receptor FDR. A
+follow-up specificity-validation stage then re-tested every RESIDUE-level
+site against a **structurally matched** background (same segment, or same
+structural class) instead of the whole LBD -- SEGMENT-level proxies are
+never matched this way (would be circular). **Result: AF2/H12 and the
+ligand-binding pocket are SITE_SPECIFIC_SUPPORTED** (confirmed flexible /
+confirmed rigid against the matched background, 100% leave-one-receptor-
+out stable); **the coactivator groove is STRUCTURAL_CONTEXT_EXPLAINED**
+(its original apparent rigidity is better attributed to surrounding
+helical context than to the groove residues specifically -- a genuine
+correction to the face-value original interpretation); **the dimerization
+interface has INSUFFICIENT_RESIDUE_LEVEL_MAPPING** to confirm or refute.
+Full detail: `reports/tables/current_functional_site_summary.md`,
+`reports/tables/functional_site_specificity_summary.md`.
 
 ## Historical strict QC subset — how `structures_primary_qc_subset.csv` was defined
 

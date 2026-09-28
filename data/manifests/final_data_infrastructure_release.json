@@ -66,8 +66,8 @@
   "checksums": {
     "structures_csv": {
       "path": "data/processed/structures.csv",
-      "sha256": "5994334681f92430b52ce42d85baa0310e3a2e7ea64a6d5bad618cb42a643a00",
-      "size_bytes": 865716
+      "sha256": "b9aacc22ea0fcf803b576e883d5b4d0e4b3c86d2b9239a6e3eee385500142246",
+      "size_bytes": 1058477
     },
     "lbd_residue_bfactors_all_parquet": {
       "path": "data/processed/lbd_residue_bfactors_all.parquet",
@@ -101,15 +101,15 @@
     },
     "team_handoff_md": {
       "path": "TEAM_HANDOFF.md",
-      "sha256": "1643d3d45d2db73a06c0f68dc2148943f4db37b5b2178e952de50c307372c8a5",
-      "size_bytes": 13959
+      "sha256": "b95792016b860e66586b16e90454c4b5480986a7e700ef73d3b8cc9a939dcfb7",
+      "size_bytes": 40572
     },
     "final_data_dictionary_md": {
       "path": "reports/tables/final_data_dictionary.md",
-      "sha256": "665b464280db9ddfff3a6619c177644f07452548180eb66189af4fbe977b0f64",
-      "size_bytes": 19229
+      "sha256": "af3705a75afdc81efcbdff470086064be5b054577955a3d1179d55c805caa213",
+      "size_bytes": 41084
     }
   },
-  "parent_git_commit": "fa0977023256f419c3db0660f227871a1576c930",
-  "generated_at_utc": "2026-09-26T12:54:00.341478+00:00"
+  "parent_git_commit": "f76f352b5bc45eeda147daf076dbb38d036fdcdf",
+  "generated_at_utc": "2026-09-28T08:01:34.620944+00:00"
 }
