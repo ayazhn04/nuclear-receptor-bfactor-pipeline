@@ -126,6 +126,32 @@ Headline v2 results (details and every number in `tables/*_summary.md`):
 receptors with at least one RCSB discovery candidate; the project defines 48 receptors
 (`project_receptors_defined`). The v1 file called the 45 `project_receptors`.
 
+## Reproducing from raw data
+
+All committed v2 outputs can be used directly. Rebuilding them from scratch needs three
+gitignored raw caches, listed file by file (source URL, retrieval time, SHA-256) in
+`data/rebuild_v2/inputs/raw_cache_requirements_v2.csv`:
+
+| Cache | Files | Source |
+|---|---|---|
+| `data/raw/mmcif/` | 1,777 | v1 release cache (RCSB), `data/manifests/mmcif_download_manifest.csv` |
+| `data/interim/raw_mmcif_v2_additions/` | 3 (1KB2, 1KB4, 1KB6) | approved v2 additions, `data/rebuild_v2/inputs/mmcif_download_additions_v2.csv` |
+| `data/raw/api/uniprot/` | 48 | UniProt REST, `data/manifests/uniprot_api_manifest.csv` |
+
+```
+python scripts/108_raw_cache_requirements.py --check      # what is present / missing / changed
+python scripts/108_raw_cache_requirements.py --download   # fetch only missing files, then check
+```
+
+`EXACT` means byte-identical to the original retrieval. `CONTENT_MATCH` means the
+content is identical but the file was re-encoded (mmCIF) or the entry metadata was
+updated (UniProt: same sequence). `CONTENT_CHANGED` means the source entry changed since
+retrieval: the rebuild may then differ and must be reported. RCSB metadata caches are
+not needed: `scripts/101` reconstructs them locally. Then run, in order:
+`scripts/96` (numbering crosswalk), `102` (v2 inputs, span), `97` (professor map),
+`101 --variant v2 --export`, `103`, `104 --variant v2 --export`,
+`104 --variant v2 --trace-sensitivity`, `106`, `107`.
+
 ## Future work (not done; no conclusions drawn)
 
 - position-level IQR biology and excess-IQR analysis;

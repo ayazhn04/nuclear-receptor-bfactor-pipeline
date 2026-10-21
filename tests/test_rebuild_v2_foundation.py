@@ -204,10 +204,17 @@ def test_no_stage_files_in_legacy_directories():
     assert out.strip() == ""
 
 
+FROZEN_BASELINE = "18b8fc912cc3da3e1b1e0108a63a24b0e56b289a"  # frozen v1 release (main)
+
+
 def test_tracked_files_unmodified():
-    out = subprocess.run(["git", "status", "--porcelain", "--untracked-files=no"], cwd=PROJECT_ROOT,
-                         capture_output=True, text=True, check=True).stdout
-    assert out.strip() == ""
+    """Every file tracked at the frozen v1 baseline is unchanged (content, mode, existence)
+    in the working tree, committed or not. Files added after the baseline (v2 work and
+    later teammate work) are free to change."""
+    subprocess.run(["git", "cat-file", "-e", f"{FROZEN_BASELINE}^{{commit}}"], cwd=PROJECT_ROOT, check=True)
+    out = subprocess.run(["git", "diff", "--name-status", "--diff-filter=MDT", FROZEN_BASELINE, "--"],
+                         cwd=PROJECT_ROOT, capture_output=True, text=True, check=True).stdout
+    assert out.strip() == "", f"frozen baseline files changed:\n{out}"
 
 
 # count reconciliation ----------------------------------------------------------------
