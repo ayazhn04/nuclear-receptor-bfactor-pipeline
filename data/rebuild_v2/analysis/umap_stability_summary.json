@@ -1,0 +1,29 @@
+{
+  "n_neighbors_grid": [
+    5,
+    10,
+    15
+  ],
+  "min_dist_grid": [
+    0.1,
+    0.3,
+    0.5
+  ],
+  "seeds": [
+    0,
+    1,
+    2
+  ],
+  "reference_setting": [
+    15,
+    0.1,
+    0
+  ],
+  "default_setting": [
+    15,
+    0.1,
+    0
+  ],
+  "overall_mean_spearman_to_reference": 0.8080898459635475,
+  "verdict": "STABLE: global pattern correlates strongly (mean rho >= 0.7) across parameter settings"
+}

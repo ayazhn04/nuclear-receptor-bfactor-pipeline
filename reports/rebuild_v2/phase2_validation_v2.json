@@ -1,0 +1,140 @@
+{
+  "n_checks": 21,
+  "n_fail": 0,
+  "checks": [
+    {
+      "check": "no v3 labels or v3 assignment vocabulary in Phase 2 outputs",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "no hard-coded v1 conclusion phrases in v2 summaries",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "undefined professor elements are NaN (never a value) in the receptor x element matrix",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "element profiles exist only for professor-defined elements",
+      "status": "PASS",
+      "detail": 0
+    },
+    {
+      "check": "every imputed cell was missing before imputation",
+      "status": "PASS",
+      "detail": 13
+    },
+    {
+      "check": "imputed cells equal the cohort median of observed values (never 0 by construction)",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "observed cells unchanged by imputation",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "imputed-cell documentation lists exactly the imputed cells",
+      "status": "PASS",
+      "detail": "13 documented / 13 imputed"
+    },
+    {
+      "check": "only PXR 261 and CAR 344 carry two professor elements",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "apo/holo residue tests: one row per position",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "joined labels appear only at dual positions (display only)",
+      "status": "PASS",
+      "detail": [
+        [
+          "NR1I2",
+          261
+        ]
+      ]
+    },
+    {
+      "check": "no joined label used as an element in pdb_segment_flexibility_features.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no joined label used as an element in receptor_segment_flexibility_profiles.parquet",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "no joined label used as an element in superfamily_segment_flexibility_atlas.csv",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "site-definition duplicates are only the intended dual memberships",
+      "status": "PASS",
+      "detail": [
+        [
+          "NR1I2",
+          "COACTIVATOR_GROOVE",
+          261,
+          "H3"
+        ],
+        [
+          "NR1I2",
+          "COACTIVATOR_GROOVE",
+          261,
+          "H4"
+        ]
+      ]
+    },
+    {
+      "check": "derived inter-element strata appear only in the matched-control tier table",
+      "status": "PASS",
+      "detail": []
+    },
+    {
+      "check": "matched-control tier table names strata as matching strata",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "primary features == elements with >= 50% support",
+      "status": "PASS",
+      "detail": [
+        "H1",
+        "H10/H11",
+        "H12",
+        "H3",
+        "H4",
+        "H5",
+        "H6",
+        "H7",
+        "H8",
+        "H9"
+      ]
+    },
+    {
+      "check": "cohort size consistent (json, cohort table, matrix)",
+      "status": "PASS",
+      "detail": ""
+    },
+    {
+      "check": "final_project_numbers agree with the result tables",
+      "status": "PASS",
+      "detail": {}
+    },
+    {
+      "check": "script 95 consistency audit: all claims PASS",
+      "status": "PASS",
+      "detail": "**29/29 PASS, 0 FAIL.**"
+    }
+  ]
+}

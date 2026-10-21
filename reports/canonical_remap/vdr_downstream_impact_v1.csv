@@ -1,0 +1,8 @@
+item,quantity,note
+"old per-position profile, positions 220-320",4545/4848 entry-level observations come from the 45 shifted entries,in those entries old position p holds UniProt residue p+51 (i.e. 271-371)
+"old per-position profile, positions 166-423",9264/9887 entry-level observations from shifted entries,
+"old per-position profile, positions 127-164",1692/1804 from shifted entries,numbering before the deletion is correct in every VDR entry
+old v3 VDR segment map,derived from receptor_dssp_consensus over the 48 VDR entries (45 shifted) and VDR templates 7QPP (PRIMARY): shifted; 8IQN (COMPLEMENTARY): correct,segment positions >165 in the v3 VDR map inherit the shift
+old v3 labels transferred from the VDR anchor template,65 receptor x segment labels in 17 receptors list P11473 in their transfer chain,"transfer used VDR template coordinates whose residue numbering is shifted in the PRIMARY template; v3 is superseded by the professor map, so these labels are not carried forward"
+canonical helix join (plot input),VDR receptor_numbering_integrity = SUBSTANTIAL_FRACTION_OF_ENTRIES_SHIFTED_DO_NOT_INTERPRET,the professor intervals are correct UniProt numbering; the frozen VDR profile under them is not
+flagged entries 5V39 4G2I 3W0Y 2HAR,5V39:+51 shifted 4G2I:+51 shifted 3W0Y:+51 shifted 2HAR:+51 shifted,same correction as the other shifted entries; correctly numbered VDR entries: 3P8X 8IQN 8IQT

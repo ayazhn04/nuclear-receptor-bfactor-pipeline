@@ -1,0 +1,17 @@
+quantity,primary,sensitivity,changed,detail
+site-definition memberships changed,5479,5479,0,
+within-receptor tests,118,118,2,affected: P62508 COACTIVATOR_GROOVE; P62508 LIGAND_BINDING_POCKET
+within-receptor FDR significant,82,82,0,significance flips: none
+superfamily AF2_H12 median delta (q),+0.257 (8.04e-06),+0.257 (8.04e-06),0,n receptors 39 -> 39
+superfamily COACTIVATOR_GROOVE median delta (q),-0.369 (1.85e-07),-0.369 (1.85e-07),0,n receptors 41 -> 41
+superfamily DIMERIZATION_INTERFACE median delta (q),-0.091 (2.65e-02),-0.091 (2.65e-02),0,n receptors 41 -> 41
+superfamily LIGAND_BINDING_POCKET median delta (q),-0.386 (3.16e-05),-0.386 (3.16e-05),0,n receptors 30 -> 30
+matched-background FDR significant,46,46,0,flips: none
+classification AF2_H12,SITE_SPECIFIC_SUPPORTED,SITE_SPECIFIC_SUPPORTED,0,
+classification COACTIVATOR_GROOVE,STRUCTURAL_CONTEXT_EXPLAINED,STRUCTURAL_CONTEXT_EXPLAINED,0,
+classification DIMERIZATION_INTERFACE,INSUFFICIENT_RESIDUE_LEVEL_MAPPING,INSUFFICIENT_RESIDUE_LEVEL_MAPPING,0,
+classification LIGAND_BINDING_POCKET,SITE_SPECIFIC_SUPPORTED,SITE_SPECIFIC_SUPPORTED,0,
+matched superfamily AF2_H12 median delta,+0.309,+0.309,0,status TESTED -> TESTED
+matched superfamily COACTIVATOR_GROOVE median delta,+0.302,+0.302,0,status TESTED -> TESTED
+matched superfamily DIMERIZATION_INTERFACE median delta,n/a,n/a,0,status INSUFFICIENT_N -> INSUFFICIENT_N
+matched superfamily LIGAND_BINDING_POCKET median delta,-0.181,-0.181,0,status TESTED -> TESTED

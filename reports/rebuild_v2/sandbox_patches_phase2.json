@@ -1,0 +1,586 @@
+[
+  {
+    "script": "48_feature_support_audit.py",
+    "adaptation": "A02",
+    "reason": "import professor vocabulary",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import canonical_helix  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "48_feature_support_audit.py",
+    "adaptation": "A02",
+    "reason": "audited vocabulary = professor element order (no beta_sheet, which is not a professor element)",
+    "replaced": "CANONICAL_CORE_SEGMENTS = [f\"H{i}\" for i in range(1, 13)] + [\"beta_sheet\"]",
+    "with": "CANONICAL_CORE_SEGMENTS = list(canonical_helix.ELEMENT_ORDER)  # sandbox patch (A02): professor elements",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "48_feature_support_audit.py",
+    "adaptation": "A02",
+    "reason": "report professor status fractions",
+    "replaced": "        conf_high_frac = float(conf_counts.get(\"HIGH\", 0) / n_conf_rows) if n_conf_rows else np.nan\n        conf_moderate_frac = float(conf_counts.get(\"MODERATE\", 0) / n_conf_rows) if n_conf_rows else np.nan\n        conf_low_frac = float(conf_counts.get(\"LOW\", 0) / n_conf_rows) if n_conf_rows else np.nan\n",
+    "with": "        # sandbox patch (A02): professor assignment status (verbatim) instead of v3 confidence\n        st_pub = float(conf_counts.get(\"published_boundaries\", 0) / n_conf_rows) if n_conf_rows else np.nan\n        st_hom = float(conf_counts.get(\"structural_homology\", 0) / n_conf_rows) if n_conf_rows else np.nan\n        st_rev = float(conf_counts.get(\"review_required\", 0) / n_conf_rows) if n_conf_rows else np.nan\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "48_feature_support_audit.py",
+    "adaptation": "A02",
+    "reason": "v3 method/confidence columns replaced by professor provenance columns",
+    "replaced": "            \"confidence_high_fraction\": conf_high_frac,\n            \"confidence_moderate_fraction\": conf_moderate_frac,\n            \"confidence_low_fraction\": conf_low_frac,\n            \"n_positions_own_canonical_template\": n_own_template,\n            \"n_positions_structural_alignment_transfer\": n_alignment_transfer,\n            \"n_positions_complementary_structure_rescue\": n_complementary_rescue,\n",
+    "with": "            \"professor_status_published_boundaries_fraction\": st_pub,\n            \"professor_status_structural_homology_fraction\": st_hom,\n            \"professor_status_review_required_fraction\": st_rev,\n            \"n_positions_professor_canonical_table\": int(method_counts.get(\"PROFESSOR_CANONICAL_TABLE_FINAL\", 0)),\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "58_flexibility_atlas.py",
+    "adaptation": "A06",
+    "reason": "remove v3 invariant",
+    "replaced": "    assert \"H8\" not in profiles[\"structural_segment\"].unique(), (\n        \"H8 was never confidently resolved -- it must never receive an atlas value\"\n    )\n",
+    "with": "    # sandbox patch (A06): v3-only invariant removed; the professor map defines H8\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "63_apo_holo_eligibility.py",
+    "adaptation": "A07",
+    "reason": "import S1 helper",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import apo_holo_scope  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "63_apo_holo_eligibility.py",
+    "adaptation": "A07",
+    "reason": "S1 applied to master entry states and to the element features",
+    "replaced": "    ).reset_index()\n\n    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n",
+    "with": "    ).reset_index()\n    coord_pdbs = apo_holo_scope.apply(coord_pdbs)  # sandbox patch (S1)\n\n    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n    features = apo_holo_scope.apply(features)  # sandbox patch (S1)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "63_apo_holo_eligibility.py",
+    "adaptation": "A07",
+    "reason": "report the excluded entries",
+    "replaced": "            \"n_APO\": n_apo, \"n_HOLO\": n_holo, \"n_AMBIGUOUS\": n_ambiguous, \"n_NOT_ASSESSABLE\": n_not_assessable,\n",
+    "with": "            \"n_APO\": n_apo, \"n_HOLO\": n_holo, \"n_AMBIGUOUS\": n_ambiguous, \"n_NOT_ASSESSABLE\": n_not_assessable,\n            \"n_excluded_TRACE_LBD\": int(counts.get(apo_holo_scope.EXCLUDED_STATE, 0)),  # sandbox patch (S1)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "64_apo_holo_segment_tests.py",
+    "adaptation": "A07",
+    "reason": "import S1 helper",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import apo_holo_scope  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "64_apo_holo_segment_tests.py",
+    "adaptation": "A07",
+    "reason": "S1",
+    "replaced": "    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n",
+    "with": "    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n    features = apo_holo_scope.apply(features)  # sandbox patch (S1)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "65_apo_holo_residue_tests.py",
+    "adaptation": "A07/A08",
+    "reason": "imports",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import apo_holo_scope  # noqa: E402\nfrom scripts.utils import canonical_helix  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "65_apo_holo_residue_tests.py",
+    "adaptation": "A07",
+    "reason": "S1",
+    "replaced": "    positions = pd.read_parquet(ANALYSIS / \"pdb_position_bfactor_profiles.parquet\")\n",
+    "with": "    positions = pd.read_parquet(ANALYSIS / \"pdb_position_bfactor_profiles.parquet\")\n    positions = apo_holo_scope.apply(positions)  # sandbox patch (S1)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "65_apo_holo_residue_tests.py",
+    "adaptation": "A08",
+    "reason": "one test row per position; joined label is display only",
+    "replaced": "    seg_lookup = seg_map.set_index([\"uniprot_id\", \"canonical_uniprot_position\"])[\"structural_segment\"]\n",
+    "with": "    # sandbox patch (A08): membership lookup; a dual professor position gets its joined DISPLAY label\n    _members = canonical_helix.position_memberships(\n        seg_map[[\"uniprot_id\", \"canonical_uniprot_position\", \"structural_segment\"]].itertuples(index=False))\n    seg_lookup = {k: canonical_helix.display_label(v) for k, v in _members.items()}\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "66_apo_holo_structural_interpretation.py",
+    "adaptation": "A10",
+    "reason": "professor H10/H11 belongs to the dimerization category",
+    "replaced": "    \"H11\": \"H9/H10/H11 dimerization region\",\n",
+    "with": "    \"H11\": \"H9/H10/H11 dimerization region\",\n    \"H10/H11\": \"H9/H10/H11 dimerization region\",  # sandbox patch (A10): professor combined label\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "66_apo_holo_structural_interpretation.py",
+    "adaptation": "A10",
+    "reason": "joined display labels are split, never treated as an element",
+    "replaced": "def categorize(segment: str) -> str:\n    if segment in CATEGORY_MAP:\n",
+    "with": "def categorize(segment: str) -> str:\n    if \"|\" in segment:  # sandbox patch (A10): dual professor position -> category of each element\n        return \" | \".join(dict.fromkeys(categorize(s) for s in segment.split(\"|\")))\n    if segment in CATEGORY_MAP:\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "66_apo_holo_structural_interpretation.py",
+    "adaptation": "A10",
+    "reason": "v2 meaning of an unlabelled position",
+    "replaced": "        lambda s: categorize(s) if s else \"position not confidently mapped to a named segment\"\n",
+    "with": "        lambda s: categorize(s) if s else \"between professor helices (no professor element; derived position)\"  # sandbox patch (A10)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "67_apo_holo_qc_balance.py",
+    "adaptation": "A07",
+    "reason": "import S1 helper",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import apo_holo_scope  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "67_apo_holo_qc_balance.py",
+    "adaptation": "A07",
+    "reason": "S1",
+    "replaced": "    coord_pdbs = coord_pdbs[coord_pdbs[\"uniprot_id\"].isin(eligible_receptors)]\n",
+    "with": "    coord_pdbs = apo_holo_scope.apply(coord_pdbs)  # sandbox patch (S1)\n    coord_pdbs = coord_pdbs[coord_pdbs[\"uniprot_id\"].isin(eligible_receptors)]\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "67_apo_holo_qc_balance.py",
+    "adaptation": "A07",
+    "reason": "S1",
+    "replaced": "    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n",
+    "with": "    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n    features = apo_holo_scope.apply(features)  # sandbox patch (S1)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "68_apo_holo_redundancy_audit.py",
+    "adaptation": "A07",
+    "reason": "import S1 helper",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import apo_holo_scope  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "68_apo_holo_redundancy_audit.py",
+    "adaptation": "A07",
+    "reason": "S1",
+    "replaced": "    coord_pdbs = coord.groupby([\"uniprot_id\", \"pdb_id\"]).agg(ligand_state=(\"ligand_state\", \"first\")).reset_index()\n",
+    "with": "    coord_pdbs = coord.groupby([\"uniprot_id\", \"pdb_id\"]).agg(ligand_state=(\"ligand_state\", \"first\")).reset_index()\n    coord_pdbs = apo_holo_scope.apply(coord_pdbs)  # sandbox patch (S1)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "69_apo_holo_loo_robustness.py",
+    "adaptation": "A07",
+    "reason": "import S1 helper",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import apo_holo_scope  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "69_apo_holo_loo_robustness.py",
+    "adaptation": "A07",
+    "reason": "S1",
+    "replaced": "    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n",
+    "with": "    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n    features = apo_holo_scope.apply(features)  # sandbox patch (S1)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "70_apo_holo_figures.py",
+    "adaptation": "A07",
+    "reason": "import S1 helper",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import apo_holo_scope  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "70_apo_holo_figures.py",
+    "adaptation": "A07",
+    "reason": "S1",
+    "replaced": "    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n",
+    "with": "    features = pd.read_parquet(ANALYSIS / \"pdb_segment_flexibility_features.parquet\")\n    features = apo_holo_scope.apply(features)  # sandbox patch (S1)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "73_current_functional_site_definitions.py",
+    "adaptation": "A11",
+    "reason": "dimer proxy covers the professor combined element",
+    "replaced": "DIMERIZATION_SEGMENTS = [\"H9\", \"H10\", \"H11\"]",
+    "with": "DIMERIZATION_SEGMENTS = [\"H9\", \"H10\", \"H11\", \"H10/H11\"]  # sandbox patch (A11): professor combined H10/H11",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "73_current_functional_site_definitions.py",
+    "adaptation": "A13",
+    "reason": "provenance flag; professor status kept verbatim in assignment_confidence",
+    "replaced": "\"assignment_confidence\": r[\"assignment_confidence\"], \"evidence_type\": \"current_structural_segment_map\",",
+    "with": "\"assignment_confidence\": r[\"assignment_confidence\"], \"evidence_type\": \"current_structural_segment_map\",\n            \"definition_source\": \"PROFESSOR_GROUND_TRUTH\",  # sandbox patch (S3/A13)",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "73_current_functional_site_definitions.py",
+    "adaptation": "A12",
+    "reason": "provenance text",
+    "replaced": "\"AF-2/H12 taken directly from the current v3 canonical H12 mapping, never the old heuristic definition.\"",
+    "with": "\"AF-2/H12 = professor canonical H12 (final professor table), never the old heuristic definition.\"",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "73_current_functional_site_definitions.py",
+    "adaptation": "A13",
+    "reason": "provenance flag",
+    "replaced": "\"assignment_confidence\": confidence, \"evidence_type\": \"geometric_ligand_contact_consensus\",",
+    "with": "\"assignment_confidence\": confidence, \"evidence_type\": \"geometric_ligand_contact_consensus\",\n            \"definition_source\": \"GEOMETRIC_LIGAND_CONTACT\",  # sandbox patch (S3/A13)",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "73_current_functional_site_definitions.py",
+    "adaptation": "A13",
+    "reason": "provenance flag",
+    "replaced": "            \"evidence_type\": \"role_d_curated_definition\",\n",
+    "with": "            \"evidence_type\": \"role_d_curated_definition\",\n            \"definition_source\": \"ROLE_D_CURATED\",  # sandbox patch (S3/A13)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "73_current_functional_site_definitions.py",
+    "adaptation": "A13",
+    "reason": "provenance flag",
+    "replaced": "\"assignment_confidence\": r[\"assignment_confidence\"], \"evidence_type\": \"structural_segment_correspondence\",",
+    "with": "\"assignment_confidence\": r[\"assignment_confidence\"], \"evidence_type\": \"structural_segment_correspondence\",\n            \"definition_source\": \"PROFESSOR_GROUND_TRUTH\",  # sandbox patch (S3/A13)",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "73_current_functional_site_definitions.py",
+    "adaptation": "A26",
+    "reason": "a dual-label position counts once per site",
+    "replaced": "                \"n_positions\": len(sub),\n",
+    "with": "                \"n_positions\": int(sub[\"canonical_uniprot_position\"].nunique()),  # sandbox patch (A26): unique positions\n                \"n_definition_rows\": len(sub),\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "73_current_functional_site_definitions.py",
+    "adaptation": "A12",
+    "reason": "print text",
+    "replaced": "positions (from current v3 mapping)\")",
+    "with": "positions (professor H12)\")",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "74_pdb_site_flexibility.py",
+    "adaptation": "A13",
+    "reason": "pass definition_source and the professor review flag through",
+    "replaced": "        .agg(lambda s: s.mode().iloc[0]).to_dict()\n",
+    "with": "        .agg(lambda s: s.mode().iloc[0]).to_dict()\n    # sandbox patch (S3/A13): provenance pass-through; professor statuses stay verbatim\n    def_src = definitions.groupby([\"uniprot_id\", \"functional_site\"])[\"definition_source\"] \\\n        .agg(lambda s: \"|\".join(sorted(set(s)))).to_dict()\n    def_rr = {k: bool(((g[\"definition_source\"] == \"PROFESSOR_GROUND_TRUTH\") &\n                       (g[\"assignment_confidence\"] == \"review_required\")).any())\n              for k, g in definitions.groupby([\"uniprot_id\", \"functional_site\"])}\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "74_pdb_site_flexibility.py",
+    "adaptation": "A13",
+    "reason": "pass-through",
+    "replaced": "                \"site_definition_confidence\": def_conf.get((uid, site), \"\"),\n",
+    "with": "                \"site_definition_confidence\": def_conf.get((uid, site), \"\"),\n                \"definition_source\": def_src.get((uid, site), \"\"),\n                \"professor_review_required\": def_rr.get((uid, site), False),\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "75_receptor_site_summary.py",
+    "adaptation": "A13",
+    "reason": "pass-through",
+    "replaced": "            \"definition_level\": g[\"definition_level\"].mode().iloc[0],\n",
+    "with": "            \"definition_level\": g[\"definition_level\"].mode().iloc[0],\n            \"definition_source\": g[\"definition_source\"].iloc[0],  # sandbox patch (S3/A13)\n            \"professor_review_required\": bool(g[\"professor_review_required\"].any()),\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "79_atlas_site_enrichment.py",
+    "adaptation": "A09",
+    "reason": "import",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import canonical_helix  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "79_atlas_site_enrichment.py",
+    "adaptation": "A09",
+    "reason": "membership lookup",
+    "replaced": "    pos_to_seg = seg_map.set_index([\"uniprot_id\", \"canonical_uniprot_position\"])[\"structural_segment\"]\n",
+    "with": "    # sandbox patch (A09): membership lookup; each element of a dual position is added\n    pos_to_seg = canonical_helix.position_memberships(\n        seg_map[[\"uniprot_id\", \"canonical_uniprot_position\", \"structural_segment\"]].itertuples(index=False))\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "79_atlas_site_enrichment.py",
+    "adaptation": "A09",
+    "reason": "never the joined string",
+    "replaced": "        seg = pos_to_seg.get((r[\"uniprot_id\"], r[\"canonical_uniprot_position\"]), \"\")\n        if seg:\n            site_associated_segments.add(seg)\n",
+    "with": "        for seg in pos_to_seg.get((r[\"uniprot_id\"], int(r[\"canonical_uniprot_position\"])), ()):\n            site_associated_segments.add(seg)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "80_site_robustness.py",
+    "adaptation": "A17",
+    "reason": "explicit",
+    "replaced": "    flags[\"low_confidence_definition\"] = flags[\"site_definition_confidence\"].isin([\"LOW\", \"MODERATE\"])\n",
+    "with": "    # sandbox patch (S3/A17): professor ground truth is not a low-confidence definition\n    flags[\"low_confidence_definition\"] = flags[\"site_definition_confidence\"].isin([\"LOW\", \"MODERATE\"]) & \\\n        (flags[\"definition_source\"] != \"PROFESSOR_GROUND_TRUTH\")\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "80_site_robustness.py",
+    "adaptation": "A17",
+    "reason": "separate professor review flag",
+    "replaced": "                  \"low_coverage\", \"segment_level_only\"]]\n",
+    "with": "                  \"low_coverage\", \"segment_level_only\", \"definition_source\", \"professor_review_required\"]]\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "84_definition_quality_stratification.py",
+    "adaptation": "A14",
+    "reason": "provenance columns",
+    "replaced": "        receptor_site[[\"uniprot_id\", \"functional_site\", \"definition_level\", \"site_definition_confidence\"]],\n",
+    "with": "        receptor_site[[\"uniprot_id\", \"functional_site\", \"definition_level\", \"site_definition_confidence\",\n                       \"definition_source\", \"professor_review_required\"]],\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "84_definition_quality_stratification.py",
+    "adaptation": "A14",
+    "reason": "tier rule",
+    "replaced": "        lambda r: classify_tier(r[\"definition_level\"], r[\"site_definition_confidence\"]), axis=1\n",
+    "with": "        # sandbox patch (S3/A14): professor ground truth ranks with HIGH; status kept verbatim\n        lambda r: classify_tier(r[\"definition_level\"], \"HIGH\" if r[\"definition_source\"] == \"PROFESSOR_GROUND_TRUTH\"\n                                else r[\"site_definition_confidence\"]), axis=1\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "84_definition_quality_stratification.py",
+    "adaptation": "A14",
+    "reason": "keep provenance in the lookup",
+    "replaced": "            \"site_definition_confidence\", \"definition_tier\"]].to_parquet(tier_lookup_out, index=False)\n",
+    "with": "            \"site_definition_confidence\", \"definition_source\", \"professor_review_required\",\n            \"definition_tier\"]].to_parquet(tier_lookup_out, index=False)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "85_matched_background_tests.py",
+    "adaptation": "A18",
+    "reason": "import",
+    "replaced": "PROJECT_ROOT = Path(__file__).resolve().parents[1]",
+    "with": "PROJECT_ROOT = Path(__file__).resolve().parents[1]\nimport sys as _sys  # sandbox patch (Phase 2): v2 helpers\n_sys.path.insert(0, str(PROJECT_ROOT))\nfrom scripts.utils import matching_context  # noqa: E402\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "85_matched_background_tests.py",
+    "adaptation": "A18",
+    "reason": "approved S2 hierarchy",
+    "replaced": "    seg_map = pd.read_csv(ANALYSIS / \"nr_lbd_structural_segment_map.csv\", keep_default_na=False)\n",
+    "with": "    seg_map = pd.read_csv(ANALYSIS / \"nr_lbd_structural_segment_map.csv\", keep_default_na=False)\n    # sandbox patch (S2/A18): tier-1 unit = professor element or derived inter-element stretch\n    # (matching device only); tier-2 class = independent script-34 local class (HELIX/SHEET/COIL)\n    seg_map = matching_context.build_matching_frame(\n        seg_map, pd.read_parquet(ANALYSIS / \"receptor_dssp_consensus.parquet\"))\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "85_matched_background_tests.py",
+    "adaptation": "A18",
+    "reason": "NO_OBSERVATION is not a class",
+    "replaced": "        site_classes = set(site_annotated[\"structural_class\"])\n",
+    "with": "        site_classes = set(site_annotated[\"structural_class\"]) - {\"\"}  # sandbox patch (S2): NO_OBSERVATION never matches\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "85_matched_background_tests.py",
+    "adaptation": "A27",
+    "reason": "unique positions",
+    "replaced": "        if len(tier1) >= MIN_CONTROL_RESIDUES:\n",
+    "with": "        if tier1[\"canonical_uniprot_position\"].nunique() >= MIN_CONTROL_RESIDUES:  # sandbox patch (A27)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "85_matched_background_tests.py",
+    "adaptation": "A27",
+    "reason": "unique positions",
+    "replaced": "        elif len(tier2) >= MIN_CONTROL_RESIDUES:\n",
+    "with": "        elif tier2[\"canonical_uniprot_position\"].nunique() >= MIN_CONTROL_RESIDUES:  # sandbox patch (A27)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "85_matched_background_tests.py",
+    "adaptation": "A18",
+    "reason": "column names say what they hold",
+    "replaced": "            \"site_segments\": \",\".join(sorted(site_segments)), \"site_classes\": \",\".join(sorted(site_classes)),\n",
+    "with": "            # sandbox patch (S2): matching strata (elements or derived stretches) and local classes\n            \"site_matching_strata\": \",\".join(sorted(site_segments)),\n            \"site_local_ss_classes\": \",\".join(sorted(site_classes)),\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "85_matched_background_tests.py",
+    "adaptation": "A18",
+    "reason": "docstring states the v2 hierarchy",
+    "replaced": "  1. same canonical structural segment, non-site residues of that receptor\n  2. same structural class (HELIX/SHEET/LOOP/LOOP_UNCERTAIN), non-site\n     residues of that receptor, any segment\n",
+    "with": "  1. same professor element (dual positions belong to both); for residues outside\n     professor helices the same derived inter-element stretch (matching device only)\n  2. same independent local class (script-34 consensus HELIX/SHEET/COIL), non-site\n     residues of that receptor, any stratum  [sandbox patch S2]\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "87_superfamily_matched_reanalysis.py",
+    "adaptation": "A15",
+    "reason": "sensitivity naming",
+    "replaced": "from pathlib import Path\n",
+    "with": "from pathlib import Path\nimport os as _os  # sandbox patch (S3 sensitivity output naming)\n_S3 = _os.environ.get(\"S3_SENSITIVITY_EXCLUDE_REVIEW_REQUIRED\") == \"1\"\n_SFX = \"_sensitivity_excl_review_required\" if _S3 else \"\"\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "87_superfamily_matched_reanalysis.py",
+    "adaptation": "A15",
+    "reason": "provenance columns",
+    "replaced": "        receptor_site[[\"uniprot_id\", \"functional_site\", \"site_definition_confidence\"]],\n",
+    "with": "        receptor_site[[\"uniprot_id\", \"functional_site\", \"site_definition_confidence\",\n                       \"definition_source\", \"professor_review_required\"]],\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "87_superfamily_matched_reanalysis.py",
+    "adaptation": "A15",
+    "reason": "S3 eligibility",
+    "replaced": "    confident = matched[matched[\"site_definition_confidence\"].isin(CONFIDENT_TIERS)]\n",
+    "with": "    # sandbox patch (S3/A15): professor ground truth eligible regardless of the legacy filter\n    confident = matched[(matched[\"site_definition_confidence\"].isin(CONFIDENT_TIERS) | (matched[\"definition_source\"] == \"PROFESSOR_GROUND_TRUTH\"))]\n    if _S3:  # labelled SENSITIVITY only: drop definitions resting on review_required professor labels\n        confident = confident[~confident[\"professor_review_required\"].astype(bool)]\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "87_superfamily_matched_reanalysis.py",
+    "adaptation": "A15",
+    "reason": "sensitivity naming",
+    "replaced": "    out = TABLES / \"functional_site_superfamily_matched_reanalysis.csv\"\n",
+    "with": "    out = TABLES / f\"functional_site_superfamily_matched_reanalysis{_SFX}.csv\"\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "89_matched_robustness.py",
+    "adaptation": "A15",
+    "reason": "sensitivity naming",
+    "replaced": "from pathlib import Path\n",
+    "with": "from pathlib import Path\nimport os as _os  # sandbox patch (S3 sensitivity output naming)\n_S3 = _os.environ.get(\"S3_SENSITIVITY_EXCLUDE_REVIEW_REQUIRED\") == \"1\"\n_SFX = \"_sensitivity_excl_review_required\" if _S3 else \"\"\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "89_matched_robustness.py",
+    "adaptation": "A15",
+    "reason": "sensitivity naming",
+    "replaced": "    superfamily = pd.read_csv(TABLES / \"functional_site_superfamily_matched_reanalysis.csv\")\n",
+    "with": "    superfamily = pd.read_csv(TABLES / f\"functional_site_superfamily_matched_reanalysis{_SFX}.csv\")\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "89_matched_robustness.py",
+    "adaptation": "A15",
+    "reason": "provenance columns",
+    "replaced": "        receptor_site[[\"uniprot_id\", \"functional_site\", \"site_definition_confidence\"]],\n",
+    "with": "        receptor_site[[\"uniprot_id\", \"functional_site\", \"site_definition_confidence\",\n                       \"definition_source\", \"professor_review_required\"]],\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "89_matched_robustness.py",
+    "adaptation": "A15",
+    "reason": "S3 eligibility",
+    "replaced": "    confident = matched[matched[\"site_definition_confidence\"].isin([\"HIGH\", \"MODERATE\"])]\n",
+    "with": "    # sandbox patch (S3/A15)\n    confident = matched[(matched[\"site_definition_confidence\"].isin([\"HIGH\", \"MODERATE\"]) | (matched[\"definition_source\"] == \"PROFESSOR_GROUND_TRUTH\"))]\n    if _S3:\n        confident = confident[~confident[\"professor_review_required\"].astype(bool)]\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "89_matched_robustness.py",
+    "adaptation": "A15",
+    "reason": "sensitivity naming",
+    "replaced": "    out1 = TABLES / \"functional_site_matched_loo_pdb_robustness.csv\"\n",
+    "with": "    out1 = TABLES / f\"functional_site_matched_loo_pdb_robustness{_SFX}.csv\"\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "89_matched_robustness.py",
+    "adaptation": "A15",
+    "reason": "sensitivity naming",
+    "replaced": "    out2 = TABLES / \"functional_site_matched_loo_receptor_robustness.csv\"\n",
+    "with": "    out2 = TABLES / f\"functional_site_matched_loo_receptor_robustness{_SFX}.csv\"\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "90_interpretation_classification.py",
+    "adaptation": "A19",
+    "reason": "sensitivity naming",
+    "replaced": "from pathlib import Path\n",
+    "with": "from pathlib import Path\nimport os as _os  # sandbox patch (S3 sensitivity output naming)\n_S3 = _os.environ.get(\"S3_SENSITIVITY_EXCLUDE_REVIEW_REQUIRED\") == \"1\"\n_SFX = \"_sensitivity_excl_review_required\" if _S3 else \"\"\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "90_interpretation_classification.py",
+    "adaptation": "A19",
+    "reason": "sensitivity naming",
+    "replaced": "    superfamily_matched = pd.read_csv(TABLES / \"functional_site_superfamily_matched_reanalysis.csv\")\n",
+    "with": "    superfamily_matched = pd.read_csv(TABLES / f\"functional_site_superfamily_matched_reanalysis{_SFX}.csv\")\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "90_interpretation_classification.py",
+    "adaptation": "A19",
+    "reason": "wording",
+    "replaced": "\"Too few HIGH/MODERATE-confidence RESIDUE-level definitions to test the matched-background superfamily reanalysis at all.\"",
+    "with": "\"Too few eligible (HIGH/MODERATE or professor ground truth) RESIDUE-level definitions to test the matched-background superfamily reanalysis at all.\"",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "90_interpretation_classification.py",
+    "adaptation": "A19",
+    "reason": "sensitivity naming",
+    "replaced": "    out = TABLES / \"functional_site_interpretation_classification.csv\"\n",
+    "with": "    out = TABLES / f\"functional_site_interpretation_classification{_SFX}.csv\"\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "88_apo_holo_overlap_confidence_recheck.py",
+    "adaptation": "A16",
+    "reason": "label",
+    "replaced": "                category = \"RESIDUE_LEVEL_HIGH_CONFIDENCE\"\n",
+    "with": "                category = \"RESIDUE_LEVEL_HIGH_CONFIDENCE\"\n            elif level == \"RESIDUE\" and conf_row.iloc[0][\"definition_source\"] == \"PROFESSOR_GROUND_TRUTH\":\n                category = \"RESIDUE_LEVEL_PROFESSOR_GROUND_TRUTH\"  # sandbox patch (S3/A16); status not relabelled\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "94_final_project_numbers.py",
+    "adaptation": "LABEL",
+    "reason": "misleading legacy metric name corrected; underlying count unchanged",
+    "replaced": "    add(\"dataset\", \"project_receptors\", structures[\"uniprot_id\"].nunique(), \"config/nr_metadata.py\",\n        \"len(NR_METADATA)\", \"48 professor-supplied nuclear receptors\")\n",
+    "with": "    # sandbox patch (metric label): the legacy \"project_receptors\" value is the number of receptors\n    # with >= 1 discovery candidate, not the project definition; same count, honest name\n    add(\"dataset\", \"receptors_with_any_discovery_candidate\", structures[\"uniprot_id\"].nunique(),\n        \"data/processed/structures.csv\", \"uniprot_id.nunique()\",\n        \"receptors with >= 1 RCSB discovery candidate; NOT the project receptor list (see project_receptors_defined)\")\n    add(\"dataset\", \"project_receptors_defined\",\n        len(pd.read_csv(PROJECT_ROOT / \"data\" / \"manifests\" / \"nr_metadata_validated.csv\")),\n        \"data/manifests/nr_metadata_validated.csv\", \"len(df)\", \"the professor-supplied project receptor list\")\n",
+    "status": "APPLIED"
+  },
+  {
+    "script": "94_final_project_numbers.py",
+    "adaptation": "A23",
+    "reason": "H8 count computed",
+    "replaced": "    add(\"structural_mapping\", \"unresolved_element_H8_receptor_count\", 0,\n        \"data/analysis/nr_lbd_structural_segment_map.csv\", \"structural_segment == 'H8' count\",\n        \"H8 never confidently resolved by the current mapping; never fabricated or zero-filled\")\n",
+    "with": "    # sandbox patch (A23): computed, not a v1 literal\n    add(\"structural_mapping\", \"receptors_with_professor_H8\",\n        int(named.loc[named[\"structural_segment\"] == \"H8\", \"uniprot_id\"].nunique()),\n        \"data/analysis/nr_lbd_structural_segment_map.csv\", \"uniprot_id.nunique() where structural_segment == 'H8'\")\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "94_final_project_numbers.py",
+    "adaptation": "A23",
+    "reason": "v1 note removed",
+    "replaced": "        f\"method={best['method']}, k={int(best['k'])}; this solution is a degenerate 1-vs-28 split, not evidence of real clusters\")\n",
+    "with": "        f\"method={best['method']}, k={int(best['k'])}\")  # sandbox patch (A23): v1 interpretation removed\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "94_final_project_numbers.py",
+    "adaptation": "A23",
+    "reason": "v1 verdict removed",
+    "replaced": "    add(\"pca_clustering\", \"supported_conclusion\", \"no_robust_discrete_clusters_continuum_consistent\",\n        \"reports/tables/modeling_summary.md\", \"Part 11 formal conclusion\",\n        \"no method picked because it looked nicest; degenerate best-silhouette solution; DBSCAN finds <=1 cluster\")\n",
+    "with": "    # sandbox patch (A23): hard-coded v1 conclusion removed (numbers only; see modeling_summary.md)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "94_final_project_numbers.py",
+    "adaptation": "A23",
+    "reason": "v1 note removed",
+    "replaced": "        \"reports/tables/subfamily_segment_kruskal.csv\", \"significant_fdr_05.sum()\",\n        \"0 segments differ between groups after BH-FDR correction, in either grouping scheme\")\n",
+    "with": "        \"reports/tables/subfamily_segment_kruskal.csv\", \"significant_fdr_05.sum()\")  # sandbox patch (A23)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "94_final_project_numbers.py",
+    "adaptation": "A23",
+    "reason": "note derived",
+    "replaced": "        \"VDR is INELIGIBLE for apo/holo comparison (0 APO, 48 HOLO); never removed from structures.csv\")\n",
+    "with": "        f\"VDR apo/holo eligible: {bool(vdr['eligible_exploratory_3_3'])} ({int(vdr['n_APO'])} APO, {int(vdr['n_HOLO'])} HOLO); never removed from structures.csv\")  # sandbox patch (A23)\n",
+    "status": "ALREADY_APPLIED"
+  },
+  {
+    "script": "94_final_project_numbers.py",
+    "adaptation": "A26",
+    "reason": "unique positions next to rows",
+    "replaced": "    add(\"functional_sites\", \"definition_rows\", len(defs), \"data/analysis/current_functional_site_definitions.parquet\", \"len(df)\")\n",
+    "with": "    add(\"functional_sites\", \"definition_rows\", len(defs), \"data/analysis/current_functional_site_definitions.parquet\", \"len(df)\")\n    add(\"functional_sites\", \"definition_unique_positions\",  # sandbox patch (A26)\n        int(defs[[\"uniprot_id\", \"functional_site\", \"canonical_uniprot_position\"]].drop_duplicates().shape[0]),\n        \"data/analysis/current_functional_site_definitions.parquet\", \"unique (uniprot_id, site, position)\")\n",
+    "status": "ALREADY_APPLIED"
+  }
+]

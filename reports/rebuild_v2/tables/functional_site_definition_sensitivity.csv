@@ -1,0 +1,9 @@
+definition_tier,functional_site,n_receptors,n_tests,n_significant_within_fdr,n_significant_global_fdr,median_effect_size,median_raw_p
+A_residue_high_confidence,ALL_SITES,30,64,46,48,0.14320311287762139,0.0007495880126952999
+B_partial_moderate,ALL_SITES,28,54,36,36,-0.6873807205452775,0.0013961195945739499
+A_residue_high_confidence,AF2_H12,29,29,20,20,0.6275510204081632,
+A_residue_high_confidence,COACTIVATOR_GROOVE,4,4,3,3,0.8462214753979787,
+B_partial_moderate,COACTIVATOR_GROOVE,26,26,19,19,-0.9116719786372641,
+A_residue_high_confidence,DIMERIZATION_INTERFACE,2,2,1,1,-0.44356484830622767,
+B_partial_moderate,DIMERIZATION_INTERFACE,28,28,17,17,-0.3109321058688147,
+A_residue_high_confidence,LIGAND_BINDING_POCKET,29,29,22,24,-0.8421052631578947,

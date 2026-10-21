@@ -1,0 +1,115 @@
+{
+  "project": "Comprehensive B-factor Flexibility Profiling Across Nuclear Receptor Families",
+  "release_name": "final-data-infrastructure-v2-master-inventory",
+  "validated_receptors": 48,
+  "dataset_model": "structures.csv is the MASTER inventory (QC criteria are metadata/analysis flags, never deletion criteria); primary_qc_subset files are a historical strict analysis view",
+  "nested_views": {
+    "stage2_discovery_candidates_master_structures_csv": 2072,
+    "xray_lbd_overlap_coordinate_audit_candidates": 1840,
+    "previous_strict_primary_qc_subset": 1382
+  },
+  "master_receptors_represented": 45,
+  "lbd_residue_bfactors_all_rows": 771542,
+  "lbd_residue_bfactors_all_instance_models": 3159,
+  "primary_structure_count": 1395,
+  "primary_pdb_count": 1357,
+  "receptors_represented_in_primary": 34,
+  "receptors_with_zero_primary_structures": 14,
+  "ligand_state_counts": {
+    "APO": 130,
+    "HOLO": 1265,
+    "AMBIGUOUS": 0
+  },
+  "ligand_state_counts_all_coordinate_candidates": {
+    "APO": 198,
+    "HOLO": 1641,
+    "AMBIGUOUS": 5,
+    "NOT_ASSESSABLE_NO_COORDINATE_DATA": 232
+  },
+  "ligand_annotation_review_needed_count_all_coordinate_candidates": 5,
+  "excluded_candidate_count": 677,
+  "exclusion_reason_counts": {
+    "RESOLUTION_LT_1_8": 236,
+    "RFREE_GT_0_30": 78,
+    "NO_LBD_OVERLAP": 221,
+    "RFREE_MISSING": 5,
+    "NON_HUMAN_CONSTRUCT": 1,
+    "RESOLUTION_GT_3_5": 9,
+    "NON_XRAY": 17,
+    "LBD_COVERAGE_LT_0_90": 151,
+    "NON_HUMAN_ORTHOLOG": 1
+  },
+  "sensitivity_set_counts": {
+    "passes_95pct_completeness": 1017,
+    "passes_99pct_completeness": 337,
+    "passes_no_fusion_sensitivity": 1358,
+    "ultrahigh_resolution_preserved_records": 215
+  },
+  "representative_instances_selected": 1844,
+  "residue_map_rows": 347204,
+  "residue_map_usable_ca_rows": 334944,
+  "mmcif_files_locally_available": 1780,
+  "ligand_annotation_complete_count": 1395,
+  "ligand_annotation_review_needed_count": 0,
+  "final_selection_policy": {
+    "version": "final-structure-selection-v1",
+    "method": "X-RAY DIFFRACTION only",
+    "completeness_threshold": "positive-occupancy full standardized-LBD Ca coverage >= 0.90",
+    "resolution_range_angstrom": [
+      1.8,
+      3.5
+    ],
+    "r_free_max": 0.3,
+    "identity": "HUMAN_OR_HUMAN_DERIVED only (individually audited taxonomy)",
+    "representative_instance_granularity": "project receptor x PDB entry x receptor polymer entity"
+  },
+  "checksums": {
+    "structures_csv": {
+      "path": "data/processed/structures.csv",
+      "sha256": "b9aacc22ea0fcf803b576e883d5b4d0e4b3c86d2b9239a6e3eee385500142246",
+      "size_bytes": 1058477
+    },
+    "lbd_residue_bfactors_all_parquet": {
+      "path": "data/processed/lbd_residue_bfactors_all.parquet",
+      "sha256": "28cc0f7feff59d27cf6b724becad23391068c6ed74181db3a6b9923750f81a27",
+      "size_bytes": 6156686
+    },
+    "structures_primary_qc_subset_csv": {
+      "path": "data/processed/structures_primary_qc_subset.csv",
+      "sha256": "4489cbd5d63c13dba80535e2e475238b7c1135f9fd122ad2c097233f99e06286",
+      "size_bytes": 647511
+    },
+    "final_lbd_residue_map_primary_qc_subset_parquet": {
+      "path": "data/processed/final_lbd_residue_map_primary_qc_subset.parquet",
+      "sha256": "cf036ae4835faf8861a979c37c8f362dab8b3509cd759606b9f8914f53116e58",
+      "size_bytes": 2876101
+    },
+    "excluded_structures_csv": {
+      "path": "data/processed/excluded_structures.csv",
+      "sha256": "3ccaa9204a791941ee4e095dc59142f9588ff7fecbf90c4e52c0d6793ca0825f",
+      "size_bytes": 176459
+    },
+    "final_ligand_annotations_csv": {
+      "path": "data/manifests/final_ligand_annotations.csv",
+      "sha256": "f8cf940dc972844d88b3d3f2b54e5ca7d37de04d89f30c8408d96de387618bbe",
+      "size_bytes": 505823
+    },
+    "final_polymer_partner_annotations_csv": {
+      "path": "data/manifests/final_polymer_partner_annotations.csv",
+      "sha256": "849cc49ab5f0ff9ca9e720bad82c59ebe5e080306df6df952ceaf26aaeac0d68",
+      "size_bytes": 225770
+    },
+    "team_handoff_md": {
+      "path": "TEAM_HANDOFF.md",
+      "sha256": "b95792016b860e66586b16e90454c4b5480986a7e700ef73d3b8cc9a939dcfb7",
+      "size_bytes": 40572
+    },
+    "final_data_dictionary_md": {
+      "path": "reports/tables/final_data_dictionary.md",
+      "sha256": "af3705a75afdc81efcbdff470086064be5b054577955a3d1179d55c805caa213",
+      "size_bytes": 41084
+    }
+  },
+  "parent_git_commit": "18b8fc912cc3da3e1b1e0108a63a24b0e56b289a",
+  "generated_at_utc": "2026-10-21T05:23:45.912091+00:00"
+}

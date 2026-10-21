@@ -1,0 +1,14 @@
+uniprot_id,receptor,feature,missing_reason,nomenclature_driven,imputation_rule,value_status
+P04150,GR,H6,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+P06401,PR,H6,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+P10588,EAR-2,H1,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+P20393,Rev-erbα,H12,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+P24468,COUP-TFII,H6,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+P35398,RORα,H10/H11,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,True,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+P49116,TR4,H1,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+Q14995,Rev-erbβ,H1,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+Q14995,Rev-erbβ,H12,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+Q14995,Rev-erbβ,H6,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+Q9Y466,TLX,H1,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+Q9Y5X4,PNR,H1,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION
+Q9Y5X4,PNR,H6,PROFESSOR_ELEMENT_NOT_DEFINED_FOR_RECEPTOR,False,"per-feature cohort median (primary); KNN, mean-matrix and complete-case as sensitivity",IMPUTED_PLACEHOLDER_NOT_AN_OBSERVATION

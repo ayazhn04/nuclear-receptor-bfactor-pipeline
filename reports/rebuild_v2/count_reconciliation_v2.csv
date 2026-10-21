@@ -1,0 +1,16 @@
+quantity,unit,v1_frozen,v2_corrected,change
+receptors (project list),receptors,48,48,0
+receptors with >=1 discovery candidate,receptors with >=1 discovery candidate,45,45,0
+discovery candidates (receptor x PDB x polymer-entity master rows),discovery candidates,2072,2072,0
+unique PDB entries with a downloaded mmCIF,unique PDB entries with a downloaded mmCIF,1777,1780,3
+coordinate-assessable candidates (master rows with coordinate data),coordinate-assessable candidates,1840,1844,4
+receptors with coordinate data,receptors with coordinate data,42,42,0
+measured chain/model instances,measured chain/model instances,3159,3166,7
+residue rows (analysis-span frame x instance),residue rows,771542,786887,15345
+construct-mapped residue rows,construct-mapped residue rows,753895,767041,13146
+observed CA residue rows,observed CA residue rows,721126,733359,12233
+B-factor-usable residue rows,B-factor-usable residue rows,720845,733074,12229
+normalized residue rows (finite z),normalized residue rows,720845,733074,12229
+receptors with >=5 PDB entries (per-receptor plots),receptors with >=5 PDB entries,31,31,0
+receptors with professor canonical mapping,receptors,42,42,0
+receptors without professor canonical mapping,receptors,6,6,0

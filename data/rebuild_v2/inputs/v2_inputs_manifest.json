@@ -1,0 +1,24 @@
+{
+  "description": "v2 rebuild input substitutions (sandbox path -> versioned source)",
+  "substitutions": {
+    "data/manifests/mmcif_download_manifest.csv": "data/rebuild_v2/inputs/mmcif_download_manifest_v2.csv",
+    "data/manifests/nr_lbd_reference.csv": "data/rebuild_v2/inputs/nr_lbd_reference_v2.csv",
+    "data/manifests/rcsb_sequence_coordinate_alignments.csv": "data/rebuild_v2/inputs/rcsb_sequence_coordinate_alignments_v2.csv",
+    "data/raw/api/uniprot/P10827.json": "data/rebuild_v2/inputs/uniprot_P10827_reference_P10827-2.json"
+  },
+  "sha256": {
+    "data/manifests/mmcif_download_manifest.csv": "e1726c47373f510bef534ca3a9c4f98d0d5dd208eaa3ccef030daaf4a67e9736",
+    "data/manifests/nr_lbd_reference.csv": "3bd33fdb134b37f6b2df268ef27b5567af5e65e5ee42d5233c54c7561f4a1966",
+    "data/manifests/rcsb_sequence_coordinate_alignments.csv": "78d0be7f961929c2a445f5b7d7e787749732812507f5160845303735f6a22f33",
+    "data/raw/api/uniprot/P10827.json": "393f30bea01d34cf80a4afed1d6355c544f4b902bb6841304df71deaf445d213"
+  },
+  "inputs_sha256": {
+    "data/sources/professor_canonical_helix_table/NR_canonical_helix_boundaries.csv": "ae1fb1005e8e4a10d7cf568ac3657e5bf692c62f5eac7572117b558b92e4268c",
+    "data/sources/professor_canonical_helix_table/uniprot_isoform_sequences/P10827-2.fasta": "e87fb9954421455cd53c0c017a7d0351650c730fa9b1738eba38f04dc7af4e0a",
+    "data/manifests/nr_lbd_reference.csv": "59dc96c480aa8bdc8c62dce9410f21aadf9465f4cdcf2258a3a6396b4a44ff6c",
+    "data/manifests/rcsb_sequence_coordinate_alignments.csv": "028a78fe0f9e9b99993be3bbe3a9988fd4f55999a43b0bc3edfabba6d185d1bc",
+    "data/canonical_remap/entity_uniprot_regions_corrected_v1.csv": "b66a491855a80ebd77fe6a792efc62cf9a0455f10a9b42b96f35f0d9084df0ef",
+    "data/manifests/mmcif_download_manifest.csv": "b03011ae3a22f371df902a4d8a5fd96c869a7bfdefdd1eb4aaea4debd7ef0fbe",
+    "data/rebuild_v2/inputs/mmcif_download_additions_v2.csv": "35bf012010d4fd4c002f8964ce9eeca40762bd5f0b6eeb67e4fbe66f9eb13af3"
+  }
+}

@@ -1,0 +1,438 @@
+{
+  "variant": "v2",
+  "exported_files": [
+    "data/rebuild_v2/analysis/apo_holo_residue_effects.parquet",
+    "data/rebuild_v2/analysis/apo_holo_segment_effects.parquet",
+    "data/rebuild_v2/analysis/clustering_summary.json",
+    "data/rebuild_v2/analysis/current_functional_site_definitions.parquet",
+    "data/rebuild_v2/analysis/functional_site_definition_tiers.parquet",
+    "data/rebuild_v2/analysis/ligand_pocket_consensus_residues.parquet",
+    "data/rebuild_v2/analysis/ligand_pocket_raw_contacts.parquet",
+    "data/rebuild_v2/analysis/modeling_cohort_matrix_summary.json",
+    "data/rebuild_v2/analysis/modeling_frozen_input_hashes.json",
+    "data/rebuild_v2/analysis/modeling_receptor_cohort.csv",
+    "data/rebuild_v2/analysis/pca_loadings.csv",
+    "data/rebuild_v2/analysis/pca_receptor_scores.csv",
+    "data/rebuild_v2/analysis/pca_summary.json",
+    "data/rebuild_v2/analysis/pdb_functional_site_flexibility.parquet",
+    "data/rebuild_v2/analysis/pdb_functional_site_matched_background.parquet",
+    "data/rebuild_v2/analysis/receptor_dssp_consensus.parquet",
+    "data/rebuild_v2/analysis/receptor_functional_site_flexibility.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_primary.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_primary_imputation_mask.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_primary_scaled.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_primary_unscaled.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_sensitivity_complete_case.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_sensitivity_complete_case_scaled.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_sensitivity_knn_imputation_mask.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_sensitivity_knn_imputed.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_sensitivity_knn_scaled.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_sensitivity_meanmatrix_imputed.parquet",
+    "data/rebuild_v2/analysis/receptor_segment_matrix_sensitivity_meanmatrix_scaled.parquet",
+    "data/rebuild_v2/analysis/subfamily_grouping_schemes.json",
+    "data/rebuild_v2/analysis/subfamily_receptor_metadata.csv",
+    "data/rebuild_v2/analysis/superfamily_segment_flexibility_atlas.csv",
+    "data/rebuild_v2/analysis/superfamily_segment_flexibility_atlas_mean_sensitivity.csv",
+    "data/rebuild_v2/analysis/umap_default_embedding_feature_matrix.csv",
+    "data/rebuild_v2/analysis/umap_default_embedding_pca_representation.csv",
+    "data/rebuild_v2/analysis/umap_stability_summary.json",
+    "reports/rebuild_v2/figures/apo_holo/apo_holo_counts_by_receptor.png",
+    "reports/rebuild_v2/figures/apo_holo/effect_forest_plot.png",
+    "reports/rebuild_v2/figures/apo_holo/per_receptor_NR1C1.png",
+    "reports/rebuild_v2/figures/apo_holo/per_receptor_NR1C3.png",
+    "reports/rebuild_v2/figures/apo_holo/per_receptor_NR1F3.png",
+    "reports/rebuild_v2/figures/apo_holo/per_receptor_NR1I2.png",
+    "reports/rebuild_v2/figures/apo_holo/per_receptor_NR2B1.png",
+    "reports/rebuild_v2/figures/apo_holo/per_receptor_NR2B2.png",
+    "reports/rebuild_v2/figures/apo_holo/per_receptor_NR3A1.png",
+    "reports/rebuild_v2/figures/apo_holo/per_receptor_NR3B3.png",
+    "reports/rebuild_v2/figures/apo_holo/per_receptor_NR4A1.png",
+    "reports/rebuild_v2/figures/apo_holo/receptor_segment_delta_heatmap.png",
+    "reports/rebuild_v2/figures/apo_holo/residue_profile_NR1C1.png",
+    "reports/rebuild_v2/figures/apo_holo/residue_profile_NR1C3.png",
+    "reports/rebuild_v2/figures/apo_holo/residue_profile_NR1F3.png",
+    "reports/rebuild_v2/figures/apo_holo/residue_profile_NR1I2.png",
+    "reports/rebuild_v2/figures/apo_holo/residue_profile_NR2B1.png",
+    "reports/rebuild_v2/figures/apo_holo/residue_profile_NR2B2.png",
+    "reports/rebuild_v2/figures/apo_holo/residue_profile_NR3A1.png",
+    "reports/rebuild_v2/figures/apo_holo/residue_profile_NR3B3.png",
+    "reports/rebuild_v2/figures/apo_holo/residue_profile_NR4A1.png",
+    "reports/rebuild_v2/figures/functional_sites_current/af2_h12_distribution.png",
+    "reports/rebuild_v2/figures/functional_sites_current/anchor_schematic_ESR1.png",
+    "reports/rebuild_v2/figures/functional_sites_current/anchor_schematic_GR.png",
+    "reports/rebuild_v2/figures/functional_sites_current/anchor_schematic_NR4A1.png",
+    "reports/rebuild_v2/figures/functional_sites_current/anchor_schematic_PPARgamma.png",
+    "reports/rebuild_v2/figures/functional_sites_current/anchor_schematic_VDR.png",
+    "reports/rebuild_v2/figures/functional_sites_current/apo_holo_site_overlap_schematic.png",
+    "reports/rebuild_v2/figures/functional_sites_current/lbp_distribution.png",
+    "reports/rebuild_v2/figures/functional_sites_current/paired_site_vs_background_NR1C3_LIGAND_BINDING_POCKET.png",
+    "reports/rebuild_v2/figures/functional_sites_current/receptor_site_background_delta_heatmap.png",
+    "reports/rebuild_v2/figures/functional_sites_current/receptor_site_median_z_heatmap.png",
+    "reports/rebuild_v2/figures/functional_sites_current/site_class_forest_plot.png",
+    "reports/rebuild_v2/figures/functional_sites_validation/effect_by_definition_confidence.png",
+    "reports/rebuild_v2/figures/functional_sites_validation/interpretation_category_counts.png",
+    "reports/rebuild_v2/figures/functional_sites_validation/original_vs_matched_effect_scatter.png",
+    "reports/rebuild_v2/figures/functional_sites_validation/paired_matched_example_NR1C3_COACTIVATOR_GROOVE.png",
+    "reports/rebuild_v2/figures/functional_sites_validation/superfamily_matched_forest_plot.png",
+    "reports/rebuild_v2/figures/modeling/clustering_validation_metrics.png",
+    "reports/rebuild_v2/figures/modeling/entry_level_pca_by_receptor.png",
+    "reports/rebuild_v2/figures/modeling/pca_cumulative_variance.png",
+    "reports/rebuild_v2/figures/modeling/pca_loadings_heatmap.png",
+    "reports/rebuild_v2/figures/modeling/pca_pc1_pc2_by_group.png",
+    "reports/rebuild_v2/figures/modeling/pca_pc1_pc2_by_receptor.png",
+    "reports/rebuild_v2/figures/modeling/pca_scree.png",
+    "reports/rebuild_v2/figures/modeling/umap_feature_matrix_by_group.png",
+    "reports/rebuild_v2/figures/modeling/umap_feature_matrix_by_receptor.png",
+    "reports/rebuild_v2/figures/modeling/umap_pca_representation_by_cluster.png",
+    "reports/rebuild_v2/figures/modeling/umap_pca_representation_by_group.png",
+    "reports/rebuild_v2/figures/modeling/umap_pca_representation_by_receptor.png",
+    "reports/rebuild_v2/figures/subfamily_stats/effect_size_by_segment.png",
+    "reports/rebuild_v2/figures/subfamily_stats/pca_annotated_with_subfamily_results.png",
+    "reports/rebuild_v2/figures/subfamily_stats/receptor_segment_heatmap.png",
+    "reports/rebuild_v2/figures/subfamily_stats/segment_atlas_median_ci.png",
+    "reports/rebuild_v2/figures/subfamily_stats/segment_by_group_violin.png",
+    "reports/rebuild_v2/tables/apo_holo_functional_site_overlap.csv",
+    "reports/rebuild_v2/tables/apo_holo_loo_robustness.csv",
+    "reports/rebuild_v2/tables/apo_holo_overlap_confidence_recheck.csv",
+    "reports/rebuild_v2/tables/apo_holo_pymol_ready_table.csv",
+    "reports/rebuild_v2/tables/apo_holo_qc_balance.csv",
+    "reports/rebuild_v2/tables/apo_holo_qc_resolution_sensitivity.csv",
+    "reports/rebuild_v2/tables/apo_holo_receptor_eligibility.csv",
+    "reports/rebuild_v2/tables/apo_holo_receptor_summary.csv",
+    "reports/rebuild_v2/tables/apo_holo_redundancy_audit.md",
+    "reports/rebuild_v2/tables/apo_holo_segment_tests.csv",
+    "reports/rebuild_v2/tables/apo_holo_structural_interpretation.csv",
+    "reports/rebuild_v2/tables/apo_holo_summary.md",
+    "reports/rebuild_v2/tables/atlas_functional_site_enrichment.csv",
+    "reports/rebuild_v2/tables/atlas_functional_site_enrichment_test.csv",
+    "reports/rebuild_v2/tables/clustering_dbscan_grid.csv",
+    "reports/rebuild_v2/tables/clustering_gap_statistic.csv",
+    "reports/rebuild_v2/tables/clustering_method_agreement.csv",
+    "reports/rebuild_v2/tables/clustering_sensitivity.csv",
+    "reports/rebuild_v2/tables/clustering_validation.csv",
+    "reports/rebuild_v2/tables/current_functional_site_availability.csv",
+    "reports/rebuild_v2/tables/current_functional_site_class_comparison.csv",
+    "reports/rebuild_v2/tables/current_functional_site_summary.md",
+    "reports/rebuild_v2/tables/current_functional_site_superfamily_tests.csv",
+    "reports/rebuild_v2/tables/current_functional_site_within_receptor_tests.csv",
+    "reports/rebuild_v2/tables/entry_level_overrepresentation.csv",
+    "reports/rebuild_v2/tables/final_project_numbers.csv",
+    "reports/rebuild_v2/tables/final_receptor_identity_audit.csv",
+    "reports/rebuild_v2/tables/final_statistical_consistency_audit.md",
+    "reports/rebuild_v2/tables/functional_site_background_sensitivity.csv",
+    "reports/rebuild_v2/tables/functional_site_confidence_coverage_flags.csv",
+    "reports/rebuild_v2/tables/functional_site_definition_sensitivity.csv",
+    "reports/rebuild_v2/tables/functional_site_fdr_audit.csv",
+    "reports/rebuild_v2/tables/functional_site_interpretation_classification.csv",
+    "reports/rebuild_v2/tables/functional_site_interpretation_classification_sensitivity_excl_review_required.csv",
+    "reports/rebuild_v2/tables/functional_site_loo_pdb_robustness.csv",
+    "reports/rebuild_v2/tables/functional_site_loo_receptor_robustness.csv",
+    "reports/rebuild_v2/tables/functional_site_matched_control_tiers.csv",
+    "reports/rebuild_v2/tables/functional_site_matched_loo_pdb_robustness.csv",
+    "reports/rebuild_v2/tables/functional_site_matched_loo_pdb_robustness_sensitivity_excl_review_required.csv",
+    "reports/rebuild_v2/tables/functional_site_matched_loo_receptor_robustness.csv",
+    "reports/rebuild_v2/tables/functional_site_matched_loo_receptor_robustness_sensitivity_excl_review_required.csv",
+    "reports/rebuild_v2/tables/functional_site_matched_tests.csv",
+    "reports/rebuild_v2/tables/functional_site_specificity_summary.md",
+    "reports/rebuild_v2/tables/functional_site_superfamily_matched_reanalysis.csv",
+    "reports/rebuild_v2/tables/functional_site_superfamily_matched_reanalysis_sensitivity_excl_review_required.csv",
+    "reports/rebuild_v2/tables/modeling_feature_support.csv",
+    "reports/rebuild_v2/tables/modeling_imputed_cells.csv",
+    "reports/rebuild_v2/tables/modeling_matrix_candidates.csv",
+    "reports/rebuild_v2/tables/modeling_summary.md",
+    "reports/rebuild_v2/tables/pca_variance.csv",
+    "reports/rebuild_v2/tables/subfamily_atlas_loo_robustness.csv",
+    "reports/rebuild_v2/tables/subfamily_flexibility_summary.md",
+    "reports/rebuild_v2/tables/subfamily_kruskal_loo_robustness.csv",
+    "reports/rebuild_v2/tables/subfamily_median_vs_mean_agreement.csv",
+    "reports/rebuild_v2/tables/subfamily_segment_kruskal.csv",
+    "reports/rebuild_v2/tables/subfamily_segment_kruskal_mean_sensitivity.csv",
+    "reports/rebuild_v2/tables/subfamily_segment_posthoc.csv",
+    "reports/rebuild_v2/tables/subfamily_segment_sample_sizes.csv",
+    "reports/rebuild_v2/tables/umap_stability.csv"
+  ],
+  "steps": [
+    {
+      "step": "48_feature_support_audit",
+      "script": "48_feature_support_audit.py",
+      "seconds": 1.2,
+      "n_reads": 11
+    },
+    {
+      "step": "49_build_modeling_cohort_and_matrix",
+      "script": "49_build_modeling_cohort_and_matrix.py",
+      "seconds": 2.5,
+      "n_reads": 5
+    },
+    {
+      "step": "50_pca_analysis",
+      "script": "50_pca_analysis.py",
+      "seconds": 2.8,
+      "n_reads": 3
+    },
+    {
+      "step": "51_umap_analysis",
+      "script": "51_umap_analysis.py",
+      "seconds": 12.9,
+      "n_reads": 5
+    },
+    {
+      "step": "52_clustering_analysis",
+      "script": "52_clustering_analysis.py",
+      "seconds": 9.1,
+      "n_reads": 8
+    },
+    {
+      "step": "53_entry_level_sensitivity",
+      "script": "53_entry_level_sensitivity.py",
+      "seconds": 2.5,
+      "n_reads": 4
+    },
+    {
+      "step": "55_subfamily_group_definition",
+      "script": "55_subfamily_group_definition.py",
+      "seconds": 0.7,
+      "n_reads": 3
+    },
+    {
+      "step": "56_subfamily_kruskal_omnibus",
+      "script": "56_subfamily_kruskal_omnibus.py",
+      "seconds": 9.0,
+      "n_reads": 3
+    },
+    {
+      "step": "57_subfamily_posthoc",
+      "script": "57_subfamily_posthoc.py",
+      "seconds": 1.5,
+      "n_reads": 4
+    },
+    {
+      "step": "58_flexibility_atlas",
+      "script": "58_flexibility_atlas.py",
+      "seconds": 1.3,
+      "n_reads": 3
+    },
+    {
+      "step": "59_loo_robustness",
+      "script": "59_loo_robustness.py",
+      "seconds": 1.8,
+      "n_reads": 4
+    },
+    {
+      "step": "60_mean_sensitivity_omnibus",
+      "script": "60_mean_sensitivity_omnibus.py",
+      "seconds": 9.0,
+      "n_reads": 6
+    },
+    {
+      "step": "61_subfamily_figures",
+      "script": "61_subfamily_figures.py",
+      "seconds": 1.9,
+      "n_reads": 6
+    },
+    {
+      "step": "63_apo_holo_eligibility",
+      "script": "63_apo_holo_eligibility.py",
+      "seconds": 0.8,
+      "n_reads": 7
+    },
+    {
+      "step": "64_apo_holo_segment_tests",
+      "script": "64_apo_holo_segment_tests.py",
+      "seconds": 6.3,
+      "n_reads": 8
+    },
+    {
+      "step": "65_apo_holo_residue_tests",
+      "script": "65_apo_holo_residue_tests.py",
+      "seconds": 4.2,
+      "n_reads": 11
+    },
+    {
+      "step": "66_apo_holo_structural_interpretation",
+      "script": "66_apo_holo_structural_interpretation.py",
+      "seconds": 0.7,
+      "n_reads": 4
+    },
+    {
+      "step": "67_apo_holo_qc_balance",
+      "script": "67_apo_holo_qc_balance.py",
+      "seconds": 1.7,
+      "n_reads": 9
+    },
+    {
+      "step": "68_apo_holo_redundancy_audit",
+      "script": "68_apo_holo_redundancy_audit.py",
+      "seconds": 0.7,
+      "n_reads": 8
+    },
+    {
+      "step": "69_apo_holo_loo_robustness",
+      "script": "69_apo_holo_loo_robustness.py",
+      "seconds": 3.2,
+      "n_reads": 8
+    },
+    {
+      "step": "70_apo_holo_figures",
+      "script": "70_apo_holo_figures.py",
+      "seconds": 5.6,
+      "n_reads": 10
+    },
+    {
+      "step": "72_ligand_pocket_geometry",
+      "script": "72_ligand_pocket_geometry.py",
+      "seconds": 132.4,
+      "n_reads": 1600
+    },
+    {
+      "step": "73_current_functional_site_definitions",
+      "script": "73_current_functional_site_definitions.py",
+      "seconds": 1.1,
+      "n_reads": 5
+    },
+    {
+      "step": "74_pdb_site_flexibility",
+      "script": "74_pdb_site_flexibility.py",
+      "seconds": 3.8,
+      "n_reads": 3
+    },
+    {
+      "step": "75_receptor_site_summary",
+      "script": "75_receptor_site_summary.py",
+      "seconds": 7.2,
+      "n_reads": 2
+    },
+    {
+      "step": "76_within_receptor_site_tests",
+      "script": "76_within_receptor_site_tests.py",
+      "seconds": 4.7,
+      "n_reads": 2
+    },
+    {
+      "step": "77_superfamily_site_tests",
+      "script": "77_superfamily_site_tests.py",
+      "seconds": 1.6,
+      "n_reads": 2
+    },
+    {
+      "step": "78_apo_holo_site_overlap",
+      "script": "78_apo_holo_site_overlap.py",
+      "seconds": 0.7,
+      "n_reads": 4
+    },
+    {
+      "step": "79_atlas_site_enrichment",
+      "script": "79_atlas_site_enrichment.py",
+      "seconds": 1.6,
+      "n_reads": 8
+    },
+    {
+      "step": "80_site_robustness",
+      "script": "80_site_robustness.py",
+      "seconds": 3.4,
+      "n_reads": 6
+    },
+    {
+      "step": "81_functional_site_figures",
+      "script": "81_functional_site_figures.py",
+      "seconds": 2.3,
+      "n_reads": 7
+    },
+    {
+      "step": "83_functional_site_fdr_audit",
+      "script": "83_functional_site_fdr_audit.py",
+      "seconds": 0.6,
+      "n_reads": 2
+    },
+    {
+      "step": "84_definition_quality_stratification",
+      "script": "84_definition_quality_stratification.py",
+      "seconds": 0.7,
+      "n_reads": 3
+    },
+    {
+      "step": "85_matched_background_tests",
+      "script": "85_matched_background_tests.py",
+      "seconds": 7.2,
+      "n_reads": 9
+    },
+    {
+      "step": "86_background_sensitivity_comparison",
+      "script": "86_background_sensitivity_comparison.py",
+      "seconds": 0.6,
+      "n_reads": 3
+    },
+    {
+      "step": "87_superfamily_matched_reanalysis",
+      "script": "87_superfamily_matched_reanalysis.py",
+      "seconds": 1.6,
+      "n_reads": 3
+    },
+    {
+      "step": "88_apo_holo_overlap_confidence_recheck",
+      "script": "88_apo_holo_overlap_confidence_recheck.py",
+      "seconds": 0.7,
+      "n_reads": 3
+    },
+    {
+      "step": "89_matched_robustness",
+      "script": "89_matched_robustness.py",
+      "seconds": 2.6,
+      "n_reads": 5
+    },
+    {
+      "step": "90_interpretation_classification",
+      "script": "90_interpretation_classification.py",
+      "seconds": 0.6,
+      "n_reads": 4
+    },
+    {
+      "step": "91_specificity_figures",
+      "script": "91_specificity_figures.py",
+      "seconds": 1.4,
+      "n_reads": 7
+    },
+    {
+      "step": "87_s3_sensitivity",
+      "script": "87_superfamily_matched_reanalysis.py",
+      "seconds": 1.6,
+      "n_reads": 3
+    },
+    {
+      "step": "89_s3_sensitivity",
+      "script": "89_matched_robustness.py",
+      "seconds": 2.6,
+      "n_reads": 5
+    },
+    {
+      "step": "90_s3_sensitivity",
+      "script": "90_interpretation_classification.py",
+      "seconds": 0.6,
+      "n_reads": 4
+    },
+    {
+      "step": "105_summaries",
+      "script": "105_phase2_v2_summaries.py",
+      "seconds": 0.8,
+      "n_reads": 50
+    },
+    {
+      "step": "93_final_receptor_identity_audit",
+      "script": "93_final_receptor_identity_audit.py",
+      "seconds": 4.4,
+      "n_reads": 171
+    },
+    {
+      "step": "94_final_project_numbers",
+      "script": "94_final_project_numbers.py",
+      "seconds": 0.9,
+      "n_reads": 23
+    },
+    {
+      "step": "95_final_statistical_consistency_audit",
+      "script": "95_final_statistical_consistency_audit.py",
+      "seconds": 0.6,
+      "n_reads": 16
+    }
+  ]
+}

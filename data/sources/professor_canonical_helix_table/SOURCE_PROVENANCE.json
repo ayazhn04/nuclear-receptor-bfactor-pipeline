@@ -1,0 +1,28 @@
+{
+  "description": "Professor-approved conventional nuclear-receptor LBD helix assignment resource, preserved byte-for-byte as received. These files are inputs only; never edit them. Derived, validated outputs are built by scripts/97_build_canonical_helix_map.py.",
+  "files": {
+    "NR_canonical_helix_boundaries.csv": {
+      "sha256": "ae1fb1005e8e4a10d7cf568ac3657e5bf692c62f5eac7572117b558b92e4268c",
+      "role": "PRIMARY SOURCE: helix interval table (434 interval records, 42 receptors, inclusive UniProt boundaries). UTF-8 with byte-order mark; read with encoding='utf-8-sig'.",
+      "received": "Supplied by the project team on 2026-10-16 as the professor-approved working helix table (professor message of 2026-10-01: 'here are the helical boundaries for 42 receptors. When plotting b-factors use these').",
+      "equivalence_note": "The professor's 2026-10-15 message names the shared-folder resource 'helix_assignment_2026-09-30, nr_lbd_elements_all.csv'. That exact file was NOT supplied for this task, so byte-equivalence between it and this table has not been verified. The interval/status counts here (434 records; 27 published_boundaries, 354 structural_homology, 53 review_required; 42 receptors) match exactly the counts stated in the professor's methods document below."
+    },
+    "Assignment of conventional LBD helix identities across hNRs.docx": {
+      "sha256": "6d12b046a40a856c6ba81cc8004ff567162bfadf5543619f859e3154fec95758",
+      "role": "Professor's methods description of how the interval table was generated and how uncertain assignments must be treated (professor message of 2026-10-01).",
+      "not_supplied": "The document states that 'missing assignments and conflicting boundaries are supplied in separate tables' and refers to a plotting notebook. Neither the separate tables nor the notebook were supplied; conflicts are therefore re-derived from the interval table itself (reports/tables/canonical_helix_conflicts.csv)."
+    },
+    "uniprot_isoform_sequences/P10827.fasta": {
+      "sha256": "c09922a90a4f22bae929bb0b2e31a455c9ffc890bc5c24f904232bd53626ce0c",
+      "role": "TRalpha canonical UniProt sequence (isoform Alpha-2, 490 aa), the accession used by all project B-factor tables.",
+      "retrieved_from": "https://rest.uniprot.org/uniprotkb/P10827.fasta",
+      "retrieved_on": "2026-10-17"
+    },
+    "uniprot_isoform_sequences/P10827-2.fasta": {
+      "sha256": "e87fb9954421455cd53c0c017a7d0351650c730fa9b1738eba38f04dc7af4e0a",
+      "role": "TRalpha isoform Alpha-1 (TRalpha1, 410 aa), the sequence accession used by the professor table for NR1A1.",
+      "retrieved_from": "https://rest.uniprot.org/uniprotkb/P10827-2.fasta",
+      "retrieved_on": "2026-10-17"
+    }
+  }
+}

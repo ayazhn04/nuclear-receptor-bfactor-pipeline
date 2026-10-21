@@ -1,0 +1,17 @@
+canonical_helix,n_intervals,n_fully_inside,n_partially_truncated,n_fully_outside,n_isoform_not_representable,receptors_discrepant
+H1,37,21,14,2,0,TRα TRβ RARβ RARγ PPARα PPARδ PPARγ RORα RORγ LXRβ LXRα FXR VDR PXR CAR COUP-TFII
+H2,15,13,0,2,0,PPARα PPARδ
+H2',6,6,0,0,0,
+H3n,1,1,0,0,0,
+H3,42,42,0,0,0,
+H4,42,42,0,0,0,
+H5,42,42,0,0,0,
+H6,37,37,0,0,0,
+H7,42,42,0,0,0,
+H8,42,42,0,0,0,
+H9,42,42,0,0,0,
+H10,1,1,0,0,0,
+H10/H11,42,41,0,0,1,TRα
+H11,1,1,0,0,0,
+H11',2,2,0,0,0,
+H12,40,32,7,0,1,TRα ERRα GR MR PR AR NUR77 NURR1

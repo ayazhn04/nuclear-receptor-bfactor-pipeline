@@ -1,0 +1,35 @@
+{
+  "policy": "professor_final_2026-10-20",
+  "segment_map_rows": 11655,
+  "segment_map_labels": [
+    "H1",
+    "H10",
+    "H10/H11",
+    "H11",
+    "H11'",
+    "H12",
+    "H2",
+    "H2'",
+    "H3",
+    "H3n",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H8",
+    "H9"
+  ],
+  "profile_join_rows": 10217,
+  "normalization_edges": {
+    "n_instances": 3166,
+    "min_usable_residues": 0,
+    "instances_0_usable": 8,
+    "instances_1_usable": 0,
+    "instances_2_usable": 0,
+    "normalization_status_counts": {
+      "NORMALIZED": 3158,
+      "NOT_NORMALIZABLE_FEWER_THAN_2_USABLE_B": 8
+    },
+    "instances_zero_sd_with_ge2_usable": 0
+  }
+}

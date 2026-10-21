@@ -1,0 +1,17 @@
+{
+  "generated_at_utc": "2026-10-21T05:10:50.297430+00:00",
+  "previous_cohort_repository": "https://github.com/sumeshi3648/BioInformatics-Bfactors.git",
+  "previous_cohort_commit": "69899f60d7ab0eed19d3029687fe31f03b835ac2",
+  "previous_cohort_retrieval_timestamp_utc": "2026-09-23T18:20:00+00:00",
+  "previous_cohort_files_inspected": [
+    "proteins.csv",
+    "data/meta/structures.csv",
+    "data/processed/ca_bfactors.csv",
+    "scripts/*.py (all 14 scripts)"
+  ],
+  "previous_cohort_finding": "No 48-receptor LBD-range metadata sheet exists in the repository. proteins.csv has only subfamily/symbol/uniprot columns (48 rows, cross-matches this project's 48 receptors by UniProt accession). The only explicit LBD window found anywhere is a hard-coded VDR-only script default (118-427), present in 6 VDR-specific analysis scripts, not in any data file, and not defined for any other receptor.",
+  "snapshotted_source_files": {},
+  "profile_lbd_reference_unchanged": "3bd33fdb134b37f6b2df268ef27b5567af5e65e5ee42d5233c54c7561f4a1966",
+  "boundary_audit_csv_sha256": "20aef50d69bb5e2fa16b464a10b0fb098bcf86913dd81f152d3bf568a7a467c7",
+  "generating_script": "scripts/15_build_lbd_boundary_audit.py"
+}

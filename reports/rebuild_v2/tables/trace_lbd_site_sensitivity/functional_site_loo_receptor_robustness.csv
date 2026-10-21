@@ -1,0 +1,5 @@
+functional_site,n_receptors,full_raw_p,fraction_loo_p_lt_05,fraction_loo_same_direction,significance_flips_on_some_loo_fold
+AF2_H12,39,4.021188942715526e-06,1.0,1.0,False
+COACTIVATOR_GROOVE,41,4.62141542811878e-08,1.0,1.0,False
+DIMERIZATION_INTERFACE,41,0.0265038551733596,1.0,1.0,False
+LIGAND_BINDING_POCKET,30,2.366676926612854e-05,1.0,1.0,False

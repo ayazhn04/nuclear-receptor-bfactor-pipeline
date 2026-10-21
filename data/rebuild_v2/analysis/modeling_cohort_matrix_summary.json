@@ -1,0 +1,23 @@
+{
+  "primary_features": [
+    "H1",
+    "H10/H11",
+    "H12",
+    "H3",
+    "H4",
+    "H5",
+    "H6",
+    "H7",
+    "H8",
+    "H9"
+  ],
+  "n_primary_features": 10,
+  "n_cohort_total": 42,
+  "n_cohort_included": 41,
+  "cohort_observed_fraction_rule": 0.6,
+  "primary_support_threshold": 0.5,
+  "missingness_before_imputation": 0.03170731707317076,
+  "n_complete_case_receptors": 31,
+  "complete_case_status": "ADEQUATE",
+  "knn_k": 5
+}

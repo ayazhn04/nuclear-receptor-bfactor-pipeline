@@ -1,0 +1,51 @@
+{
+  "generated_at_utc": "2026-10-21T05:10:53.662473+00:00",
+  "total_stage2_candidates": 2072,
+  "method_counts": {
+    "xray": 2055,
+    "cryo_em": 6,
+    "nmr": 11,
+    "other": 0
+  },
+  "lbd_mapping_counts": {
+    "NEAR_COMPLETE_LBD": 1740,
+    "NO_LBD_OVERLAP": 221,
+    "SUBSTANTIAL_LBD": 82,
+    "TRACE_LBD": 27,
+    "PARTIAL_LBD": 2
+  },
+  "resolution_status_counts": {
+    "PASS_PROJECT_RANGE": 1690,
+    "ULTRAHIGH_LT_1_8": 360,
+    "TOO_LOW_RESOLUTION_GT_3_5": 11,
+    "MISSING": 11
+  },
+  "r_free_status_counts": {
+    "PASS_ALL_LE_0_30": 1963,
+    "FAIL_ALL_GT_0_30": 83,
+    "MISSING": 26
+  },
+  "project_metadata_prefilter": {
+    "pass": 1520,
+    "not_pass": 552
+  },
+  "instance_level": {
+    "total_polymer_instances": 3486,
+    "entities_with_one_instance": 994,
+    "entities_with_multiple_instances": 1078,
+    "max_instances_for_one_entity": 16
+  },
+  "special": {
+    "dbd_only_mappings": 77,
+    "multi_uniprot_entities": 46,
+    "taxonomy_review_entities": 9,
+    "short_mappings_overlapping_lbd": 22,
+    "short_mappings_not_overlapping_lbd": 154
+  },
+  "zero_result_receptors": [
+    "ROR\u03b2",
+    "TR2",
+    "GCNF"
+  ],
+  "note": "No final structure inclusion/exclusion decision was made at Stage 3A."
+}

@@ -1,0 +1,40 @@
+{
+  "policy": "professor_final_2026-10-20",
+  "source_file": "data/sources/professor_canonical_helix_table/NR_canonical_helix_boundaries.csv",
+  "source_sha256": "ae1fb1005e8e4a10d7cf568ac3657e5bf692c62f5eac7572117b558b92e4268c",
+  "n_source_rows": 434,
+  "n_source_receptors": 42,
+  "assignment_status_counts": {
+    "published_boundaries": 27,
+    "review_required": 53,
+    "structural_homology": 354
+  },
+  "receptors_without_professor_mapping": [
+    "DAX-1",
+    "SHP",
+    "RORβ",
+    "TR2",
+    "COUP-TFI",
+    "GCNF"
+  ],
+  "identity_status_counts": {
+    "MATCH": 41,
+    "MATCH_PROFESSOR_ISOFORM_IS_FINAL_REFERENCE": 1,
+    "NOT_IN_SOURCE": 6
+  },
+  "position_status_counts": {
+    "CANONICAL_MAPPING_UNAVAILABLE": 1448,
+    "INTER_HELIX_UNASSIGNED_DERIVED": 2905,
+    "PROFESSOR_ELEMENT": 7298,
+    "PROFESSOR_MULTIPLE_ELEMENTS": 2
+  },
+  "n_map_rows": 11653,
+  "n_intervals_fully_inside_analysis_span": 434,
+  "inputs_sha256": {
+    "data/manifests/nr_metadata_validated.csv": "290757d9da91ea3a02e0bfd0bbfc5b7ce24ec60a055aafb6a9723b6896b27437",
+    "data/manifests/nr_lbd_reference.csv": "59dc96c480aa8bdc8c62dce9410f21aadf9465f4cdcf2258a3a6396b4a44ff6c",
+    "data/rebuild_v2/inputs/analysis_span_v2.csv": "020ecd8b81251aacd2d75266d1a8366ea67fbc8d73b857a89526181b815b9e76",
+    "data/processed/structures.csv": "b9aacc22ea0fcf803b576e883d5b4d0e4b3c86d2b9239a6e3eee385500142246",
+    "data/analysis/nr_lbd_structural_segment_map.csv": "b1b18be7d6b2f6450da6c494cb19ef168a0d0f92ec050295ffa4f3c92d8faa2a"
+  }
+}

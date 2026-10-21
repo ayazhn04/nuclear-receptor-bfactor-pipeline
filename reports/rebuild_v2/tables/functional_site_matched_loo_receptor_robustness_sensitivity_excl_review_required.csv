@@ -1,0 +1,4 @@
+functional_site,n_receptors,full_raw_p,fraction_loo_p_lt_05,fraction_loo_same_direction,significance_flips_on_some_loo_fold
+AF2_H12,26,7.450580596923828e-07,1.0,1.0,False
+COACTIVATOR_GROOVE,4,0.25,0.0,1.0,False
+LIGAND_BINDING_POCKET,29,1.8388032913208008e-05,1.0,1.0,False

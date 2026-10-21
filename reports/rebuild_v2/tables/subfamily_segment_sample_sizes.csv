@@ -1,0 +1,145 @@
+grouping_scheme,structural_segment,group,n_total_group_receptors,n_observed,n_missing,eligible_for_test
+primary_project_group,H1,Nutritional sensors,25,23,2,True
+primary_project_group,H1,Orphan receptors,5,1,4,False
+primary_project_group,H1,Steroid hormone receptors,12,12,0,True
+primary_project_group,H10,Nutritional sensors,25,1,24,False
+primary_project_group,H10,Orphan receptors,5,0,5,False
+primary_project_group,H10,Steroid hormone receptors,12,0,12,False
+primary_project_group,H10/H11,Nutritional sensors,25,24,1,True
+primary_project_group,H10/H11,Orphan receptors,5,4,1,True
+primary_project_group,H10/H11,Steroid hormone receptors,12,12,0,True
+primary_project_group,H11,Nutritional sensors,25,1,24,False
+primary_project_group,H11,Orphan receptors,5,0,5,False
+primary_project_group,H11,Steroid hormone receptors,12,0,12,False
+primary_project_group,H11',Nutritional sensors,25,2,23,False
+primary_project_group,H11',Orphan receptors,5,0,5,False
+primary_project_group,H11',Steroid hormone receptors,12,0,12,False
+primary_project_group,H12,Nutritional sensors,25,23,2,True
+primary_project_group,H12,Orphan receptors,5,4,1,True
+primary_project_group,H12,Steroid hormone receptors,12,12,0,True
+primary_project_group,H2,Nutritional sensors,25,9,16,True
+primary_project_group,H2,Orphan receptors,5,0,5,False
+primary_project_group,H2,Steroid hormone receptors,12,6,6,True
+primary_project_group,H2',Nutritional sensors,25,6,19,True
+primary_project_group,H2',Orphan receptors,5,0,5,False
+primary_project_group,H2',Steroid hormone receptors,12,0,12,False
+primary_project_group,H3,Nutritional sensors,25,25,0,True
+primary_project_group,H3,Orphan receptors,5,4,1,True
+primary_project_group,H3,Steroid hormone receptors,12,12,0,True
+primary_project_group,H3n,Nutritional sensors,25,0,25,False
+primary_project_group,H3n,Orphan receptors,5,0,5,False
+primary_project_group,H3n,Steroid hormone receptors,12,1,11,False
+primary_project_group,H4,Nutritional sensors,25,25,0,True
+primary_project_group,H4,Orphan receptors,5,4,1,True
+primary_project_group,H4,Steroid hormone receptors,12,12,0,True
+primary_project_group,H5,Nutritional sensors,25,25,0,True
+primary_project_group,H5,Orphan receptors,5,4,1,True
+primary_project_group,H5,Steroid hormone receptors,12,12,0,True
+primary_project_group,H6,Nutritional sensors,25,24,1,True
+primary_project_group,H6,Orphan receptors,5,2,3,False
+primary_project_group,H6,Steroid hormone receptors,12,10,2,True
+primary_project_group,H7,Nutritional sensors,25,25,0,True
+primary_project_group,H7,Orphan receptors,5,4,1,True
+primary_project_group,H7,Steroid hormone receptors,12,12,0,True
+primary_project_group,H8,Nutritional sensors,25,25,0,True
+primary_project_group,H8,Orphan receptors,5,4,1,True
+primary_project_group,H8,Steroid hormone receptors,12,12,0,True
+primary_project_group,H9,Nutritional sensors,25,25,0,True
+primary_project_group,H9,Orphan receptors,5,4,1,True
+primary_project_group,H9,Steroid hormone receptors,12,12,0,True
+secondary_nr_family_number,H1,NR0,1,0,1,False
+secondary_nr_family_number,H1,NR1,18,17,1,True
+secondary_nr_family_number,H1,NR2,10,6,4,True
+secondary_nr_family_number,H1,NR3,9,9,0,True
+secondary_nr_family_number,H1,NR4,2,2,0,False
+secondary_nr_family_number,H1,NR5,2,2,0,False
+secondary_nr_family_number,H10,NR0,1,0,1,False
+secondary_nr_family_number,H10,NR1,18,1,17,False
+secondary_nr_family_number,H10,NR2,10,0,10,False
+secondary_nr_family_number,H10,NR3,9,0,9,False
+secondary_nr_family_number,H10,NR4,2,0,2,False
+secondary_nr_family_number,H10,NR5,2,0,2,False
+secondary_nr_family_number,H10/H11,NR0,1,0,1,False
+secondary_nr_family_number,H10/H11,NR1,18,17,1,True
+secondary_nr_family_number,H10/H11,NR2,10,10,0,True
+secondary_nr_family_number,H10/H11,NR3,9,9,0,True
+secondary_nr_family_number,H10/H11,NR4,2,2,0,False
+secondary_nr_family_number,H10/H11,NR5,2,2,0,False
+secondary_nr_family_number,H11,NR0,1,0,1,False
+secondary_nr_family_number,H11,NR1,18,1,17,False
+secondary_nr_family_number,H11,NR2,10,0,10,False
+secondary_nr_family_number,H11,NR3,9,0,9,False
+secondary_nr_family_number,H11,NR4,2,0,2,False
+secondary_nr_family_number,H11,NR5,2,0,2,False
+secondary_nr_family_number,H11',NR0,1,0,1,False
+secondary_nr_family_number,H11',NR1,18,2,16,False
+secondary_nr_family_number,H11',NR2,10,0,10,False
+secondary_nr_family_number,H11',NR3,9,0,9,False
+secondary_nr_family_number,H11',NR4,2,0,2,False
+secondary_nr_family_number,H11',NR5,2,0,2,False
+secondary_nr_family_number,H12,NR0,1,0,1,False
+secondary_nr_family_number,H12,NR1,18,16,2,True
+secondary_nr_family_number,H12,NR2,10,10,0,True
+secondary_nr_family_number,H12,NR3,9,9,0,True
+secondary_nr_family_number,H12,NR4,2,2,0,False
+secondary_nr_family_number,H12,NR5,2,2,0,False
+secondary_nr_family_number,H2,NR0,1,0,1,False
+secondary_nr_family_number,H2,NR1,18,13,5,True
+secondary_nr_family_number,H2,NR2,10,0,10,False
+secondary_nr_family_number,H2,NR3,9,0,9,False
+secondary_nr_family_number,H2,NR4,2,0,2,False
+secondary_nr_family_number,H2,NR5,2,2,0,False
+secondary_nr_family_number,H2',NR0,1,0,1,False
+secondary_nr_family_number,H2',NR1,18,6,12,True
+secondary_nr_family_number,H2',NR2,10,0,10,False
+secondary_nr_family_number,H2',NR3,9,0,9,False
+secondary_nr_family_number,H2',NR4,2,0,2,False
+secondary_nr_family_number,H2',NR5,2,0,2,False
+secondary_nr_family_number,H3,NR0,1,0,1,False
+secondary_nr_family_number,H3,NR1,18,18,0,True
+secondary_nr_family_number,H3,NR2,10,10,0,True
+secondary_nr_family_number,H3,NR3,9,9,0,True
+secondary_nr_family_number,H3,NR4,2,2,0,False
+secondary_nr_family_number,H3,NR5,2,2,0,False
+secondary_nr_family_number,H3n,NR0,1,0,1,False
+secondary_nr_family_number,H3n,NR1,18,1,17,False
+secondary_nr_family_number,H3n,NR2,10,0,10,False
+secondary_nr_family_number,H3n,NR3,9,0,9,False
+secondary_nr_family_number,H3n,NR4,2,0,2,False
+secondary_nr_family_number,H3n,NR5,2,0,2,False
+secondary_nr_family_number,H4,NR0,1,0,1,False
+secondary_nr_family_number,H4,NR1,18,18,0,True
+secondary_nr_family_number,H4,NR2,10,10,0,True
+secondary_nr_family_number,H4,NR3,9,9,0,True
+secondary_nr_family_number,H4,NR4,2,2,0,False
+secondary_nr_family_number,H4,NR5,2,2,0,False
+secondary_nr_family_number,H5,NR0,1,0,1,False
+secondary_nr_family_number,H5,NR1,18,18,0,True
+secondary_nr_family_number,H5,NR2,10,10,0,True
+secondary_nr_family_number,H5,NR3,9,9,0,True
+secondary_nr_family_number,H5,NR4,2,2,0,False
+secondary_nr_family_number,H5,NR5,2,2,0,False
+secondary_nr_family_number,H6,NR0,1,0,1,False
+secondary_nr_family_number,H6,NR1,18,17,1,True
+secondary_nr_family_number,H6,NR2,10,8,2,True
+secondary_nr_family_number,H6,NR3,9,7,2,True
+secondary_nr_family_number,H6,NR4,2,2,0,False
+secondary_nr_family_number,H6,NR5,2,2,0,False
+secondary_nr_family_number,H7,NR0,1,0,1,False
+secondary_nr_family_number,H7,NR1,18,18,0,True
+secondary_nr_family_number,H7,NR2,10,10,0,True
+secondary_nr_family_number,H7,NR3,9,9,0,True
+secondary_nr_family_number,H7,NR4,2,2,0,False
+secondary_nr_family_number,H7,NR5,2,2,0,False
+secondary_nr_family_number,H8,NR0,1,0,1,False
+secondary_nr_family_number,H8,NR1,18,18,0,True
+secondary_nr_family_number,H8,NR2,10,10,0,True
+secondary_nr_family_number,H8,NR3,9,9,0,True
+secondary_nr_family_number,H8,NR4,2,2,0,False
+secondary_nr_family_number,H8,NR5,2,2,0,False
+secondary_nr_family_number,H9,NR0,1,0,1,False
+secondary_nr_family_number,H9,NR1,18,18,0,True
+secondary_nr_family_number,H9,NR2,10,10,0,True
+secondary_nr_family_number,H9,NR3,9,9,0,True
+secondary_nr_family_number,H9,NR4,2,2,0,False
+secondary_nr_family_number,H9,NR5,2,2,0,False

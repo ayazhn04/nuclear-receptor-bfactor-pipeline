@@ -1,0 +1,33 @@
+grouping_scheme,structural_segment,n_receptors,n_groups,eligible_groups,H_statistic,raw_p,epsilon_squared,epsilon_squared_ci_low,epsilon_squared_ci_high,test_status,fdr_q,significant_fdr_05,outcome_summary
+primary_project_group,H10/H11,40,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",11.106097560975627,0.0038756232884170944,0.28477173233270836,0.14342260574209614,0.5170778120974139,TESTED,0.02894090477281916,True,mean_of_entry_mean_z
+primary_project_group,H7,41,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",10.494494773519165,0.00526198268596712,0.26236236933797913,0.19381386064599498,0.4426600726878615,TESTED,0.02894090477281916,True,mean_of_entry_mean_z
+primary_project_group,H9,41,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",7.418072009291507,0.024501130867348106,0.18545180023228766,0.05988296782966269,0.3922528502567815,TESTED,0.08983747984694306,False,mean_of_entry_mean_z
+primary_project_group,H3,41,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",5.123995354239241,0.0771504646799651,0.12809988385598103,0.017360592561961076,0.37401346316093875,TESTED,0.21216377786990404,False,mean_of_entry_mean_z
+primary_project_group,H6,34,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",1.75,0.18587673236587207,0.05303030303030303,0.00017385012850649825,0.3361651825671182,TESTED,0.3658945105713669,False,mean_of_entry_mean_z
+primary_project_group,H2,15,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",1.3888888888888857,0.23859282931643258,0.09920634920634898,0.0,0.740402193784278,TESTED,0.3658945105713669,False,mean_of_entry_mean_z
+primary_project_group,H4,41,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",2.8623693379790893,0.23902558824628808,0.07155923344947723,0.007272165038926122,0.2727196758681985,TESTED,0.3658945105713669,False,mean_of_entry_mean_z
+primary_project_group,H1,35,2,"[""Nutritional sensors"", ""Steroid hormone receptors""]",1.2367149758454161,0.26610509859735776,0.036373969877806354,0.00014242442699757778,0.23377905026231843,TESTED,0.3658945105713669,False,mean_of_entry_mean_z
+primary_project_group,H8,41,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",1.2402322880371486,0.5378819621940649,0.031005807200928714,0.002760290355618456,0.20596639968775016,TESTED,0.6574112871260793,False,mean_of_entry_mean_z
+primary_project_group,H5,41,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",0.9563763066202,0.619905548727518,0.023909407665505,0.0016689421968510995,0.26373775865416216,TESTED,0.6654431174711666,False,mean_of_entry_mean_z
+primary_project_group,H12,39,3,"[""Nutritional sensors"", ""Orphan receptors"", ""Steroid hormone receptors""]",0.8146042363433565,0.6654431174711666,0.021436953587983067,0.002427741969615587,0.2788219927798647,TESTED,0.6654431174711666,False,mean_of_entry_mean_z
+primary_project_group,H10,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+primary_project_group,H11,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+primary_project_group,H11',2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+primary_project_group,H2',6,1,"[""Nutritional sensors""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+primary_project_group,H3n,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+secondary_nr_family_number,H10/H11,36,3,"[""NR1"", ""NR2"", ""NR3""]",13.391520932697404,0.0012361414727429262,0.3826148837913544,0.2136885044790293,0.5980210007610116,TESTED,0.012361414727429262,True,mean_of_entry_mean_z
+secondary_nr_family_number,H6,32,3,"[""NR1"", ""NR2"", ""NR3""]",10.18218821619557,0.006151286032198395,0.3284576843934055,0.08385543199176307,0.6713292643527398,TESTED,0.030756430160991974,True,mean_of_entry_mean_z
+secondary_nr_family_number,H12,35,3,"[""NR1"", ""NR2"", ""NR3""]",5.882500000000007,0.05279968786157429,0.17301470588235315,0.03148781553328826,0.47780942043384783,TESTED,0.17599895953858094,False,mean_of_entry_mean_z
+secondary_nr_family_number,H3,37,3,"[""NR1"", ""NR2"", ""NR3""]",3.809957325746808,0.14882581810358408,0.10583214793741133,0.013099671793714,0.3898997655444103,TESTED,0.3720645452589602,False,mean_of_entry_mean_z
+secondary_nr_family_number,H9,37,3,"[""NR1"", ""NR2"", ""NR3""]",2.6752963489805808,0.26246220861641467,0.0743137874716828,0.00715917083115048,0.31777828369785555,TESTED,0.5249244172328293,False,mean_of_entry_mean_z
+secondary_nr_family_number,H7,37,3,"[""NR1"", ""NR2"", ""NR3""]",1.2566145092461056,0.5334941067873664,0.0349059585901696,0.0033572703119936972,0.274730881624166,TESTED,0.7274190401741142,False,mean_of_entry_mean_z
+secondary_nr_family_number,H5,37,3,"[""NR1"", ""NR2"", ""NR3""]",1.2134660976766298,0.545128872571339,0.03370739160212861,0.00326901945514058,0.267553404580174,TESTED,0.7274190401741142,False,mean_of_entry_mean_z
+secondary_nr_family_number,H1,32,3,"[""NR1"", ""NR2"", ""NR3""]",0.8572860962566722,0.6513924034250962,0.027654390201828135,0.0018935388950100213,0.3817772048150807,TESTED,0.7274190401741142,False,mean_of_entry_mean_z
+secondary_nr_family_number,H4,37,3,"[""NR1"", ""NR2"", ""NR3""]",0.8472261735419693,0.6546771361567028,0.023534060376165813,0.0032096052579486554,0.25245500299524326,TESTED,0.7274190401741142,False,mean_of_entry_mean_z
+secondary_nr_family_number,H8,37,3,"[""NR1"", ""NR2"", ""NR3""]",0.16842105263158658,0.9192377119939319,0.004678362573099627,0.001810504230889727,0.19451342953914189,TESTED,0.9192377119939319,False,mean_of_entry_mean_z
+secondary_nr_family_number,H10,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+secondary_nr_family_number,H11,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+secondary_nr_family_number,H11',2,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+secondary_nr_family_number,H2,15,1,"[""NR1""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+secondary_nr_family_number,H2',6,1,"[""NR1""]",,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z
+secondary_nr_family_number,H3n,1,0,[],,,,,,NOT_TESTABLE_FEWER_THAN_2_ELIGIBLE_GROUPS,,False,mean_of_entry_mean_z

@@ -1,0 +1,67 @@
+category,metric,v1_frozen,v2_corrected,same
+dataset,project_receptors,45,,False
+dataset,master_candidates,2072,2072,True
+dataset,coordinate_assessable_candidates,1840,1844,False
+dataset,structural_instances,3159,3166,False
+dataset,residue_rows,771542,786887,False
+dataset,normalized_observations_z_computed,720845,733074,False
+dataset,coordinate_receptors,42,42,True
+structural_mapping,segments_realized,39,16,False
+structural_mapping,receptors_with_any_named_segment,41,42,False
+structural_mapping,unresolved_element_H8_receptor_count,0,,False
+structural_mapping,modeling_primary_features,8,10,False
+pca_clustering,primary_clustering_receptor_cohort,29,41,False
+pca_clustering,pc1_explained_variance,0.2836,0.3136,False
+pca_clustering,n_pcs_for_70%_variance,4,4,True
+pca_clustering,n_pcs_for_80%_variance,5,5,True
+pca_clustering,n_pcs_for_90%_variance,6,7,False
+pca_clustering,n_pcs_for_95%_variance,7,8,False
+pca_clustering,best_silhouette_pca_primary,0.4105,0.2186,False
+pca_clustering,dbscan_max_clusters_found_pca_primary,1,1,True
+pca_clustering,mean_cross_method_ARI_pca_primary,0.3543,0.3867,False
+pca_clustering,sensitivity_ari_range,0.22-0.68,0.33-0.58,False
+pca_clustering,supported_conclusion,no_robust_discrete_clusters_continuum_consistent,,False
+subfamily_testing,testable_segments_primary_scheme,19,11,False
+subfamily_testing,total_omnibus_tests,35,21,False
+subfamily_testing,nominal_p_lt_05,2,4,False
+subfamily_testing,fdr_significant,0,0,True
+subfamily_testing,atlas_segments_total,39,16,False
+subfamily_testing,atlas_well_supported_segments,16,11,False
+apo_holo,primary_eligible_receptors_5_5,7,7,True
+apo_holo,exploratory_eligible_receptors_3_3,9,9,True
+apo_holo,eligible_receptor_nr_codes,NR1I2;NR3A1;NR2B1;NR4A1;NR2B2;NR1C3;NR1F3;NR3B3;NR1C1,NR1I2;NR3A1;NR2B1;NR4A1;NR2B2;NR1C3;NR1F3;NR3B3;NR1C1,True
+apo_holo,VDR_n_APO,0,0,True
+apo_holo,VDR_n_HOLO,48,48,True
+apo_holo,n_tests,97,96,False
+apo_holo,within_receptor_fdr_significant,3,11,False
+apo_holo,global_fdr_significant,0,0,True
+apo_holo,robust_significant_results_loo,3/3,11/11,False
+functional_sites,definition_rows,3684,5480,False
+functional_sites,receptors_with_any_site_definition,41,42,False
+functional_sites,original_within_receptor_tests,107,118,False
+functional_sites,original_within_fdr_significant,73,82,False
+functional_sites,original_global_fdr_significant,76,84,False
+functional_sites,matched_background_tests,55,64,False
+functional_sites,matched_background_significant,43,46,False
+functional_sites,interpretation_AF2_H12,SITE_SPECIFIC_SUPPORTED,SITE_SPECIFIC_SUPPORTED,True
+functional_sites,interpretation_COACTIVATOR_GROOVE,STRUCTURAL_CONTEXT_EXPLAINED,STRUCTURAL_CONTEXT_EXPLAINED,True
+functional_sites,interpretation_DIMERIZATION_INTERFACE,INSUFFICIENT_RESIDUE_LEVEL_MAPPING,INSUFFICIENT_RESIDUE_LEVEL_MAPPING,True
+functional_sites,interpretation_LIGAND_BINDING_POCKET,SITE_SPECIFIC_SUPPORTED,SITE_SPECIFIC_SUPPORTED,True
+dataset,receptors_with_any_discovery_candidate,,45,False
+dataset,project_receptors_defined,,48,False
+structural_mapping,receptors_with_professor_H8,,42,False
+functional_sites,definition_unique_positions,,5479,False
+headline_lists,apo/holo within-FDR significant (receptor element),NR3A1 H1; NR3A1 H3; NR3B3 loop_H6_H10,NR3A1 H1; NR3A1 H3; NR3A1 H4; NR3A1 H9; NR2B1 H12; NR4A1 H7; NR4A1 H3; NR1C3 H9; NR3B3 H9; NR3B3 H8; NR3B3 H6,
+headline_lists,subfamily FDR-significant (scheme element),,,
+headline_lists,functional-site superfamily FDR-significant,AF2_H12; COACTIVATOR_GROOVE; LIGAND_BINDING_POCKET,AF2_H12; COACTIVATOR_GROOVE; DIMERIZATION_INTERFACE; LIGAND_BINDING_POCKET,
+headline_lists,specificity classification AF2_H12,SITE_SPECIFIC_SUPPORTED,SITE_SPECIFIC_SUPPORTED,True
+headline_lists,specificity classification COACTIVATOR_GROOVE,STRUCTURAL_CONTEXT_EXPLAINED,STRUCTURAL_CONTEXT_EXPLAINED,True
+headline_lists,specificity classification DIMERIZATION_INTERFACE,INSUFFICIENT_RESIDUE_LEVEL_MAPPING,INSUFFICIENT_RESIDUE_LEVEL_MAPPING,True
+headline_lists,specificity classification LIGAND_BINDING_POCKET,SITE_SPECIFIC_SUPPORTED,SITE_SPECIFIC_SUPPORTED,True
+headline_lists,superfamily median site-minus-background delta AF2_H12,0.264,0.257,
+headline_lists,superfamily median site-minus-background delta COACTIVATOR_GROOVE,-0.34,-0.369,
+headline_lists,superfamily median site-minus-background delta DIMERIZATION_INTERFACE,0.091,-0.091,
+headline_lists,superfamily median site-minus-background delta LIGAND_BINDING_POCKET,-0.353,-0.386,
+headline_lists,apo/holo eligible_primary_5_5 receptors,NR1C1;NR1C3;NR1I2;NR2B1;NR3A1;NR3B3;NR4A1,NR1C1;NR1C3;NR1I2;NR2B1;NR3A1;NR3B3;NR4A1,True
+headline_lists,apo/holo eligible_exploratory_3_3 receptors,NR1C1;NR1C3;NR1F3;NR1I2;NR2B1;NR2B2;NR3A1;NR3B3;NR4A1,NR1C1;NR1C3;NR1F3;NR1I2;NR2B1;NR2B2;NR3A1;NR3B3;NR4A1,True
+headline_lists,primary modeling features,H1;H11;H12;H3;H5;H7;beta_sheet;loop_H3_H5,H1;H10/H11;H12;H3;H4;H5;H6;H7;H8;H9,False

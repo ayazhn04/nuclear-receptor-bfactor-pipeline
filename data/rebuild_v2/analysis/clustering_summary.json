@@ -1,0 +1,22 @@
+{
+  "k_range": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "gap_chosen_k": {
+    "pca_primary": 2,
+    "scaled_feature_matrix": 2,
+    "knn_imputed_scaled": 3,
+    "meanmatrix_scaled": 2,
+    "complete_case_scaled": 2
+  },
+  "max_silhouette_pca_primary": 0.21863336963984406,
+  "mean_cross_method_ari_pca_primary": 0.38670526648466785
+}

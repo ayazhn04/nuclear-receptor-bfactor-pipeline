@@ -1,0 +1,7 @@
+{
+  "data/analysis/nr_lbd_structural_segment_map.csv": "41a4da8d6724377c6e25b71e21be84b51ebef0012bc8bd0ec86429aed06f38ac",
+  "data/analysis/receptor_segment_coverage_matrix.parquet": "40f57cf23dd15fc9ca34f17130ef2a841d19f2b4f6fbfb7c32b5f27fb34a1d89",
+  "data/analysis/receptor_segment_feature_matrix_mean.parquet": "d0bfc0535798472767a0cff2d05b362bbfc941dc3d8a89df03332f9f62836bd7",
+  "data/analysis/receptor_segment_feature_matrix_median.parquet": "f57ab7e76fe45198f346b4401c9a598a384d7953b6edcd3642d64f1320018af6",
+  "data/analysis/receptor_segment_flexibility_profiles.parquet": "12fec8e814f7f165e79eca8f001143a5ebc67611732001b69cb59da850a10f4e"
+}

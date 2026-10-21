@@ -1,0 +1,13 @@
+{
+  "n_samples": 41,
+  "n_features": 10,
+  "max_components": 10,
+  "n_components_for_variance": {
+    "70%": 4,
+    "80%": 5,
+    "90%": 7,
+    "95%": 8
+  },
+  "pc1_explained_variance": 0.31363477062746314,
+  "pc2_explained_variance": 0.2311977588346145
+}

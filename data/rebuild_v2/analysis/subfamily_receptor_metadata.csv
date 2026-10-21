@@ -1,0 +1,43 @@
+uniprot_id,nr_code,common_name,group,n_coordinate_candidates,nr_subfamily_letter,nr_family_number
+P10275,NR3C4,AR,Steroid hormone receptors,93,NR3C,NR3
+P03372,NR3A1,ERα,Steroid hormone receptors,376,NR3A,NR3
+Q92731,NR3A2,ERβ,Steroid hormone receptors,39,NR3A,NR3
+P04150,NR3C1,GR,Steroid hormone receptors,33,NR3C,NR3
+P08235,NR3C2,MR,Steroid hormone receptors,29,NR3C,NR3
+P06401,NR3C3,PR,Steroid hormone receptors,19,NR3C,NR3
+P10276,NR1B1,RARα,Steroid hormone receptors,12,NR1B,NR1
+P10826,NR1B2,RARβ,Steroid hormone receptors,8,NR1B,NR1
+P13631,NR1B3,RARγ,Steroid hormone receptors,11,NR1B,NR1
+P10827,NR1A1,TRα,Steroid hormone receptors,10,NR1A,NR1
+P10828,NR1A2,TRβ,Steroid hormone receptors,33,NR1A,NR1
+P11473,NR1I1,VDR,Steroid hormone receptors,52,NR1I,NR1
+Q14994,NR1I3,CAR,Nutritional sensors,2,NR1I,NR1
+P11474,NR3B1,ERRα,Nutritional sensors,5,NR3B,NR3
+O95718,NR3B2,ERRβ,Nutritional sensors,2,NR3B,NR3
+P62508,NR3B3,ERRγ,Nutritional sensors,33,NR3B,NR3
+Q96RI1,NR1H4,FXR,Nutritional sensors,91,NR1H,NR1
+P41235,NR2A1,HNF4α,Nutritional sensors,7,NR2A,NR2
+Q14541,NR2A2,HNF4γ,Nutritional sensors,1,NR2A,NR2
+O00482,NR5A2,LRH-1,Nutritional sensors,25,NR5A,NR5
+Q13133,NR1H3,LXRα,Nutritional sensors,7,NR1H,NR1
+P55055,NR1H2,LXRβ,Nutritional sensors,25,NR1H,NR1
+P22736,NR4A1,NUR77,Nutritional sensors,21,NR4A,NR4
+P43354,NR4A2,NURR1,Nutritional sensors,8,NR4A,NR4
+Q07869,NR1C1,PPARα,Nutritional sensors,79,NR1C,NR1
+Q03181,NR1C2,PPARδ,Nutritional sensors,55,NR1C,NR1
+P37231,NR1C3,PPARγ,Nutritional sensors,382,NR1C,NR1
+O75469,NR1I2,PXR,Nutritional sensors,80,NR1I,NR1
+P20393,NR1D1,Rev-erbα,Nutritional sensors,2,NR1D,NR1
+Q14995,NR1D2,Rev-erbβ,Nutritional sensors,6,NR1D,NR1
+P35398,NR1F1,RORα,Nutritional sensors,3,NR1F,NR1
+P51449,NR1F3,RORγ,Nutritional sensors,165,NR1F,NR1
+P19793,NR2B1,RXRα,Nutritional sensors,95,NR2B,NR2
+P28702,NR2B2,RXRβ,Nutritional sensors,7,NR2B,NR2
+P48443,NR2B3,RXRγ,Nutritional sensors,2,NR2B,NR2
+Q13285,NR5A1,SF-1,Nutritional sensors,6,NR5A,NR5
+P49116,NR2C2,TR4,Nutritional sensors,2,NR2C,NR2
+P24468,NR2F2,COUP-TFII,Orphan receptors,1,NR2F,NR2
+P10588,NR2F6,EAR-2,Orphan receptors,1,NR2F,NR2
+Q9Y5X4,NR2E3,PNR,Orphan receptors,1,NR2E,NR2
+Q15466,NR0B2,SHP,Orphan receptors,14,NR0B,NR0
+Q9Y466,NR2E1,TLX,Orphan receptors,1,NR2E,NR2

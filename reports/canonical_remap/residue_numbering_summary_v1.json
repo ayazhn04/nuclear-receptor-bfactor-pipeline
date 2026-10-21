@@ -1,0 +1,32 @@
+{
+  "n_instances": 3159,
+  "n_crosswalk_rows": 801642,
+  "numbering_class_counts": {
+    "CLEAN": 3043,
+    "DELETION_INSERTION_OFFSET": 53,
+    "ISOFORM_DIFFERENCE_OFFSET": 4,
+    "PARTIAL_AMBIGUOUS": 57,
+    "REGISTER_OFFSET_NO_GAP": 2
+  },
+  "correction_status_counts": {
+    "CORRECTED": 11612,
+    "NEWLY_MAPPED": 395,
+    "UNCHANGED": 789480,
+    "WITHHELD_PREVIOUSLY_MAPPED": 155
+  },
+  "observed_frozen_rows": 721126,
+  "before_identical": 708151,
+  "before_nonidentical": 12975,
+  "after_mapped": 721061,
+  "after_identical": 718676,
+  "after_substitution_documented": 2283,
+  "after_substitution_undocumented": 11,
+  "after_nonstandard_residue_unresolved": 0,
+  "after_modified_residue_parent_identical": 91,
+  "after_withheld": 65,
+  "before_nonidentical_explained_by_numbering": 10599,
+  "before_nonidentical_real_substitution_same_position": 2376,
+  "poly_seq_vs_observed_comp_mismatch": 0,
+  "n_entities_with_corrected_regions": 1840,
+  "n_entities_multi_region": 69
+}

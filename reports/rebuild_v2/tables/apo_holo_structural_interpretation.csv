@@ -1,0 +1,56 @@
+uniprot_id,nr_code,structural_segment,structural_category,delta_median_z,q_within_receptor,nearest_functional_site_within_3res,level
+P03372,NR3A1,H1,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",0.6559510565947034,0.007185101364250719,,segment
+P03372,NR3A1,H3,H3/H4/H5 coactivator/pocket region,-0.12333981001849381,0.01472055195756077,,segment
+P03372,NR3A1,H4,H3/H4/H5 coactivator/pocket region,0.40957437999556834,0.01472055195756077,,segment
+P03372,NR3A1,H9,H9/H10/H11 dimerization region,0.22857990583963567,0.01472055195756077,,segment
+P19793,NR2B1,H12,H12 / AF-2 activation helix,-0.8068825673185038,0.04378746454175983,,segment
+P22736,NR4A1,H7,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",-0.1625087043031015,0.03999392249375003,,segment
+P22736,NR4A1,H3,H3/H4/H5 coactivator/pocket region,-0.19388456402812193,0.04744123914038223,,segment
+P37231,NR1C3,H9,H9/H10/H11 dimerization region,0.06776088326406304,0.027166447083157352,,segment
+P62508,NR3B3,H9,H9/H10/H11 dimerization region,0.20960113090471733,0.020260607023677102,,segment
+P62508,NR3B3,H8,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",0.1620722858402558,0.020260607023677102,,segment
+P62508,NR3B3,H6,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",-0.5688389354221748,0.025458181047724984,,segment
+P03372,NR3A1,H1,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",0.776592214815375,0.002842334578099641,,residue
+P03372,NR3A1,H3,H3/H4/H5 coactivator/pocket region,-0.3863828775901647,0.00814453691305972,,residue
+P03372,NR3A1,H3,H3/H4/H5 coactivator/pocket region,-0.3269233467644175,0.011462121899727786,,residue
+P03372,NR3A1,,between professor helices (no professor element; derived position),-1.5273338255423332,0.011462121899727786,,residue
+P03372,NR3A1,H1,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",0.8071710673191704,0.011462121899727786,,residue
+P03372,NR3A1,H7,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",-0.3915147205832499,0.011462121899727786,,residue
+P03372,NR3A1,H5,H3/H4/H5 coactivator/pocket region,-0.39961377452599056,0.011462121899727786,"Ligand pocket (residue 394, 2 away)",residue
+P03372,NR3A1,H1,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",0.8725160449521856,0.011462121899727786,,residue
+P03372,NR3A1,H1,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",0.6611629126869996,0.011462121899727786,,residue
+P03372,NR3A1,,between professor helices (no professor element; derived position),-0.8773206675635046,0.014851506248729796,,residue
+P03372,NR3A1,H7,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",-0.29975569143245706,0.014851506248729796,,residue
+P03372,NR3A1,H1,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",0.4503500422465669,0.020693164076416887,,residue
+P03372,NR3A1,H3,H3/H4/H5 coactivator/pocket region,-0.27420182698767553,0.02371831611496345,,residue
+P03372,NR3A1,H4,H3/H4/H5 coactivator/pocket region,0.7838703663937597,0.02599956862054245,,residue
+P03372,NR3A1,H9,H9/H10/H11 dimerization region,1.7186389573705319,0.028264298031739892,,residue
+P03372,NR3A1,,between professor helices (no professor element; derived position),-0.7992494394862906,0.038847551935958693,,residue
+P03372,NR3A1,H9,H9/H10/H11 dimerization region,1.9612816896605023,0.038847551935958693,,residue
+P03372,NR3A1,,between professor helices (no professor element; derived position),-0.4883159708957344,0.04951621039404988,,residue
+P37231,NR1C3,H10/H11,H9/H10/H11 dimerization region,-0.34699102591379183,0.0019378164174033458,,residue
+P37231,NR1C3,H10/H11,H9/H10/H11 dimerization region,-0.2558221495300649,0.0019378164174033458,,residue
+P37231,NR1C3,H10/H11,H9/H10/H11 dimerization region,-0.28659273547935604,0.0019378164174033458,"Ligand pocket (residue 477, 2 away)",residue
+P37231,NR1C3,H9,H9/H10/H11 dimerization region,0.08685009512808883,0.0019378164174033458,,residue
+P37231,NR1C3,H10/H11,H9/H10/H11 dimerization region,-0.4081141113723412,0.0019378164174033458,,residue
+P37231,NR1C3,H9,H9/H10/H11 dimerization region,0.16490211353384265,0.0025347802915444057,,residue
+P37231,NR1C3,H10/H11,H9/H10/H11 dimerization region,-0.3524640155622284,0.0042592825828460515,"Ligand pocket (residue 477, 3 away)",residue
+P37231,NR1C3,H9,H9/H10/H11 dimerization region,0.11441184059393472,0.0042592825828460515,,residue
+P37231,NR1C3,H9,H9/H10/H11 dimerization region,0.1150127601150478,0.0042592825828460515,,residue
+P37231,NR1C3,H9,H9/H10/H11 dimerization region,0.10256999323012572,0.005403549558128739,,residue
+P37231,NR1C3,H9,H9/H10/H11 dimerization region,0.16489011741192078,0.007757404072071811,,residue
+P37231,NR1C3,H10/H11,H9/H10/H11 dimerization region,-0.23480016723996,0.010189647211743015,,residue
+P37231,NR1C3,H10/H11,H9/H10/H11 dimerization region,-0.21032612077002633,0.010189647211743015,"Ligand pocket (residue 477, 1 away)",residue
+P37231,NR1C3,H10/H11,H9/H10/H11 dimerization region,-0.3672211096216891,0.015835890484720425,,residue
+P37231,NR1C3,H10/H11,H9/H10/H11 dimerization region,-0.36671137230014916,0.015835890484720425,,residue
+P37231,NR1C3,H9,H9/H10/H11 dimerization region,0.08971295221643816,0.03524151424562677,,residue
+P37231,NR1C3,H3,H3/H4/H5 coactivator/pocket region,-0.18699601956656398,0.03524151424562677,,residue
+P37231,NR1C3,H3,H3/H4/H5 coactivator/pocket region,-0.16471782023669523,0.03524151424562677,,residue
+P37231,NR1C3,H9,H9/H10/H11 dimerization region,0.10009232377864807,0.039830020612236824,,residue
+P62508,NR3B3,H9,H9/H10/H11 dimerization region,0.39366536754718884,0.047672016526299064,,residue
+P62508,NR3B3,,between professor helices (no professor element; derived position),-0.7911853554212842,0.047672016526299064,,residue
+P62508,NR3B3,H9,H9/H10/H11 dimerization region,0.5021085593026549,0.047672016526299064,,residue
+P62508,NR3B3,H9,H9/H10/H11 dimerization region,0.34557798058857814,0.047672016526299064,,residue
+P62508,NR3B3,H10/H11,H9/H10/H11 dimerization region,0.30111118639887985,0.047672016526299064,,residue
+P62508,NR3B3,H1,"other helix (H1/H2/H6/H7/H8, not in the named functional categories above)",0.3548263050450089,0.047672016526299064,,residue
+P62508,NR3B3,H9,H9/H10/H11 dimerization region,0.342904606149147,0.047672016526299064,,residue

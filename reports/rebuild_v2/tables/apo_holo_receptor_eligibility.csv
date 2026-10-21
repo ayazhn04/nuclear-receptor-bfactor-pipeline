@@ -1,0 +1,43 @@
+uniprot_id,nr_code,common_name,group,n_total_coordinate_pdbs,n_APO,n_HOLO,n_AMBIGUOUS,n_NOT_ASSESSABLE,n_excluded_TRACE_LBD,eligible_primary_5_5,eligible_exploratory_3_3
+O00482,NR5A2,LRH-1,Nutritional sensors,25,2,23,0,0,0,False,False
+O75469,NR1I2,PXR,Nutritional sensors,80,11,69,0,0,0,True,True
+O95718,NR3B2,ERRβ,Nutritional sensors,2,1,1,0,0,0,False,False
+P03372,NR3A1,ERα,Steroid hormone receptors,351,8,343,0,0,0,True,True
+P04150,NR3C1,GR,Steroid hormone receptors,33,0,29,0,2,2,False,False
+P06401,NR3C3,PR,Steroid hormone receptors,19,0,19,0,0,0,False,False
+P08235,NR3C2,MR,Steroid hormone receptors,29,0,29,0,0,0,False,False
+P10275,NR3C4,AR,Steroid hormone receptors,92,0,92,0,0,0,False,False
+P10276,NR1B1,RARα,Steroid hormone receptors,12,0,12,0,0,0,False,False
+P10588,NR2F6,EAR-2,Orphan receptors,1,1,0,0,0,0,False,False
+P10826,NR1B2,RARβ,Steroid hormone receptors,8,0,8,0,0,0,False,False
+P10827,NR1A1,TRα,Steroid hormone receptors,10,0,10,0,0,0,False,False
+P10828,NR1A2,TRβ,Steroid hormone receptors,33,0,33,0,0,0,False,False
+P11473,NR1I1,VDR,Steroid hormone receptors,52,0,48,0,4,0,False,False
+P11474,NR3B1,ERRα,Nutritional sensors,5,2,3,0,0,0,False,False
+P13631,NR1B3,RARγ,Steroid hormone receptors,11,0,11,0,0,0,False,False
+P19793,NR2B1,RXRα,Nutritional sensors,95,12,82,0,1,0,True,True
+P20393,NR1D1,Rev-erbα,Nutritional sensors,2,1,1,0,0,0,False,False
+P22736,NR4A1,NUR77,Nutritional sensors,21,12,9,0,0,0,True,True
+P24468,NR2F2,COUP-TFII,Orphan receptors,1,1,0,0,0,0,False,False
+P28702,NR2B2,RXRβ,Nutritional sensors,7,4,3,0,0,0,False,True
+P35398,NR1F1,RORα,Nutritional sensors,3,0,3,0,0,0,False,False
+P37231,NR1C3,PPARγ,Nutritional sensors,379,87,292,0,0,0,True,True
+P41235,NR2A1,HNF4α,Nutritional sensors,7,1,6,0,0,0,False,False
+P43354,NR4A2,NURR1,Nutritional sensors,6,6,0,0,0,0,False,False
+P48443,NR2B3,RXRγ,Nutritional sensors,2,1,1,0,0,0,False,False
+P49116,NR2C2,TR4,Nutritional sensors,2,2,0,0,0,0,False,False
+P51449,NR1F3,RORγ,Nutritional sensors,162,4,155,3,0,0,False,True
+P55055,NR1H2,LXRβ,Nutritional sensors,25,0,25,0,0,0,False,False
+P62508,NR3B3,ERRγ,Nutritional sensors,33,5,27,0,0,1,True,True
+Q03181,NR1C2,PPARδ,Nutritional sensors,55,1,54,0,0,0,False,False
+Q07869,NR1C1,PPARα,Nutritional sensors,79,5,74,0,0,0,True,True
+Q13133,NR1H3,LXRα,Nutritional sensors,7,0,7,0,0,0,False,False
+Q13285,NR5A1,SF-1,Nutritional sensors,6,0,6,0,0,0,False,False
+Q14541,NR2A2,HNF4γ,Nutritional sensors,1,0,1,0,0,0,False,False
+Q14994,NR1I3,CAR,Nutritional sensors,2,1,1,0,0,0,False,False
+Q14995,NR1D2,Rev-erbβ,Nutritional sensors,6,2,4,0,0,0,False,False
+Q15466,NR0B2,SHP,Orphan receptors,14,0,0,0,14,0,False,False
+Q92731,NR3A2,ERβ,Steroid hormone receptors,39,0,39,0,0,0,False,False
+Q96RI1,NR1H4,FXR,Nutritional sensors,91,2,89,0,0,0,False,False
+Q9Y466,NR2E1,TLX,Orphan receptors,1,1,0,0,0,0,False,False
+Q9Y5X4,NR2E3,PNR,Orphan receptors,1,1,0,0,0,0,False,False

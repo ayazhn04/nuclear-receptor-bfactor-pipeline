@@ -1,0 +1,435 @@
+source_row_number,nr_code,project_uniprot_id,receptor,sequence_accession,canonical_helix,start,end,assignment_status,boundary_basis,basis_expects_deposited_endpoints,reference_pdb,reference_chain_auth,reference_label_asym_id,reference_chain_status,n_deposited_helix_records_in_chain,start_check,start_delta_to_nearest_deposited_begin,end_check,end_delta_to_nearest_deposited_end,alignment_identity_chain_vs_source_sequence,start_check_alignment,start_delta_alignment,end_check_alignment,end_delta_alignment
+1,NR1A1,P10827,TRα,P10827-2,H1,161,177,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,0.981,EXACT,0,EXACT,0
+2,NR1A1,P10827,TRα,P10827-2,H2,184,189,review_required,family-specific topology with deposited segment endpoints,True,2H79,A,A,OK,15,EXACT,0,EXACT,0,0.981,EXACT,0,EXACT,0
+3,NR1A1,P10827,TRα,P10827-2,H3,211,235,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,EXACT,0,EXACT,0,0.981,EXACT,0,EXACT,0
+4,NR1A1,P10827,TRα,P10827-2,H4,236,241,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,EXACT,0,EXACT,0,0.981,EXACT,0,EXACT,0
+5,NR1A1,P10827,TRα,P10827-2,H5,243,265,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,EXACT,0,EXACT,0,0.981,EXACT,0,EXACT,0
+6,NR1A1,P10827,TRα,P10827-2,H6,284,290,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,EXACT,0,EXACT,0,0.981,EXACT,0,EXACT,0
+7,NR1A1,P10827,TRα,P10827-2,H7,293,307,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,EXACT,0,EXACT,0,0.981,EXACT,0,EXACT,0
+8,NR1A1,P10827,TRα,P10827-2,H8,312,325,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,EXACT,0,EXACT,0,0.981,EXACT,0,EXACT,0
+9,NR1A1,P10827,TRα,P10827-2,H9,334,357,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,EXACT,0,EXACT,0,0.981,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0
+10,NR1A1,P10827,TRα,P10827-2,H10/H11,362,392,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,EXACT,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.981,EXACT,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+11,NR1A1,P10827,TRα,P10827-2,H12,398,406,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2H79,A,A,OK,15,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.981,EXACT,0,EXACT,0
+12,NR1A2,P10828,TRβ,P10828,H1,215,233,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,0.996,EXACT,0,EXACT,0
+13,NR1A2,P10828,TRβ,P10828,H2,238,243,review_required,family-specific topology with deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+14,NR1A2,P10828,TRβ,P10828,H3,265,288,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+15,NR1A2,P10828,TRβ,P10828,H4,290,295,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+16,NR1A2,P10828,TRβ,P10828,H5,297,319,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+17,NR1A2,P10828,TRβ,P10828,H6,338,344,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+18,NR1A2,P10828,TRβ,P10828,H7,347,361,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+19,NR1A2,P10828,TRβ,P10828,H8,366,379,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+20,NR1A2,P10828,TRβ,P10828,H9,388,411,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+21,NR1A2,P10828,TRβ,P10828,H10/H11,416,446,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+22,NR1A2,P10828,TRβ,P10828,H12,452,460,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2J4A,A,A,OK,12,EXACT,0,EXACT,0,0.996,EXACT,0,EXACT,0
+23,NR1B1,P10276,RARα,P10276,H1,183,197,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+24,NR1B1,P10276,RARα,P10276,H2,201,205,review_required,family-specific topology with deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+25,NR1B1,P10276,RARα,P10276,H3,221,245,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+26,NR1B1,P10276,RARα,P10276,H4,248,252,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+27,NR1B1,P10276,RARα,P10276,H5,253,276,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+28,NR1B1,P10276,RARα,P10276,H6,294,301,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+29,NR1B1,P10276,RARα,P10276,H7,305,317,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+30,NR1B1,P10276,RARα,P10276,H8,322,335,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+31,NR1B1,P10276,RARα,P10276,H9,344,367,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+32,NR1B1,P10276,RARα,P10276,H10/H11,372,402,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+33,NR1B1,P10276,RARα,P10276,H12,407,415,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9GFE,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+34,NR1B2,P10826,RARβ,P10826,H1,179,197,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,1.0,EXACT,0,EXACT,0
+35,NR1B2,P10826,RARβ,P10826,H2,201,205,review_required,family-specific topology with deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+36,NR1B2,P10826,RARβ,P10826,H3,221,245,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+37,NR1B2,P10826,RARβ,P10826,H4,248,252,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+38,NR1B2,P10826,RARβ,P10826,H5,253,275,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+39,NR1B2,P10826,RARβ,P10826,H6,294,301,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+40,NR1B2,P10826,RARβ,P10826,H7,305,317,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+41,NR1B2,P10826,RARβ,P10826,H8,322,335,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+42,NR1B2,P10826,RARβ,P10826,H9,344,367,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+43,NR1B2,P10826,RARβ,P10826,H10/H11,372,402,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+44,NR1B2,P10826,RARβ,P10826,H12,407,414,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4DM6,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+45,NR1B3,P13631,RARγ,P13631,H1,183,201,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,1.0,EXACT,0,EXACT,0
+46,NR1B3,P13631,RARγ,P13631,H2,203,207,review_required,family-specific topology with deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+47,NR1B3,P13631,RARγ,P13631,H3,223,247,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+48,NR1B3,P13631,RARγ,P13631,H4,250,254,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+49,NR1B3,P13631,RARγ,P13631,H5,255,278,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+50,NR1B3,P13631,RARγ,P13631,H6,296,303,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+51,NR1B3,P13631,RARγ,P13631,H7,307,319,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+52,NR1B3,P13631,RARγ,P13631,H8,324,337,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+53,NR1B3,P13631,RARγ,P13631,H9,346,369,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+54,NR1B3,P13631,RARγ,P13631,H10/H11,374,402,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+55,NR1B3,P13631,RARγ,P13631,H12,409,417,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FCY,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+56,NR1C1,Q07869,PPARα,Q07869,H1,202,218,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LXA,A,A,OK,14,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,1.0,EXACT,0,EXACT,0
+57,NR1C1,Q07869,PPARα,Q07869,H2,221,230,review_required,family-specific topology with deposited segment endpoints,True,6LXA,A,A,OK,14,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,1.0,EXACT,0,EXACT,0
+58,NR1C1,Q07869,PPARα,Q07869,H2',243,255,review_required,family-specific topology with deposited segment endpoints,True,6LXA,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+59,NR1C1,Q07869,PPARα,Q07869,H3,267,292,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LXA,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+60,NR1C1,Q07869,PPARα,Q07869,H4,296,300,review_required,aligned VDR core; no supporting deposited helix,False,6LXA,A,A,OK,14,MISMATCH,-5,MISMATCH,8,1.0,MISMATCH,-5,MISMATCH,8
+61,NR1C1,Q07869,PPARα,Q07869,H5,301,322,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LXA,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+62,NR1C1,Q07869,PPARα,Q07869,H6,341,347,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LXA,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+63,NR1C1,Q07869,PPARα,Q07869,H7,355,367,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LXA,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+64,NR1C1,Q07869,PPARα,Q07869,H8,371,384,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LXA,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+65,NR1C1,Q07869,PPARα,Q07869,H9,393,416,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LXA,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+66,NR1C1,Q07869,PPARα,Q07869,H10/H11,421,451,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LXA,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+67,NR1C1,Q07869,PPARα,Q07869,H12,457,465,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LXA,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+68,NR1C2,Q03181,PPARδ,Q03181,H1,174,190,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,1.0,EXACT,0,EXACT,0
+69,NR1C2,Q03181,PPARδ,Q03181,H2,193,202,review_required,family-specific topology with deposited segment endpoints,True,5U3Q,A,A,OK,13,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,1.0,EXACT,0,EXACT,0
+70,NR1C2,Q03181,PPARδ,Q03181,H2',215,226,review_required,family-specific topology with deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+71,NR1C2,Q03181,PPARδ,Q03181,H3,240,266,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+72,NR1C2,Q03181,PPARδ,Q03181,H4,267,272,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+73,NR1C2,Q03181,PPARδ,Q03181,H5,274,295,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+74,NR1C2,Q03181,PPARδ,Q03181,H6,314,319,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+75,NR1C2,Q03181,PPARδ,Q03181,H7,323,340,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+76,NR1C2,Q03181,PPARδ,Q03181,H8,344,357,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+77,NR1C2,Q03181,PPARδ,Q03181,H9,366,389,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+78,NR1C2,Q03181,PPARδ,Q03181,H10/H11,394,424,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+79,NR1C2,Q03181,PPARδ,Q03181,H12,430,438,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,5U3Q,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+80,NR1C3,P37231,PPARγ,P37231,H1,234,254,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9F7W,A,A,OK,12,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,1.0,MISMATCH,-23,EXACT,0
+81,NR1C3,P37231,PPARγ,P37231,H2,257,267,review_required,family-specific topology with deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+82,NR1C3,P37231,PPARγ,P37231,H2',279,291,review_required,family-specific topology with deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+83,NR1C3,P37231,PPARγ,P37231,H3,304,330,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+84,NR1C3,P37231,PPARγ,P37231,H4,333,337,review_required,aligned VDR core; no supporting deposited helix,False,9F7W,A,A,OK,12,MISMATCH,-5,MISMATCH,7,1.0,MISMATCH,-5,MISMATCH,7
+85,NR1C3,P37231,PPARγ,P37231,H5,338,361,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+86,NR1C3,P37231,PPARγ,P37231,H6,378,383,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+87,NR1C3,P37231,PPARγ,P37231,H7,392,404,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+88,NR1C3,P37231,PPARγ,P37231,H8,408,421,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+89,NR1C3,P37231,PPARγ,P37231,H9,430,453,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+90,NR1C3,P37231,PPARγ,P37231,H10/H11,458,488,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+91,NR1C3,P37231,PPARγ,P37231,H12,494,502,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,9F7W,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+92,NR1D1,P20393,Rev-erbα,P20393,H1,284,300,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8D8I,A,A,OK,9,EXACT,0,EXACT,0,0.9915,EXACT,0,EXACT,0
+93,NR1D1,P20393,Rev-erbα,P20393,H3,431,456,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8D8I,A,A,OK,9,MISMATCH,-1,MISMATCH,10,0.9915,EXACT,0,EXACT,0
+94,NR1D1,P20393,Rev-erbα,P20393,H4,459,463,review_required,aligned VDR core; no supporting deposited helix,False,8D8I,A,A,OK,9,MISMATCH,5,MISMATCH,-14,0.9915,MISMATCH,-5,MISMATCH,7
+95,NR1D1,P20393,Rev-erbα,P20393,H5,464,485,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8D8I,A,A,OK,9,MISMATCH,10,MISMATCH,-4,0.9915,EXACT,0,EXACT,0
+96,NR1D1,P20393,Rev-erbα,P20393,H6,506,511,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8D8I,A,A,OK,9,MISMATCH,17,MISMATCH,9,0.9915,EXACT,0,EXACT,0
+97,NR1D1,P20393,Rev-erbα,P20393,H7,514,529,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8D8I,A,A,OK,9,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.9915,EXACT,0,EXACT,0
+98,NR1D1,P20393,Rev-erbα,P20393,H8,533,547,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8D8I,A,A,OK,9,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.9915,EXACT,0,EXACT,0
+99,NR1D1,P20393,Rev-erbα,P20393,H9,555,578,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8D8I,A,A,OK,9,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.9915,EXACT,0,EXACT,0
+100,NR1D1,P20393,Rev-erbα,P20393,H10/H11,583,603,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8D8I,A,A,OK,9,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.9915,EXACT,0,EXACT,0
+101,NR1D2,Q14995,Rev-erbβ,Q14995,H3,397,421,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4N73,A,A,OK,8,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+102,NR1D2,Q14995,Rev-erbβ,Q14995,H4,422,429,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4N73,A,A,OK,8,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+103,NR1D2,Q14995,Rev-erbβ,Q14995,H5,430,450,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4N73,A,A,OK,8,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+104,NR1D2,Q14995,Rev-erbβ,Q14995,H7,480,496,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4N73,A,A,OK,8,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+105,NR1D2,Q14995,Rev-erbβ,Q14995,H8,499,513,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4N73,A,A,OK,8,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+106,NR1D2,Q14995,Rev-erbβ,Q14995,H9,521,544,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4N73,A,A,OK,8,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+107,NR1D2,Q14995,Rev-erbβ,Q14995,H10/H11,548,574,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4N73,A,A,OK,8,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+108,NR1F1,P35398,RORα,P35398,H1,271,286,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,MISMATCH,-1,1.0,MISMATCH,-20,MISMATCH,-1
+109,NR1F1,P35398,RORα,P35398,H2,292,297,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-1,1.0,MISMATCH,1,MISMATCH,-1
+110,NR1F1,P35398,RORα,P35398,H2',305,313,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-1,1.0,MISMATCH,1,MISMATCH,-1
+111,NR1F1,P35398,RORα,P35398,H3,316,339,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-2,1.0,MISMATCH,1,MISMATCH,-2
+112,NR1F1,P35398,RORα,P35398,H4,349,358,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-10,1.0,MISMATCH,1,MISMATCH,-10
+113,NR1F1,P35398,RORα,P35398,H5,359,367,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,11,MISMATCH,-1,1.0,MISMATCH,11,MISMATCH,-1
+114,NR1F1,P35398,RORα,P35398,H6,388,394,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-1,1.0,MISMATCH,1,MISMATCH,-1
+115,NR1F1,P35398,RORα,P35398,H7,397,411,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-1,1.0,MISMATCH,1,MISMATCH,-1
+116,NR1F1,P35398,RORα,P35398,H8,417,428,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-1,1.0,MISMATCH,1,MISMATCH,-1
+117,NR1F1,P35398,RORα,P35398,H9,439,460,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-1,1.0,MISMATCH,1,MISMATCH,-1
+118,NR1F1,P35398,RORα,P35398,H10,466,483,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-12,1.0,MISMATCH,1,MISMATCH,-12
+119,NR1F1,P35398,RORα,P35398,H11,484,494,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,-11,MISMATCH,-1,1.0,MISMATCH,-11,MISMATCH,-1
+120,NR1F1,P35398,RORα,P35398,H11',496,502,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,-1,1.0,MISMATCH,1,MISMATCH,-1
+121,NR1F1,P35398,RORα,P35398,H12,505,510,published_boundaries,published receptor-specific interval,False,1N83,A,A,OK,12,MISMATCH,1,MISMATCH,7,1.0,MISMATCH,1,MISMATCH,-1
+122,NR1F3,P51449,RORγ,P51449,H1,268,285,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,0.9958,EXACT,0,EXACT,0
+123,NR1F3,P51449,RORγ,P51449,H2,288,295,review_required,family-specific topology with deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+124,NR1F3,P51449,RORγ,P51449,H2',301,311,review_required,family-specific topology with deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+125,NR1F3,P51449,RORγ,P51449,H3,312,337,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+126,NR1F3,P51449,RORγ,P51449,H4,340,344,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+127,NR1F3,P51449,RORγ,P51449,H5,345,365,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+128,NR1F3,P51449,RORγ,P51449,H6,384,392,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+129,NR1F3,P51449,RORγ,P51449,H7,393,409,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+130,NR1F3,P51449,RORγ,P51449,H8,413,426,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+131,NR1F3,P51449,RORγ,P51449,H9,435,457,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+132,NR1F3,P51449,RORγ,P51449,H10/H11,459,466,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+133,NR1F3,P51449,RORγ,P51449,H10/H11,470,490,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+134,NR1F3,P51449,RORγ,P51449,H12,498,506,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,7NPC,A,A,OK,14,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+135,NR1H2,P55055,LXRβ,P55055,H1,220,244,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,0.9719,EXACT,0,EXACT,0
+136,NR1H2,P55055,LXRβ,P55055,H3,259,288,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,EXACT,0,EXACT,0,0.9719,EXACT,0,EXACT,0
+137,NR1H2,P55055,LXRβ,P55055,H4,290,294,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,EXACT,0,EXACT,0,0.9719,EXACT,0,EXACT,0
+138,NR1H2,P55055,LXRβ,P55055,H5,295,318,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,EXACT,0,EXACT,0,0.9719,EXACT,0,EXACT,0
+139,NR1H2,P55055,LXRβ,P55055,H6,335,342,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,EXACT,0,EXACT,0,0.9719,EXACT,0,EXACT,0
+140,NR1H2,P55055,LXRβ,P55055,H7,345,363,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,EXACT,0,EXACT,0,0.9719,EXACT,0,EXACT,0
+141,NR1H2,P55055,LXRβ,P55055,H8,365,378,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,EXACT,0,EXACT,0,0.9719,EXACT,0,EXACT,0
+142,NR1H2,P55055,LXRβ,P55055,H9,387,410,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,EXACT,0,EXACT,0,0.9719,EXACT,0,EXACT,0
+143,NR1H2,P55055,LXRβ,P55055,H10/H11,415,443,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,EXACT,0,EXACT,0,0.9719,EXACT,0,EXACT,0
+144,NR1H2,P55055,LXRβ,P55055,H12,449,456,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3L0E,A,A,OK,10,EXACT,0,EXACT,0,0.9719,EXACT,0,EXACT,0
+145,NR1H3,Q13133,LXRα,Q13133,H1,207,228,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3IPU,A,A,OK,10,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,1.0,EXACT,0,EXACT,0
+146,NR1H3,Q13133,LXRα,Q13133,H3,246,275,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3IPU,A,A,OK,10,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+147,NR1H3,Q13133,LXRα,Q13133,H4,277,281,review_required,aligned VDR core; no supporting deposited helix,False,3IPU,A,A,OK,10,MISMATCH,-5,MISMATCH,6,1.0,MISMATCH,-5,MISMATCH,6
+148,NR1H3,Q13133,LXRα,Q13133,H5,282,305,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3IPU,A,A,OK,10,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+149,NR1H3,Q13133,LXRα,Q13133,H6,323,329,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3IPU,A,A,OK,10,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+150,NR1H3,Q13133,LXRα,Q13133,H7,332,350,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3IPU,A,A,OK,10,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+151,NR1H3,Q13133,LXRα,Q13133,H8,352,365,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3IPU,A,A,OK,10,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+152,NR1H3,Q13133,LXRα,Q13133,H9,374,397,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3IPU,A,A,OK,10,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+153,NR1H3,Q13133,LXRα,Q13133,H10/H11,402,431,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3IPU,A,A,OK,10,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+154,NR1H3,Q13133,LXRα,Q13133,H12,436,444,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3IPU,A,A,OK,10,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+155,NR1H4,Q96RI1,FXR,Q96RI1,H1,260,277,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,1.0,EXACT,0,EXACT,0
+156,NR1H4,Q96RI1,FXR,Q96RI1,H2,280,290,review_required,family-specific topology with deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+157,NR1H4,Q96RI1,FXR,Q96RI1,H3,293,318,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+158,NR1H4,Q96RI1,FXR,Q96RI1,H4,321,325,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+159,NR1H4,Q96RI1,FXR,Q96RI1,H5,326,353,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+160,NR1H4,Q96RI1,FXR,Q96RI1,H6,357,367,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+161,NR1H4,Q96RI1,FXR,Q96RI1,H7,372,389,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+162,NR1H4,Q96RI1,FXR,Q96RI1,H8,392,405,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+163,NR1H4,Q96RI1,FXR,Q96RI1,H9,414,437,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+164,NR1H4,Q96RI1,FXR,Q96RI1,H10/H11,442,467,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+165,NR1H4,Q96RI1,FXR,Q96RI1,H12,476,483,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6HL0,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+166,NR1I1,P11473,VDR,P11473,H1,125,143,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,0.9961,EXACT,0,EXACT,0
+167,NR1I1,P11473,VDR,P11473,H2,149,153,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+168,NR1I1,P11473,VDR,P11473,H3n,216,224,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,MISMATCH,12,EXACT,0,0.9961,EXACT,0,EXACT,0
+169,NR1I1,P11473,VDR,P11473,H3,226,247,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,MISMATCH,-13,MISMATCH,-4,0.9961,EXACT,0,MISMATCH,-1
+170,NR1I1,P11473,VDR,P11473,H4,250,254,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,MISMATCH,5,MISMATCH,3,0.9961,EXACT,0,EXACT,0
+171,NR1I1,P11473,VDR,P11473,H5,255,275,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,EXACT,0,MISMATCH,4,0.9961,EXACT,0,EXACT,0
+172,NR1I1,P11473,VDR,P11473,H6,296,302,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,MISMATCH,-1,MISMATCH,14,0.9961,EXACT,0,EXACT,0
+173,NR1I1,P11473,VDR,P11473,H7,306,323,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,MISMATCH,9,MISMATCH,3,0.9961,EXACT,0,MISMATCH,1
+174,NR1I1,P11473,VDR,P11473,H8,326,339,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,MISMATCH,-1,MISMATCH,-15,0.9961,EXACT,0,EXACT,0
+175,NR1I1,P11473,VDR,P11473,H9,348,371,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,MISMATCH,-10,MISMATCH,-1,0.9961,EXACT,0,EXACT,0
+176,NR1I1,P11473,VDR,P11473,H10/H11,378,406,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.9961,EXACT,0,MISMATCH,1
+177,NR1I1,P11473,VDR,P11473,H12,410,423,published_boundaries,published receptor-specific interval,False,3B0T,A,A,OK,14,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.9961,MISMATCH,1,EXACT,0
+178,NR1I2,O75469,PXR,O75469,H1,144,162,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4S0T,B,B,OK,12,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,1.0,EXACT,0,EXACT,0
+179,NR1I2,O75469,PXR,O75469,H2',198,207,review_required,family-specific topology with deposited segment endpoints,True,4S0T,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+180,NR1I2,O75469,PXR,O75469,H3,239,261,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,4S0T,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+181,NR1I2,O75469,PXR,O75469,H4,261,266,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,4S0T,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+182,NR1I2,O75469,PXR,O75469,H5,268,291,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4S0T,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+183,NR1I2,O75469,PXR,O75469,H6,315,318,published_boundaries,published PXR-specific interval,False,4S0T,B,B,OK,12,MISMATCH,2,MISMATCH,-1,1.0,MISMATCH,2,MISMATCH,-1
+184,NR1I2,O75469,PXR,O75469,H7,321,333,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4S0T,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+185,NR1I2,O75469,PXR,O75469,H8,336,349,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4S0T,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+186,NR1I2,O75469,PXR,O75469,H9,358,381,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4S0T,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+187,NR1I2,O75469,PXR,O75469,H10/H11,388,418,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4S0T,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+188,NR1I2,O75469,PXR,O75469,H12,422,428,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4S0T,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+189,NR1I3,Q14994,CAR,Q14994,H1,107,123,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,1.0,EXACT,0,EXACT,0
+190,NR1I3,Q14994,CAR,Q14994,H2,127,136,review_required,family-specific topology with deposited segment endpoints,True,1XVP,B,B,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+191,NR1I3,Q14994,CAR,Q14994,H3,154,177,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+192,NR1I3,Q14994,CAR,Q14994,H4,179,185,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+193,NR1I3,Q14994,CAR,Q14994,H5,186,207,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+194,NR1I3,Q14994,CAR,Q14994,H6,225,231,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,EXACT,0,MISMATCH,-2,1.0,EXACT,0,MISMATCH,-6
+195,NR1I3,Q14994,CAR,Q14994,H7,239,256,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,MISMATCH,4,MISMATCH,4,1.0,EXACT,0,EXACT,0
+196,NR1I3,Q14994,CAR,Q14994,H8,259,272,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,MISMATCH,4,MISMATCH,4,1.0,EXACT,0,EXACT,0
+197,NR1I3,Q14994,CAR,Q14994,H9,281,302,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,MISMATCH,4,MISMATCH,4,1.0,EXACT,0,EXACT,0
+198,NR1I3,Q14994,CAR,Q14994,H10/H11,311,337,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,MISMATCH,4,MISMATCH,-3,1.0,EXACT,0,EXACT,0
+199,NR1I3,Q14994,CAR,Q14994,H11',339,344,review_required,family-specific topology with deposited segment endpoints,True,1XVP,B,B,OK,13,MISMATCH,-1,MISMATCH,-3,1.0,EXACT,0,EXACT,0
+200,NR1I3,Q14994,CAR,Q14994,H12,344,351,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,1XVP,B,B,OK,13,MISMATCH,4,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,1.0,EXACT,0,EXACT,0
+201,NR2A1,P41235,HNF4α,P41235,H1,151,163,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3FS1,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+202,NR2A1,P41235,HNF4α,P41235,H3,183,204,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3FS1,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+203,NR2A1,P41235,HNF4α,P41235,H4,205,210,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3FS1,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+204,NR2A1,P41235,HNF4α,P41235,H5,212,237,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3FS1,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+205,NR2A1,P41235,HNF4α,P41235,H6,252,258,review_required,aligned VDR core; no supporting deposited helix,False,3FS1,A,A,OK,14,MISMATCH,-3,MISMATCH,-2,1.0,MISMATCH,-3,MISMATCH,-2
+206,NR2A1,P41235,HNF4α,P41235,H7,261,280,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3FS1,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+207,NR2A1,P41235,HNF4α,P41235,H8,282,295,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3FS1,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+208,NR2A1,P41235,HNF4α,P41235,H9,304,325,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3FS1,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+209,NR2A1,P41235,HNF4α,P41235,H10/H11,332,361,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3FS1,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+210,NR2A1,P41235,HNF4α,P41235,H12,367,375,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3FS1,A,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+211,NR2A2,Q14541,HNF4γ,Q14541,H1,103,117,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1LV2,A,A,OK,13,MISMATCH,-32,EXACT,0,1.0,MISMATCH,-32,EXACT,0
+212,NR2A2,Q14541,HNF4γ,Q14541,H3,135,156,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1LV2,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+213,NR2A2,Q14541,HNF4γ,Q14541,H4,157,162,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1LV2,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+214,NR2A2,Q14541,HNF4γ,Q14541,H5,166,189,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1LV2,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+215,NR2A2,Q14541,HNF4γ,Q14541,H6,204,209,review_required,aligned VDR core; no supporting deposited helix,False,1LV2,A,A,OK,13,MISMATCH,-8,MISMATCH,-14,1.0,MISMATCH,-8,MISMATCH,-14
+216,NR2A2,Q14541,HNF4γ,Q14541,H7,212,231,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1LV2,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+217,NR2A2,Q14541,HNF4γ,Q14541,H8,233,246,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1LV2,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+218,NR2A2,Q14541,HNF4γ,Q14541,H9,255,276,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1LV2,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+219,NR2A2,Q14541,HNF4γ,Q14541,H10/H11,283,312,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1LV2,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+220,NR2A2,Q14541,HNF4γ,Q14541,H12,318,325,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1LV2,A,A,OK,13,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+221,NR2B1,P19793,RXRα,P19793,H1,231,242,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FM9,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+222,NR2B1,P19793,RXRα,P19793,H3,263,285,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FM9,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+223,NR2B1,P19793,RXRα,P19793,H4,288,292,review_required,aligned VDR core; no supporting deposited helix,False,1FM9,A,A,OK,12,MISMATCH,-5,MISMATCH,7,1.0,MISMATCH,-5,MISMATCH,7
+224,NR2B1,P19793,RXRα,P19793,H5,293,317,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FM9,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+225,NR2B1,P19793,RXRα,P19793,H6,334,340,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FM9,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+226,NR2B1,P19793,RXRα,P19793,H7,344,361,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FM9,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+227,NR2B1,P19793,RXRα,P19793,H8,363,376,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FM9,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+228,NR2B1,P19793,RXRα,P19793,H9,385,408,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FM9,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+229,NR2B1,P19793,RXRα,P19793,H10/H11,413,437,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FM9,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+230,NR2B1,P19793,RXRα,P19793,H12,450,455,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1FM9,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+231,NR2B2,P28702,RXRβ,P28702,H1,300,311,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+232,NR2B2,P28702,RXRβ,P28702,H3,334,356,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+233,NR2B2,P28702,RXRβ,P28702,H4,359,363,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+234,NR2B2,P28702,RXRβ,P28702,H5,364,388,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+235,NR2B2,P28702,RXRβ,P28702,H6,405,411,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+236,NR2B2,P28702,RXRβ,P28702,H7,413,432,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+237,NR2B2,P28702,RXRβ,P28702,H8,434,447,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+238,NR2B2,P28702,RXRβ,P28702,H9,456,479,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+239,NR2B2,P28702,RXRβ,P28702,H10/H11,484,514,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+240,NR2B2,P28702,RXRβ,P28702,H12,519,526,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A78,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+241,NR2B3,P48443,RXRγ,P48443,H1,235,246,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+242,NR2B3,P48443,RXRγ,P48443,H3,264,287,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+243,NR2B3,P48443,RXRγ,P48443,H4,289,293,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+244,NR2B3,P48443,RXRγ,P48443,H5,294,318,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+245,NR2B3,P48443,RXRγ,P48443,H6,335,341,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+246,NR2B3,P48443,RXRγ,P48443,H7,343,362,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+247,NR2B3,P48443,RXRγ,P48443,H8,364,377,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+248,NR2B3,P48443,RXRγ,P48443,H9,386,409,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+249,NR2B3,P48443,RXRγ,P48443,H10/H11,414,444,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+250,NR2B3,P48443,RXRγ,P48443,H12,449,457,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7A79,B,B,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+251,NR2C2,P49116,TR4,P49116,H3,385,403,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3P0U,A,A,OK,12,EXACT,0,EXACT,0,0.992,EXACT,0,EXACT,0
+252,NR2C2,P49116,TR4,P49116,H4,407,410,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3P0U,A,A,OK,12,EXACT,0,EXACT,0,0.992,EXACT,0,EXACT,0
+253,NR2C2,P49116,TR4,P49116,H5,411,434,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3P0U,A,A,OK,12,EXACT,0,EXACT,0,0.992,EXACT,0,EXACT,0
+254,NR2C2,P49116,TR4,P49116,H6,440,444,review_required,aligned VDR core; no supporting deposited helix,False,3P0U,A,A,OK,12,MISMATCH,18,MISMATCH,10,0.992,MISMATCH,18,MISMATCH,10
+255,NR2C2,P49116,TR4,P49116,H7,467,485,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3P0U,A,A,OK,12,EXACT,0,EXACT,0,0.992,EXACT,0,EXACT,0
+256,NR2C2,P49116,TR4,P49116,H8,488,501,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3P0U,A,A,OK,12,EXACT,0,EXACT,0,0.992,EXACT,0,EXACT,0
+257,NR2C2,P49116,TR4,P49116,H9,511,533,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3P0U,A,A,OK,12,EXACT,0,EXACT,0,0.992,EXACT,0,EXACT,0
+258,NR2C2,P49116,TR4,P49116,H10/H11,538,563,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3P0U,A,A,OK,12,EXACT,0,EXACT,0,0.992,EXACT,0,EXACT,0
+259,NR2C2,P49116,TR4,P49116,H12,571,580,review_required,AF2 terminal sequence/topology; displaced in structural superposition,False,3P0U,A,A,OK,12,EXACT,0,EXACT,0,0.992,EXACT,0,EXACT,0
+260,NR2E1,Q9Y466,TLX,Q9Y466,H3,185,202,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4XAJ,A,A,OK,29,EXACT,0,EXACT,0,0.8734,EXACT,0,EXACT,0
+261,NR2E1,Q9Y466,TLX,Q9Y466,H4,205,209,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4XAJ,A,A,OK,29,EXACT,0,EXACT,0,0.8734,EXACT,0,EXACT,0
+262,NR2E1,Q9Y466,TLX,Q9Y466,H5,210,234,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4XAJ,A,A,OK,29,EXACT,0,EXACT,0,0.8734,EXACT,0,EXACT,0
+263,NR2E1,Q9Y466,TLX,Q9Y466,H6,241,246,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4XAJ,A,A,OK,29,EXACT,0,EXACT,0,0.8734,EXACT,0,EXACT,0
+264,NR2E1,Q9Y466,TLX,Q9Y466,H7,257,278,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4XAJ,A,A,OK,29,EXACT,0,EXACT,0,0.8734,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0
+265,NR2E1,Q9Y466,TLX,Q9Y466,H8,281,294,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4XAJ,A,A,OK,29,EXACT,0,EXACT,0,0.8734,EXACT,0,EXACT,0
+266,NR2E1,Q9Y466,TLX,Q9Y466,H9,310,333,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4XAJ,A,A,OK,29,EXACT,0,EXACT,0,0.8734,EXACT,0,EXACT,0
+267,NR2E1,Q9Y466,TLX,Q9Y466,H10/H11,338,363,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4XAJ,A,A,OK,29,EXACT,0,EXACT,0,0.8734,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0
+268,NR2E1,Q9Y466,TLX,Q9Y466,H12,369,383,review_required,AF2 terminal sequence/topology; displaced in structural superposition,False,4XAJ,A,A,OK,29,EXACT,0,EXACT,0,0.8734,EXACT,0,EXACT,0
+269,NR2E3,Q9Y5X4,PNR,Q9Y5X4,H3,218,237,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4LOG,B,B,OK,13,EXACT,0,EXACT,0,0.7279,EXACT,0,EXACT,0
+270,NR2E3,Q9Y5X4,PNR,Q9Y5X4,H4,238,243,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4LOG,B,B,OK,13,EXACT,0,EXACT,0,0.7279,EXACT,0,EXACT,0
+271,NR2E3,Q9Y5X4,PNR,Q9Y5X4,H5,245,269,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4LOG,B,B,OK,13,EXACT,0,EXACT,0,0.7279,EXACT,0,EXACT,0
+272,NR2E3,Q9Y5X4,PNR,Q9Y5X4,H7,296,313,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4LOG,B,B,OK,13,EXACT,0,EXACT,0,0.7279,EXACT,0,EXACT,0
+273,NR2E3,Q9Y5X4,PNR,Q9Y5X4,H8,316,329,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4LOG,B,B,OK,13,EXACT,0,EXACT,0,0.7279,EXACT,0,EXACT,0
+274,NR2E3,Q9Y5X4,PNR,Q9Y5X4,H9,338,361,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4LOG,B,B,OK,13,EXACT,0,EXACT,0,0.7279,EXACT,0,EXACT,0
+275,NR2E3,Q9Y5X4,PNR,Q9Y5X4,H10/H11,366,391,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4LOG,B,B,OK,13,EXACT,0,EXACT,0,0.7279,EXACT,0,EXACT,0
+276,NR2E3,Q9Y5X4,PNR,Q9Y5X4,H12,398,406,review_required,AF2 terminal sequence/topology; displaced in structural superposition,False,4LOG,B,B,OK,13,EXACT,0,EXACT,0,0.7279,EXACT,0,EXACT,0
+277,NR2F2,P24468,COUP-TFII,P24468,H1,175,188,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3CJW,A,A,OK,13,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0,0.9959,MISMATCH,2,EXACT,0
+278,NR2F2,P24468,COUP-TFII,P24468,H3,211,230,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3CJW,A,A,OK,13,EXACT,0,EXACT,0,0.9959,EXACT,0,EXACT,0
+279,NR2F2,P24468,COUP-TFII,P24468,H4,232,236,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3CJW,A,A,OK,13,EXACT,0,EXACT,0,0.9959,EXACT,0,EXACT,0
+280,NR2F2,P24468,COUP-TFII,P24468,H5,237,261,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3CJW,A,A,OK,13,EXACT,0,EXACT,0,0.9959,EXACT,0,EXACT,0
+281,NR2F2,P24468,COUP-TFII,P24468,H7,289,305,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3CJW,A,A,OK,13,EXACT,0,EXACT,0,0.9959,EXACT,0,EXACT,0
+282,NR2F2,P24468,COUP-TFII,P24468,H8,308,321,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3CJW,A,A,OK,13,EXACT,0,EXACT,0,0.9959,EXACT,0,EXACT,0
+283,NR2F2,P24468,COUP-TFII,P24468,H9,330,353,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3CJW,A,A,OK,13,EXACT,0,EXACT,0,0.9959,EXACT,0,EXACT,0
+284,NR2F2,P24468,COUP-TFII,P24468,H10/H11,358,383,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3CJW,A,A,OK,13,EXACT,0,EXACT,0,0.9959,EXACT,0,EXACT,0
+285,NR2F2,P24468,COUP-TFII,P24468,H12,391,401,review_required,AF2 terminal sequence/topology; displaced in structural superposition,False,3CJW,A,A,OK,13,EXACT,0,EXACT,0,0.9959,EXACT,0,EXACT,0
+286,NR2F6,P10588,EAR-2,P10588,H3,199,220,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8C5L,A,A,OK,27,MISMATCH,-28,EXACT,0,0.8189,MISMATCH,-28,EXACT,0
+287,NR2F6,P10588,EAR-2,P10588,H4,222,226,review_required,aligned VDR core; no supporting deposited helix,False,8C5L,A,A,OK,27,MISMATCH,-5,MISMATCH,6,0.8189,MISMATCH,-5,MISMATCH,6
+288,NR2F6,P10588,EAR-2,P10588,H5,227,250,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8C5L,A,A,OK,27,EXACT,0,EXACT,0,0.8189,EXACT,0,EXACT,0
+289,NR2F6,P10588,EAR-2,P10588,H6,255,260,review_required,aligned VDR core; no supporting deposited helix,False,8C5L,A,A,OK,27,MISMATCH,-20,MISMATCH,10,0.8189,MISMATCH,-20,MISMATCH,10
+290,NR2F6,P10588,EAR-2,P10588,H7,275,296,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8C5L,A,A,OK,27,EXACT,0,EXACT,0,0.8189,EXACT,0,EXACT,0
+291,NR2F6,P10588,EAR-2,P10588,H8,298,311,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8C5L,A,A,OK,27,EXACT,0,EXACT,0,0.8189,EXACT,0,EXACT,0
+292,NR2F6,P10588,EAR-2,P10588,H9,320,343,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8C5L,A,A,OK,27,EXACT,0,EXACT,0,0.8189,EXACT,0,EXACT,0
+293,NR2F6,P10588,EAR-2,P10588,H10/H11,348,373,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8C5L,A,A,OK,27,EXACT,0,EXACT,0,0.8189,EXACT,0,EXACT,0
+294,NR2F6,P10588,EAR-2,P10588,H12,381,393,review_required,AF2 terminal sequence/topology; displaced in structural superposition,False,8C5L,A,A,OK,27,EXACT,0,EXACT,0,0.8189,EXACT,0,EXACT,0
+295,NR3A1,P03372,ERα,P03372,H1,311,322,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,EXACT,0,EXACT,0
+296,NR3A1,P03372,ERα,P03372,H3,341,363,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,EXACT,0,EXACT,0
+297,NR3A1,P03372,ERα,P03372,H4,366,370,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,EXACT,0,EXACT,0
+298,NR3A1,P03372,ERα,P03372,H5,371,395,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,EXACT,0,EXACT,0
+299,NR3A1,P03372,ERα,P03372,H6,412,416,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,EXACT,0,EXACT,0
+300,NR3A1,P03372,ERα,P03372,H7,423,439,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,EXACT,0,EXACT,0
+301,NR3A1,P03372,ERα,P03372,H8,441,456,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,EXACT,0,EXACT,0
+302,NR3A1,P03372,ERα,P03372,H9,465,493,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,EXACT,0,EXACT,0
+303,NR3A1,P03372,ERα,P03372,H10/H11,496,528,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,EXACT,0,EXACT,0
+304,NR3A1,P03372,ERα,P03372,H12,536,545,review_required,AF2 terminal sequence/topology; displaced in structural superposition,False,7UJO,D,B,OK,11,EXACT,0,EXACT,0,0.9839,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0
+305,NR3A2,Q92731,ERβ,Q92731,H1,264,276,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+306,NR3A2,Q92731,ERβ,Q92731,H3,290,315,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+307,NR3A2,Q92731,ERβ,Q92731,H4,318,322,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+308,NR3A2,Q92731,ERβ,Q92731,H5,323,348,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+309,NR3A2,Q92731,ERβ,Q92731,H6,365,370,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+310,NR3A2,Q92731,ERβ,Q92731,H7,372,390,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+311,NR3A2,Q92731,ERβ,Q92731,H8,393,407,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+312,NR3A2,Q92731,ERβ,Q92731,H9,420,443,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+313,NR3A2,Q92731,ERβ,Q92731,H10/H11,447,482,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,EXACT,0,EXACT,0
+314,NR3A2,Q92731,ERβ,Q92731,H12,488,498,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3OLL,A,A,OK,10,EXACT,0,EXACT,0,0.9958,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,EXACT,0
+315,NR3B1,P11474,ERRα,P11474,H1,194,205,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3K6P,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+316,NR3B1,P11474,ERRα,P11474,H3,223,245,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3K6P,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+317,NR3B1,P11474,ERRα,P11474,H4,248,252,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3K6P,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+318,NR3B1,P11474,ERRα,P11474,H5,253,278,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3K6P,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+319,NR3B1,P11474,ERRα,P11474,H6,293,300,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3K6P,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+320,NR3B1,P11474,ERRα,P11474,H7,304,318,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3K6P,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+321,NR3B1,P11474,ERRα,P11474,H8,322,336,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3K6P,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+322,NR3B1,P11474,ERRα,P11474,H9,344,365,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3K6P,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+323,NR3B1,P11474,ERRα,P11474,H10/H11,376,401,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3K6P,A,A,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+324,NR3B1,P11474,ERRα,P11474,H12,409,422,review_required,AF2 terminal sequence/topology; displaced in structural superposition,False,3K6P,A,A,OK,12,EXACT,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,1.0,EXACT,0,EXACT,0
+325,NR3B2,O95718,ERRβ,O95718,H1,211,219,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LN4,A,A,OK,10,EXACT,0,EXACT,0,0.9956,EXACT,0,EXACT,0
+326,NR3B2,O95718,ERRβ,O95718,H3,235,259,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LN4,A,A,OK,10,EXACT,0,EXACT,0,0.9956,EXACT,0,EXACT,0
+327,NR3B2,O95718,ERRβ,O95718,H4,263,267,review_required,aligned VDR core; no supporting deposited helix,False,6LN4,A,A,OK,10,MISMATCH,-5,MISMATCH,8,0.9956,MISMATCH,-5,MISMATCH,8
+328,NR3B2,O95718,ERRβ,O95718,H5,268,293,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LN4,A,A,OK,10,EXACT,0,EXACT,0,0.9956,EXACT,0,EXACT,0
+329,NR3B2,O95718,ERRβ,O95718,H6,308,315,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LN4,A,A,OK,10,EXACT,0,EXACT,0,0.9956,EXACT,0,EXACT,0
+330,NR3B2,O95718,ERRβ,O95718,H7,317,335,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LN4,A,A,OK,10,EXACT,0,EXACT,0,0.9956,EXACT,0,EXACT,0
+331,NR3B2,O95718,ERRβ,O95718,H8,337,351,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LN4,A,A,OK,10,EXACT,0,EXACT,0,0.9956,EXACT,0,EXACT,0
+332,NR3B2,O95718,ERRβ,O95718,H9,359,382,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LN4,A,A,OK,10,EXACT,0,EXACT,0,0.9956,EXACT,0,EXACT,0
+333,NR3B2,O95718,ERRβ,O95718,H10/H11,387,417,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LN4,A,A,OK,10,EXACT,0,EXACT,0,0.9956,EXACT,0,EXACT,0
+334,NR3B2,O95718,ERRβ,O95718,H12,422,432,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6LN4,A,A,OK,10,EXACT,0,EXACT,0,0.9956,EXACT,0,EXACT,0
+335,NR3B3,P62508,ERRγ,P62508,H1,235,244,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+336,NR3B3,P62508,ERRγ,P62508,H3,260,284,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+337,NR3B3,P62508,ERRγ,P62508,H4,288,292,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+338,NR3B3,P62508,ERRγ,P62508,H5,293,317,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+339,NR3B3,P62508,ERRγ,P62508,H6,333,341,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+340,NR3B3,P62508,ERRγ,P62508,H7,342,360,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+341,NR3B3,P62508,ERRγ,P62508,H8,362,376,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+342,NR3B3,P62508,ERRγ,P62508,H9,384,407,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+343,NR3B3,P62508,ERRγ,P62508,H10/H11,412,442,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+344,NR3B3,P62508,ERRγ,P62508,H12,447,455,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,6I65,A,A,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+345,NR3C1,P04150,GR,P04150,H1,531,540,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4P6W,A,A,OK,11,EXACT,0,EXACT,0,0.9722,EXACT,0,EXACT,0
+346,NR3C1,P04150,GR,P04150,H3,555,580,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4P6W,A,A,OK,11,EXACT,0,EXACT,0,0.9722,EXACT,0,EXACT,0
+347,NR3C1,P04150,GR,P04150,H4,583,587,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4P6W,A,A,OK,11,EXACT,0,EXACT,0,0.9722,EXACT,0,EXACT,0
+348,NR3C1,P04150,GR,P04150,H5,588,616,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4P6W,A,A,OK,11,EXACT,0,EXACT,0,0.9722,EXACT,0,EXACT,0
+349,NR3C1,P04150,GR,P04150,H7,639,656,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4P6W,A,A,OK,11,EXACT,0,EXACT,0,0.9722,EXACT,0,EXACT,0
+350,NR3C1,P04150,GR,P04150,H8,659,672,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4P6W,A,A,OK,11,EXACT,0,EXACT,0,0.9722,EXACT,0,EXACT,0
+351,NR3C1,P04150,GR,P04150,H9,682,704,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4P6W,A,A,OK,11,EXACT,0,EXACT,0,0.9722,EXACT,0,EXACT,0
+352,NR3C1,P04150,GR,P04150,H10/H11,710,742,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4P6W,A,A,OK,11,EXACT,0,EXACT,0,0.9722,EXACT,0,EXACT,0
+353,NR3C1,P04150,GR,P04150,H12,750,767,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,4P6W,A,A,OK,11,EXACT,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.9722,EXACT,0,EXACT,0
+354,NR3C2,P08235,MR,P08235,H1,737,746,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,EXACT,0,0.9927,EXACT,0,EXACT,0
+355,NR3C2,P08235,MR,P08235,H3,761,786,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,EXACT,0,0.9927,EXACT,0,EXACT,0
+356,NR3C2,P08235,MR,P08235,H4,789,793,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,EXACT,0,0.9927,EXACT,0,EXACT,0
+357,NR3C2,P08235,MR,P08235,H5,794,823,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,EXACT,0,0.9927,EXACT,0,EXACT,0
+358,NR3C2,P08235,MR,P08235,H6,836,843,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,EXACT,0,0.9927,EXACT,0,EXACT,0
+359,NR3C2,P08235,MR,P08235,H7,845,863,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,EXACT,0,0.9927,EXACT,0,EXACT,0
+360,NR3C2,P08235,MR,P08235,H8,865,878,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,EXACT,0,0.9927,EXACT,0,EXACT,0
+361,NR3C2,P08235,MR,P08235,H9,888,907,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,EXACT,0,0.9927,EXACT,0,EXACT,0
+362,NR3C2,P08235,MR,P08235,H10/H11,913,948,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,EXACT,0,0.9927,EXACT,0,EXACT,0
+363,NR3C2,P08235,MR,P08235,H12,957,973,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,2AAX,A,A,OK,12,EXACT,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.9927,EXACT,0,EXACT,0
+364,NR3C3,P06401,PR,P06401,H1,685,694,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1SQN,B,B,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+365,NR3C3,P06401,PR,P06401,H3,710,736,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1SQN,B,B,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+366,NR3C3,P06401,PR,P06401,H4,738,742,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1SQN,B,B,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+367,NR3C3,P06401,PR,P06401,H5,743,772,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1SQN,B,B,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+368,NR3C3,P06401,PR,P06401,H7,794,812,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1SQN,B,B,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+369,NR3C3,P06401,PR,P06401,H8,814,827,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1SQN,B,B,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+370,NR3C3,P06401,PR,P06401,H9,837,858,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1SQN,B,B,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+371,NR3C3,P06401,PR,P06401,H10/H11,862,897,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1SQN,B,B,OK,11,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+372,NR3C3,P06401,PR,P06401,H12,906,922,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1SQN,B,B,OK,11,EXACT,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,1.0,EXACT,0,EXACT,0
+373,NR3C4,P10275,AR,P10275,H1,672,682,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+374,NR3C4,P10275,AR,P10275,H3,697,722,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+375,NR3C4,P10275,AR,P10275,H4,725,729,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+376,NR3C4,P10275,AR,P10275,H5,730,759,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+377,NR3C4,P10275,AR,P10275,H6,772,779,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+378,NR3C4,P10275,AR,P10275,H7,781,798,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+379,NR3C4,P10275,AR,P10275,H8,801,814,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+380,NR3C4,P10275,AR,P10275,H9,824,845,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+381,NR3C4,P10275,AR,P10275,H10/H11,849,884,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,EXACT,0,0.9961,EXACT,0,EXACT,0
+382,NR3C4,P10275,AR,P10275,H12,893,903,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8E1A,A,A,OK,12,EXACT,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,0.9961,EXACT,0,EXACT,0
+383,NR4A1,P22736,NUR77,P22736,H1,362,375,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+384,NR4A1,P22736,NUR77,P22736,H3,399,423,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+385,NR4A1,P22736,NUR77,P22736,H4,426,430,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+386,NR4A1,P22736,NUR77,P22736,H5,431,455,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+387,NR4A1,P22736,NUR77,P22736,H6,472,480,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+388,NR4A1,P22736,NUR77,P22736,H7,481,496,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+389,NR4A1,P22736,NUR77,P22736,H8,499,512,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+390,NR4A1,P22736,NUR77,P22736,H9,520,544,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+391,NR4A1,P22736,NUR77,P22736,H10/H11,550,580,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+392,NR4A1,P22736,NUR77,P22736,H12,585,596,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3V3E,B,A,OK,14,EXACT,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,1.0,EXACT,0,EXACT,0
+393,NR4A2,P43354,NURR1,P43354,H1,363,375,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+394,NR4A2,P43354,NURR1,P43354,H3,398,423,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+395,NR4A2,P43354,NURR1,P43354,H4,426,430,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+396,NR4A2,P43354,NURR1,P43354,H5,431,455,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+397,NR4A2,P43354,NURR1,P43354,H6,472,480,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+398,NR4A2,P43354,NURR1,P43354,H7,481,496,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+399,NR4A2,P43354,NURR1,P43354,H8,499,512,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+400,NR4A2,P43354,NURR1,P43354,H9,520,542,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+401,NR4A2,P43354,NURR1,P43354,H10/H11,548,580,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+402,NR4A2,P43354,NURR1,P43354,H12,585,596,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1OVL,B,B,OK,14,EXACT,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,1.0,EXACT,0,EXACT,0
+403,NR4A3,Q92570,NOR-1,Q92570,H1,397,409,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+404,NR4A3,Q92570,NOR-1,Q92570,H3,428,455,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+405,NR4A3,Q92570,NOR-1,Q92570,H4,457,461,review_required,aligned VDR core; no supporting deposited helix,False,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+406,NR4A3,Q92570,NOR-1,Q92570,H5,462,486,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+407,NR4A3,Q92570,NOR-1,Q92570,H6,503,508,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+408,NR4A3,Q92570,NOR-1,Q92570,H7,511,528,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+409,NR4A3,Q92570,NOR-1,Q92570,H8,530,543,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+410,NR4A3,Q92570,NOR-1,Q92570,H9,551,573,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+411,NR4A3,Q92570,NOR-1,Q92570,H10/H11,579,608,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+412,NR4A3,Q92570,NOR-1,Q92570,H12,613,623,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,8XTT,A,,REFERENCE_MMCIF_NOT_IN_LOCAL_CACHE,0,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,,NOT_CHECKABLE_OUTSIDE_MAPPED_FRAME,
+413,NR5A1,Q13285,SF-1,Q13285,H1,224,234,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+414,NR5A1,Q13285,SF-1,Q13285,H2,236,248,review_required,family-specific topology with deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+415,NR5A1,Q13285,SF-1,Q13285,H3,259,283,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+416,NR5A1,Q13285,SF-1,Q13285,H4,285,289,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+417,NR5A1,Q13285,SF-1,Q13285,H5,290,318,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+418,NR5A1,Q13285,SF-1,Q13285,H6,333,340,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+419,NR5A1,Q13285,SF-1,Q13285,H7,341,361,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+420,NR5A1,Q13285,SF-1,Q13285,H8,364,377,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+421,NR5A1,Q13285,SF-1,Q13285,H9,386,409,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+422,NR5A1,Q13285,SF-1,Q13285,H10/H11,414,443,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+423,NR5A1,Q13285,SF-1,Q13285,H12,450,457,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,1ZDT,B,B,OK,12,EXACT,0,EXACT,0,0.9917,EXACT,0,EXACT,0
+424,NR5A2,O00482,LRH-1,O00482,H1,302,311,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+425,NR5A2,O00482,LRH-1,O00482,H2,314,332,review_required,family-specific topology with deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+426,NR5A2,O00482,LRH-1,O00482,H3,340,363,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+427,NR5A2,O00482,LRH-1,O00482,H4,365,369,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+428,NR5A2,O00482,LRH-1,O00482,H5,370,398,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+429,NR5A2,O00482,LRH-1,O00482,H6,413,420,review_required,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+430,NR5A2,O00482,LRH-1,O00482,H7,421,442,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+431,NR5A2,O00482,LRH-1,O00482,H8,444,457,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+432,NR5A2,O00482,LRH-1,O00482,H9,466,489,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+433,NR5A2,O00482,LRH-1,O00482,H10/H11,494,523,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0
+434,NR5A2,O00482,LRH-1,O00482,H12,530,539,structural_homology,US-align correspondence to named VDR helices; deposited segment endpoints,True,3PLZ,B,C,OK,12,EXACT,0,EXACT,0,1.0,EXACT,0,EXACT,0

@@ -1,0 +1,202 @@
+{
+  "variant": "v2",
+  "exported_files": [
+    "data/rebuild_v2/manifests/final_counts_by_receptor.csv",
+    "data/rebuild_v2/manifests/final_data_infrastructure_release.json",
+    "data/rebuild_v2/manifests/final_ligand_annotations.csv",
+    "data/rebuild_v2/manifests/final_nonpolymer_inventory.csv",
+    "data/rebuild_v2/manifests/final_polymer_partner_annotations.csv",
+    "data/rebuild_v2/manifests/final_representative_instance_selection.csv",
+    "data/rebuild_v2/manifests/final_structure_selection_audit.csv",
+    "data/rebuild_v2/manifests/mmcif_unobserved_residue_crosscheck.csv",
+    "data/rebuild_v2/manifests/mmcif_unobserved_residue_ground_truth.csv",
+    "data/rebuild_v2/manifests/nr_functional_features.csv",
+    "data/rebuild_v2/manifests/nr_lbd_boundary_audit.csv",
+    "data/rebuild_v2/manifests/nr_lbd_boundary_audit_provenance.json",
+    "data/rebuild_v2/manifests/rcsb_candidate_instance_inventory.csv",
+    "data/rebuild_v2/manifests/rcsb_candidate_inventory.csv",
+    "data/rebuild_v2/manifests/rcsb_candidate_lbd_mapping.csv",
+    "data/rebuild_v2/manifests/rcsb_coverage_validation.csv",
+    "data/rebuild_v2/manifests/rcsb_discovery_summary.json",
+    "data/rebuild_v2/manifests/rcsb_lbd_boundary_sensitivity.csv",
+    "data/rebuild_v2/manifests/rcsb_lbd_coordinate_candidate_summary.csv",
+    "data/rebuild_v2/manifests/rcsb_lbd_coordinate_instance_qc.csv",
+    "data/rebuild_v2/manifests/rcsb_polymer_entity_uniprot_mappings.csv",
+    "data/rebuild_v2/manifests/rcsb_precoordinate_qc.csv",
+    "data/rebuild_v2/manifests/rcsb_short_mapping_audit.csv",
+    "data/rebuild_v2/manifests/rcsb_short_mapping_lbd_audit.csv",
+    "data/rebuild_v2/manifests/rcsb_source_taxonomy_audit.csv",
+    "data/rebuild_v2/manifests/rcsb_stage2_provenance.json",
+    "data/rebuild_v2/manifests/stage3a_counts_by_receptor.csv",
+    "data/rebuild_v2/manifests/stage3a_precoordinate_summary.json",
+    "data/rebuild_v2/manifests/stage3b_any_all_threshold_comparison.csv",
+    "data/rebuild_v2/manifests/stage3b_completeness_threshold_sensitivity.csv",
+    "data/rebuild_v2/manifests/stage3b_completeness_threshold_sensitivity_by_receptor.csv",
+    "data/rebuild_v2/manifests/stage3b_coordinate_pool.csv",
+    "data/rebuild_v2/manifests/stage3b_coordinate_summary.json",
+    "data/rebuild_v2/manifests/stage3b_counts_by_receptor.csv",
+    "data/rebuild_v2/manifests/stage3b_instance_coverage_heterogeneity.csv",
+    "data/rebuild_v2/manifests/stage3b_occupancy_correction_audit.csv",
+    "data/rebuild_v2/manifests/stage3b_provenance.json",
+    "data/rebuild_v2/manifests/stage3b_receptor_attrition_audit.csv",
+    "data/rebuild_v2/manifests/stage3b_release_summary.json",
+    "data/rebuild_v2/manifests/stage3b_residual_missingness_audit.csv",
+    "data/rebuild_v2/manifests/stage3b_threshold_attrition_by_receptor.csv",
+    "data/rebuild_v2/processed/excluded_structures.csv",
+    "data/rebuild_v2/processed/final_lbd_residue_map_primary_qc_subset.parquet",
+    "data/rebuild_v2/processed/lbd_residue_bfactors_all.parquet",
+    "data/rebuild_v2/processed/structures.csv",
+    "data/rebuild_v2/processed/structures_primary_qc_subset.csv",
+    "data/rebuild_v2/analysis/instance_bfactor_summary.csv",
+    "data/rebuild_v2/analysis/normalized_lbd_bfactors_all.parquet",
+    "data/rebuild_v2/analysis/pdb_position_bfactor_profiles.parquet",
+    "data/rebuild_v2/analysis/receptor_flexibility_summary.csv",
+    "data/rebuild_v2/analysis/receptor_position_flexibility_profiles.parquet",
+    "reports/rebuild_v2/tables/analysis_foundation_missingness_report.md",
+    "reports/rebuild_v2/tables/common_lbd_alignment_readiness.md",
+    "reports/rebuild_v2/tables/raw_bfactor_resolution_diagnostic.csv",
+    "reports/rebuild_v2/tables/rcsb_discovery_report.md",
+    "reports/rebuild_v2/tables/stage3a_precoordinate_qc_report.md",
+    "reports/rebuild_v2/tables/stage3b_coordinate_completeness_report.md",
+    "reports/rebuild_v2/tables/stage3b_data_recovery_note.md"
+  ],
+  "checkpoints": {
+    "A_pool": {
+      "pool_rows_v1": 2072,
+      "pool_rows_new": 2072,
+      "selected_pdbs_v1": 1777,
+      "selected_pdbs_new": 1780,
+      "added_selected_candidates": [
+        [
+          "P11473",
+          "1KB2",
+          "1KB2_3"
+        ],
+        [
+          "P11473",
+          "1KB4",
+          "1KB4_3"
+        ],
+        [
+          "P11473",
+          "1KB6",
+          "1KB6_3"
+        ],
+        [
+          "P11473",
+          "1YNW",
+          "1YNW_3"
+        ]
+      ],
+      "selected_but_not_cached": []
+    },
+    "B_selection": {
+      "selected_pdbs_v1": 1777,
+      "selected_pdbs_new": 1780,
+      "added": [
+        "1KB2",
+        "1KB4",
+        "1KB6"
+      ],
+      "removed": [],
+      "representative_instance_changes": [
+        [
+          "P04150",
+          "3H52",
+          "3H52_1"
+        ],
+        [
+          "P11473",
+          "1KB2",
+          "1KB2_3"
+        ],
+        [
+          "P11473",
+          "1KB4",
+          "1KB4_3"
+        ],
+        [
+          "P11473",
+          "1KB6",
+          "1KB6_3"
+        ],
+        [
+          "P11473",
+          "1YNW",
+          "1YNW_3"
+        ],
+        [
+          "Q03181",
+          "2J14",
+          "2J14_1"
+        ],
+        [
+          "Q03181",
+          "2XYX",
+          "2XYX_1"
+        ],
+        [
+          "Q03181",
+          "2ZNP",
+          "2ZNP_1"
+        ],
+        [
+          "Q03181",
+          "5U3Q",
+          "5U3Q_1"
+        ],
+        [
+          "Q03181",
+          "5U3V",
+          "5U3V_1"
+        ],
+        [
+          "Q03181",
+          "5U40",
+          "5U40_1"
+        ],
+        [
+          "Q03181",
+          "5U45",
+          "5U45_1"
+        ],
+        [
+          "P37231",
+          "2XKW",
+          "2XKW_1"
+        ],
+        [
+          "P37231",
+          "3ADV",
+          "3ADV_1"
+        ],
+        [
+          "P37231",
+          "3VSO",
+          "3VSO_1"
+        ],
+        [
+          "P37231",
+          "4R2U",
+          "4R2U_1"
+        ],
+        [
+          "P37231",
+          "6FZF",
+          "6FZF_1"
+        ],
+        [
+          "P37231",
+          "6FZJ",
+          "6FZJ_1"
+        ],
+        [
+          "P51449",
+          "5IXK",
+          "5IXK_1"
+        ]
+      ],
+      "selected_pdbs_without_reconstructed_metadata": []
+    }
+  }
+}

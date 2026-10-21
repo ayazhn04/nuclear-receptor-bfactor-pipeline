@@ -1,0 +1,43 @@
+nr_code,uniprot_id,common_name,professor_elements_not_named_in_v3,professor_elements_renamed_from_v3,professor_elements_same_name_elsewhere_in_v3,n_v3_loop_positions_inside_professor_elements,note
+NR1A1,P10827,TRα,H5 H8 H9,H6<-v3:H3 H7<-v3:H4,H3 H4,92,AUDIT HISTORY ONLY - does not influence any final label
+NR1A2,P10828,TRβ,H4 H8 H9,H10/H11<-v3:H12,,44,AUDIT HISTORY ONLY - does not influence any final label
+NR1B1,P10276,RARα,H8 H9,H4<-v3:H5 H6<-v3:H7,,38,AUDIT HISTORY ONLY - does not influence any final label
+NR1B2,P10826,RARβ,H8 H9,H4<-v3:H5 H6<-v3:H7,,67,AUDIT HISTORY ONLY - does not influence any final label
+NR1B3,P13631,RARγ,H2 H4 H8 H9,,,55,AUDIT HISTORY ONLY - does not influence any final label
+NR1C1,Q07869,PPARα,H1 H2 H2' H5 H8 H10/H11,H6<-v3:H3 H7<-v3:H4 H12<-v3:H9,H3 H4 H9,69,AUDIT HISTORY ONLY - does not influence any final label
+NR1C2,Q03181,PPARδ,H1 H2 H2' H8 H9,H4<-v3:H3,,38,AUDIT HISTORY ONLY - does not influence any final label
+NR1C3,P37231,PPARγ,H2' H4 H8 H9,,,58,AUDIT HISTORY ONLY - does not influence any final label
+NR1D1,P20393,Rev-erbα,H4 H8 H9,,H3 H5 H6 H7 H10/H11,49,AUDIT HISTORY ONLY - does not influence any final label
+NR1D2,Q14995,Rev-erbβ,H8 H9,H4<-v3:H3|H5,,39,AUDIT HISTORY ONLY - does not influence any final label
+NR1F1,P35398,RORα,H8 H9,H2'<-v3:H3 H4<-v3:H5 H6<-v3:H7 H11'<-v3:H12,H10/H11,34,AUDIT HISTORY ONLY - does not influence any final label
+NR1F3,P51449,RORγ,H2' H4 H8 H9,H6<-v3:H7 H10/H11<-v3:H12,,63,AUDIT HISTORY ONLY - does not influence any final label
+NR1H2,P55055,LXRβ,H8 H9,H4<-v3:H5,,38,AUDIT HISTORY ONLY - does not influence any final label
+NR1H3,Q13133,LXRα,H4 H8 H9,,,43,AUDIT HISTORY ONLY - does not influence any final label
+NR1H4,Q96RI1,FXR,H8 H9,H4<-v3:H5,,41,AUDIT HISTORY ONLY - does not influence any final label
+NR1I1,P11473,VDR,H2 H3n H6 H7 H8,H5<-v3:H4,H4,71,AUDIT HISTORY ONLY - does not influence any final label
+NR1I2,O75469,PXR,H1 H2' H8 H9,H4<-v3:H3,,38,AUDIT HISTORY ONLY - does not influence any final label
+NR1I3,Q14994,CAR,H8 H9,H4<-v3:H5 H11'<-v3:H12,,41,AUDIT HISTORY ONLY - does not influence any final label
+NR2A1,P41235,HNF4α,H3 H5 H8 H10/H11,H6<-v3:H4 H7<-v3:H4 H12<-v3:H9,H4 H9,123,AUDIT HISTORY ONLY - does not influence any final label
+NR2A2,Q14541,HNF4γ,H8 H9,H4<-v3:H3 H7<-v3:H6,H6,51,AUDIT HISTORY ONLY - does not influence any final label
+NR2B1,P19793,RXRα,H4 H8 H9,,,43,AUDIT HISTORY ONLY - does not influence any final label
+NR2B2,P28702,RXRβ,H3 H5 H8 H10/H11,H6<-v3:H4 H7<-v3:H4 H12<-v3:H9,H4 H9,123,AUDIT HISTORY ONLY - does not influence any final label
+NR2B3,P48443,RXRγ,H5 H6 H8 H10/H11,H7<-v3:H4 H12<-v3:H9,H3 H4 H9,125,AUDIT HISTORY ONLY - does not influence any final label
+NR2C2,P49116,TR4,H3 H5 H6 H8 H10/H11,H7<-v3:H4 H12<-v3:H9,H4 H9,63,AUDIT HISTORY ONLY - does not influence any final label
+NR2E1,Q9Y466,TLX,H8 H9,H4<-v3:H3,,40,AUDIT HISTORY ONLY - does not influence any final label
+NR2E3,Q9Y5X4,PNR,H8 H10/H11,H5<-v3:H3 H7<-v3:H4 H12<-v3:H9,H3 H4 H9,64,AUDIT HISTORY ONLY - does not influence any final label
+NR2F2,P24468,COUP-TFII,H8 H9,H4<-v3:H5,,38,AUDIT HISTORY ONLY - does not influence any final label
+NR2F6,P10588,EAR-2,H4 H6 H8 H9,,,49,AUDIT HISTORY ONLY - does not influence any final label
+NR3A1,P03372,ERα,H4 H7 H8 H9,,,68,AUDIT HISTORY ONLY - does not influence any final label
+NR3A2,Q92731,ERβ,H6 H10/H11,H5<-v3:H3 H7<-v3:H4 H8<-v3:beta_sheet H12<-v3:H9,H3 H4 H9,117,AUDIT HISTORY ONLY - does not influence any final label
+NR3B1,P11474,ERRα,H8 H9,H4<-v3:H5,,37,AUDIT HISTORY ONLY - does not influence any final label
+NR3B2,O95718,ERRβ,H3 H8 H9,H4<-v3:H5,,64,AUDIT HISTORY ONLY - does not influence any final label
+NR3B3,P62508,ERRγ,H8 H9,H4<-v3:H5 H7<-v3:H6,,69,AUDIT HISTORY ONLY - does not influence any final label
+NR3C1,P04150,GR,H8 H9,H4<-v3:H5,,38,AUDIT HISTORY ONLY - does not influence any final label
+NR3C2,P08235,MR,H3 H5 H6 H8 H10/H11,H7<-v3:H4 H12<-v3:H9,H4 H9,139,AUDIT HISTORY ONLY - does not influence any final label
+NR3C3,P06401,PR,H3 H5 H8 H10/H11,H7<-v3:H4 H12<-v3:H9,H4 H9,136,AUDIT HISTORY ONLY - does not influence any final label
+NR3C4,P10275,AR,H8 H9,H4<-v3:H5,,38,AUDIT HISTORY ONLY - does not influence any final label
+NR4A1,P22736,NUR77,H6 H7 H8 H9,H4<-v3:H3 H5<-v3:H3,H3,89,AUDIT HISTORY ONLY - does not influence any final label
+NR4A2,P43354,NURR1,H3 H5 H8 H10/H11,H6<-v3:H4 H7<-v3:H4 H12<-v3:H9,H4 H9,126,AUDIT HISTORY ONLY - does not influence any final label
+NR4A3,Q92570,NOR-1,H1 H3 H4 H5 H6 H7 H8 H9 H10/H11 H12,,,0,AUDIT HISTORY ONLY - does not influence any final label
+NR5A1,Q13285,SF-1,H2 H8 H9,H4<-v3:H5 H6<-v3:H7,,51,AUDIT HISTORY ONLY - does not influence any final label
+NR5A2,O00482,LRH-1,H2 H8 H9,H4<-v3:H5 H6<-v3:H7,,58,AUDIT HISTORY ONLY - does not influence any final label
