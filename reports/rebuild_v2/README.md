@@ -105,6 +105,34 @@ Headline v2 results (details and every number in `tables/*_summary.md`):
   analysis keeps them.
 - Old vs v2, metric by metric: `old_vs_v2_comparison.csv`.
 
+### Role D v2 contextual heterogeneity
+
+At each canonical residue, the Role D endpoint is the IQR across PDB-entry medians
+of within-instance normalized Cα B-factor Z values. It describes **between-PDB
+heterogeneity in relative crystallographic disorder**, not solution dynamics or
+intrinsic flexibility. [`../role_d/contextual_iqr/role_d_functional_position_iqr.csv`](../role_d/contextual_iqr/role_d_functional_position_iqr.csv) contains 1,264
+functional-residue rows across 40 receptors; 1,122 rows meet the pre-specified
+support threshold of at least five observed PDB entries (296 AF-2/H12 and 826
+ligand-pocket rows). The per-receptor-site descriptive summaries are in
+`../role_d/contextual_iqr/role_d_functional_site_iqr_summary.csv`; its primary median IQR and excess-IQR
+columns include only supported positions, while the explicitly named
+`*_all_observed` column is exploratory.
+
+For the ligand-binding pocket (LBP), `../role_d/contextual_iqr/role_d_lbp_matched_iqr_results.csv` reports
+a separate matched-context association: exact professor context and PDB-support
+band controls, excluding all functional residues from the control pool, are
+aggregated to one effect per receptor. AF-2/H12 has no equivalent exact-H12
+non-site controls because H12 defines that site, so it remains descriptive. This
+matched result controls only the declared structural/support strata; it does not
+remove construct, ligand/cofactor, crystal-contact, resolution, refinement, or
+deposition-selection confounding and does not establish causality.
+
+The matched LBP estimate is −0.041 IQR-Z across 29 receptors (bootstrap 95% CI
+−0.068 to 0.005; 11/29 receptor effects positive; restricted-permutation
+two-sided *p*=0.0012). Because the receptor bootstrap interval crosses zero, the
+predefined conservative status is **inconclusive**; the apparently discordant
+resampling summaries should not be converted into a biological claim.
+
 ## Outputs
 
 - `data/rebuild_v2/{inputs,manifests,processed,analysis}/`: corrected foundation and all
@@ -117,6 +145,8 @@ Headline v2 results (details and every number in `tables/*_summary.md`):
   `_sensitivity_excl_review_required`; the TRACE_LBD sensitivity tables are in
   `tables/trace_lbd_site_sensitivity/`.
 - `reports/rebuild_v2/figures/`: regenerated figures.
+- Role D deliverables: [`../role_d/`](../role_d/), including the contextual-IQR
+  tables and figure.
 - Baseline per-receptor inputs for later work: `receptor_position_professor_profile_v2.csv`,
   `pdb_position_bfactor_profiles.parquet`, `normalized_lbd_bfactors_all.parquet`,
   `receptor_segment_flexibility_profiles.parquet` (median, IQR, coverage),
@@ -150,11 +180,10 @@ retrieval: the rebuild may then differ and must be reported. RCSB metadata cache
 not needed: `scripts/101` reconstructs them locally. Then run, in order:
 `scripts/96` (numbering crosswalk), `102` (v2 inputs, span), `97` (professor map),
 `101 --variant v2 --export`, `103`, `104 --variant v2 --export`,
-`104 --variant v2 --trace-sensitivity`, `106`, `107`.
+`104 --variant v2 --trace-sensitivity`, `106`, `107`, `109`, `110`, `111`.
 
 ## Future work (not done; no conclusions drawn)
 
-- position-level IQR biology and excess-IQR analysis;
 - SASA / solvent-burial control (functional-site results stay baseline until then);
 - outlier-PDB investigation and apo/holo confounder dissection;
 - ClinVar / disease-mutation analysis; manuscript novelty claims.
