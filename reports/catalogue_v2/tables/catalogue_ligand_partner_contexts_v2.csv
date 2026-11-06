@@ -1,0 +1,1591 @@
+uniprot_id,nr_code,common_name,context,n_entries,context_type,fraction_of_receptor_entries
+P10827,NR1A1,TRα,HOLO + standalone,10,ligand state x partner category,1.0
+P10827,NR1A1,TRα,T3 | standalone,4,ligand x partner identity,0.4
+P10827,NR1A1,TRα,B72 | standalone,2,ligand x partner identity,0.2
+P10827,NR1A1,TRα,4HY | standalone,1,ligand x partner identity,0.1
+P10827,NR1A1,TRα,A1H2J | standalone,1,ligand x partner identity,0.1
+P10827,NR1A1,TRα,IH5 | standalone,1,ligand x partner identity,0.1
+P10827,NR1A1,TRα,T3 + T44 | standalone,1,ligand x partner identity,0.1
+P10828,NR1A2,TRβ,HOLO + standalone,17,ligand state x partner category,0.5152
+P10828,NR1A2,TRβ,HOLO + coregulator,15,ligand state x partner category,0.4545
+P10828,NR1A2,TRβ,HOLO + NR partner + coregulator,1,ligand state x partner category,0.0303
+P10828,NR1A2,TRβ,4HY | standalone,6,ligand x partner identity,0.1818
+P10828,NR1A2,TRβ,8HO | NCOA2,5,ligand x partner identity,0.1515
+P10828,NR1A2,TRβ,T3 | standalone,2,ligand x partner identity,0.0606
+P10828,NR1A2,TRβ,442 | standalone,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,4HY + LEG | standalone,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,9GC | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,9IF | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,9II | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,9IL | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,9IQ | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,9IT | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,9IW | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,A1EAC | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,A1EAE | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,A1H2J | standalone,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,B72 | standalone,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,G24 | standalone,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,IH5 | standalone,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,OEF | standalone,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,PFA | standalone,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,T3 | NCOA2,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,T3 | NCOA2 + RXRα,1,ligand x partner identity,0.0303
+P10828,NR1A2,TRβ,T44 | standalone,1,ligand x partner identity,0.0303
+P10276,NR1B1,RARα,HOLO + coregulator,5,ligand state x partner category,0.4167
+P10276,NR1B1,RARα,HOLO + NR partner,2,ligand state x partner category,0.1667
+P10276,NR1B1,RARα,HOLO + NR partner + coregulator,2,ligand state x partner category,0.1667
+P10276,NR1B1,RARα,HOLO + other partner,2,ligand state x partner category,0.1667
+P10276,NR1B1,RARα,HOLO + standalone,1,ligand state x partner category,0.0833
+P10276,NR1B1,RARα,BMS | RXRα,2,ligand x partner identity,0.1667
+P10276,NR1B1,RARα,EQN | unidentified peptide,2,ligand x partner identity,0.1667
+P10276,NR1B1,RARα,5Z6 | NCOA1,1,ligand x partner identity,0.0833
+P10276,NR1B1,RARα,6Q7 | standalone,1,ligand x partner identity,0.0833
+P10276,NR1B1,RARα,EQN | NCOA1,1,ligand x partner identity,0.0833
+P10276,NR1B1,RARα,EQN | NCOA1 + RXRα,1,ligand x partner identity,0.0833
+P10276,NR1B1,RARα,EQN | NCOA2,1,ligand x partner identity,0.0833
+P10276,NR1B1,RARα,EQO | NCOR1,1,ligand x partner identity,0.0833
+P10276,NR1B1,RARα,LUF | NCOA1,1,ligand x partner identity,0.0833
+P10276,NR1B1,RARα,REA | NCOA2 + RXRα,1,ligand x partner identity,0.0833
+P10826,NR1B2,RARβ,HOLO + coregulator,6,ligand state x partner category,0.75
+P10826,NR1B2,RARβ,HOLO + NR partner + coregulator,1,ligand state x partner category,0.125
+P10826,NR1B2,RARβ,HOLO + standalone,1,ligand state x partner category,0.125
+P10826,NR1B2,RARβ,1NY | NCOA1,1,ligand x partner identity,0.125
+P10826,NR1B2,RARβ,754 + FLC + GOL | NCOA1,1,ligand x partner identity,0.125
+P10826,NR1B2,RARβ,JYH | NCOA1,1,ligand x partner identity,0.125
+P10826,NR1B2,RARβ,JYI | NCOA1,1,ligand x partner identity,0.125
+P10826,NR1B2,RARβ,REA | NCOA1,1,ligand x partner identity,0.125
+P10826,NR1B2,RARβ,REA | NCOA2 + RXRα,1,ligand x partner identity,0.125
+P10826,NR1B2,RARβ,TTB | NCOA1,1,ligand x partner identity,0.125
+P10826,NR1B2,RARβ,TTB | standalone,1,ligand x partner identity,0.125
+P13631,NR1B3,RARγ,HOLO + standalone,11,ligand state x partner category,1.0
+P13631,NR1B3,RARγ,156 + LMU | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,184 + LMU | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,254 + LMU | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,394 + LMU | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,564 + LMU | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,961 + LMU | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,961 | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,9CR + LMU | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,9CR | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,E9T | standalone,1,ligand x partner identity,0.0909
+P13631,NR1B3,RARγ,REA | standalone,1,ligand x partner identity,0.0909
+Q07869,NR1C1,PPARα,HOLO + standalone,43,ligand state x partner category,0.5443
+Q07869,NR1C1,PPARα,HOLO + coregulator,28,ligand state x partner category,0.3544
+Q07869,NR1C1,PPARα,APO + coregulator,3,ligand state x partner category,0.038
+Q07869,NR1C1,PPARα,HOLO + other partner,3,ligand state x partner category,0.038
+Q07869,NR1C1,PPARα,APO + standalone,2,ligand state x partner category,0.0253
+Q07869,NR1C1,PPARα,WY1 | standalone,4,ligand x partner identity,0.0506
+Q07869,NR1C1,PPARα,2VN | standalone,3,ligand x partner identity,0.038
+Q07869,NR1C1,PPARα,P7F | standalone,3,ligand x partner identity,0.038
+Q07869,NR1C1,PPARα,APO | NCOA1,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,APO | standalone,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,C5F | standalone,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,EWR | standalone,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,F5A | standalone,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,HW3 | standalone,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,ITY | standalone,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,P7F | NCOA1,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,PLM | standalone,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,S44 | standalone,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,T4T | standalone,2,ligand x partner identity,0.0253
+Q07869,NR1C1,PPARα,13M | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,2VN | MED1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,2VN | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,2VN | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,471 | NCOR2,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,544 | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,65W | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,735 | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,7HA | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,A1J4E | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,A1JTY | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,A1L0A | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,A1LZ0 + PGO | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,A1LZ1 | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,A1LZ9 | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,A1LZX | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,A1LZY | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,ACD | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,APO | NCOR2,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,AZ2 + CPQ | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,CPQ + REW | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,CTM | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,E0O | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,EPA | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,EPA | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,ET1 | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,F5A | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,HVX | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,IL2 | PPARGC1B,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,KKB | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,KTC | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,MMB | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,MUO | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,NKS | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,OLA | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,PEM | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,PLM | CREBBP,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,PLM | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,PLM | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,RO7 | NCOA1,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,SAU | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,STE | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,T02 | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,T06 | PPARGC1A,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,WAD | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,WUE | standalone,1,ligand x partner identity,0.0127
+Q07869,NR1C1,PPARα,Y1N | standalone,1,ligand x partner identity,0.0127
+Q03181,NR1C2,PPARδ,HOLO + standalone,54,ligand state x partner category,0.9818
+Q03181,NR1C2,PPARδ,APO + standalone,1,ligand state x partner category,0.0182
+Q03181,NR1C2,PPARδ,VCA | standalone,3,ligand x partner identity,0.0545
+Q03181,NR1C2,PPARδ,08S | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,1BO + ET1 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,1FA | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,1KF | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,331 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,3EQ | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,3OZ | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,401 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,433 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7SM | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7SS | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7SV | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7SY | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7T1 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7TV | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7TY | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7U1 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7U4 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7U7 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7UA | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7UD | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7UG | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7UJ | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7UY | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7V1 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,7V4 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,81O + B7G | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,820 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,82K + B7G | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,85B | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,89L | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,8RR | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,9LU | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,9RF + PE3 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,A1D86 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,APO | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,B7G + K55 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,BJB | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,BOG + LOO | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,D32 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,DY6 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,EPA | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,GNI | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,GW0 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,IL2 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,K55 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,KKB | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,L41 | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,P7F | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,PEM | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,WLM | standalone,1,ligand x partner identity,0.0182
+Q03181,NR1C2,PPARδ,Z00 | standalone,1,ligand x partner identity,0.0182
+P37231,NR1C3,PPARγ,HOLO + standalone,210,ligand state x partner category,0.5541
+P37231,NR1C3,PPARγ,HOLO + coregulator,66,ligand state x partner category,0.1741
+P37231,NR1C3,PPARγ,APO + standalone,50,ligand state x partner category,0.1319
+P37231,NR1C3,PPARγ,APO + coregulator,33,ligand state x partner category,0.0871
+P37231,NR1C3,PPARγ,HOLO + NR partner + coregulator,9,ligand state x partner category,0.0237
+P37231,NR1C3,PPARγ,HOLO + other partner,7,ligand state x partner category,0.0185
+P37231,NR1C3,PPARγ,APO + other partner,4,ligand state x partner category,0.0106
+P37231,NR1C3,PPARγ,APO | standalone,50,ligand x partner identity,0.1319
+P37231,NR1C3,PPARγ,APO | NCOA1,11,ligand x partner identity,0.029
+P37231,NR1C3,PPARγ,APO | NCOR2,10,ligand x partner identity,0.0264
+P37231,NR1C3,PPARγ,APO | NCOR1,9,ligand x partner identity,0.0237
+P37231,NR1C3,PPARγ,EDK | standalone,5,ligand x partner identity,0.0132
+P37231,NR1C3,PPARγ,KNA | standalone,5,ligand x partner identity,0.0132
+P37231,NR1C3,PPARγ,APO | unidentified peptide,4,ligand x partner identity,0.0106
+P37231,NR1C3,PPARγ,BRL | standalone,4,ligand x partner identity,0.0106
+P37231,NR1C3,PPARγ,EDK | PPARGC1A,4,ligand x partner identity,0.0106
+P37231,NR1C3,PPARγ,IMN | standalone,3,ligand x partner identity,0.0079
+P37231,NR1C3,PPARγ,NZA | standalone,3,ligand x partner identity,0.0079
+P37231,NR1C3,PPARγ,241 | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,3JX | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,4F1 | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,A8R | NCOR2,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,AXY | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,BRL | NCOA1,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,CXS | NCOR1,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,DIF | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,DRH | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,GEV | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,LRG | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,MLA | NCOA1,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,MLI | NCOA1,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,MLQ | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,MYI | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,OLA | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,WY1 | standalone,2,ligand x partner identity,0.0053
+P37231,NR1C3,PPARγ,072 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,082 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,0W3 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,14R | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,17L | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,208 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,21L | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,240 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,241 + EEY | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,243 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,24L | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,2OH | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,2PQ | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,3EA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,3JX | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,3K2 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,3T0 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,486 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,4HD | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,538 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,544 | NCOA1 + RXRα,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,570 | RXRα + steroid receptor coactivator,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,570 | RXRα + unidentified peptide,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,5BC | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,5HE | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,5IV | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,65W | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,7KK | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,7MV | pro-ser-leu-leu-lys-lys-leu-leu-leu-ala-pro,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,7VA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,8A7 + KNA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,8LX | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,8LX | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,8N6 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,8PF | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,9HO | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,9WQ | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A0L | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1ENO | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1I6M | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1I6N | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1I6O | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1I6P | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1I6R | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1I6S | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1I6T | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1I6U | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IK6 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IP0 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IP1 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IP3 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IP4 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IP5 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IP7 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IP8 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IP9 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPP | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPQ | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPR | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPS | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPT | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPU | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPV | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPW | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPX | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPY | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IPZ | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQ2 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQ3 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQ4 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQ5 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQ6 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQ7 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQ8 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQB | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQC | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQD | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQE | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQF | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQG | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQH | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQI | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQJ | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IQL | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IRA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IRD | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IRG | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1IYE | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1JDD | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A1JDE | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,A8R | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,ACD + GW9 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,ACD | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,AE0 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,AJA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,APO | MED1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,APO | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,APO | ncor isoform c,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,AYR | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,AZ2 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,B0X | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,B1O | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BJB | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BJB | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BKY | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BRL + OLA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BRL | MED1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BRL | NCOA1 + RXRα,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BRL | NCOA2 + RXRα,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BRL | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BRL | RXRα + steroid receptor coactivator,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BRL | SHP,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,BRL | unidentified peptide,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,C01 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,C03 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,C08 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,CEK | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,CIT + NQD | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,CTI | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,CTM | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,CTU | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,D0D | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,D30 | NCOA1 + RXRα,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,DKA | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,DRD | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,DRJ | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,DRY | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,E7C | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EB6 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EDK | CREBBP,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EDK | MED1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EDK | NFKBIB,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EDK | NRIP1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EEY + PLB | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EHA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EJL | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EK1 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EK8 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EKP | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EKS | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,ET0 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,ET1 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,EWR | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,F5A | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,FCM | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,G3S | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,GBV | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,GD4 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,GDY | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,GFV | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,GH1 + KNA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,GOA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,GOL | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,GW4 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,GW9 | NCOA2 + RXRα,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,H3W | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,H8R | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,HIG | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,HV4 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,HXA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,J35 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,J3F | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,J53 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,JJA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,KK4 | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,KKB | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,KNA + LO7 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,KRC | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,LNA + LNB | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,LO4 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,LRA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,LRG + NZA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,M0T | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,M7R | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,M7S | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,MC5 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,MLO | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,MSZ | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,MX8 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,MYR + T35 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,MYR | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,NSI | unidentified peptide,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,O7O | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,O86 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,P1B | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,P7F | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,PEM | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,PLB | NCOA2,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,PLB | NCOA2 + RXRα,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,PLB | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,PTG | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,Q1R | NCOR2,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,Q33 | NCOR2,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,Q35 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,Q4O | NCOR2,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,QG6 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,QGL | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,QMH | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,RO0 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,RO7 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,RRG | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,RRH | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,RTE | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,RTF | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,S44 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,SF1 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,SF2 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,SFI | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,SJ9 | PPARGC1A,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,SP0 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,SP3 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,SRO | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,STI | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,STL | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,T4A | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,TJC | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,TJO | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,TK9 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,TLS | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,UNT | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,V77 | pgc1 lxxll motif,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,WUE | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,XCX | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,XDH | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,XDI | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,XPT | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,Y1N | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,Y9A | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,YFB | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,YFD | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,YFE | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,YPA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,Z12 | NCOA1,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,Z27 | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,ZAA | standalone,1,ligand x partner identity,0.0026
+P37231,NR1C3,PPARγ,ZXG | standalone,1,ligand x partner identity,0.0026
+P20393,NR1D1,Rev-erbα,APO + coregulator,1,ligand state x partner category,0.5
+P20393,NR1D1,Rev-erbα,HOLO + coregulator,1,ligand state x partner category,0.5
+P20393,NR1D1,Rev-erbα,APO | NCOR1,1,ligand x partner identity,0.5
+P20393,NR1D1,Rev-erbα,QFX | NCOR1,1,ligand x partner identity,0.5
+Q14995,NR1D2,Rev-erbβ,APO + standalone,2,ligand state x partner category,0.3333
+Q14995,NR1D2,Rev-erbβ,HOLO + coregulator,2,ligand state x partner category,0.3333
+Q14995,NR1D2,Rev-erbβ,HOLO + standalone,2,ligand state x partner category,0.3333
+Q14995,NR1D2,Rev-erbβ,APO | standalone,2,ligand x partner identity,0.3333
+Q14995,NR1D2,Rev-erbβ,COH | standalone,1,ligand x partner identity,0.1667
+Q14995,NR1D2,Rev-erbβ,HEM | NCOR1,1,ligand x partner identity,0.1667
+Q14995,NR1D2,Rev-erbβ,HEM | ncor isoform c,1,ligand x partner identity,0.1667
+Q14995,NR1D2,Rev-erbβ,HEM | standalone,1,ligand x partner identity,0.1667
+P35398,NR1F1,RORα,HOLO + standalone,2,ligand state x partner category,0.6667
+P35398,NR1F1,RORα,HOLO + other partner,1,ligand state x partner category,0.3333
+P35398,NR1F1,RORα,4D8 | NRIP1,1,ligand x partner identity,0.3333
+P35398,NR1F1,RORα,C3S | standalone,1,ligand x partner identity,0.3333
+P35398,NR1F1,RORα,CLR | standalone,1,ligand x partner identity,0.3333
+P51449,NR1F3,RORγ,HOLO + standalone,106,ligand state x partner category,0.6543
+P51449,NR1F3,RORγ,HOLO + coregulator,26,ligand state x partner category,0.1605
+P51449,NR1F3,RORγ,HOLO + other partner,23,ligand state x partner category,0.142
+P51449,NR1F3,RORγ,APO + standalone,4,ligand state x partner category,0.0247
+P51449,NR1F3,RORγ,AMBIGUOUS + standalone,3,ligand state x partner category,0.0185
+P51449,NR1F3,RORγ,APO | standalone,4,ligand x partner identity,0.0247
+P51449,NR1F3,RORγ,444 | standalone,3,ligand x partner identity,0.0185
+P51449,NR1F3,RORγ,AMBIGUOUS | standalone,3,ligand x partner identity,0.0185
+P51449,NR1F3,RORγ,4F1 | standalone,2,ligand x partner identity,0.0123
+P51449,NR1F3,RORγ,06L | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,39K | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,3QQ + TLA | NCOA1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,3SN | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,43V | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,444 | ebi96 coactivator peptide,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4CX | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4CZ | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4D8 | NRIP1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4F1 + CLR | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4F1 + HC3 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4F1 + HCD | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4F1 + MHQ | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4LQ | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4P3 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4Q3 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4TU | rorg,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4Y5 + LKY | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4Y5 + XNR | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4Y5 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4Y6 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,4Y7 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,5IM | rorg,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,5RT | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,6EW | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,6F1 | glu-phe-pro-tyr-leu-leu-ser-leu-leu-gly-glu-val-ser-pro-gln,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,6Q5 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,6Q6 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,6QP | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,6QW | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,6VD | rorg,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,76E | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,79U | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,82R | NCOR2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,87J | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,88J | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,88K | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,8A4 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,8Y2 | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,8Y5 | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,8Y8 | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,8YB | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,8YB | NRIP1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,921 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,927 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,92A | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,97I | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,98E | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,98H | NRIP1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,98N | NRIP1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,99N | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,9A0 + DMF | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,9GS | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,9GV | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,9P6 | NCOR2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,9WA | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,9WD | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,A1BW2 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,A1MAM | NCOA1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,A1MCM | NCOR2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,A7W | rorg,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,AND | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,AYO | NCOR2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,B6L | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,B8F | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,BWE | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,C3S | asn-ser-his-gln-lys-val-thr-leu-leu-gln-leu-leu-leu-gly-his-lys-asn-glu-glu-asn,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,CF7 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,CFG | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,CFJ | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,CHD + HKE | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,CLR + L3E | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,CLR + MJE | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,D9N | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,DGX | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,DMX + NBH | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,E3S | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,E3V | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,EE8 | NRIP1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,EEZ | NRIP1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,EF5 | NRIP1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,EKL | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,ENR | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,ENU | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,EO0 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,F7J | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,F7M | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,FJG | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,H4I | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HBW | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HC2 | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HC3 + L3E | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HC3 + MJE | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HC3 | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HC9 | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HCD + L3E | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HCD + MJE | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HJW | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HKZ | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HL8 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HOJ | unidentified peptide,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HQ7 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,HVL | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,I6G + SWX + YTZ | rorg,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,JUE | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,JUH | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,JUN | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,KHY | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,L3E + MHQ | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,L3E | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,L77 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,L7J | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,L7P | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,L8A | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,LK8 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,LKY | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,MHQ + MJE | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,MJE | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,O5A | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,O5B | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,Q3Y | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,Q6Y | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,R7V | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,RG7 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,TKJ | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,U95 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,UK8 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,UKB | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,ULT | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,V27 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,VBG | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,VCH | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,VCK | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,VK4 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,VK7 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,VYI | NCOA2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,WB7 | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,XGH | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,XNX + XO5 | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,YAL | NCOR2,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,YDY | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,YUV | NCOA1,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,Z7D | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,Z7F | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,Z7G | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,Z7H | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,Z7I | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,Z8G | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,Z8I | standalone,1,ligand x partner identity,0.0062
+P51449,NR1F3,RORγ,ZBD | standalone,1,ligand x partner identity,0.0062
+P55055,NR1H2,LXRβ,HOLO + standalone,16,ligand state x partner category,0.64
+P55055,NR1H2,LXRβ,HOLO + NR partner,4,ligand state x partner category,0.16
+P55055,NR1H2,LXRβ,HOLO + coregulator,4,ligand state x partner category,0.16
+P55055,NR1H2,LXRβ,HOLO + NR partner + coregulator,1,ligand state x partner category,0.04
+P55055,NR1H2,LXRβ,444 | standalone,3,ligand x partner identity,0.12
+P55055,NR1H2,LXRβ,0KS | NCOA1,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,0KT | NCOA1,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,44B + BNS | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,61X | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,652 | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,668 | RXRβ,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,67S | NCOA2 + RXRβ,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,6OX | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,6Y4 | RXRβ,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,6Y8 | RXRβ,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,965 | NCOA2 + RXRα,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,965 | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,BQ3 | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,CO1 | NCOA1,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,D3R | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,D40 | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,D43 | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,G58 | NCOA2,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,KUW | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,KVB | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,KVK | standalone,1,ligand x partner identity,0.04
+P55055,NR1H2,LXRβ,KWE | standalone,1,ligand x partner identity,0.04
+Q13133,NR1H3,LXRα,HOLO + coregulator,6,ligand state x partner category,0.8571
+Q13133,NR1H3,LXRα,HOLO + NR partner + coregulator,1,ligand state x partner category,0.1429
+Q13133,NR1H3,LXRα,444 | NCOA2 + RXRβ,1,ligand x partner identity,0.1429
+Q13133,NR1H3,LXRα,4KM | NCOA1,1,ligand x partner identity,0.1429
+Q13133,NR1H3,LXRα,4KQ | NCOA1,1,ligand x partner identity,0.1429
+Q13133,NR1H3,LXRα,668 | NCOA1,1,ligand x partner identity,0.1429
+Q13133,NR1H3,LXRα,965 | NCOA1,1,ligand x partner identity,0.1429
+Q13133,NR1H3,LXRα,O40 | NCOA1,1,ligand x partner identity,0.1429
+Q13133,NR1H3,LXRα,O90 | NCOA1,1,ligand x partner identity,0.1429
+Q96RI1,NR1H4,FXR,HOLO + coregulator,77,ligand state x partner category,0.8462
+Q96RI1,NR1H4,FXR,HOLO + standalone,6,ligand state x partner category,0.0659
+Q96RI1,NR1H4,FXR,HOLO + NR partner + coregulator,4,ligand state x partner category,0.044
+Q96RI1,NR1H4,FXR,APO + coregulator,2,ligand state x partner category,0.022
+Q96RI1,NR1H4,FXR,HOLO + other partner,2,ligand state x partner category,0.022
+Q96RI1,NR1H4,FXR,643 | NCOA1,2,ligand x partner identity,0.022
+Q96RI1,NR1H4,FXR,034 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,064 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,064 | NCOA1 + RXRα,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,088 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,0X0 | PPARGC1A,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,31D | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,33Y | NCOA2 + RXRα,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,33Y | standalone,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,37G | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,59G | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,635 | standalone,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,708 | unidentified peptide,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,7VX | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,811 | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,82X | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,89P | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,93O | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,93R | unidentified peptide,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,93U | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9KV | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9KY | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9L1 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9L4 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9L7 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9LA | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9LD | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9LG | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9LJ | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9LM | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9LP | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9LS | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9LV | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9LY | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9M1 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9M4 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9M7 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9MA | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9MD | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9MM | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9MP | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9MS | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9MV | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9MY | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9N1 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9N4 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9N7 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9NA | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9ND | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9NG | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9NJ | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9NM | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9NP | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9O1 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9R0 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9R0 | NCOA1 + RXRα,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9R3 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,9R3 | NCOA1 + RXRα,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,A1ELK | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,A1ERH | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,A1ERI | standalone,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,A1EVX | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,APO | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,APO | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,AWL | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,D5H | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,FEX | standalone,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,FEZ | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,GWF | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,IUS | unidentified peptide,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,IVM | NCOR1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,JN3 | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,MUF | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,NIW | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,O62 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,OKH | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,OKI | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,OLF | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,OMK | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,OMM | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,OOF | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,OOK | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,P88 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,R3U | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,RJC | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,T73 | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,XAW | standalone,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,XD4 | NCOA1,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,XD5 | NCOA2,1,ligand x partner identity,0.011
+Q96RI1,NR1H4,FXR,XX9 | standalone,1,ligand x partner identity,0.011
+P11473,NR1I1,VDR,HOLO + standalone,48,ligand state x partner category,1.0
+P11473,NR1I1,VDR,VDX | standalone,4,ligand x partner identity,0.0833
+P11473,NR1I1,VDR,CA9 | standalone,2,ligand x partner identity,0.0417
+P11473,NR1I1,VDR,FMV | standalone,2,ligand x partner identity,0.0417
+P11473,NR1I1,VDR,TEJ | standalone,2,ligand x partner identity,0.0417
+P11473,NR1I1,VDR,0CO | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,0VQ | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,23R | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,2KB | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,2MV | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,3AJ | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,3EV | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,41V | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,41W | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,6DS | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,8VM | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,90L | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,90O | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,C33 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,C3O | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,COV | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,DS2 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,DS3 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,DS4 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,DS5 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,DS6 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,EB1 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,ED9 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,EIM | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,KH1 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,MC9 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,MCZ | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,MVD | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,O1C | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,OCC | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,SRF | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,SV0 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,TEY | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,TFY | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,TX5 | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,VHW | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,ZNE | standalone,1,ligand x partner identity,0.0208
+P11473,NR1I1,VDR,ZYD | standalone,1,ligand x partner identity,0.0208
+O75469,NR1I2,PXR,HOLO + standalone,62,ligand state x partner category,0.775
+O75469,NR1I2,PXR,APO + standalone,9,ligand state x partner category,0.1125
+O75469,NR1I2,PXR,HOLO + coregulator,5,ligand state x partner category,0.0625
+O75469,NR1I2,PXR,APO + NR partner,1,ligand state x partner category,0.0125
+O75469,NR1I2,PXR,APO + other partner,1,ligand state x partner category,0.0125
+O75469,NR1I2,PXR,HOLO + NR partner,1,ligand state x partner category,0.0125
+O75469,NR1I2,PXR,HOLO + other partner,1,ligand state x partner category,0.0125
+O75469,NR1I2,PXR,APO | standalone,9,ligand x partner identity,0.1125
+O75469,NR1I2,PXR,SRL | standalone,4,ligand x partner identity,0.05
+O75469,NR1I2,PXR,WU6 | standalone,4,ligand x partner identity,0.05
+O75469,NR1I2,PXR,WU2 | standalone,3,ligand x partner identity,0.0375
+O75469,NR1I2,PXR,P06 | standalone,2,ligand x partner identity,0.025
+O75469,NR1I2,PXR,07F | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,27H | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,27J | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,2Q4 | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,3WF + 3WG | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,3WF | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,40U | adnectin-1,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,40U | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,444 | NCOA1,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,4WH | NCOA1,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,5YU | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,5YX | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,A1IHA | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,A1IHB | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,AP1 | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,APO | NCOA1 + RXRα,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,APO | adnectin-1,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,CDZ | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,CL6 + EST | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,CL6 | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,D7E | NCOA1,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,EST + S65 | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,EST + S68 | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,EST + S6E + S6H | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,G3L | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,GRH | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,HCJ | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,HYF | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,JQ1 | NCOA1,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,KUB | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,L7D | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,NQD | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,PNU | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,QCG | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,RFP | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,S68 | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,S6H | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,S6T | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,S6W | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,S6Z | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,SRL | NCOA1,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,SRL | NCOA1 + RXRα,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,TBY | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,UAI | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,UK6 | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,ULC | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,VA0 | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,WQB | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,WSO | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,WSX + YGO | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,WSX | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,WT1 | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,X1D | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,XFQ | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,XGH | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,Y5B | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,Y7Q | standalone,1,ligand x partner identity,0.0125
+O75469,NR1I2,PXR,Y8B | standalone,1,ligand x partner identity,0.0125
+Q14994,NR1I3,CAR,APO + NR partner + coregulator,1,ligand state x partner category,0.5
+Q14994,NR1I3,CAR,HOLO + NR partner + coregulator,1,ligand state x partner category,0.5
+Q14994,NR1I3,CAR,APO | NCOA1 + RXRα,1,ligand x partner identity,0.5
+Q14994,NR1I3,CAR,CI2 | NCOA1 + RXRα,1,ligand x partner identity,0.5
+P41235,NR2A1,HNF4α,HOLO + coregulator,5,ligand state x partner category,0.7143
+P41235,NR2A1,HNF4α,APO + standalone,1,ligand state x partner category,0.1429
+P41235,NR2A1,HNF4α,HOLO + other partner,1,ligand state x partner category,0.1429
+P41235,NR2A1,HNF4α,A1I1W | NCOA2,1,ligand x partner identity,0.1429
+P41235,NR2A1,HNF4α,APO | standalone,1,ligand x partner identity,0.1429
+P41235,NR2A1,HNF4α,DAO | PA2G4,1,ligand x partner identity,0.1429
+P41235,NR2A1,HNF4α,MYR | NCOA1,1,ligand x partner identity,0.1429
+P41235,NR2A1,HNF4α,MYR | NCOA2,1,ligand x partner identity,0.1429
+P41235,NR2A1,HNF4α,MYR | PPARGC1A,1,ligand x partner identity,0.1429
+P41235,NR2A1,HNF4α,PLM | NCOA2,1,ligand x partner identity,0.1429
+Q14541,NR2A2,HNF4γ,HOLO + standalone,1,ligand state x partner category,1.0
+Q14541,NR2A2,HNF4γ,PLM | standalone,1,ligand x partner identity,1.0
+P19793,NR2B1,RXRα,HOLO + coregulator,46,ligand state x partner category,0.4894
+P19793,NR2B1,RXRα,HOLO + NR partner + coregulator,18,ligand state x partner category,0.1915
+P19793,NR2B1,RXRα,HOLO + other partner,8,ligand state x partner category,0.0851
+P19793,NR2B1,RXRα,HOLO + standalone,7,ligand state x partner category,0.0745
+P19793,NR2B1,RXRα,APO + standalone,5,ligand state x partner category,0.0532
+P19793,NR2B1,RXRα,APO + coregulator,4,ligand state x partner category,0.0426
+P19793,NR2B1,RXRα,APO + NR partner,3,ligand state x partner category,0.0319
+P19793,NR2B1,RXRα,HOLO + NR partner,3,ligand state x partner category,0.0319
+P19793,NR2B1,RXRα,APO | standalone,5,ligand x partner identity,0.0532
+P19793,NR2B1,RXRα,9CR | FXR + NCOA1,3,ligand x partner identity,0.0319
+P19793,NR2B1,RXRα,9CR | NCOA2 + PPARγ,3,ligand x partner identity,0.0319
+P19793,NR2B1,RXRα,REA | LXRα,3,ligand x partner identity,0.0319
+P19793,NR2B1,RXRα,9CR | NCOA1 + PPARγ,2,ligand x partner identity,0.0213
+P19793,NR2B1,RXRα,9CR | PPARγ + steroid receptor coactivator,2,ligand x partner identity,0.0213
+P19793,NR2B1,RXRα,APO | NCOA1 + PXR,2,ligand x partner identity,0.0213
+P19793,NR2B1,RXRα,APO | NCOA2,2,ligand x partner identity,0.0213
+P19793,NR2B1,RXRα,APO | NCOR2,2,ligand x partner identity,0.0213
+P19793,NR2B1,RXRα,BM6 | NCOA2,2,ligand x partner identity,0.0213
+P19793,NR2B1,RXRα,F15 | CAR + NCOA1,2,ligand x partner identity,0.0213
+P19793,NR2B1,RXRα,1O8 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,21P | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,29V | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,2E3 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,2QO | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,2VP | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,2VR | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,2VZ | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,2W0 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,3RB | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,3SV | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,3SW | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,3T2 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,3TN | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,4CU | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,4TN | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,4XW | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,5LO | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,5TN | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,754 + ACT | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,7A4 | standalone,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,7BE | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,7O0 | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,7QJ | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9CR | CAR + NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9CR | FXR + NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9CR | LXRβ + NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9CR | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9CR | NCOA2 + RARβ,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9CR | TRα,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9CR | standalone,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9HF | NCOA1,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9HF | standalone,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9RA | NCOA1 + PPARγ,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,9RA | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,A1JAT + A1JHO | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,A1JH6 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,A1JL7 | NCOA1,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,A1JL8 | NCOA1,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,APO | TRβ,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,BGV | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,CHZ | standalone,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,E80 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,E8L | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,E8O | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,GOL + WZ6 | standalone,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,HXA | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,I5W | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,J57 | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,K08 | standalone,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,L79 | PPARγ + unidentified peptide,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,LFZ | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,LG2 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,LX8 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,MLO | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,OI2 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,OI5 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,P26 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,PLM | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,R4M | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,SJZ | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,T2K | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,T72 | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,UGW | NCOA2,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,WY5 | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0106
+P19793,NR2B1,RXRα,WY5 | standalone,1,ligand x partner identity,0.0106
+P28702,NR2B2,RXRβ,APO + NR partner,4,ligand state x partner category,0.5714
+P28702,NR2B2,RXRβ,HOLO + NR partner + coregulator,1,ligand state x partner category,0.1429
+P28702,NR2B2,RXRβ,HOLO + coregulator,1,ligand state x partner category,0.1429
+P28702,NR2B2,RXRβ,HOLO + standalone,1,ligand state x partner category,0.1429
+P28702,NR2B2,RXRβ,APO | LXRβ,3,ligand x partner identity,0.4286
+P28702,NR2B2,RXRβ,APO | LXRβ + NCOA2,1,ligand x partner identity,0.1429
+P28702,NR2B2,RXRβ,LG2 | standalone,1,ligand x partner identity,0.1429
+P28702,NR2B2,RXRβ,MEI | LXRα + NCOA2,1,ligand x partner identity,0.1429
+P28702,NR2B2,RXRβ,PLM | NCOA2,1,ligand x partner identity,0.1429
+P48443,NR2B3,RXRγ,APO + standalone,1,ligand state x partner category,0.5
+P48443,NR2B3,RXRγ,HOLO + coregulator,1,ligand state x partner category,0.5
+P48443,NR2B3,RXRγ,APO | standalone,1,ligand x partner identity,0.5
+P48443,NR2B3,RXRγ,PLM | NCOA2,1,ligand x partner identity,0.5
+P49116,NR2C2,TR4,APO + other partner,1,ligand state x partner category,0.5
+P49116,NR2C2,TR4,APO + standalone,1,ligand state x partner category,0.5
+P49116,NR2C2,TR4,APO | JAZF1,1,ligand x partner identity,0.5
+P49116,NR2C2,TR4,APO | standalone,1,ligand x partner identity,0.5
+Q9Y466,NR2E1,TLX,APO + other partner,1,ligand state x partner category,1.0
+Q9Y466,NR2E1,TLX,APO | atrophin/grunge,1,ligand x partner identity,1.0
+Q9Y5X4,NR2E3,PNR,APO + standalone,1,ligand state x partner category,1.0
+Q9Y5X4,NR2E3,PNR,APO | standalone,1,ligand x partner identity,1.0
+P24468,NR2F2,COUP-TFII,APO + standalone,1,ligand state x partner category,1.0
+P24468,NR2F2,COUP-TFII,APO | standalone,1,ligand x partner identity,1.0
+P10588,NR2F6,EAR-2,APO + other partner,1,ligand state x partner category,1.0
+P10588,NR2F6,EAR-2,APO | NSD1,1,ligand x partner identity,1.0
+P03372,NR3A1,ERα,HOLO + coregulator,180,ligand state x partner category,0.5128
+P03372,NR3A1,ERα,HOLO + standalone,136,ligand state x partner category,0.3875
+P03372,NR3A1,ERα,HOLO + other partner,27,ligand state x partner category,0.0769
+P03372,NR3A1,ERα,APO + standalone,4,ligand state x partner category,0.0114
+P03372,NR3A1,ERα,APO + other partner,3,ligand state x partner category,0.0085
+P03372,NR3A1,ERα,APO + coregulator,1,ligand state x partner category,0.0028
+P03372,NR3A1,ERα,EST | NCOA2,10,ligand x partner identity,0.0285
+P03372,NR3A1,ERα,EST | standalone,5,ligand x partner identity,0.0142
+P03372,NR3A1,ERα,OHT | standalone,5,ligand x partner identity,0.0142
+P03372,NR3A1,ERα,RAL | standalone,5,ligand x partner identity,0.0142
+P03372,NR3A1,ERα,APO | NCOA2,4,ligand x partner identity,0.0114
+P03372,NR3A1,ERα,APO | standalone,4,ligand x partner identity,0.0114
+P03372,NR3A1,ERα,C3D | standalone,3,ligand x partner identity,0.0085
+P03372,NR3A1,ERα,EST | unidentified peptide,3,ligand x partner identity,0.0085
+P03372,NR3A1,ERα,G9J | standalone,3,ligand x partner identity,0.0085
+P03372,NR3A1,ERα,29S | standalone,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,7EE | NCOA2,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,C6V | standalone,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,DES | NCOA2,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,GEN | NCOA2,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,GW5 | standalone,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,OBH | NCOA2,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,OHT | unidentified peptide,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,R3V | standalone,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,RL4 | standalone,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,TV3 | standalone,2,ligand x partner identity,0.0057
+P03372,NR3A1,ERα,0CZ | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,0D1 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,0L8 | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,15Q | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,17M | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,1GJ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,1GM | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,1GQ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,1GR | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,1GS | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,1GT | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,1GU | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,1GV | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,1HP | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,244 | NCOA3,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,27G | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,27H | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,27J | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,27K | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,27L | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,27M | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,27N | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,2OH | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,369 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,36J | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,36M | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,3YJ | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,458 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,459 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,4OH | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,4Q7 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,4Q9 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,53Q | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5C4 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5C6 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5C7 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5C8 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5C9 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5CC | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5CE | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5CJ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5CK | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5CQ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5DG | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5DH | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5DJ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5ES | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5ET | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5EU | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5FS | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5FT | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5FV | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5FY | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5G2 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5G3 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5G4 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5G5 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5G6 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5G7 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5HW | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5HX | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5HZ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5J0 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5J1 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5J2 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5JX | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5JY | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5K0 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5K1 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5K2 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5K4 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5K5 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5K7 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5K8 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5KA | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5KB | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5KD | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5KE | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5KF | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5KG | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5OR | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5OS | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5P1 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5VP | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,5YR | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,61Z | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,689 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WL | HKILHRLLQ NR-box peptide,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WM | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WN | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WP | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WQ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WR | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WT | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WU | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WV | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WV | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,6WW | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,73I | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,77I | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,77W | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,782 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7AI | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7E1 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7E3 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EB | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EC | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7ED | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EF | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EG | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EH + 7G5 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EH | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EI | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EL | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EM | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EN | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EO | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EQ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7ER | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7ES | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7EV | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FD | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FG | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FJ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FL | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FO | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FP | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FQ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FR | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FS | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7FZ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7G0 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7G1 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7G2 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7G3 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7I0 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7I5 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7I9 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7J9 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7JY | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7K6 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7KL | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7M1 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7M4 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7M7 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7OI | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7OR | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7Q5 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,7QN | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,85M | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,85Z | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,86V | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,86Y | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,98L | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,9XY | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AEA | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AHO | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AHS | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AHU | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AHV | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AHW | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AHX | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AHY | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AI0 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AIZ | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1AQV | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1ASN | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1BHJ | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1ET8 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1ET9 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1ETI | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A1EVS | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,A48 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,AEJ | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,AIH | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,AIJ | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,AIT | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,AIU | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,B81 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,CM3 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,CM4 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,CUE | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,DC8 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,DRQ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,E4D | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EED | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EES | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EEU | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EI1 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EMY | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,ESE | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,ESL | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EST | (ace)hkilhkllqds(nh2),1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EST | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EST | arg-ias-ile-0jy-dpp-arg-0jy-0jy-gln-nh2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EST | arg-ias-ile-leu-dnp-arg-leu-leu-gln,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EST | fibronectin,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,ETC | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,EZT | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,F3D | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,FNJ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,FSV | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,FYS | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,G8Y | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,G9J + U6D | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,GEN | NCOA3,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,GQD | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,GZI | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,H09 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,H8W | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,HIS + TZI | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,HZ3 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,I0G | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,I0V | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,IAT | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,IOG | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,IOK | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,J0W | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,J2Z | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,J3Z | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,JJ3 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,KE9 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,KN0 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,KN1 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,KN1 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,KN2 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,KN3 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,KN3 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,L4G | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,L5B | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,L84 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,LLB | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,LLC | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,LRQ | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,LVH | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,LYQ + WVE | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,NYU | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OB1 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OB2 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OB3 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OB5 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OB7 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OB8 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OB9 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OBB | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OBC | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OBM | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OBT | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OBT | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,ODE | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OFB | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,OGJ | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,PIQ | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,PTI | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,Q97 | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,QHG | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,QNE | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,QNH | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,QNK | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,QSO | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,QYM | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,RAL | unidentified peptide,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,STL | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,T3O | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TQF | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TS7 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TT5 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TTU | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TU9 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TVF | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TVL | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TVX | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TW6 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TWF | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TX9 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TXK | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TZ3 | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,TZI | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,V9J | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,VQI | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,WST | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,WVR + WVW | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,XBR | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,XDH | NCOA1,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,ZER | NCOA2,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,ZHB | standalone,1,ligand x partner identity,0.0028
+P03372,NR3A1,ERα,ZTW | NCOA2,1,ligand x partner identity,0.0028
+Q92731,NR3A2,ERβ,HOLO + coregulator,20,ligand state x partner category,0.5128
+Q92731,NR3A2,ERβ,HOLO + standalone,12,ligand state x partner category,0.3077
+Q92731,NR3A2,ERβ,HOLO + other partner,7,ligand state x partner category,0.1795
+Q92731,NR3A2,ERβ,B81 | NCOA2,2,ligand x partner identity,0.0513
+Q92731,NR3A2,ERβ,EST | NCOA1,2,ligand x partner identity,0.0513
+Q92731,NR3A2,ERβ,EST | unidentified peptide,2,ligand x partner identity,0.0513
+Q92731,NR3A2,ERβ,041 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,196 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,244 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,272 | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,338 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,397 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,3AS | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,4NA | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,555 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,697 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,789 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,797 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,DC8 | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,EST | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,ETC | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,FBR | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,GEN | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,GEN | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,I0G | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,I0K | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,I1D | unidentified peptide,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,I1I | unidentified peptide,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,I1M | unidentified peptide,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,I2B | unidentified peptide,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,JJ3 | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,KB0 | NCOA5,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,MON | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,OHT | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,SU4 | standalone,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,W14 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,W23 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,WV7 | NCOA1,1,ligand x partner identity,0.0256
+Q92731,NR3A2,ERβ,YJD | unidentified peptide,1,ligand x partner identity,0.0256
+P11474,NR3B1,ERRα,APO + coregulator,2,ligand state x partner category,0.4
+P11474,NR3B1,ERRα,HOLO + standalone,2,ligand state x partner category,0.4
+P11474,NR3B1,ERRα,HOLO + coregulator,1,ligand state x partner category,0.2
+P11474,NR3B1,ERRα,APO | PPARGC1A,2,ligand x partner identity,0.4
+P11474,NR3B1,ERRα,047 | standalone,1,ligand x partner identity,0.2
+P11474,NR3B1,ERRα,5FB | standalone,1,ligand x partner identity,0.2
+P11474,NR3B1,ERRα,HVO | PPARGC1A,1,ligand x partner identity,0.2
+O95718,NR3B2,ERRβ,APO + coregulator,1,ligand state x partner category,0.5
+O95718,NR3B2,ERRβ,HOLO + coregulator,1,ligand state x partner category,0.5
+O95718,NR3B2,ERRβ,2OH | NCOA2,1,ligand x partner identity,0.5
+O95718,NR3B2,ERRβ,APO | PPARGC1A,1,ligand x partner identity,0.5
+P62508,NR3B3,ERRγ,HOLO + standalone,20,ligand state x partner category,0.625
+P62508,NR3B3,ERRγ,HOLO + other partner,6,ligand state x partner category,0.1875
+P62508,NR3B3,ERRγ,APO + coregulator,2,ligand state x partner category,0.0625
+P62508,NR3B3,ERRγ,APO + standalone,2,ligand state x partner category,0.0625
+P62508,NR3B3,ERRγ,APO + other partner,1,ligand state x partner category,0.0312
+P62508,NR3B3,ERRγ,HOLO + coregulator,1,ligand state x partner category,0.0312
+P62508,NR3B3,ERRγ,2OH | standalone,3,ligand x partner identity,0.0938
+P62508,NR3B3,ERRγ,OHT | standalone,3,ligand x partner identity,0.0938
+P62508,NR3B3,ERRγ,APO | NCOA1,2,ligand x partner identity,0.0625
+P62508,NR3B3,ERRγ,APO | standalone,2,ligand x partner identity,0.0625
+P62508,NR3B3,ERRγ,1BA | NRIP1,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,1OH | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,27N | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,2HU + PGR | NRIP1,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,43M | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,90C | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,9S6 | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,A1EF8 | NRIP1,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,A1EGB | NRIP1,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,A1EGD | NRIP1,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,APO | NRIP1,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,BPZ | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,CW6 | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,DL9 | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,H3W | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,H3Z | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,H42 | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,H48 | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,H4Q | standalone,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,IND | NRIP1,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,OHT | NCOR2,1,ligand x partner identity,0.0312
+P62508,NR3B3,ERRγ,TXF | standalone,1,ligand x partner identity,0.0312
+P04150,NR3C1,GR,HOLO + coregulator,23,ligand state x partner category,0.7931
+P04150,NR3C1,GR,HOLO + standalone,4,ligand state x partner category,0.1379
+P04150,NR3C1,GR,HOLO + other partner,2,ligand state x partner category,0.069
+P04150,NR3C1,GR,DEX | NCOA2,3,ligand x partner identity,0.1034
+P04150,NR3C1,GR,82H | PPARGC1A,2,ligand x partner identity,0.069
+P04150,NR3C1,GR,29M | NCOR1,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,486 + HEZ | standalone,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,486 | NCOR1,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,486 | standalone,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,866 | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,8W5 | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,8W8 | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,A1ACE | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,B9Q | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,B9T | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,B9W | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,CV7 | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,DAY | NCOA1,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,E7T | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,GW6 | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,GW6 | standalone,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,HCY | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,HJ4 | standalone,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,JZN | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,JZS | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,LSJ | unidentified peptide,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,MOF | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,NN7 | NCOA2,1,ligand x partner identity,0.0345
+P04150,NR3C1,GR,R8C | NCOA2,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,HOLO + standalone,17,ligand state x partner category,0.5862
+P08235,NR3C2,MR,HOLO + coregulator,12,ligand state x partner category,0.4138
+P08235,NR3C2,MR,1CA | standalone,3,ligand x partner identity,0.1034
+P08235,NR3C2,MR,SNL | standalone,3,ligand x partner identity,0.1034
+P08235,NR3C2,MR,STR | standalone,3,ligand x partner identity,0.1034
+P08235,NR3C2,MR,60R | standalone,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,6Q0 | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,6QE | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,6QG | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,A1IJ6 | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,AS4 | standalone,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,C0R | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,CV7 | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,DEX | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,E6R | standalone,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,ECV | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,EWN | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,EY8 | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,EYN | NCOA1,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,HFN | standalone,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,LD1 + LD2 | standalone,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,PDN | standalone,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,WFF | standalone,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,WFG | standalone,1,ligand x partner identity,0.0345
+P08235,NR3C2,MR,YNU | NCOA1,1,ligand x partner identity,0.0345
+P06401,NR3C3,PR,HOLO + standalone,16,ligand state x partner category,0.8421
+P06401,NR3C3,PR,HOLO + coregulator,3,ligand state x partner category,0.1579
+P06401,NR3C3,PR,OR8 | standalone,3,ligand x partner identity,0.1579
+P06401,NR3C3,PR,NDR | standalone,2,ligand x partner identity,0.1053
+P06401,NR3C3,PR,2S0 | NCOR2,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,30X | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,486 | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,AS0 | NCOR2,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,AS0 | ncor,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,AS0 | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,GKK | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,MOF | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,NOG | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,ORB | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,R18 | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,STR | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,T98 | standalone,1,ligand x partner identity,0.0526
+P06401,NR3C3,PR,WOW | standalone,1,ligand x partner identity,0.0526
+P10275,NR3C4,AR,HOLO + standalone,63,ligand state x partner category,0.6848
+P10275,NR3C4,AR,HOLO + other partner,20,ligand state x partner category,0.2174
+P10275,NR3C4,AR,HOLO + coregulator,8,ligand state x partner category,0.087
+P10275,NR3C4,AR,HOLO + NR partner,1,ligand state x partner category,0.0109
+P10275,NR3C4,AR,DHT | standalone,7,ligand x partner identity,0.0761
+P10275,NR3C4,AR,198 | unidentified peptide,5,ligand x partner identity,0.0543
+P10275,NR3C4,AR,HFT | unidentified peptide,5,ligand x partner identity,0.0543
+P10275,NR3C4,AR,DHT | unidentified peptide,4,ligand x partner identity,0.0435
+P10275,NR3C4,AR,DHT | NCOA3,3,ligand x partner identity,0.0326
+P10275,NR3C4,AR,FHM | standalone,3,ligand x partner identity,0.0326
+P10275,NR3C4,AR,R18 | standalone,3,ligand x partner identity,0.0326
+P10275,NR3C4,AR,TES | standalone,3,ligand x partner identity,0.0326
+P10275,NR3C4,AR,198 | standalone,2,ligand x partner identity,0.0217
+P10275,NR3C4,AR,4HY + DHT | standalone,2,ligand x partner identity,0.0217
+P10275,NR3C4,AR,DHT + IMD + SO4 | standalone,2,ligand x partner identity,0.0217
+P10275,NR3C4,AR,DHT + T3 | standalone,2,ligand x partner identity,0.0217
+P10275,NR3C4,AR,DHT | NCOA2,2,ligand x partner identity,0.0217
+P10275,NR3C4,AR,HFT | standalone,2,ligand x partner identity,0.0217
+P10275,NR3C4,AR,TES | NCOA2,2,ligand x partner identity,0.0217
+P10275,NR3C4,AR,056 + TES | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,17H | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,17W + TES | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,198 | BUD31,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,2MI + DHT | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,30Z + TES | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,3B6 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,3E0 + EDO | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,4HY + DHT | NCOA4,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,51Y | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,77T | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,77U | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,97A | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,9FG | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,A1IQ9 + SPD | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,AV6 + TES | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,B5R | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,B66 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,B67 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,B68 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,BHM | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,CA4 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT + DTT + GOL + IMD + SO4 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT + FLF | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT + ICO + K10 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT + IMD | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT + MXD | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT + NK | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT + RB1 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT | BUD31,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT | NCOA4,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT | SHP,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,DHT | uba3-derived peptide + unidentified peptide,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,ENM + MES | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,HFT | BUD31,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,JAD | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,LGD | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,PK0 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,PK1 | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,R18 | NCOA2,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,RLJ | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,RLL | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,TES + YLO | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,TES + YLQ | standalone,1,ligand x partner identity,0.0109
+P10275,NR3C4,AR,ZK5 | standalone,1,ligand x partner identity,0.0109
+P22736,NR4A1,NUR77,APO + standalone,12,ligand state x partner category,0.5714
+P22736,NR4A1,NUR77,HOLO + standalone,9,ligand state x partner category,0.4286
+P22736,NR4A1,NUR77,APO | standalone,12,ligand x partner identity,0.5714
+P22736,NR4A1,NUR77,3MJ | standalone,1,ligand x partner identity,0.0476
+P22736,NR4A1,NUR77,3MX | standalone,1,ligand x partner identity,0.0476
+P22736,NR4A1,NUR77,3MZ | standalone,1,ligand x partner identity,0.0476
+P22736,NR4A1,NUR77,3NB | standalone,1,ligand x partner identity,0.0476
+P22736,NR4A1,NUR77,A1D72 | standalone,1,ligand x partner identity,0.0476
+P22736,NR4A1,NUR77,A1D7W | standalone,1,ligand x partner identity,0.0476
+P22736,NR4A1,NUR77,E4L | standalone,1,ligand x partner identity,0.0476
+P22736,NR4A1,NUR77,T94 | standalone,1,ligand x partner identity,0.0476
+P22736,NR4A1,NUR77,XBF | standalone,1,ligand x partner identity,0.0476
+P43354,NR4A2,NURR1,APO + standalone,6,ligand state x partner category,1.0
+P43354,NR4A2,NURR1,APO | standalone,6,ligand x partner identity,1.0
+Q13285,NR5A1,SF-1,HOLO + coregulator,6,ligand state x partner category,1.0
+Q13285,NR5A1,SF-1,IUW + PEF | NCOA2,1,ligand x partner identity,0.1667
+Q13285,NR5A1,SF-1,P0E | NCOA2,1,ligand x partner identity,0.1667
+Q13285,NR5A1,SF-1,PEF | NCOA2,1,ligand x partner identity,0.1667
+Q13285,NR5A1,SF-1,PIK | PPARGC1A,1,ligand x partner identity,0.1667
+Q13285,NR5A1,SF-1,PIZ | PPARGC1A,1,ligand x partner identity,0.1667
+Q13285,NR5A1,SF-1,WES | PPARGC1A,1,ligand x partner identity,0.1667
+O00482,NR5A2,LRH-1,HOLO + coregulator,18,ligand state x partner category,0.72
+O00482,NR5A2,LRH-1,HOLO + NR partner,4,ligand state x partner category,0.16
+O00482,NR5A2,LRH-1,APO + coregulator,1,ligand state x partner category,0.04
+O00482,NR5A2,LRH-1,APO + standalone,1,ligand state x partner category,0.04
+O00482,NR5A2,LRH-1,HOLO + other partner,1,ligand state x partner category,0.04
+O00482,NR5A2,LRH-1,EPH | SHP,3,ligand x partner identity,0.12
+O00482,NR5A2,LRH-1,470 | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,71W | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,A1JOT | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,APO | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,APO | standalone,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,EPH | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,IUW | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,N1V | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,N27 | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,N2J | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,P3A | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,P6L | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,P6L | β-catenin,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,PIZ | DAX-1,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,PLC | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,QU7 | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,QY4 | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,RJW | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,RJW | PPARGC1A,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,VQA | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,VQY | NCOA2,1,ligand x partner identity,0.04
+O00482,NR5A2,LRH-1,XKE | NCOA2,1,ligand x partner identity,0.04

@@ -1,0 +1,7 @@
+check,n
+scripts/27 partner chains (primary-QC entries),726
+"of these, found by the catalogue contact computation",726
+catalogue chains in primary-QC entries,821
+  of which project-receptor entities (skipped by scripts/27 by design),94
+  other catalogue-only chains in primary-QC entries,1
+catalogue chains in non-primary coordinate entries (not covered by scripts/27),201

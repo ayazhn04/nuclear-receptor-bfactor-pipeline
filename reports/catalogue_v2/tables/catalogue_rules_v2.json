@@ -1,0 +1,45 @@
+{
+  "denominator": "entries contributing z-scores (v2 profiles)",
+  "zscored_label": "'<z-scored> / <total> entries z-scored (%)' beside the z-plot axis title; total = every receptor x PDB entry found at discovery, z-scored = >= 1 finite b_factor_z in the v2 profiles; TRACE_LBD-only entries that are z-scored are named ('incl. N TRACE_LBD')",
+  "data_level": {
+    "none": "0 entries",
+    "data-poor": "1-4",
+    "moderate data": "5-19",
+    "data-rich": ">= 20"
+  },
+  "composition": {
+    "holo only": "no APO, >= 1 HOLO",
+    "mostly holo": "HOLO >= 90%",
+    "mixed apo/holo": ">= 3 APO and >= 3 HOLO",
+    "mostly apo": "APO >= 60%",
+    "fragment-heavy": "TRACE_LBD-only >= 50% of entries"
+  },
+  "partner": {
+    "partner-rich": ">= 50% of entries with a contacting partner chain",
+    "mostly standalone": "<= 10%",
+    "mixed partner context": "otherwise"
+  },
+  "ligand": {
+    "one dominant ligand": "most common functional ligand in >= 50% of HOLO entries",
+    "highly diverse": "unique ligands >= 60% of HOLO entries with a ligand",
+    "mixed": "otherwise"
+  },
+  "construct_diversity_high": "distinct construct boundary patterns >= 50% of entries (>= 10 entries); construct = first/last UniProt residue of the entity's sequence alignment",
+  "point_mutants_common": ">= 30% of entries carry >= 1 point substitution vs the reference sequence",
+  "resolution_broad": "IQR >= 0.8 A or worst entry >= 3.5 A",
+  "low_coverage": "< 50% of observed positions are supported (>= 5 entries)",
+  "strong_holo": "HOLO >= 90% with >= 10 entries",
+  "heterogeneity_class": "tertile of median IQR among receptors with >= 20 supported positions",
+  "construct_line": "page shows engineered mutants when >= 20% of entries, fusion/chimera when >= 5% (or < 10 entries), internal deletions when >= 10% (or < 10 entries); every count stays in the summary table",
+  "caveats": "at most 3, receptor-specific: no data / no professor map, TRACE_LBD fragments, weak coverage, internal deletions >= 50%, fusion >= 20%, ligand dominance >= 70%, crystal forms >= 50% of entries",
+  "substitution_classes": "ENGINEERED / NATURAL_VARIANT / SEQUENCE_CONFLICT / DECLARED_OTHER from the depositor's _struct_ref_seq_dif (or a UniProt natural variant); UNDECLARED = no annotation; MODIFIED_RESIDUE = non-standard component on a reference residue",
+  "crystal_form": "same space group and unit cell within 2% (lengths) and 2 degrees (angles)",
+  "engineered_mutant": "entry with >= 1 residue the depositor marks 'engineered mutation' (_struct_ref_seq_dif, reference residue identical to ours) or the entity's _entity.pdbx_mutation lists at the same residue; UNCERTAIN = only conflict/unannotated differences, or a declared substitution that no observed residue confirms; see catalogue_mutation_audit_v2.csv",
+  "partner_identity": "normalized gene-level identity (scripts/utils/partner_identity.py); DNA and same-receptor chains excluded; unidentified peptides count once",
+  "contexts": "per entry with an LBD context (TRACE_LBD excluded): ligand state x partner category, and functional ligand CCD id(s) x partner identity(ies); several are joined in sorted order (deterministic)",
+  "heterogeneity_cutoffs_median_iqr": {
+    "low_le": 0.459,
+    "high_gt": 0.562,
+    "n_receptors_classed": 30
+  }
+}
