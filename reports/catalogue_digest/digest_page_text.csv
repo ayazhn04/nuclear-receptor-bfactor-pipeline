@@ -1,0 +1,7 @@
+page,figure,title,message
+1,digest_1_entries.png,How much usable structural data is there per receptor?,"Very uneven: ERα and PPARγ hold 40% of all 1,805 z-scored entries."
+2,digest_2_apo_holo.png,Which receptors support an APO vs HOLO comparison?,"Only 19 receptors have both APO and HOLO entries, and 10 of them are ≥ 80% HOLO."
+3,digest_3_ligands.png,Ligand diversity is very uneven,"Structure count and ligand diversity are related, but they are not the same thing."
+4,digest_4_partners.png,Are structures mostly standalone or partner-bound?,Some receptor datasets are almost always partner-bound; others are entirely standalone.
+5,digest_5_iqr.png,Between-PDB flexibility heterogeneity differs by receptor,"Median IQR(z) of each canonical position across PDB entries, highest to lowest."
+6,digest_6_contrasts.png,What do these variables tell us together?,"Dataset size, ligand diversity and partner context do not map simply onto between-PDB heterogeneity."
