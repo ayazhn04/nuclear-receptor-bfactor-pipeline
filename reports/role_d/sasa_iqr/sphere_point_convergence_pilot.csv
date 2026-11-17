@@ -1,0 +1,2 @@
+pdb_id,n_residues,median_absolute_rsa_difference,max_absolute_rsa_difference,rsa_band_agreement,primary_points,reference_points
+1A28,236,0.0010102907223487928,0.007364384262016466,1.0,1000,4000

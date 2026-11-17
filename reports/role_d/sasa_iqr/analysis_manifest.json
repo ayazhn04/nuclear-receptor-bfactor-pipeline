@@ -1,0 +1,15 @@
+{
+  "random_seed": 20261029,
+  "bootstrap_replicates": 10000,
+  "min_paired_pdb_per_position": 5,
+  "n_paired_entry_positions": 416800,
+  "n_eligible_positions": 7065,
+  "n_receptors_with_eligible_positions": 31,
+  "input_sha256": {
+    "data/rebuild_v2/analysis/pdb_position_bfactor_profiles.parquet": "2c1d67b6b358963d93d00892721c34065d430aa022f959c406b8d03d8ec7bb42",
+    "data/rebuild_v2/analysis/receptor_position_professor_profile_v2.csv": "c001de01ca3ae23a5e837df868454c6207bbbe076597d0047219ab0cc329c6b3",
+    "reports/role_d/contextual_iqr/role_d_functional_position_iqr.csv": "ba99e11daf8b655c13e7be8954702dfd30a2f5241e932886a284a75613dd15b8",
+    "reports/role_d/sasa_iqr/pdb_position_sasa.parquet": "855a6cf82cf37cf190213c887c658dbc07163675c61146ccd98fe7c4543db340"
+  },
+  "script_sha256": "74bb02aa98fcee2b09831572ca6a6d0994575b4d7c91c0737513bb9ed85ce260"
+}
